@@ -269,5 +269,5 @@ Community suggestions are discussed in [Discussions](https://github.com/majani-p
 
 ---
 
-**Maintained by:** [Project Dive Kit](https://github.com/lazuli-global)
+**Maintained by:** [Project Dive Kit](https://github.com/majani-plus)
 **Canonical URL:** [https://open.divekit.app](https://open.divekit.app)
