@@ -243,7 +243,7 @@ Unless otherwise noted:
 
 | Type                   | License                                                   | Notes                                            |
 | ---------------------- | --------------------------------------------------------- | ------------------------------------------------ |
-| **Datasets & Docs**    | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Free to share/remix with attribution             |
+| **Datasets & Docs**    | [MIT](https://opensource.org/licenses/MIT)                | Free for any use (except the dive-signals index, CC BY 4.0) |
 | **Dive Signal Illustrations** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Credit "Dive signals by Project Dive Kit — https://divekit.app" |
 | **Schemas & Code**     | [MIT](https://opensource.org/licenses/MIT)                | Free to use in software projects                 |
 | **Agency Logos**       | Third-party trademarks                                    | Owned by respective agencies, reference use only |

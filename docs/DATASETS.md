@@ -412,7 +412,7 @@ A: We review and update the data regularly. Check the `meta.version` field in ea
 
 ### Q: Can I use this data in my own project?
 
-A: Yes! Check the LICENSE.md file for details. The data is open source.
+A: Yes! The datasets are MIT licensed, free for any use. The dive signal illustrations and `datasets/dive-signals.json` are CC BY 4.0. See LICENSE.md.
 
 ### Q: What if I find conflicting information?
 

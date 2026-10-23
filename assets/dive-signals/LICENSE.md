@@ -19,4 +19,4 @@ For the full license text, see: https://creativecommons.org/licenses/by/4.0/
 Dive signals by Project Dive Kit — https://divekit.app
 
 The machine-readable index of these signals (names, meanings, categories) lives in
-[`datasets/dive-signals.json`](../../datasets/dive-signals.json), licensed CC BY 4.0 as well.
+[`datasets/dive-signals.json`](../../datasets/dive-signals.json), licensed CC BY 4.0 as well (the only dataset that is not MIT).

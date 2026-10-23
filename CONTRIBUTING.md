@@ -190,7 +190,8 @@ python3 -m http.server
 
 By contributing to this repository, you agree that:
 
-- All datasets and visuals you contribute are licensed under **CC BY 4.0**.
+- All datasets you contribute are licensed under **MIT**.
+- Dive signal illustrations (and `datasets/dive-signals.json`) you contribute are licensed under **CC BY 4.0**.
 - All schemas and code you contribute are licensed under **MIT**.
 - You own or have the rights to any content you submit.
 
