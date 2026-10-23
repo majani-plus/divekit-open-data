@@ -5,8 +5,9 @@ This repository contains multiple types of content with different licenses.
 ## Open Source & Open Data
 
 **Datasets & Documentation** (`/datasets`, `/docs`)  
-Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)  
-→ https://creativecommons.org/licenses/by/4.0/
+Licensed under the MIT License. Free for any use, no attribution required beyond the license notice.  
+→ https://opensource.org/licenses/MIT  
+Exception: `datasets/dive-signals.json` (the index of the hand-drawn dive signals) stays under CC BY 4.0, together with the illustrations it describes.
 
 **Code & Schemas** (`/schemas`, `/scripts`)  
 Licensed under the MIT License  
