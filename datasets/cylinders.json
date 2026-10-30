@@ -1,8 +1,8 @@
 {
   "$schema": "https://open.divekit.app/schemas/cylinders/cylinders.schema.v1.0.0.json",
   "meta": {
-    "version": "2026.09.29.1",
-    "generated_at": "2026-09-29T12:00:00Z"
+    "version": "2026.10.30.1",
+    "generated_at": "2026-10-30T12:00:00Z"
   },
   "cylinders": [
     {
@@ -12,18 +12,18 @@
       "workingPressureBar": 206.84,
       "material": "aluminum",
       "typicalUse": "Recreational single tank (warm water, training, sidemount)",
-      "emptyWeightKg": 14.2,
+      "emptyWeightKg": 14.3,
       "buoyancyKg": {
-        "full": -1.0,
-        "at50bar": 1.1,
-        "empty": 1.8
+        "full": -0.8,
+        "at50bar": 1.3,
+        "empty": 2.0
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Standard rental tank globally; becomes positively buoyant near end of dive.",
+      "notes": "Standard rental tank globally; becomes positively buoyant near end of dive. Weight and buoyancy from the Luxfer LAL80 sheet (full -0.80 kg, +1.54 kg at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row.",
       "ratedCapacityCuft": 80
     },
     {
@@ -72,18 +72,18 @@
       "workingPressureBar": 206.84,
       "material": "aluminum",
       "typicalUse": "Small divers, short recreational dives",
-      "emptyWeightKg": 11.3,
+      "emptyWeightKg": 12.2,
       "buoyancyKg": {
-        "full": -1.2,
-        "at50bar": 0.5,
-        "empty": 1.0
+        "full": -1.1,
+        "at50bar": 0.6,
+        "empty": 1.2
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Popular with small-frame divers or kids; lighter but same diameter as AL80.",
+      "notes": "Popular with small-frame divers or kids; lighter but same diameter as AL80. Weight and buoyancy from the Luxfer LAL63 sheet (full -1.1 kg, +0.77 kg at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 63
     },
     {
@@ -93,18 +93,18 @@
       "workingPressureBar": 206.84,
       "material": "aluminum",
       "typicalUse": "Stage / deco for light gas",
-      "emptyWeightKg": 9.0,
+      "emptyWeightKg": 9.7,
       "buoyancyKg": {
-        "full": -0.9,
-        "at50bar": 0.4,
-        "empty": 0.8
+        "full": -1.1,
+        "at50bar": 0.2,
+        "empty": 0.7
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Compact stage/deco bottle; manageable for warm-water tech dives.",
+      "notes": "Compact stage/deco bottle; manageable for warm-water tech dives. Weight and buoyancy from the Luxfer LAL50 sheet (full -1.13 kg, +0.36 kg at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 50
     },
     {
@@ -114,18 +114,18 @@
       "workingPressureBar": 206.84,
       "material": "aluminum",
       "typicalUse": "Stage / deco / O₂ bottle",
-      "emptyWeightKg": 6.0,
+      "emptyWeightKg": 6.9,
       "buoyancyKg": {
-        "full": -0.7,
-        "at50bar": 0.4,
-        "empty": 0.7
+        "full": -0.3,
+        "at50bar": 1.0,
+        "empty": 1.4
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Common oxygen bottle for deco; good trim when clipped to left side.",
+      "notes": "Common oxygen bottle for deco; good trim when clipped to left side. Weight and buoyancy from the Luxfer LAL40 sheet (full -0.32 kg, +1.13 kg at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 40
     },
     {
@@ -135,18 +135,18 @@
       "workingPressureBar": 206.84,
       "material": "aluminum",
       "typicalUse": "Pony / emergency",
-      "emptyWeightKg": 4.9,
+      "emptyWeightKg": 5.6,
       "buoyancyKg": {
-        "full": -0.8,
-        "at50bar": 0.0,
-        "empty": 0.3
+        "full": -0.7,
+        "at50bar": -0.1,
+        "empty": 0.2
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Pony bottle for emergency gas; small enough for travel or boat use.",
+      "notes": "Pony bottle for emergency gas; small enough for travel or boat use. Weight and buoyancy from the Luxfer LAL30 sheet (full -0.68 kg, 0 kg at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 30
     },
     {
@@ -158,16 +158,16 @@
       "typicalUse": "Pony / bailout",
       "emptyWeightKg": 3.6,
       "buoyancyKg": {
-        "full": -0.8,
-        "at50bar": -0.3,
-        "empty": -0.1
+        "full": -0.6,
+        "at50bar": -0.1,
+        "empty": 0.1
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Very small bailout bottle; slightly negative when empty. Water volume is Luxfer's true LAL19 figure (2.87 L), so its real-gas free gas reads a touch over the marketed 19.",
+      "notes": "Very small bailout bottle; close to neutral when empty. Water volume is Luxfer's true LAL19 figure (2.87 L), so its real-gas free gas reads a touch over the marketed 19. Buoyancy from the Luxfer LAL19 sheet (full -0.60 kg, -0.05 kg at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 19
     },
     {
@@ -179,16 +179,16 @@
       "typicalUse": "Argon inflation / bailout",
       "emptyWeightKg": 2.7,
       "buoyancyKg": {
-        "full": -0.6,
-        "at50bar": -0.2,
-        "empty": -0.1
+        "full": -0.8,
+        "at50bar": -0.4,
+        "empty": -0.3
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Usually mounted for drysuit argon inflation; rarely used for breathing gas.",
+      "notes": "Usually mounted for drysuit argon inflation; rarely used for breathing gas. Buoyancy from the Luxfer LAL13 sheet (full -0.80 kg, -0.40 kg at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 13
     },
     {
@@ -329,17 +329,16 @@
       "workingPressureBar": 182.02,
       "material": "steel",
       "typicalUse": "Tech singles / doubles US",
-      "emptyWeightKg": 14.0,
+      "emptyWeightKg": 14.2,
       "buoyancyKg": {
-        "full": -1.9,
-        "at50bar": 0.4,
-        "empty": 1.1
+        "full": -1.7,
+        "at50bar": 0.8,
+        "empty": 1.6
       },
       "brands": [
-        "Worthington",
-        "PST"
+        "Faber"
       ],
-      "notes": "Popular cave/wreck tank; becomes positive if not overfilled.",
+      "notes": "Popular cave/wreck tank; becomes positive if not overfilled. Water volume, weight and buoyancy are the Faber LP85 (31.2 lb; full -3.80 lb, +2.32 lb at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row.",
       "ratedCapacityCuft": 85
     },
     {
@@ -369,16 +368,16 @@
       "workingPressureBar": 237.32,
       "material": "steel",
       "typicalUse": "Popular US cold-water single",
-      "emptyWeightKg": 15.2,
+      "emptyWeightKg": 15.4,
       "buoyancyKg": {
         "full": -3.8,
-        "at50bar": -1.0,
-        "empty": -0.3
+        "at50bar": -0.5,
+        "empty": 0.3
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Good trim and buoyancy; favorite single for drysuit divers. The 12.9 L water volume and buoyancy are the Faber FX100 (full -8.41 lb, empty -0.59 lb, in sea water with valve); the Worthington/PST X7-100 is a different cylinder (~11.6 L).",
+      "notes": "Good trim and buoyancy; favorite single for drysuit divers. The 12.9 L water volume, weight and buoyancy are the Faber FX100 (34.0 lb; full -8.41 lb, -0.59 lb at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row. The Worthington/PST X7-100 is a different cylinder (~11.6 L).",
       "ratedCapacityCuft": 100
     },
     {
@@ -408,16 +407,16 @@
       "workingPressureBar": 237.32,
       "material": "steel",
       "typicalUse": "Tech singles / doubles US",
-      "emptyWeightKg": 17.5,
+      "emptyWeightKg": 17.1,
       "buoyancyKg": {
-        "full": -5.0,
-        "at50bar": -1.9,
-        "empty": -1.0
+        "full": -4.1,
+        "at50bar": -0.1,
+        "empty": 0.8
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Popular tech diving cylinder; good balance of capacity and trim.",
+      "notes": "Popular tech diving cylinder; good balance of capacity and trim. Weight and buoyancy from the Faber FX117 sheet (37.6 lb; full -9.12 lb, +0.35 lb at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 117
     },
     {
@@ -447,16 +446,16 @@
       "material": "steel",
       "ratedCapacityCuft": 133,
       "typicalUse": "Very long cold/deep single dives",
-      "emptyWeightKg": 21.0,
+      "emptyWeightKg": 19.2,
       "buoyancyKg": {
         "full": -4.1,
-        "at50bar": -0.3,
-        "empty": 0.7
+        "at50bar": 0.3,
+        "empty": 1.4
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Faber's largest single (sometimes called a 130). Heavy, but floats slightly when empty. Buoyancy from the Faber FX133 sheet (full -9.08 lb, empty +1.45 lb, in sea water with valve)."
+      "notes": "Faber's largest single (sometimes called a 130). Heavy, but floats when empty. Weight and buoyancy from the Faber FX133 sheet (42.4 lb; full -9.08 lb, +1.45 lb at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row."
     },
     {
       "id": "ccr2l",
@@ -501,18 +500,18 @@
       "workingPressureBar": 227.53,
       "material": "aluminum",
       "typicalUse": "Longer rec single / big gas in warm water",
-      "emptyWeightKg": 16.0,
+      "emptyWeightKg": 18.6,
       "buoyancyKg": {
-        "full": -2.2,
-        "at50bar": 0.8,
-        "empty": 1.6
+        "full": -2.1,
+        "at50bar": 0.6,
+        "empty": 1.4
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "High-capacity aluminum; tall and heavy.",
+      "notes": "High-capacity aluminum; tall and heavy. Weight and buoyancy from the Luxfer LAL100 sheet (full -2.10 kg, +0.86 kg at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 100
     },
     {
@@ -522,17 +521,16 @@
       "workingPressureBar": 237.32,
       "material": "steel",
       "typicalUse": "Short/shallower cold-water single or doubles",
-      "emptyWeightKg": 12.0,
+      "emptyWeightKg": 12.8,
       "buoyancyKg": {
-        "full": -3.6,
-        "at50bar": -1.6,
-        "empty": -0.9
+        "full": -3.7,
+        "at50bar": -1.0,
+        "empty": -0.3
       },
       "brands": [
-        "Worthington",
-        "PST"
+        "Faber"
       ],
-      "notes": "Compact steel; remains negative when empty.",
+      "notes": "Compact steel; stays negative when empty. Water volume, weight and buoyancy are the Faber FX80 (28.3 lb; full -8.05 lb, -1.74 lb at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row.",
       "ratedCapacityCuft": 80
     },
     {
@@ -622,16 +620,16 @@
       "workingPressureBar": 182.02,
       "material": "steel",
       "typicalUse": "US tech doubles / big single",
-      "emptyWeightKg": 21.5,
+      "emptyWeightKg": 18.6,
       "buoyancyKg": {
-        "full": -5.3,
-        "at50bar": -2.5,
-        "empty": -1.6
+        "full": -2.3,
+        "at50bar": 1.0,
+        "empty": 2.1
       },
       "brands": [
         "Faber"
       ],
-      "notes": "High-capacity LP steel; excellent for long tech dives and doubles.",
+      "notes": "High-capacity LP steel; excellent for long tech dives and doubles. Weight and buoyancy from the Faber LP108 sheet (41 lb; full -5.0 lb, +3.0 lb at 500 psi, in sea water with valve).",
       "ratedCapacityCuft": 108
     },
     {
