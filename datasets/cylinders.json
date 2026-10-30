@@ -1,8 +1,8 @@
 {
   "$schema": "https://open.divekit.app/schemas/cylinders/cylinders.schema.v1.0.0.json",
   "meta": {
-    "version": "2026.10.30.1",
-    "generated_at": "2026-10-30T12:00:00Z"
+    "version": "2026.10.30.2",
+    "generated_at": "2026-10-30T18:00:00Z"
   },
   "cylinders": [
     {
@@ -96,15 +96,15 @@
       "emptyWeightKg": 9.7,
       "buoyancyKg": {
         "full": -1.1,
-        "at50bar": 0.2,
-        "empty": 0.7
+        "at50bar": 0.0,
+        "empty": 0.4
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Compact stage/deco bottle; manageable for warm-water tech dives. Weight and buoyancy from the Luxfer LAL50 sheet (full -1.13 kg, +0.36 kg at 500 psi, in sea water with valve).",
+      "notes": "Compact stage/deco bottle; manageable for warm-water tech dives. Weight and full buoyancy from the Luxfer LAL50 sheet (9.7 kg; full -1.13 kg in sea water with valve). Empty and at-50-bar are computed from the weight and water volume (scripts/cylinder-buoyancy.py): the sheet's +0.36 kg at 500 psi sits 1.49 kg above its full row, more than the 1.38 kg of air 6.9 L holds between those pressures, so it cannot be right together with the full row.",
       "ratedCapacityCuft": 50
     },
     {
@@ -117,15 +117,15 @@
       "emptyWeightKg": 6.9,
       "buoyancyKg": {
         "full": -0.3,
-        "at50bar": 1.0,
-        "empty": 1.4
+        "at50bar": 0.6,
+        "empty": 0.9
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Common oxygen bottle for deco; good trim when clipped to left side. Weight and buoyancy from the Luxfer LAL40 sheet (full -0.32 kg, +1.13 kg at 500 psi, in sea water with valve).",
+      "notes": "Common oxygen bottle for deco; good trim when clipped to left side. Weight and full buoyancy from the Luxfer LAL40 sheet (6.9 kg; full -0.32 kg in sea water with valve). Empty and at-50-bar are computed from the weight and water volume (scripts/cylinder-buoyancy.py): the sheet's +1.13 kg at 500 psi sits 1.45 kg above its full row, more than the 1.14 kg of air 5.7 L holds between those pressures, so it cannot be right together with the full row.",
       "ratedCapacityCuft": 40
     },
     {
@@ -331,14 +331,14 @@
       "typicalUse": "Tech singles / doubles US",
       "emptyWeightKg": 14.2,
       "buoyancyKg": {
-        "full": -1.7,
-        "at50bar": 0.8,
-        "empty": 1.6
+        "full": -2.5,
+        "at50bar": -0.4,
+        "empty": 0.4
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Popular cave/wreck tank; becomes positive if not overfilled. Water volume, weight and buoyancy are the Faber LP85 (31.2 lb; full -3.80 lb, +2.32 lb at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row.",
+      "notes": "Popular cave/wreck tank; slightly positive when empty. Water volume and weight are the Faber LP85 sheet's (13.0 L, 14.2 kg). The sheet lists full -3.80 lb (-1.72 kg) and +2.32 lb (+1.05 kg) at 500 psi. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy.py), in sea water with a valve. Faber's sheet quotes buoyancy without a valve and its row labelled 500 psi is the empty figure (physics without a valve reproduces both rows within 0.17 kg), so the figures here sit about 0.6 kg lower than the sheet.",
       "ratedCapacityCuft": 85
     },
     {
@@ -368,16 +368,16 @@
       "workingPressureBar": 237.32,
       "material": "steel",
       "typicalUse": "Popular US cold-water single",
-      "emptyWeightKg": 15.4,
+      "emptyWeightKg": 15.6,
       "buoyancyKg": {
-        "full": -3.8,
-        "at50bar": -0.5,
-        "empty": 0.3
+        "full": -4.5,
+        "at50bar": -1.8,
+        "empty": -1.0
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Good trim and buoyancy; favorite single for drysuit divers. The 12.9 L water volume, weight and buoyancy are the Faber FX100 (34.0 lb; full -8.41 lb, -0.59 lb at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row. The Worthington/PST X7-100 is a different cylinder (~11.6 L).",
+      "notes": "Good trim and buoyancy; favorite single for drysuit divers. Water volume and weight are the Faber FX100 sheet's (12.9 L, 15.6 kg; the sheet's 34.0 lb disagrees with its own kg figure). The sheet lists full -8.41 lb (-3.81 kg) and -0.59 lb (-0.27 kg) at 500 psi. The Worthington/PST X7-100 is a different cylinder (~11.6 L). Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy.py), in sea water with a valve. Faber's sheet quotes buoyancy without a valve and its row labelled 500 psi is the empty figure (physics without a valve reproduces both rows within 0.17 kg), so the figures here sit about 0.6 kg lower than the sheet.",
       "ratedCapacityCuft": 100
     },
     {
@@ -407,16 +407,16 @@
       "workingPressureBar": 237.32,
       "material": "steel",
       "typicalUse": "Tech singles / doubles US",
-      "emptyWeightKg": 17.1,
+      "emptyWeightKg": 17.7,
       "buoyancyKg": {
-        "full": -4.1,
-        "at50bar": -0.1,
-        "empty": 0.8
+        "full": -4.7,
+        "at50bar": -1.6,
+        "empty": -0.6
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Popular tech diving cylinder; good balance of capacity and trim. Weight and buoyancy from the Faber FX117 sheet (37.6 lb; full -9.12 lb, +0.35 lb at 500 psi, in sea water with valve).",
+      "notes": "Popular tech diving cylinder; good balance of capacity and trim. Water volume and weight are the Faber FX117 sheet's (15.0 L, 17.7 kg; the sheet's 37.6 lb is 17.05 kg and does not reproduce its own buoyancy rows). The sheet lists full -9.12 lb (-4.14 kg) and +0.35 lb (+0.16 kg) at 500 psi. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy.py), in sea water with a valve. Faber's sheet quotes buoyancy without a valve and its row labelled 500 psi is the empty figure (physics without a valve reproduces both rows within 0.17 kg), so the figures here sit about 0.6 kg lower than the sheet.",
       "ratedCapacityCuft": 117
     },
     {
@@ -446,16 +446,16 @@
       "material": "steel",
       "ratedCapacityCuft": 133,
       "typicalUse": "Very long cold/deep single dives",
-      "emptyWeightKg": 19.2,
+      "emptyWeightKg": 19.4,
       "buoyancyKg": {
-        "full": -4.1,
-        "at50bar": 0.3,
-        "empty": 1.4
+        "full": -4.7,
+        "at50bar": -1.1,
+        "empty": -0.1
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Faber's largest single (sometimes called a 130). Heavy, but floats when empty. Weight and buoyancy from the Faber FX133 sheet (42.4 lb; full -9.08 lb, +1.45 lb at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row."
+      "notes": "Faber's largest single (sometimes called a 130). Heavy, and close to neutral when empty. Water volume and weight are the Faber FX133 sheet's (17.0 L, 19.4 kg). The sheet lists full -9.08 lb (-4.12 kg) and +1.45 lb (+0.66 kg) at 500 psi. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy.py), in sea water with a valve. Faber's sheet quotes buoyancy without a valve and its row labelled 500 psi is the empty figure (physics without a valve reproduces both rows within 0.17 kg), so the figures here sit about 0.6 kg lower than the sheet."
     },
     {
       "id": "ccr2l",
@@ -521,16 +521,16 @@
       "workingPressureBar": 237.32,
       "material": "steel",
       "typicalUse": "Short/shallower cold-water single or doubles",
-      "emptyWeightKg": 12.8,
+      "emptyWeightKg": 13.0,
       "buoyancyKg": {
-        "full": -3.7,
-        "at50bar": -1.0,
-        "empty": -0.3
+        "full": -4.3,
+        "at50bar": -2.1,
+        "empty": -1.5
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Compact steel; stays negative when empty. Water volume, weight and buoyancy are the Faber FX80 (28.3 lb; full -8.05 lb, -1.74 lb at 500 psi, in sea water with valve); empty and at-50-bar are derived from the 500 psi row.",
+      "notes": "Compact steel; stays negative when empty. Water volume and weight are the Faber FX80 sheet's (10.2 L, 13.0 kg). The sheet lists full -8.05 lb (-3.65 kg) and -1.74 lb (-0.79 kg) at 500 psi. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy.py), in sea water with a valve. Faber's sheet quotes buoyancy without a valve and its row labelled 500 psi is the empty figure (physics without a valve reproduces both rows within 0.17 kg), so the figures here sit about 0.6 kg lower than the sheet.",
       "ratedCapacityCuft": 80
     },
     {
@@ -622,14 +622,14 @@
       "typicalUse": "US tech doubles / big single",
       "emptyWeightKg": 18.6,
       "buoyancyKg": {
-        "full": -2.3,
-        "at50bar": 1.0,
-        "empty": 2.1
+        "full": -3.1,
+        "at50bar": -0.4,
+        "empty": 0.6
       },
       "brands": [
         "Faber"
       ],
-      "notes": "High-capacity LP steel; excellent for long tech dives and doubles. Weight and buoyancy from the Faber LP108 sheet (41 lb; full -5.0 lb, +3.0 lb at 500 psi, in sea water with valve).",
+      "notes": "High-capacity LP steel; excellent for long tech dives and doubles. Water volume and weight are the Faber LP108 sheet's (17.0 L, 18.6 kg). The sheet lists full -5.0 lb (-2.27 kg) and +3.0 lb (+1.36 kg) at 500 psi. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy.py), in sea water with a valve. Faber's sheet quotes buoyancy without a valve and its row labelled 500 psi is the empty figure (physics without a valve reproduces both rows within 0.17 kg), so the figures here sit about 0.6 kg lower than the sheet.",
       "ratedCapacityCuft": 108
     },
     {

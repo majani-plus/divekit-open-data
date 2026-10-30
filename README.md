@@ -77,7 +77,8 @@ divekit-open-data/
 │
 ├── scripts/
 │ ├── validate.sh
-│ └── test-local.sh
+│ ├── test-local.sh
+│ └── cylinder-buoyancy.py  # Recomputes cylinder buoyancy from weight and volume
 │
 ├── index.html            # open.divekit.app home page
 ├── view.html             # Dataset browser (each dataset as a searchable table)
