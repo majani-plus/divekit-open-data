@@ -81,7 +81,7 @@
           },
           "buoyancyKg": {
             "type": "object",
-            "description": "Buoyancy in sea water (1.025 kg/L) with a standard valve fitted, the basis of the Luxfer and Faber spec sheets. A consumer that models other water converts with the cylinder's displacement.",
+            "description": "Buoyancy in sea water (1.025 kg/L) with a standard valve fitted (the basis of the Luxfer spec sheet; Faber's sheets quote it without a valve). A consumer that models other water converts with the cylinder's displacement.",
             "required": ["full", "at50bar", "empty"],
             "properties": {
               "full": {
