@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cylinder buoyancy from weight and volume (Archimedes), for the Faber rows and AL40.
+"""Cylinder buoyancy from weight and volume (Archimedes), for the Faber rows, AL40 and AL50.
 
     empty   = rho_sea * (V_water + m / rho_metal + V_valve) - (m + m_valve)
     at50bar = empty - gas_mass(50 bar)
@@ -11,8 +11,10 @@ buoyancy is computed.
 
 Two checks run first and print their residuals:
 - Luxfer: physics must land within 0.2 kg of Luxfer's full rows (with valve)
-  and its consistent 500 psi rows. AL40 and AL50's 500 psi rows are skipped:
-  AL40's full-to-500 psi gap needs 7.24 L of gas against the rated 5.7 L.
+  and its consistent 500 psi rows. AL40 and AL50's 500 psi rows are skipped
+  (AL40's full-to-500 psi gap needs 7.24 L of gas against the rated 5.7 L);
+  their empty and at-50-bar are computed, their full row stays Luxfer's.
+Last, every other row's empty figure is printed beside physics, for review.
 - Faber: the same physics without the valve must reproduce Faber's full row and
   the row its sheet labels "500 psi", read as empty. That is the basis the
   Faber figures fit (no valve, second row empty); the dataset adds the valve.
@@ -136,7 +138,8 @@ def main():
 
     print("\nDataset values, with valve (kg)")
     print(f"{'id':7}{'weight':>7}{'empty':>7}{'at50':>7}{'full':>7}{'was e/50/f':>18}")
-    for cid in [*FABER, "al40"]:
+    computed = [*FABER, *sorted(LUXFER_INCONSISTENT_500)]
+    for cid in computed:
         c = rows[cid]
         v, wp = c["waterVolumeL"], c["workingPressureBar"]
         m = FABER[cid][0] if cid in FABER else c["emptyWeightKg"]
@@ -144,13 +147,24 @@ def main():
         new = {"full": round(e - gas_kg(v, wp), 1),
                "at50bar": round(e - gas_kg(v, 50), 1),
                "empty": round(e, 1)}
-        if cid == "al40":
+        if cid in LUXFER:
             new["full"] = round(LUXFER[cid][0], 1)  # Luxfer's full row; physics agrees within 0.12
         old = c["buoyancyKg"]
         print(f"{cid:7}{m:7.2f}{e:7.2f}{e - gas_kg(v, 50):7.2f}{e - gas_kg(v, wp):7.2f}"
               f"{old['empty']:8.1f}/{old['at50bar']:.1f}/{old['full']:.1f}"
               f"  -> {new['empty']}/{new['at50bar']}/{new['full']}")
         c["emptyWeightKg"], c["buoyancyKg"] = m, new
+
+    print("\nEvery other row: dataset empty vs physics empty, with valve (kg; * = off by more than 0.2)")
+    print(f"{'id':14}{'weight':>7}{'dataset':>8}{'physics':>8}{'diff':>7}  basis")
+    for c in data["cylinders"]:
+        if c["id"] in computed:
+            continue
+        e = empty_kg(c["waterVolumeL"], c["emptyWeightKg"], c["material"])
+        d = c["buoyancyKg"]["empty"] - e
+        basis = "Luxfer, derived from its 500 psi row" if c["id"] in LUXFER else "no sheet"
+        print(f"{c['id']:14}{c['emptyWeightKg']:7.2f}{c['buoyancyKg']['empty']:8.1f}{e:8.2f}{d:+7.2f}"
+              f"{'*' if abs(d) > 0.2 else ' '} {basis}")
 
     if "--write" in sys.argv:
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

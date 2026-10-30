@@ -96,15 +96,15 @@
       "emptyWeightKg": 9.7,
       "buoyancyKg": {
         "full": -1.1,
-        "at50bar": 0.2,
-        "empty": 0.7
+        "at50bar": 0.0,
+        "empty": 0.4
       },
       "brands": [
         "Luxfer",
         "Catalina",
         "Thunderbird"
       ],
-      "notes": "Compact stage/deco bottle; manageable for warm-water tech dives. Weight and buoyancy from the Luxfer LAL50 sheet (full -1.13 kg, +0.36 kg at 500 psi, in sea water with valve).",
+      "notes": "Compact stage/deco bottle; manageable for warm-water tech dives. Weight and full buoyancy from the Luxfer LAL50 sheet (9.7 kg; full -1.13 kg in sea water with valve). Empty and at-50-bar are computed from the weight and water volume (scripts/cylinder-buoyancy.py): the sheet's +0.36 kg at 500 psi sits 1.49 kg above its full row, more than the 1.38 kg of air 6.9 L holds between those pressures, so it cannot be right together with the full row.",
       "ratedCapacityCuft": 50
     },
     {
