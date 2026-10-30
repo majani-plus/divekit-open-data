@@ -87,6 +87,16 @@ Each cylinder entry includes:
 
 So one AL80 can legitimately read 80 (marketed, ideal), ~77.4 (Luxfer, real gas at 1 atm), or ~79 (real gas at 1 bar), all from the same `waterVolumeL` and `workingPressureBar`. Store the physics; pick your convention when you display it.
 
+**Rows without a Luxfer or Faber US sheet.** The metric steels, the CCR bottles, the Worthington HP steels, the LP50, the steel 72 and the 12 L aluminium take their weight and water volume from the sources below. Their buoyancy is computed from those two figures by `python3 scripts/cylinder-buoyancy-other.py` (sea water, standard valve, real-gas air; the same physics as `scripts/cylinder-buoyancy.py`), and the script prints every value.
+
+- Faber metric steels and CCR bottles: Faber's cylinder database (drawings.faber-italy.com, `eng-product-scuba1.asp`), weights without valve. The dataset uses the EN 1964-1 build, the design most cylinders in service follow; Faber's 2023 design (EN ISO 9809-1:2019, press release of 14 April 2023) is 0.3 to 1.5 kg lighter, and the notes give its weight.
+- Worthington X7-120, X8-119 and X8-130: XS Scuba's copy of the Worthington steel cylinder sheet. For the X8 cylinders the sheet's own buoyancy and rated capacity disagree with its printed water volume by about 1 kg, so those rows are low confidence.
+- Faber LP50: the Faber LP sheet. 12 L aluminium: the Luxfer P3080V (Luxfer scuba spec sheet 2022).
+- Steel 72: no sheet prints its water volume, so it is derived from the rated 71.55 cu ft at 2475 psi, and the weight is the one that gives the published empty buoyancy (0 lb with valve).
+- 8.5 L steel: a retailer listing of the ECS cylinder (Faber makes no 8.5 L). 2.7 L CCR bottle: no source found; its weight is unsourced and its buoyancy is computed from it.
+
+Faber's US sheets and the Paragon listings for the FX-15 and FX-23 quote buoyancy without a valve, with the row labelled 500 psi being the empty figure. Physics reproduces them within 0.1 kg on that basis.
+
 ### Dive Signals Dataset
 
 The dive signals dataset (`datasets/dive-signals.json`) is a machine-readable index of diver

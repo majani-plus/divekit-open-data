@@ -77,7 +77,9 @@ divekit-open-data/
 │
 ├── scripts/
 │ ├── validate.sh
-│ └── test-local.sh
+│ ├── test-local.sh
+│ ├── cylinder-buoyancy.py        # Recomputes cylinder buoyancy from weight and volume
+│ └── cylinder-buoyancy-other.py  # The same for the rows without a Luxfer or Faber US sheet
 │
 ├── index.html            # open.divekit.app home page
 ├── view.html             # Dataset browser (each dataset as a searchable table)

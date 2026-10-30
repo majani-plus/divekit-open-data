@@ -1,8 +1,8 @@
 {
   "$schema": "https://open.divekit.app/schemas/cylinders/cylinders.schema.v1.0.0.json",
   "meta": {
-    "version": "2026.10.30.1",
-    "generated_at": "2026-10-30T12:00:00Z"
+    "version": "2026.10.30.3",
+    "generated_at": "2026-10-30T20:00:00Z"
   },
   "cylinders": [
     {
@@ -35,15 +35,16 @@
       "typicalUse": "Recreational single tank (Asia, some EU regions)",
       "emptyWeightKg": 16.5,
       "buoyancyKg": {
-        "full": -0.4,
-        "at50bar": 1.8,
-        "empty": 2.5
+        "full": -1.4,
+        "at50bar": 0.7,
+        "empty": 1.4
       },
       "brands": [
+        "Luxfer",
         "Various Asian manufacturers",
         "Some EU brands"
       ],
-      "notes": "Common in Asian dive markets; larger and heavier than AL80."
+      "notes": "Common in Asian dive markets; larger and heavier than AL80. Weight and water volume from the Luxfer P3080V (12.0 L, 16.5 kg, 204 mm; Luxfer scuba spec sheet 2022, which prints no buoyancy). Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "al72",
@@ -198,17 +199,17 @@
       "workingPressureBar": 232,
       "material": "steel",
       "typicalUse": "Single tank EU cold water",
-      "emptyWeightKg": 14.5,
+      "emptyWeightKg": 14.1,
       "buoyancyKg": {
         "full": -3.8,
         "at50bar": -1.3,
-        "empty": -0.5
+        "empty": -0.6
       },
       "brands": [
         "Faber",
         "Eurocylinders"
       ],
-      "notes": "Most common steel tank in Europe; stays negative."
+      "notes": "Most common steel cylinder in Europe; stays negative. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 171 mm): 14.1 kg; the 2023 design (EN ISO 9809-1:2019) weighs 13.3 kg, about 0.7 kg more buoyant. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "steel12-300",
@@ -217,17 +218,17 @@
       "workingPressureBar": 300,
       "material": "steel",
       "typicalUse": "Compact high-pressure single",
-      "emptyWeightKg": 17.0,
+      "emptyWeightKg": 18.0,
       "buoyancyKg": {
-        "full": -5.5,
-        "at50bar": -2.2,
-        "empty": -1.5
+        "full": -7.9,
+        "at50bar": -4.7,
+        "empty": -4.0
       },
       "brands": [
         "Faber",
         "Eurocylinders"
       ],
-      "notes": "Very dense; allows more gas but heavier topside and affects trim."
+      "notes": "Very dense; allows more gas but heavier topside and affects trim. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 171 mm): 18.0 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "steel15-232",
@@ -236,17 +237,17 @@
       "workingPressureBar": 232,
       "material": "steel",
       "typicalUse": "Cold/long dives",
-      "emptyWeightKg": 17.5,
+      "emptyWeightKg": 18.2,
       "buoyancyKg": {
-        "full": -4.2,
-        "at50bar": -1.0,
-        "empty": 0.0
+        "full": -5.1,
+        "at50bar": -2.0,
+        "empty": -1.1
       },
       "brands": [
         "Faber",
         "Eurocylinders"
       ],
-      "notes": "Heavy but long bottom time; usually neutral when empty."
+      "notes": "Heavy but long bottom time; stays negative when empty. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 203 mm): 18.2 kg; the 2023 design weighs 16.7 kg (Faber press release, 14 April 2023), about 1.3 kg more buoyant. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "steel10-232",
@@ -255,16 +256,16 @@
       "workingPressureBar": 232,
       "material": "steel",
       "typicalUse": "Small divers / twinset",
-      "emptyWeightKg": 12.5,
+      "emptyWeightKg": 12.2,
       "buoyancyKg": {
-        "full": -3.4,
-        "at50bar": -1.3,
-        "empty": -0.6
+        "full": -3.7,
+        "at50bar": -1.6,
+        "empty": -1.0
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Often used as twin 10s for balanced doubles in cold water."
+      "notes": "Often used as twin 10s for balanced doubles in cold water. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 171 mm): 12.2 kg; the 2023 design weighs 11.5 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "steel10_5-232",
@@ -273,17 +274,17 @@
       "workingPressureBar": 232,
       "material": "steel",
       "typicalUse": "Small divers / twinset",
-      "emptyWeightKg": 13.0,
+      "emptyWeightKg": 12.9,
       "buoyancyKg": {
-        "full": -3.8,
-        "at50bar": -1.5,
-        "empty": -0.8
+        "full": -3.9,
+        "at50bar": -1.7,
+        "empty": -1.1
       },
       "brands": [
         "Faber",
         "Eurocylinders"
       ],
-      "notes": "Popular compact steel; often used as twin 10.5s in Europe."
+      "notes": "Popular compact steel; often used as twin 10.5s in Europe. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 178 mm): 12.9 kg; the 2023 design weighs 12.0 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "steel7-232",
@@ -292,16 +293,16 @@
       "workingPressureBar": 232,
       "material": "steel",
       "typicalUse": "Deco/stage EU",
-      "emptyWeightKg": 9.2,
+      "emptyWeightKg": 8.5,
       "buoyancyKg": {
-        "full": -2.8,
+        "full": -2.7,
         "at50bar": -1.3,
         "empty": -0.8
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Stage/deco bottle for cold water; remains negative throughout."
+      "notes": "Stage/deco bottle for cold water; remains negative throughout. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 140 mm): 8.5 kg; the 2023 design weighs 8.2 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "steel3-300",
@@ -310,17 +311,17 @@
       "workingPressureBar": 300,
       "material": "steel",
       "typicalUse": "CCR oxygen / diluent",
-      "emptyWeightKg": 4.5,
+      "emptyWeightKg": 4.8,
       "buoyancyKg": {
-        "full": -1.9,
-        "at50bar": -1.0,
-        "empty": -0.8
+        "full": -2.7,
+        "at50bar": -1.9,
+        "empty": -1.7
       },
       "brands": [
         "Faber",
         "Eurocylinders"
       ],
-      "notes": "Standard 3L rebreather bottle; fits most CCR frames."
+      "notes": "Standard 3L rebreather bottle; fits most CCR frames. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 100 mm): 4.8 kg; the 2023 design weighs 4.6 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "lp85",
@@ -389,15 +390,15 @@
       "typicalUse": "Long US single dives",
       "emptyWeightKg": 18.0,
       "buoyancyKg": {
-        "full": -5.5,
-        "at50bar": -2.0,
-        "empty": -1.1
+        "full": -4.8,
+        "at50bar": -1.5,
+        "empty": -0.6
       },
       "brands": [
         "Worthington",
         "PST"
       ],
-      "notes": "Tall and heavy; lots of gas for single-tank tech or long rec dives.",
+      "notes": "Tall and heavy; lots of gas for single-tank tech or long rec dives. Weight and water volume from the Worthington X7-120 (15.3 L, 18.0 kg without valve; XS Scuba's Worthington sheet). The sheet lists -5.0 kg full and -0.9 kg empty with valve; physics sits 0.2 to 0.3 kg above. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve.",
       "ratedCapacityCuft": 120
     },
     {
@@ -426,16 +427,16 @@
       "workingPressureBar": 237.32,
       "material": "steel",
       "typicalUse": "Very long cold dives",
-      "emptyWeightKg": 20.0,
+      "emptyWeightKg": 20.3,
       "buoyancyKg": {
-        "full": -5.8,
-        "at50bar": -2.2,
-        "empty": -1.0
+        "full": -6.2,
+        "at50bar": -2.9,
+        "empty": -1.9
       },
       "brands": [
         "Worthington"
       ],
-      "notes": "Gas monster; heavy and long, often awkward for smaller divers.",
+      "notes": "Gas monster; heavy and long, often awkward for smaller divers. Weight and water volume from the Worthington X8-130 (16.0 L, 20.3 kg without valve; XS Scuba's Worthington sheet). Low confidence: the sheet's -0.9 kg empty and its 131.4 cu ft rating both point to about 16.7 L, so its volume or weight is off. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve.",
       "ratedCapacityCuft": 130
     },
     {
@@ -464,16 +465,16 @@
       "workingPressureBar": 200,
       "material": "steel",
       "typicalUse": "CCR oxygen",
-      "emptyWeightKg": 3.0,
+      "emptyWeightKg": 2.6,
       "buoyancyKg": {
-        "full": -0.9,
-        "at50bar": -0.5,
-        "empty": -0.4
+        "full": -1.3,
+        "at50bar": -1.0,
+        "empty": -0.8
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Compact CCR O₂ bottle; easy to travel with and replace."
+      "notes": "Compact CCR O₂ bottle; easy to travel with and replace. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 100 mm): 2.6 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "ccr3l",
@@ -482,16 +483,16 @@
       "workingPressureBar": 200,
       "material": "steel",
       "typicalUse": "CCR diluent",
-      "emptyWeightKg": 4.5,
+      "emptyWeightKg": 3.6,
       "buoyancyKg": {
-        "full": -1.9,
-        "at50bar": -1.0,
-        "empty": -0.8
+        "full": -1.4,
+        "at50bar": -0.9,
+        "empty": -0.7
       },
       "brands": [
         "Faber"
       ],
-      "notes": "Standard diluent cylinder for most CCR units; often filled to 232 bar."
+      "notes": "Standard diluent cylinder for most CCR units; often filled to 232 bar. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 100 mm): 3.6 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "al100",
@@ -540,17 +541,17 @@
       "workingPressureBar": 237.32,
       "material": "steel",
       "typicalUse": "Long cold-water single / big-gas doubles",
-      "emptyWeightKg": 18.6,
+      "emptyWeightKg": 19.3,
       "buoyancyKg": {
-        "full": -4.8,
-        "at50bar": -1.7,
-        "empty": -0.7
+        "full": -6.3,
+        "at50bar": -3.1,
+        "empty": -2.2
       },
       "brands": [
         "Worthington",
         "PST"
       ],
-      "notes": "High-capacity HP steel; stays negative.",
+      "notes": "High-capacity HP steel; stays negative. Weight and water volume from the Worthington X8-119 (14.8 L, 19.3 kg without valve; XS Scuba's Worthington sheet). Low confidence: the sheet's -0.9 kg empty and its 123 cu ft rating both point to about 15.6 L, so its volume or weight is off. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve.",
       "ratedCapacityCuft": 119
     },
     {
@@ -560,37 +561,36 @@
       "workingPressureBar": 182.02,
       "material": "steel",
       "typicalUse": "Doubles/sidemount small-frame divers, cave/wreck",
-      "emptyWeightKg": 8.5,
+      "emptyWeightKg": 8.6,
       "buoyancyKg": {
-        "full": -2.0,
-        "at50bar": -0.7,
-        "empty": -0.3
+        "full": -1.8,
+        "at50bar": -0.6,
+        "empty": -0.1
       },
       "brands": [
-        "Worthington",
-        "PST"
+        "Faber"
       ],
-      "notes": "Popular small LP cylinder in the US; often overfilled in practice.",
+      "notes": "Popular small LP cylinder in the US; often overfilled in practice. Weight and water volume from the Faber LP50 (7.8 L, 8.6 kg; Faber LP spec sheet). Neither the Worthington nor the PST sheet lists an LP50. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve.",
       "ratedCapacityCuft": 50
     },
     {
       "id": "lp72",
       "commonName": "LP72",
-      "waterVolumeL": 13.2,
+      "waterVolumeL": 12.2,
       "workingPressureBar": 155.13,
       "material": "steel",
       "typicalUse": "Vintage/ubiquitous US steel; still common on boats",
-      "emptyWeightKg": 12.7,
+      "emptyWeightKg": 13.7,
       "buoyancyKg": {
-        "full": -3.0,
-        "at50bar": -1.1,
-        "empty": -0.6
+        "full": -2.3,
+        "at50bar": -0.8,
+        "empty": 0.0
       },
       "brands": [
         "PST",
         "Worthington"
       ],
-      "notes": "Classic 2250 psi steel; slim profile.",
+      "notes": "Classic 2250 psi steel 72; slim profile; about neutral when empty. No sheet prints its water volume: 12.2 L is derived from the rated 71.55 cu ft at 2475 psi (real-gas air at 70 °F); the dataset's former 13.2 L was the error. The weight (13.7 kg) is the one that gives the published empty buoyancy (0 lb with valve; US Divers figures quoted on ScubaBoard); the 26 lb (11.8 kg) quoted beside it would make the cylinder +1.6 kg empty at that volume. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve.",
       "ratedCapacityCuft": 72
     },
     {
@@ -660,15 +660,15 @@
       "typicalUse": "Small divers / twinset",
       "emptyWeightKg": 11.0,
       "buoyancyKg": {
-        "full": -3.1,
-        "at50bar": -1.3,
-        "empty": -0.7
+        "full": -3.7,
+        "at50bar": -2.0,
+        "empty": -1.5
       },
       "brands": [
-        "Faber",
+        "ECS",
         "Eurocylinders"
       ],
-      "notes": "Compact EU steel; often used as twin 8.5s."
+      "notes": "Compact EU steel; often used as twin 8.5s. Faber makes no 8.5 L. Weight from a retailer listing of the ECS 8.5 L 232 bar 140 mm (11.0 kg, without valve); low confidence, other brands list 10.0 to 11.9 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "ccr2_7l",
@@ -679,15 +679,14 @@
       "typicalUse": "CCR oxygen/diluent (varies by unit)",
       "emptyWeightKg": 3.9,
       "buoyancyKg": {
-        "full": -1.1,
-        "at50bar": -0.5,
-        "empty": -0.3
+        "full": -2.0,
+        "at50bar": -1.4,
+        "empty": -1.2
       },
       "brands": [
-        "Faber",
         "Eurocylinders"
       ],
-      "notes": "Very common CCR bottle size; fits many frames."
+      "notes": "A CCR bottle size seen on some frames. Weight unsourced; buoyancy computed from it. Faber's database lists no 2.7 L (its 100 mm sizes are 2, 2.5 and 3 L), and no other maker's sheet was found."
     },
     {
       "id": "ccr2l-232",
@@ -696,16 +695,16 @@
       "workingPressureBar": 232,
       "material": "steel",
       "typicalUse": "CCR oxygen/diluent",
-      "emptyWeightKg": 3.2,
+      "emptyWeightKg": 2.8,
       "buoyancyKg": {
-        "full": -1.1,
-        "at50bar": -0.6,
-        "empty": -0.5
+        "full": -1.5,
+        "at50bar": -1.1,
+        "empty": -1.0
       },
       "brands": [
         "Faber"
       ],
-      "notes": "The EU-standard 232 bar rating of the compact CCR bottle."
+      "notes": "The EU-standard 232 bar rating of the compact CCR bottle. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 100 mm): 2.8 kg; the UK BS 5045-7 build weighs 2.6 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "ccr3l-232",
@@ -714,17 +713,17 @@
       "workingPressureBar": 232,
       "material": "steel",
       "typicalUse": "CCR diluent",
-      "emptyWeightKg": 4.7,
+      "emptyWeightKg": 3.8,
       "buoyancyKg": {
-        "full": -2.0,
-        "at50bar": -1.1,
-        "empty": -0.9
+        "full": -1.6,
+        "at50bar": -1.0,
+        "empty": -0.8
       },
       "brands": [
         "Faber",
         "Eurocylinders"
       ],
-      "notes": "The EU-standard 232 bar rating of the common CCR diluent cylinder."
+      "notes": "The EU-standard 232 bar rating of the common CCR diluent cylinder. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 100 mm): 3.8 kg; the UK BS 5045-7 build weighs 3.4 kg. Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     },
     {
       "id": "steel12-200",
@@ -733,16 +732,16 @@
       "workingPressureBar": 200,
       "material": "steel",
       "typicalUse": "Sidemount / single tank EU",
-      "emptyWeightKg": 12.9,
+      "emptyWeightKg": 12.0,
       "buoyancyKg": {
-        "full": -3.1,
-        "at50bar": -0.9,
-        "empty": -0.2
+        "full": -1.6,
+        "at50bar": 0.5,
+        "empty": 1.3
       },
       "brands": [
         "Faber"
       ],
-      "notes": "The light 200 bar Faber 12L; popular for sidemount in Europe."
+      "notes": "The light 200 bar Faber 12L; popular for sidemount in Europe, and slightly positive when empty. Weight from Faber's cylinder database (EN 1964-1 build, without valve, 171 mm): 12.0 kg. The 203 mm build weighs 13.6 kg (12.3 kg in the 2023 design). Buoyancy is computed from the weight and water volume (scripts/cylinder-buoyancy-other.py), in sea water with a standard valve."
     }
   ]
 }
