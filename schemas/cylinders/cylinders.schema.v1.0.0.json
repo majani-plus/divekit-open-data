@@ -76,25 +76,25 @@
           },
           "emptyWeightKg": {
             "type": "number",
-            "description": "Weight of the empty cylinder in kg (without valve usually, but context dependent)",
+            "description": "Weight in air of the empty cylinder in kg, without the valve. Buoyancy includes a valve and this does not: see docs/DATASETS.md.",
             "minimum": 0
           },
           "buoyancyKg": {
             "type": "object",
-            "description": "Buoyancy in sea water (1.025 kg/L) with a standard valve fitted (the basis of the Luxfer spec sheet; Faber's sheets quote it without a valve). A consumer that models other water converts with the cylinder's displacement.",
+            "description": "Buoyancy in sea water (1.025 kg/L) with a standard valve fitted (the basis of the Luxfer spec sheet; Faber's sheets quote it without a valve). A consumer that models other water converts with the volume the cylinder displaces, not waterVolumeL. Full method in docs/DATASETS.md.",
             "required": ["full", "at50bar", "empty"],
             "properties": {
               "full": {
                 "type": "number",
-                "description": "Buoyancy when full (kg)"
+                "description": "Net buoyancy in kg at workingPressureBar gauge: air with real-gas compressibility at 15 C, sea water, standard valve. Negative sinks."
               },
               "at50bar": {
                 "type": "number",
-                "description": "Buoyancy at 50 bar (kg)"
+                "description": "Net buoyancy in kg at 50 bar gauge: air with real-gas compressibility at 15 C, sea water, standard valve. Negative sinks."
               },
               "empty": {
                 "type": "number",
-                "description": "Buoyancy when empty (kg)"
+                "description": "Net buoyancy in kg with no gas inside: sea water, standard valve (0.7 kg brass at 8.5 kg/L). Negative sinks."
               }
             }
           },

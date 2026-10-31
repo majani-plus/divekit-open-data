@@ -78,7 +78,24 @@ Each cylinder entry includes:
 - **ratedCapacityCuft** (optional): The **marketed cubic-foot name** carried by imperial cylinders (an "AL80" carries `80`). It is the manufacturer's nominal capacity, a label rather than a figure that follows from `waterVolumeL × workingPressureBar` under one gas law. It lands near the ideal-gas figure for an AL80 (about 80 cu ft), but not for the steels: an HP100 (12.9 L, 237.32 bar) is about 107 cu ft ideal and 102 real-gas, an HP120 (15.3 L) about 127 and 121, and an LP85 (13.0 L, 182.02 bar) about 83 and 82. Faber's sheet lists 101.3, 120.1 and 85.0 cu ft.
 - **material**: "steel", "aluminum", "composite", or "carbon_fiber"
 - **emptyWeightKg**: The cylinder's weight in kg without the valve, as the manufacturer lists it. Where a Faber sheet's lb and kg weights disagree (FX117: 37.6 lb is 17.05 kg against 17.7 kg), the dataset takes the kg figure, the one that reproduces the sheet's own buoyancy rows.
-- **buoyancyKg**: Buoyancy in kg (negative sinks) when full, at 50 bar, and empty, **in sea water (1.025 kg/L) with a standard valve fitted**. A consumer that models fresh or EN 13319 water (1.019716 kg/L) converts: `B_target = B_sea + (ρ_target − 1.025) × displacement`.
+- **buoyancyKg**: Buoyancy in kg (negative sinks) when full, at 50 bar, and empty, **in sea water (1.025 kg/L) with a standard valve fitted**. A consumer that models fresh or EN 13319 water (1.019716 kg/L) converts: `B_target = B_sea + (ρ_target − 1.025) × displacement`, where displacement is the outside volume, not `waterVolumeL`.
+
+**What each number assumes.** Read this before using the weight or buoyancy fields: the two have different bases.
+
+| Field | Means | Valve | Water | Gas inside | Where the figure comes from |
+|---|---|---|---|---|---|
+| `emptyWeightKg` | Weight in air of the empty cylinder | **Not included** | Not applicable | None | The maker's sheet or database, except where the row's notes say otherwise |
+| `buoyancyKg.empty` | Net buoyancy in water, no gas (a vacuum inside, not 1 atm) | Included | Sea water, 1.025 kg/L | None | Computed, except that the other Luxfer rows are derived from the sheet (see below) |
+| `buoyancyKg.at50bar` | Net buoyancy at 50 bar gauge | Included | Sea water, 1.025 kg/L | Air, real gas, 15 °C | Computed, except as for `empty` |
+| `buoyancyKg.full` | Net buoyancy at `workingPressureBar` gauge | Included | Sea water, 1.025 kg/L | Air, real gas, 15 °C | Computed, except that Luxfer rows keep the sheet's full figure |
+| `waterVolumeL` | Internal volume, the space the gas fills | Not applicable | Not applicable | Not applicable | The maker's sheet, except where the row's notes say otherwise |
+
+- **Sign.** Positive floats, negative sinks. Values are in kg and rounded to 0.1 kg.
+- **The valve.** The standard valve is a model: 0.7 kg of brass at 8.5 kg/L, a net −0.62 kg in sea water. It is not any one product, and a real valve differs by its type. To get a figure without the valve, add 0.62 kg in sea water.
+- **Not included.** Regulator, bands, boot, net, manifold and isolator bar, and tank lead.
+- **Real gas.** Computed rows use the compressibility Z described below. Against ideal gas this takes about 0.12 kg off an AL80's full weight of air, 0.2 kg off a 12 L 232 bar and 0.5 kg off a 12 L 300 bar. Luxfer's full figures are the sheet's and differ from this model by at most 0.19 kg.
+- **Other gases and pressures.** The stored rows are air only. For another mix or pressure, take `empty` and subtract that gas's mass; do not scale `full`.
+- **Other water.** Convert with the volume the cylinder displaces, not `waterVolumeL`: `V_disp = (empty + emptyWeightKg + 0.7) ÷ 1.025`, then `B_target = B_sea + (ρ_target − 1.025) × V_disp`. The shift is the same at every fill. An AL80 (+2.0 kg empty, 14.2 kg) displaces about 16.5 L against its 11.1 L inside, so it reads about +1.6 kg in fresh water.
 
 **How the buoyancy figures are made.** Where a figure can be computed, it is computed from the cylinder's weight and water volume by Archimedes, and the script that does it prints every value: `python3 scripts/cylinder-buoyancy.py` (`--write` updates the dataset). The method and constants:
 
