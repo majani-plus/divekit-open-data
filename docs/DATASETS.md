@@ -95,7 +95,7 @@ Each cylinder entry includes:
 - **Not included.** Regulator, bands, boot, net, manifold and isolator bar, and tank lead.
 - **Real gas.** Computed rows use the compressibility Z described below. Against ideal gas this takes about 0.12 kg off an AL80's full weight of air, 0.2 kg off a 12 L 232 bar and 0.5 kg off a 12 L 300 bar. Luxfer's full figures are the sheet's and differ from this model by at most 0.19 kg.
 - **Other gases and pressures.** The stored rows are air only. For another mix or pressure, take `empty` and subtract that gas's mass; do not scale `full`.
-- **Other water.** Convert with the volume the cylinder displaces, not `waterVolumeL`: `V_disp = (empty + emptyWeightKg + 0.7) ÷ 1.025`, then `B_target = B_sea + (ρ_target − 1.025) × V_disp`. The shift is the same at every fill. An AL80 (+2.0 kg empty, 14.2 kg) displaces about 16.5 L against its 11.1 L inside, so it reads about +1.6 kg in fresh water.
+- **Other water.** Convert with the volume the cylinder displaces, not `waterVolumeL`: `V_disp = (empty + emptyWeightKg + 0.7) ÷ 1.025`, then `B_target = B_sea + (ρ_target − 1.025) × V_disp`. The shift is the same at every fill. An AL80 (+2.0 kg empty, 14.3 kg) displaces about 16.6 L against its 11.1 L inside, so it reads about +1.6 kg in fresh water.
 
 **How the buoyancy figures are made.** Where a figure can be computed, it is computed from the cylinder's weight and water volume by Archimedes, and the script that does it prints every value: `python3 scripts/cylinder-buoyancy.py` (`--write` updates the dataset). The method and constants:
 
