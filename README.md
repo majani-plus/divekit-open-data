@@ -69,6 +69,7 @@ divekit-open-data/
 │ │ ├── favicon.png
 │ │ └── favicon-dark.png
 │ ├── fonts/                # Archivo, IBM Plex Mono (SIL OFL 1.1)
+│ ├── og.png                # Social preview card (made by divekit-web scripts/generate-og.ts)
 │ ├── site.css              # Site styles (divekit.app editorial system)
 │ └── site.js               # Theme switch and header
 │
