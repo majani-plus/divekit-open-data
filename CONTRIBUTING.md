@@ -94,13 +94,14 @@ For new or updated datasets:
   - Include `id`, `category`, `name`, `description`, and `image` as defined in the schema.
   - **IMPORTANT:** Every signal entry must reference an SVG illustration in `assets/dive-signals/`. When adding a new signal, add both the dataset entry and the artwork (see Visual Contributions below).
   - Signal meanings are safety-relevant. Only submit signals documented by recognized training agencies or established community practice, and describe them accurately.
+  - `datasets/dive-signals.json` is the source of the signal text the Dive Kit app shows. Edit translations directly in `datasets/i18n/<locale>/dive-signals.json`.
+  - Signal `id`s must stay stable and match the app. The app's `signal-text.test.ts` pins them, so a change that breaks it fails the app's `bun test` at its next submodule bump.
 
 - For checklists and translations:
   - `datasets/checklists.json` is the source of truth for the Dive Kit app's checklist presets; the app reads it and its translations from this repo. Edit checklist text here, and edit translations directly in `datasets/i18n/<locale>/checklists.json`.
   - Never change an `app_preset_id`. Checklists divers have saved in the app carry it.
   - Never reuse or renumber a section or step id. A new step gets a new id.
   - The app's tests pin the FX CCR step counts: `fx-functionality` 13, `fx-pre-dive` 7, `fx-after-dive` 13. Changing one breaks the app's `bun test` at its next submodule bump, so change the app's test in the same round.
-  - The signal translations (`datasets/i18n/<locale>/dive-signals.json`) still come from the app. Change them in the app's `assets/locales/<locale>/signals.json` and rebuild with `bun scripts/import-app-signal-translations.ts ../divekit-app`.
   - Every checklist states its `provenance`: what it follows, and whether it is in Dive Kit's own words, paraphrased or reproduced.
 
 Refer to the schema files in `/schemas` for detailed field requirements and examples.
