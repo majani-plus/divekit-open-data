@@ -143,7 +143,7 @@ Each signal entry includes:
 - **image**: Path to the signal's SVG illustration
 
 The illustrations are licensed **CC BY 4.0**: you may use them anywhere, including commercially,
-with the credit "Dive signals by Project Dive Kit — https://divekit.app". See
+with the credit "Dive signals by Dive Kit, https://divekit.app". See
 `assets/dive-signals/LICENSE.md`.
 
 > **Safety note:** signal meanings vary slightly between training agencies and regions. Always

@@ -10,7 +10,7 @@ These assets are provided for reference purposes to ensure consistent brand repr
 
 **Usage:**
 
-- These assets may not be used to represent products or services not affiliated with Project Dive Kit
+- These assets may not be used to represent products or services not affiliated with Dive Kit or Majani Plus
 - Commercial use requires explicit permission
 - Modifications or derivative works are not permitted without authorization
 

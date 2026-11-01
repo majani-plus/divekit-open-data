@@ -1,4 +1,4 @@
-# Licensing for Project Dive Kit Open
+# Licensing for Dive Kit Open
 
 This repository contains multiple types of content with different licenses.
 
@@ -15,7 +15,7 @@ Licensed under the MIT License
 
 **Dive Signal Illustrations** (`/assets/dive-signals`)  
 Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)  
-Attribution: "Dive signals by Project Dive Kit — https://divekit.app"  
+Attribution: "Dive signals by Dive Kit, https://divekit.app"  
 → https://creativecommons.org/licenses/by/4.0/
 
 ## Proprietary & Third-Party Content
