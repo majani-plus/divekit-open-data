@@ -180,14 +180,24 @@ Each checklist includes:
 Section ids are `<checklist id>-s<n>` and step ids `<section id>-<n>`. They are assigned once and
 never reused or renumbered: a new step gets a new id, and the order comes from the arrays.
 
+This file is the source of truth for the app's presets: the Dive Kit app reads the checklists and
+their translations from this repository. When you change it:
+
+- Never change an `app_preset_id`. Checklists divers have saved in the app carry it.
+- The app's tests pin the FX CCR step counts: `fx-functionality` 13, `fx-pre-dive` 7 and
+  `fx-after-dive` 13. Changing one breaks the app's `bun test` at its next submodule bump.
+- Edit translations directly in `datasets/i18n/<locale>/checklists.json`.
+
 > **Safety note:** a checklist supports your procedures; it does not replace your unit's manual,
 > your agency's procedures or your training. Adapt each one to your own gear and team.
 
 ### Translations
 
 The dive signals and checklists are also available in German (`de`), Polish (`pl`), Russian
-(`ru`), Swedish (`sv`), Turkish (`tr`), Chinese (`zh`) and Korean (`ko`). They are the Dive Kit
-app's translations.
+(`ru`), Swedish (`sv`), Turkish (`tr`), Chinese (`zh`) and Korean (`ko`). The checklist
+translations are maintained here and read by the Dive Kit app. The signal translations come from
+the app's `assets/locales/<locale>/signals.json` and are rebuilt with
+`bun scripts/import-app-signal-translations.ts ../divekit-app`.
 
 Each locale has one file per base dataset: `datasets/i18n/<locale>/dive-signals.json` and
 `datasets/i18n/<locale>/checklists.json`. `strings` maps a base id to the translated values of
