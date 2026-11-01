@@ -1,4 +1,4 @@
-# 🤝 Contributing to Project Dive Kit Open
+# 🤝 Contributing to Dive Kit Open
 
 Thank you for your interest in contributing!
 This repository hosts the **open data, schemas, and public standards** that power the [Dive Kit](https://divekit.app) ecosystem.
@@ -209,7 +209,7 @@ Full license details: [LICENSE.md](LICENSE.md)
 
 ## 🧭 Mission
 
-> Project Dive Kit Open exists to unify how the diving world represents, shares,
-> and understands its data — safely, transparently, and for everyone.
+> Dive Kit Open exists to unify how the diving world represents, shares,
+> and understands its data: openly, with sources, and for everyone.
 
 Thank you for helping make that vision real 🌊

@@ -7,7 +7,7 @@
     <meta
       name="description"
       content="Open, versioned JSON datasets and JSON Schemas for the diving community: certifications, agencies, cylinders, dive signals, references and search sources." />
-    <meta name="theme-color" content="#fbfaf7" />
+    <meta name="theme-color" content="#f7f6f2" />
     <link rel="canonical" href="https://open.divekit.app/" />
 
     <link rel="icon" type="image/png" href="/assets/divekit/favicon.png" media="(prefers-color-scheme: light)" />
@@ -28,8 +28,7 @@
           document.documentElement.classList.add('dark');
       })();
     </script>
-    <link rel="preload" href="/assets/fonts/InterVariable-latin.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/assets/fonts/SourceSerif4Variable-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/ArchivoVariable-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/assets/site.css" />
     <style>
       section {
@@ -155,7 +154,6 @@
         width: 5.5rem;
         height: 5.5rem;
         z-index: 1;
-        transform: rotate(-4deg);
         filter: drop-shadow(0 10px 12px rgb(0 0 0 / 0.18));
       }
       .fig .figure-caption {
@@ -224,7 +222,7 @@
       .data-table td.name {
         font-family: var(--serif);
         font-size: 1.0625rem;
-        font-weight: 600;
+        font-weight: 680;
         white-space: nowrap;
       }
       .data-table td.name small {
@@ -272,7 +270,7 @@
       .step h3 {
         font-family: var(--serif);
         font-size: 1.25rem;
-        font-weight: 600;
+        font-weight: 680;
         margin: 0.5rem 0 0.5rem;
       }
       .step p {
@@ -341,7 +339,7 @@
       .split h3 {
         font-family: var(--serif);
         font-size: 1.375rem;
-        font-weight: 600;
+        font-weight: 680;
         margin: 0 0 0.75rem;
       }
       .split p,
@@ -388,9 +386,7 @@
     <header class="site-header">
       <div class="wrap bar">
         <a class="brand" href="/" aria-label="Dive Kit Open home">
-          <img class="logo-light" src="/assets/divekit/logo-squircle-light.png" alt="" width="32" height="32" />
-          <img class="logo-dark" src="/assets/divekit/logo-squircle-dark.png" alt="" width="32" height="32" />
-          <span class="brand-name">Dive Kit</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1023.0 150.0" aria-hidden="true" class="brand-lockup"><g transform="scale(0.75000)"><path fill="currentColor" d="M0 0.0H80.0A100 100 0 0 1 104.0 2.9H0ZM0 6.5H115.5A100 100 0 0 1 125.4 10.9H0ZM0 14.5H131.9A100 100 0 0 1 139.8 19.8H0ZM0 23.4H144.3A100 100 0 0 1 151.0 29.6H0ZM0 33.2H154.4A100 100 0 0 1 160.1 40.2H0ZM0 43.8H162.7A100 100 0 0 1 167.4 51.5H0ZM0 55.1H169.3A100 100 0 0 1 173.1 63.6H0ZM0 67.2H174.4A100 100 0 0 1 177.1 76.4H0ZM0 80.0H177.9A100 100 0 0 1 179.4 89.9H0ZM0 93.5H179.7A100 100 0 0 1 179.9 104.1H0ZM0 107.7H179.7A100 100 0 0 1 178.2 118.8H0ZM0 122.4H177.4A100 100 0 0 1 174.0 134.0H0ZM0 137.6H172.6A100 100 0 0 1 166.7 149.7H0ZM0 153.3H164.5A100 100 0 0 1 155.1 165.9H0ZM0 169.5H151.8A100 100 0 0 1 136.1 182.7H0ZM0 186.3H130.4A100 100 0 0 1 80.0 200.0H0Z"/></g><g transform="translate(190.18 25.00) scale(0.14577)"><path fill="currentColor" d="M91.9 686.0V-1.2H465.3Q591.8 -1.2 682.8 38.3Q773.9 78.0 822.7 154.6Q871.5 231.2 871.5 342.7Q871.5 453.5 822.7 530.1Q773.9 606.7 682.8 646.3Q591.8 686.0 465.3 686.0ZM264.6 549.4H455.8Q507.8 549.4 551.1 536.6Q594.5 523.8 626.5 499.2Q658.5 474.6 675.9 438.0Q693.4 401.5 693.4 353.7V330.5Q693.4 282.8 675.9 246.3Q658.5 209.9 626.5 185.3Q594.5 160.6 551.1 148.0Q507.8 135.3 455.8 135.3H264.6Z M1065.9 686.0V-1.2H1238.6V686.0Z M1716.3 686.0 1386.8 -1.2H1579.4L1746.9 365.2Q1757.8 388.0 1769.6 416.5Q1781.3 445.0 1792.6 472.2Q1803.8 499.4 1811.2 519.2H1819.0Q1826.2 500.9 1836.8 474.4Q1847.4 447.9 1859.7 419.3Q1872.0 390.7 1883.3 366.0L2052.0 -1.2H2235.2L1905.7 686.0Z M2382.9 686.0V-1.2H3086.6V135.3H2555.8V269.7H3025.1V404.3H2555.8V549.4H3094.6V686.0Z M3640.9 686.0V-1.2H3813.6V353.6L4217.0 -1.2H4439.3L4117.3 283.6L4445.7 686.0H4227.7L3990.1 387.8L3813.6 530.6V686.0Z M4605.9 686.0V-1.2H4778.6V686.0Z M5238.5 686.0V144.7H4936.3V-1.2H5713.3V144.7H5411.1V686.0Z"/></g></svg>
           <span class="brand-tag">Open</span>
         </a>
         <nav class="nav" aria-label="Sections">
@@ -420,7 +416,7 @@
         <div class="wrap">
           <div class="masthead-grid">
             <div>
-              <p class="eyebrow">Open data &amp; standards · Project Dive Kit</p>
+              <p class="eyebrow">Open data &amp; standards · Dive Kit</p>
               <h1 class="display">Diving data, open for anyone to build on.</h1>
               <p class="lead">
                 Versioned JSON datasets and JSON Schemas for certifications, agencies, cylinders, dive signals and the
@@ -615,7 +611,7 @@
             <p class="lead">
               Vector illustrations for every signal in the dataset: hand signals, technical and fish ID, light signals
               and buddy contact. Licensed CC BY 4.0, including for commercial use. Credit
-              <em>“Dive signals by Project Dive Kit — https://divekit.app”</em>.
+              <em>“Dive signals by Dive Kit, https://divekit.app”</em>.
             </p>
           </div>
           <ul class="signals">
@@ -738,7 +734,7 @@
                 <tr>
                   <td class="name">Dive signal illustrations</td>
                   <td><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></td>
-                  <td class="desc">Credit “Dive signals by Project Dive Kit — https://divekit.app”.</td>
+                  <td class="desc">Credit “Dive signals by Dive Kit, https://divekit.app”.</td>
                 </tr>
                 <tr>
                   <td class="name">Schemas &amp; code</td>
@@ -765,7 +761,7 @@
 
           <figure class="pull" style="margin-top: 4rem">
             <blockquote>
-              Unify how the diving world represents, shares and understands its data: safely, transparently, and for
+              Unify how the diving world represents, shares and understands its data: openly, with sources, and for
               everyone.
             </blockquote>
             <figcaption class="eyebrow">The Dive Kit Open mission</figcaption>
@@ -778,10 +774,8 @@
       <div class="wrap">
         <div class="footer-grid">
           <div>
-            <a class="brand" href="https://divekit.app">
-              <img class="logo-light" src="/assets/divekit/logo-squircle-light.png" alt="" width="28" height="28" />
-              <img class="logo-dark" src="/assets/divekit/logo-squircle-dark.png" alt="" width="28" height="28" />
-              <span class="brand-name">Dive Kit</span>
+            <a class="brand" href="https://divekit.app" aria-label="Dive Kit">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1023.0 150.0" aria-hidden="true" class="brand-lockup"><g transform="scale(0.75000)"><path fill="currentColor" d="M0 0.0H80.0A100 100 0 0 1 104.0 2.9H0ZM0 6.5H115.5A100 100 0 0 1 125.4 10.9H0ZM0 14.5H131.9A100 100 0 0 1 139.8 19.8H0ZM0 23.4H144.3A100 100 0 0 1 151.0 29.6H0ZM0 33.2H154.4A100 100 0 0 1 160.1 40.2H0ZM0 43.8H162.7A100 100 0 0 1 167.4 51.5H0ZM0 55.1H169.3A100 100 0 0 1 173.1 63.6H0ZM0 67.2H174.4A100 100 0 0 1 177.1 76.4H0ZM0 80.0H177.9A100 100 0 0 1 179.4 89.9H0ZM0 93.5H179.7A100 100 0 0 1 179.9 104.1H0ZM0 107.7H179.7A100 100 0 0 1 178.2 118.8H0ZM0 122.4H177.4A100 100 0 0 1 174.0 134.0H0ZM0 137.6H172.6A100 100 0 0 1 166.7 149.7H0ZM0 153.3H164.5A100 100 0 0 1 155.1 165.9H0ZM0 169.5H151.8A100 100 0 0 1 136.1 182.7H0ZM0 186.3H130.4A100 100 0 0 1 80.0 200.0H0Z"/></g><g transform="translate(190.18 25.00) scale(0.14577)"><path fill="currentColor" d="M91.9 686.0V-1.2H465.3Q591.8 -1.2 682.8 38.3Q773.9 78.0 822.7 154.6Q871.5 231.2 871.5 342.7Q871.5 453.5 822.7 530.1Q773.9 606.7 682.8 646.3Q591.8 686.0 465.3 686.0ZM264.6 549.4H455.8Q507.8 549.4 551.1 536.6Q594.5 523.8 626.5 499.2Q658.5 474.6 675.9 438.0Q693.4 401.5 693.4 353.7V330.5Q693.4 282.8 675.9 246.3Q658.5 209.9 626.5 185.3Q594.5 160.6 551.1 148.0Q507.8 135.3 455.8 135.3H264.6Z M1065.9 686.0V-1.2H1238.6V686.0Z M1716.3 686.0 1386.8 -1.2H1579.4L1746.9 365.2Q1757.8 388.0 1769.6 416.5Q1781.3 445.0 1792.6 472.2Q1803.8 499.4 1811.2 519.2H1819.0Q1826.2 500.9 1836.8 474.4Q1847.4 447.9 1859.7 419.3Q1872.0 390.7 1883.3 366.0L2052.0 -1.2H2235.2L1905.7 686.0Z M2382.9 686.0V-1.2H3086.6V135.3H2555.8V269.7H3025.1V404.3H2555.8V549.4H3094.6V686.0Z M3640.9 686.0V-1.2H3813.6V353.6L4217.0 -1.2H4439.3L4117.3 283.6L4445.7 686.0H4227.7L3990.1 387.8L3813.6 530.6V686.0Z M4605.9 686.0V-1.2H4778.6V686.0Z M5238.5 686.0V144.7H4936.3V-1.2H5713.3V144.7H5411.1V686.0Z"/></g></svg>
             </a>
             <p>The open data and standards behind Dive Kit, the dive planning toolkit for recreational and technical divers.</p>
           </div>
@@ -814,9 +808,9 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <span>&copy; <span data-year>2026</span> Project Dive Kit</span>
+          <span>&copy; <span data-year>2026</span> Majani Plus</span>
           <span>Last updated <time data-updated datetime="2026-10-30">30 October 2026</time></span>
-          <span>Maintained by <a href="https://github.com/majani-plus">Project Dive Kit</a></span>
+          <span>Maintained by <a href="https://github.com/majani-plus">Majani Plus</a></span>
         </div>
       </div>
     </footer>

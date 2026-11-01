@@ -1,4 +1,4 @@
-# <img src="assets/divekit/favicon.png" alt="Dive Kit" width="32" height="32" align="center" /> Project Dive Kit — Open Data & Standards
+# <img src="assets/divekit/favicon.png" alt="Dive Kit" width="32" height="32" align="center" /> Dive Kit Open: Open Data & Standards
 
 **Welcome to the open data, schemas, and public standards hub of the Dive Kit ecosystem.**
 This repository powers [open.divekit.app](https://open.divekit.app) — the canonical home for all open, machine-readable resources maintained by the Dive Kit project.
@@ -58,15 +58,17 @@ divekit-open-data/
 │ ├── agency-logos/       # Third-party trademarks
 │ │ └── ...
 │ ├── divekit/              # Dive Kit brand assets
+│ │ ├── mark-16-ink.svg           # The Sixteen mark (16 bars, one per ZH-L16C compartment)
+│ │ ├── mark-16-paper.svg
+│ │ ├── lockup-horizontal-ink.svg # Mark and DIVE KIT wordmark
+│ │ ├── lockup-horizontal-paper.svg
 │ │ ├── logo.png
-│ │ ├── logo-squircle-light.png   # iOS-style app icon
+│ │ ├── logo-squircle-light.png   # App icon
 │ │ ├── logo-squircle-dark.png
-│ │ ├── logo-circle-light.png
-│ │ ├── logo-circle-dark.png
 │ │ ├── apple-touch-icon.png
 │ │ ├── favicon.png
 │ │ └── favicon-dark.png
-│ ├── fonts/                # Inter, Source Serif 4, IBM Plex Mono (SIL OFL 1.1)
+│ ├── fonts/                # Archivo, IBM Plex Mono (SIL OFL 1.1)
 │ ├── site.css              # Site styles (divekit.app editorial system)
 │ └── site.js               # Theme switch and header
 │
@@ -190,7 +192,7 @@ npx ajv validate \
 
 Use the dive signal illustrations from [`assets/dive-signals`](https://github.com/majani-plus/divekit-open-data/tree/main/assets/dive-signals)
 in briefing cards, slides, posters, or your own apps. They are licensed **CC BY 4.0**: free for any use,
-including commercial, as long as you credit "Dive signals by Project Dive Kit — https://divekit.app".
+including commercial, as long as you credit "Dive signals by Dive Kit, https://divekit.app".
 
 Agency logos in [`assets/agency-logos`](https://github.com/majani-plus/divekit-open-data/tree/main/assets/agency-logos)
 are third-party trademarks and should be used for reference purposes only.
@@ -246,7 +248,7 @@ Unless otherwise noted:
 | Type                   | License                                                   | Notes                                            |
 | ---------------------- | --------------------------------------------------------- | ------------------------------------------------ |
 | **Datasets & Docs**    | [MIT](https://opensource.org/licenses/MIT)                | Free for any use (except the dive-signals index, CC BY 4.0) |
-| **Dive Signal Illustrations** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Credit "Dive signals by Project Dive Kit — https://divekit.app" |
+| **Dive Signal Illustrations** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Credit "Dive signals by Dive Kit, https://divekit.app" |
 | **Schemas & Code**     | [MIT](https://opensource.org/licenses/MIT)                | Free to use in software projects                 |
 | **Agency Logos**       | Third-party trademarks                                    | Owned by respective agencies, reference use only |
 | **Dive Kit Brand Assets** | All rights reserved                                       | Dive Kit trademark, permission required for use     |
@@ -267,9 +269,9 @@ Community suggestions are discussed in [Discussions](https://github.com/majani-p
 
 ## 🧭 Mission
 
-> Dive Kit Open exists to unify how the diving world represents, shares, and understands its data — safely, transparently, and for everyone.
+> Dive Kit Open exists to unify how the diving world represents, shares, and understands its data: openly, with sources, and for everyone.
 
 ---
 
-**Maintained by:** [Project Dive Kit](https://github.com/majani-plus)
+**Maintained by:** [Majani Plus](https://github.com/majani-plus), the company behind Dive Kit
 **Canonical URL:** [https://open.divekit.app](https://open.divekit.app)
