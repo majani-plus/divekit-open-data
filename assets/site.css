@@ -1,19 +1,15 @@
 /* Dive Kit Open: the divekit.app editorial "paper & ink" system, hand-ported
-   from divekit-web (src/styles/global.css) so both sites read as one. */
+   from divekit-web (src/styles/global.css) so both sites read as one.
+   Brand rules (logo, type, colour): divekit-app docs/brand/BRAND_GUIDELINES.md. */
 
+/* Archivo, the brand face of the app, divekit.app and the wordmark (wght 100-900, wdth 62-125) */
 @font-face {
-  font-family: "Inter";
+  font-family: "Archivo";
   font-style: normal;
-  font-weight: 400 800;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
   font-display: swap;
-  src: url("/assets/fonts/InterVariable-latin.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Source Serif 4";
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url("/assets/fonts/SourceSerif4Variable-latin.woff2") format("woff2");
+  src: url("/assets/fonts/ArchivoVariable-latin.woff2") format("woff2");
 }
 @font-face {
   font-family: "IBM Plex Mono";
@@ -32,36 +28,37 @@
 
 :root {
   color-scheme: light;
-  --paper: #fbfaf7;
+  --paper: #f7f6f2;
   --paper-raised: #ffffff;
-  --paper-tint: #f3f1ec;
-  --ink: #181a1c;
-  --ink-secondary: #494d52;
-  --ink-muted: #75797f;
-  --rule: rgb(24 26 28 / 0.14);
-  --rule-strong: rgb(24 26 28 / 0.45);
-  --accent: #0369a1;
-  --accent-strong: #075985;
-  --accent-wash: rgb(3 105 161 / 0.06);
-  --sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --paper-tint: #f1f0ea;
+  --ink: #101114;
+  --ink-secondary: #3d4047;
+  --ink-muted: #676a71;
+  --rule: rgb(16 17 20 / 0.14);
+  --rule-strong: rgb(16 17 20 / 0.45);
+  --accent: #1f4fd1;
+  --accent-strong: #1c3c9c;
+  --accent-wash: rgb(31 79 209 / 0.06);
+  --sans: "Archivo", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  /* "serif" is kept as a name for the display face; it is Archivo now. */
+  --serif: var(--sans);
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 
 /* Night reading: warm charcoal, not blue-black */
 .dark {
   color-scheme: dark;
-  --paper: #14161a;
-  --paper-raised: #1a1d22;
-  --paper-tint: #20242b;
-  --ink: #e7e4dd;
-  --ink-secondary: #b4b1aa;
-  --ink-muted: #84827c;
-  --rule: rgb(231 228 221 / 0.14);
-  --rule-strong: rgb(231 228 221 / 0.45);
-  --accent: #38bdf8;
-  --accent-strong: #7dd3fc;
-  --accent-wash: rgb(56 189 248 / 0.08);
+  --paper: #1a1916;
+  --paper-raised: #23221e;
+  --paper-tint: #2d2b27;
+  --ink: #f2efe6;
+  --ink-secondary: #bdb8ab;
+  --ink-muted: #9a9588;
+  --rule: rgb(242 239 230 / 0.14);
+  --rule-strong: rgb(242 239 230 / 0.45);
+  --accent: #86a2f0;
+  --accent-strong: #c3d1f7;
+  --accent-wash: rgb(134 162 240 / 0.08);
 }
 
 *,
@@ -149,8 +146,8 @@ img {
 /* ===== Editorial primitives ===== */
 .display {
   font-family: var(--serif);
-  font-weight: 560;
-  letter-spacing: -0.015em;
+  font-weight: 680;
+  letter-spacing: -0.025em;
   line-height: 1.08;
   font-optical-sizing: auto;
   color: var(--ink);
@@ -283,16 +280,11 @@ pre .k {
 .brand:hover {
   color: var(--ink);
 }
-.brand img {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 0.5rem;
-}
-.brand-name {
-  font-family: var(--serif);
-  font-size: 1.125rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+/* The DIVE KIT lockup (outlined, never retyped); it inks itself from the text colour */
+.brand-lockup {
+  display: block;
+  height: 1.5rem;
+  width: auto;
 }
 .brand-tag {
   font-family: var(--mono);
@@ -300,7 +292,7 @@ pre .k {
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--ink-muted);
   border: 1px solid var(--rule);
   border-radius: 3px;
   padding: 0.1rem 0.4rem;
@@ -444,9 +436,8 @@ pre .k {
   margin: 0.75rem 0 0;
   max-width: 32ch;
 }
-.footer-grid .brand img {
-  width: 1.75rem;
-  height: 1.75rem;
+.footer-grid .brand-lockup {
+  height: 1.25rem;
 }
 .footer-grid ul {
   list-style: none;

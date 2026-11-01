@@ -58,15 +58,17 @@ divekit-open-data/
 │ ├── agency-logos/       # Third-party trademarks
 │ │ └── ...
 │ ├── divekit/              # Dive Kit brand assets
+│ │ ├── mark-16-ink.svg           # The Sixteen mark (16 bars, one per ZH-L16C compartment)
+│ │ ├── mark-16-paper.svg
+│ │ ├── lockup-horizontal-ink.svg # Mark and DIVE KIT wordmark
+│ │ ├── lockup-horizontal-paper.svg
 │ │ ├── logo.png
-│ │ ├── logo-squircle-light.png   # iOS-style app icon
+│ │ ├── logo-squircle-light.png   # App icon
 │ │ ├── logo-squircle-dark.png
-│ │ ├── logo-circle-light.png
-│ │ ├── logo-circle-dark.png
 │ │ ├── apple-touch-icon.png
 │ │ ├── favicon.png
 │ │ └── favicon-dark.png
-│ ├── fonts/                # Inter, Source Serif 4, IBM Plex Mono (SIL OFL 1.1)
+│ ├── fonts/                # Archivo, IBM Plex Mono (SIL OFL 1.1)
 │ ├── site.css              # Site styles (divekit.app editorial system)
 │ └── site.js               # Theme switch and header
 │

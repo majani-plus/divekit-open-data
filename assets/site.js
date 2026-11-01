@@ -12,7 +12,7 @@
   const apply = () => {
     const dark = effective() === 'dark';
     root.classList.toggle('dark', dark);
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#14161a' : '#fbfaf7');
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#1a1916' : '#f7f6f2');
     document.querySelectorAll('.theme-switch').forEach((el) => el.setAttribute('aria-checked', String(dark)));
   };
 
