@@ -1,3 +1,5 @@
+Scope: every file in `/datasets` is under the MIT License below, except `dive-signals.json` and its translations `i18n/<locale>/dive-signals.json`, which are under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/, attribution: "Dive signals by Dive Kit, https://divekit.app"). `checklists.json` and `i18n/<locale>/checklists.json` are MIT.
+
 MIT License
 
 Copyright (c) 2025 Majani Plus for Wholesale and Retail Trade LLC

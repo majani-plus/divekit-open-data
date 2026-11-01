@@ -9,7 +9,7 @@ This repository powers [open.divekit.app](https://open.divekit.app) — the cano
 
 `majani-plus/divekit-open-data` provides:
 
-- **Public Datasets** – Canonical, versioned JSON datasets for dive certifications, agencies, cylinders, dive signals, and references.
+- **Public Datasets** – Canonical, versioned JSON datasets for dive certifications, agencies, cylinders, dive signals, checklists, and references, with the dive signals and checklists translated into seven languages.
 - **Schemas & Standards** – JSON Schema definitions for validating and interoperating with Dive Kit's open data formats.
 - **Visual Assets** – Openly licensed dive signal illustrations (CC BY 4.0), agency logos (third-party trademarks), and Dive Kit branding.
 - **Documentation** – Design guidelines, contributor guidelines, and open-data governance notes.
@@ -27,6 +27,9 @@ divekit-open-data/
 │ ├── agencies.json
 │ ├── cylinders.json
 │ ├── dive-signals.json
+│ ├── checklists.json
+│ ├── i18n/               # Translations: <locale>/dive-signals.json, <locale>/checklists.json
+│ │ ├── de/  ko/  pl/  ru/  sv/  tr/  zh/
 │ ├── references.json
 │ ├── search-sources.json
 │ └── LICENSE.md
@@ -40,6 +43,10 @@ divekit-open-data/
 │ │ └── cylinders.schema.v1.0.0.json
 │ ├── dive-signals/
 │ │ └── dive-signals.schema.v1.0.0.json
+│ ├── checklists/
+│ │ └── checklists.schema.v1.0.0.json
+│ ├── translations/
+│ │ └── translations.schema.v1.0.0.json
 │ ├── references/
 │ │ ├── references.schema.v1.0.0.json
 │ │ └── references.schema.v1.1.0.json
@@ -81,6 +88,7 @@ divekit-open-data/
 ├── scripts/
 │ ├── validate.sh
 │ ├── test-local.sh
+│ ├── import-app-checklists.ts    # Builds checklists.json and datasets/i18n/ from the Dive Kit app
 │ ├── cylinder-buoyancy.py        # Recomputes cylinder buoyancy from weight and volume
 │ └── cylinder-buoyancy-other.py  # The same for the rows without a Luxfer or Faber US sheet
 │
@@ -107,6 +115,10 @@ divekit-open-data/
 | **Cylinder Schema**             | JSON Schema for validating cylinder data                           | [View Schema →](https://open.divekit.app/schemas/cylinders/cylinders.schema.v1.0.0.json)                |
 | **Dive Signals Dataset**        | Diver communication signals with names, meanings, and artwork      | [View JSON →](https://open.divekit.app/datasets/dive-signals.json)                                      |
 | **Dive Signals Schema**         | JSON Schema for validating dive signal data                        | [View Schema →](https://open.divekit.app/schemas/dive-signals/dive-signals.schema.v1.0.0.json)          |
+| **Checklists Dataset**          | The Dive Kit app's checklist presets, step by step, with timers, note fields and the source each follows | [View JSON →](https://open.divekit.app/datasets/checklists.json)                                        |
+| **Checklists Schema**           | JSON Schema for validating checklist data                          | [View Schema →](https://open.divekit.app/schemas/checklists/checklists.schema.v1.0.0.json)              |
+| **Translations**                | Dive signals and checklists in de, pl, ru, sv, tr, zh and ko, keyed by the base ids | [Browse →](https://github.com/majani-plus/divekit-open-data/tree/main/datasets/i18n)                     |
+| **Translations Schema**         | JSON Schema for validating a translation file                      | [View Schema →](https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json)          |
 | **References Dataset**          | Vetted papers, books, standards and articles behind Dive Kit, with topics and what each is authoritative for | [View JSON →](https://open.divekit.app/datasets/references.json)                                        |
 | **References Schema**           | JSON Schema for validating reference records                                                                 | [View Schema →](https://open.divekit.app/schemas/references/references.schema.v1.1.0.json)               |
 | **Search Sources Dataset**      | Where to search next when no reference answers a question, each marked vetted or not                       | [View JSON →](https://open.divekit.app/datasets/search-sources.json)                                    |
@@ -164,6 +176,22 @@ A search source record:
 **Order.** `references.json` keeps one block per topic, in the order of the schema's topic list (`deco_theory` first, `community` last). A record belongs to the block of its first topic, and ids run A to Z inside each block. `search-sources.json` is in the order to try the sources: vetted sources first, community sources last. `scripts/validate.sh` checks both files, their ids across both files, and the references order.
 
 **How Dive Kit uses them.** The Dive Kit MCP server's `lookup_references` tool searches `references.json`. When nothing matches, it returns `search-sources.json` so the assistant knows where to look next and says the result is not Dive Kit-vetted. The Dive Kit guide cites references by id. To add a record, see [Adding a reference](CONTRIBUTING.md#-adding-a-reference) in CONTRIBUTING.
+
+---
+
+## 🌍 Translations
+
+The dive signals and checklists come in German, Polish, Russian, Swedish, Turkish, Chinese and Korean. They are the Dive Kit app's own translations. Each locale has one file per base dataset, `datasets/i18n/<locale>/dive-signals.json` and `datasets/i18n/<locale>/checklists.json`, whose `strings` map a base id to that record's translated fields:
+
+```json
+"strings": {
+  "hand-core-ok": { "name": "OK", "description": "Forme einen Kreis mit Daumen und Zeigefinger …" }
+}
+```
+
+Read `strings[id][field]` and fall back to the base file's English when it is missing. Checklist ids cover the checklist (`name`, `description`), each section (`title`) and each step (`label`, `description`). `scripts/validate.sh` fails when a translation names an id or field the base does not have. [Dataset Documentation](docs/DATASETS.md#translations) has the details.
+
+`datasets/checklists.json` and every file in `datasets/i18n/` are built from the Dive Kit app with `bun scripts/import-app-checklists.ts ../divekit-app`, which also reports any id that does not match.
 
 ---
 
@@ -248,7 +276,7 @@ Unless otherwise noted:
 
 | Type                   | License                                                   | Notes                                            |
 | ---------------------- | --------------------------------------------------------- | ------------------------------------------------ |
-| **Datasets & Docs**    | [MIT](https://opensource.org/licenses/MIT)                | Free for any use (except the dive-signals index, CC BY 4.0) |
+| **Datasets & Docs**    | [MIT](https://opensource.org/licenses/MIT)                | Free for any use (except the dive-signals index and its translations, CC BY 4.0) |
 | **Dive Signal Illustrations** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Credit "Dive signals by Dive Kit, https://divekit.app" |
 | **Schemas & Code**     | [MIT](https://opensource.org/licenses/MIT)                | Free to use in software projects                 |
 | **Agency Logos**       | Third-party trademarks                                    | Owned by respective agencies, reference use only |

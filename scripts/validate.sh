@@ -466,7 +466,7 @@ check_signal_images() {
     local json_file="$1"
 
     # Only check dive-signals.json
-    if [[ "$json_file" != *"dive-signals.json"* ]]; then
+    if [[ "$json_file" != "datasets/dive-signals.json" ]]; then
         return 0
     fi
 
@@ -579,6 +579,55 @@ check_references_and_sources() {
     echo ""
 }
 
+# Checklist, section and step ids are unique together, and every id and field in
+# datasets/i18n/<locale>/<base> exists in the base dataset. A base id with no
+# translation is allowed (it falls back to English) and only counted.
+check_checklists_and_translations() {
+    local cl="datasets/checklists.json"
+    if [ -f "$cl" ]; then
+        echo -e "${YELLOW}🔎 Checking checklist, section and step ids in ${cl}${NC}"
+        local duplicates
+        duplicates=$(jq -r '.checklists[] | .id, (.sections[] | .id, .steps[].id)' "$cl" | sort | uniq -d)
+        if [ -n "$duplicates" ]; then
+            echo -e "${RED}❌ ERROR: Ids used more than once:${NC}"
+            echo "$duplicates" | sed 's/^/   - /'
+            VALIDATION_FAILED=1
+        else
+            echo -e "${GREEN}✅ Checklist, section and step ids are unique${NC}"
+        fi
+        echo ""
+    fi
+
+    local file base orphans missing
+    for file in datasets/i18n/*/*.json; do
+        [ -f "$file" ] || continue
+        base="datasets/$(jq -r '.meta.base' "$file")"
+        echo -e "${YELLOW}🔎 Checking ${file} against ${base}${NC}"
+        if [ ! -f "$base" ]; then
+            echo -e "${RED}❌ ERROR: base dataset ${base} not found${NC}"
+            VALIDATION_FAILED=1
+            continue
+        fi
+        # Every record with an id in the base, as {id: [its text fields]}.
+        orphans=$(jq -r --slurpfile b "$base" '
+            ([$b[0] | .. | objects | select(has("id")) | {key: .id, value: (to_entries | map(select(.value | type == "string")) | map(.key))}] | from_entries) as $ids
+            | .strings | to_entries[] | .key as $id
+            | if $ids[$id] == null then "\($id) is not an id in the base"
+              else (.value | keys[] | select(. as $f | $ids[$id] | index($f) | not) | "\($id).\(.) is not a field of that record") end' "$file")
+        missing=$(jq -r --slurpfile b "$base" '
+            [$b[0] | .. | objects | select(has("id")) | .id] - (.strings | keys) | length' "$file")
+        if [ -n "$orphans" ]; then
+            echo -e "${RED}❌ ERROR: Translations that map to nothing:${NC}"
+            echo "$orphans" | sed 's/^/   - /'
+            VALIDATION_FAILED=1
+        else
+            echo -e "${GREEN}✅ Every translated id and field exists in the base${NC}"
+        fi
+        [ "$missing" -gt 0 ] && echo -e "${BLUE}ℹ️  ${missing} base ids have no translation (English shows)${NC}"
+        echo ""
+    done
+}
+
 # The footer's "Last updated" fallback date in each page matches the newest
 # meta.generated_at across the datasets (index.html refreshes it at load).
 check_last_updated() {
@@ -688,6 +737,7 @@ main() {
     fi
     
     check_references_and_sources
+    check_checklists_and_translations
     check_last_updated
 
     # Final result

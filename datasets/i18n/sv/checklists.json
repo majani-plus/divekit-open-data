@@ -1,0 +1,756 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "sv",
+    "base": "checklists.json",
+    "license": "MIT",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "rec-pre-dive": {
+      "name": "Säkerhetskontroll före dyket (BWRAF)",
+      "description": "Parkontrollen före varje sportdyk: BCD, vikter, spännen, luft, slutkontroll. Gör den tillsammans, högt, från topp till tå."
+    },
+    "rec-pre-dive-s1": {
+      "title": "B: BCD (väst)"
+    },
+    "rec-pre-dive-s1-1": {
+      "label": "Avvägningsväst (BCD) justerad",
+      "description": "Remmarna sitter och inget är vridet. En lös väst rubbar din trim när du väl är i vattnet."
+    },
+    "rec-pre-dive-s1-2": {
+      "label": "Flaskan sitter fast i bandet",
+      "description": "Dra lätt i den. Flaskan ska inte glida eller rotera."
+    },
+    "rec-pre-dive-s1-3": {
+      "label": "Inflator och tömning fungerar",
+      "description": "Tillsätt och släpp ut lite gas. Tillförseln ska sluta rent så fort du släpper."
+    },
+    "rec-pre-dive-s1-4": {
+      "label": "Delvis fylld för isättningen",
+      "description": "Tillräckligt med lyft för att flyta bekvämt vid ytan, anpassat efter din isättning."
+    },
+    "rec-pre-dive-s1-5": {
+      "label": "Ytsignaldon undanstoppade",
+      "description": "En visselpipa och en boj du når utan hjälp."
+    },
+    "rec-pre-dive-s1-6": {
+      "label": "Teamet vet hur varandras västar fungerar"
+    },
+    "rec-pre-dive-s2": {
+      "title": "W: Weights (vikter)"
+    },
+    "rec-pre-dive-s2-1": {
+      "label": "Rätt mängd bly",
+      "description": "Tillräckligt för att hålla ett säkerhetsstopp med nästan tom flaska, inte mer. Kontrollera igen efter isättning."
+    },
+    "rec-pre-dive-s2-2": {
+      "label": "Blyet placerat för bra trim"
+    },
+    "rec-pre-dive-s2-3": {
+      "label": "Snabbutlösningsspännena fungerar",
+      "description": "Varje spänne öppnas med ett drag och säkras sedan igen."
+    },
+    "rec-pre-dive-s2-4": {
+      "label": "Det släppbara blyet är fritt och ohindrat",
+      "description": "Inget klämmer fast det mot annan utrustning."
+    },
+    "rec-pre-dive-s2-5": {
+      "label": "Ett drag släpper tillräckligt med bly för lyft"
+    },
+    "rec-pre-dive-s2-6": {
+      "label": "Teamet vet hur man fäller varandras bly"
+    },
+    "rec-pre-dive-s3": {
+      "title": "R: Releases (spännen)"
+    },
+    "rec-pre-dive-s3-1": {
+      "label": "Alla spännen säkrade, justerade och fungerande",
+      "description": "Kontrollera väst- och blyspännena tillsammans igen."
+    },
+    "rec-pre-dive-s3-2": {
+      "label": "Teamet vet hur varandras spännen fungerar"
+    },
+    "rec-pre-dive-s4": {
+      "title": "A: Air (luft)"
+    },
+    "rec-pre-dive-s4-1": {
+      "label": "Flaskventilerna helt öppna",
+      "description": "Öppna hela vägen. Teamet bekräftar det för varandra genom att se och känna."
+    },
+    "rec-pre-dive-s4-2": {
+      "label": "Tillräckligt med gas och reserv överenskommet",
+      "description": "Alla har gas för det planerade dyket plus en reserv för att nå ytan säkert."
+    },
+    "rec-pre-dive-s4-3": {
+      "label": "Inflatorslangen återansluten och fungerande",
+      "description": "Kontrollera väst- och torrdräktsinflatorns anslutning igen efter att ha hanterat flaskan."
+    },
+    "rec-pre-dive-s4-4": {
+      "label": "Både huvud- och reservregulator andade",
+      "description": "Andas från varje andrasteg. Båda ska ge gas lätt."
+    },
+    "rec-pre-dive-s4-5": {
+      "label": "Reservregulatorn undanstoppad på bröstet",
+      "description": "Säkrad där en parkompis snabbt hittar den."
+    },
+    "rec-pre-dive-s4-6": {
+      "label": "Teamet vet var varandras reservregulator sitter"
+    },
+    "rec-pre-dive-s5": {
+      "title": "F: Final check (slutkontroll)"
+    },
+    "rec-pre-dive-s5-1": {
+      "label": "Ingen lös, saknad eller fastklämd utrustning",
+      "description": "Skanna från topp till tå efter dinglande slangar och fastklämningspunkter."
+    },
+    "rec-pre-dive-s5-2": {
+      "label": "Dykdatorn på och inställd",
+      "description": "Rätt gas (luft eller nitrox-%) och inställningar bekräftade."
+    },
+    "rec-pre-dive-s5-3": {
+      "label": "Handsignaler och plan genomgångna",
+      "description": "Kom överens om djup, tid, vändpunkt och vad ni gör vid separation."
+    },
+    "rec-pre-dive-s5-4": {
+      "label": "Målet är att komma tillbaka oskadd",
+      "description": "Det går före varje annat mål med dyket."
+    },
+    "rec-pre-dive-s5-5": {
+      "label": "Vilken dykare som helst kan avbryta dyket, när som helst",
+      "description": "Av vilket skäl som helst, utan frågor."
+    },
+    "oc-tec-pre-dive": {
+      "name": "Teknisk förkontroll (öppen krets)",
+      "description": "Kontroller före dyket för teknisk dykning med öppen krets: analysera och sätt ihop, gör tryckproven, matcha sedan utrustningen från topp till tå med teamet. Anpassa efter din utbildning."
+    },
+    "oc-tec-pre-dive-s1": {
+      "title": "Förberedelse före dyket"
+    },
+    "oc-tec-pre-dive-s1-1": {
+      "label": "Analysera varje flaska själv",
+      "description": "Analysera varje flaska före hopsättning och bekräfta att märkningen stämmer. Öppna avstängningsventilen först om en finns."
+    },
+    "oc-tec-pre-dive-s1-2": {
+      "label": "Sätt ihop utrustningen, flaskorna helt öppna",
+      "description": "Ihopsatt och redo att tas på."
+    },
+    "oc-tec-pre-dive-s1-3": {
+      "label": "Andas från varje regulator",
+      "description": "Var och en ska andas lätt utan friflöde."
+    },
+    "oc-tec-pre-dive-s1-4": {
+      "label": "Tryckprova wingen",
+      "description": "Fyll den helt och se att den håller. Testa varje blåsa för sig om det är en dubbel."
+    },
+    "oc-tec-pre-dive-s1-5": {
+      "label": "Positivt tryckprov av regulatorerna",
+      "description": "Läs av manometern (SPG), stäng flaskventilen och vänta. Värdet får inte sjunka."
+    },
+    "oc-tec-pre-dive-s1-6": {
+      "label": "Negativt tryckprov av regulatorerna",
+      "description": "Andas ner regulatorn tills flödet stannar. Manometern ska visa noll utan att krypa."
+    },
+    "oc-tec-pre-dive-s1-7": {
+      "label": "Kontrollera gastrycket på varje manometer",
+      "description": "Öppna ventilen med avstängningsventilen helt öppen och bekräfta tillräckligt med gas. Lämna deko- och stageflaskor trycksatta men stängda."
+    },
+    "oc-tec-pre-dive-s1-8": {
+      "label": "Anteckna vänd- och minsta uppstigningstryck",
+      "description": "Skriv dem på en tavla och bekräfta med teamet."
+    },
+    "oc-tec-pre-dive-s1-9": {
+      "label": "Ta på och justera utrustningen",
+      "description": "Öppna backgasflaskorna innan du tar på riggen."
+    },
+    "oc-tec-pre-dive-s2": {
+      "title": "Kontroll från topp till tå med teamet"
+    },
+    "oc-tec-pre-dive-s2-1": {
+      "label": "Huvan på plats"
+    },
+    "oc-tec-pre-dive-s2-2": {
+      "label": "Masken redo eller redan på"
+    },
+    "oc-tec-pre-dive-s2-3": {
+      "label": "Regulatorer: långslangen fri att dra ut",
+      "description": "Andas från varje regulator en gång till."
+    },
+    "oc-tec-pre-dive-s2-4": {
+      "label": "Flaskventilerna rätt",
+      "description": "Backgas och bailout öppna. Deko- och stageflaskor trycksatta men stängda."
+    },
+    "oc-tec-pre-dive-s2-5": {
+      "label": "Wing-inflatorn fungerar",
+      "description": "Bekräfta även oral inflation och att en reservinflator går att nå."
+    },
+    "oc-tec-pre-dive-s2-6": {
+      "label": "Torrdräktsinflatorn ansluten och fungerande",
+      "description": "Inflationsflaska öppen om separat. Reservslang nåbar."
+    },
+    "oc-tec-pre-dive-s2-7": {
+      "label": "Dykdatorer och timrar inställda",
+      "description": "På, laddade och inställda på rätt gaser."
+    },
+    "oc-tec-pre-dive-s2-8": {
+      "label": "Blyet påtaget, spännena nåbara"
+    },
+    "oc-tec-pre-dive-s2-9": {
+      "label": "Wingens tömningsventiler fungerar och är nåbara"
+    },
+    "oc-tec-pre-dive-s2-10": {
+      "label": "Lamporna kontrollerade",
+      "description": "Huvudlampan på, reservlampor fungerar och är undanstoppade."
+    },
+    "oc-tec-pre-dive-s2-11": {
+      "label": "Reservmask undanstoppad och nåbar",
+      "description": "Avimmad och lätt att få fram."
+    },
+    "oc-tec-pre-dive-s2-12": {
+      "label": "Övrig utrustning nåbar",
+      "description": "Boj och spole, skärverktyg, signaldon och tavla, allt inom räckhåll."
+    },
+    "tec-plan": {
+      "name": "Genomgång av teknisk dykplan",
+      "description": "Prata igenom planen före ett tekniskt dyk: uppdrag, logistik, narkos, gas, dekompression, syre och köldskydd. En tankekontroll, inte en utrustningskontroll."
+    },
+    "tec-plan-s1": {
+      "title": "Uppdrag"
+    },
+    "tec-plan-s1-1": {
+      "label": "Det främsta uppdraget är att komma tillbaka oskadd",
+      "description": "Alla är överens om att det går före varje annat mål."
+    },
+    "tec-plan-s1-2": {
+      "label": "Uppdraget är realistiskt för det här dyket"
+    },
+    "tec-plan-s1-3": {
+      "label": "Uppdraget förenklat så långt det går"
+    },
+    "tec-plan-s1-4": {
+      "label": "Hela teamet förstår och godkänner planen"
+    },
+    "tec-plan-s1-5": {
+      "label": "Alla klarar sin roll"
+    },
+    "tec-plan-s1-6": {
+      "label": "Övat på land eller i grunt vatten om möjligt"
+    },
+    "tec-plan-s2": {
+      "title": "Logistik"
+    },
+    "tec-plan-s2-1": {
+      "label": "Teamets roller överenskomna",
+      "description": "Vem bär vad och vem gör vad."
+    },
+    "tec-plan-s2-2": {
+      "label": "Var och när ni möts är bestämt"
+    },
+    "tec-plan-s2-3": {
+      "label": "Gasförsörjning ordnad",
+      "description": "Fyllningar och påfyllningar bokade eller på plats."
+    },
+    "tec-plan-s2-4": {
+      "label": "Utrustning ordnad",
+      "description": "Hyra och reservdelar organiserade."
+    },
+    "tec-plan-s2-5": {
+      "label": "Nödplan känd",
+      "description": "Hur man larmar, var syrgas och första hjälpen finns, evakueringsvägen och närmaste tryckkammare."
+    },
+    "tec-plan-s2-6": {
+      "label": "Ytstöd och beredskap genomgångna"
+    },
+    "tec-plan-s3": {
+      "title": "Inertgasnarkos"
+    },
+    "tec-plan-s3-1": {
+      "label": "Planen håller narkosen hanterbar",
+      "description": "Dyk så grunt som målet tillåter."
+    },
+    "tec-plan-s3-2": {
+      "label": "Ekvivalent narkosdjup inom gränserna",
+      "description": "Ett ekvivalent narkosdjup (END) på 30 m (100 ft) eller grundare rekommenderas, högst 40 m (130 ft)."
+    },
+    "tec-plan-s3-3": {
+      "label": "Gasdensitet inom gränserna",
+      "description": "Håll gasdensiteten på högst 5,2 g/l, max 6,3 g/l, på djupaste punkten."
+    },
+    "tec-plan-s4": {
+      "title": "Gas"
+    },
+    "tec-plan-s4-1": {
+      "label": "Gasvalen är rimliga",
+      "description": "Tillgång, dekompression, syreexponering, narkos och täthet, allt vägt."
+    },
+    "tec-plan-s4-2": {
+      "label": "Gasmängderna beräknade",
+      "description": "Utifrån förbrukning, arbetsbelastning, planerad reserv och flaskvolym."
+    },
+    "tec-plan-s4-3": {
+      "label": "Varje flaska analyserad av dykaren som andas den"
+    },
+    "tec-plan-s4-4": {
+      "label": "Varje flaska tydligt märkt"
+    },
+    "tec-plan-s5": {
+      "title": "Dekompression"
+    },
+    "tec-plan-s5-1": {
+      "label": "Uppstigningen planerad",
+      "description": "Uträknad med programvara eller dykdator, inklusive uppstigningstid och stopp."
+    },
+    "tec-plan-s5-2": {
+      "label": "Beredskap planerad",
+      "description": "Extra djup eller tid och förlust av backgas eller dekogas."
+    },
+    "tec-plan-s5-3": {
+      "label": "Reservplan medförd",
+      "description": "En andra dator eller utskrivna tabeller."
+    },
+    "tec-plan-s6": {
+      "title": "Syre"
+    },
+    "tec-plan-s6-1": {
+      "label": "Backgasens PPO₂ högst 1,4 bar på maxdjup"
+    },
+    "tec-plan-s6-2": {
+      "label": "Varje gasbyte stannar på högst 1,4 bar PPO₂"
+    },
+    "tec-plan-s6-3": {
+      "label": "Dekogaser högst 1,6 bar PPO₂ på stoppdjupet"
+    },
+    "tec-plan-s6-4": {
+      "label": "CNS och OTU inom accepterade gränser",
+      "description": "CNS-klockan (centrala nervsystemet) och OTU (enheter för syrgasförgiftning) för hela dyket."
+    },
+    "tec-plan-s7": {
+      "title": "Köldskydd"
+    },
+    "tec-plan-s7-1": {
+      "label": "Exponeringsdräkterna passar dyket",
+      "description": "Varma nog för planerad tid plus en rimlig överdragning."
+    },
+    "tec-plan-s7-2": {
+      "label": "Torrdräkt kontrollerad om den används",
+      "description": "Ventiler, dragkedja och tätningar hela. Separat inflationsgas om sådan används, och inget helium för dräktinflation."
+    },
+    "tec-plan-s7-3": {
+      "label": "Våtdräktens avvägning planerad om den används",
+      "description": "Räkna med dräktkompression på djupet, med en reservplan för avvägning."
+    },
+    "jj-land-prep": {
+      "name": "JJ-CCR-förberedelser på land",
+      "description": "Fullständig hopsättning och verifiering av systemet innan du ger dig av. Bygger på JJ-CCR-manualen. Anpassa den efter din enhet och din utbildning."
+    },
+    "jj-land-prep-s1": {
+      "title": "Bedömning och förråd"
+    },
+    "jj-land-prep-s1-1": {
+      "label": "Kontrollera att du känner dig frisk, utvilad och lugn",
+      "description": "Om du inte känner dig redo för dyket är det säkraste valet att inte dyka."
+    },
+    "jj-land-prep-s1-2": {
+      "label": "Fyll scrubbern med färsk, oanvänd andningskalk",
+      "description": "Återanvänd aldrig andningskalk från ett tidigare dyk. Anteckna fyllningen så att du kan följa upp scrubberns användning."
+    },
+    "jj-land-prep-s1-3": {
+      "label": "Analysera O₂- och diluentflaskorna",
+      "description": "Bekräfta innehållet och kontrollera att det finns tillräckligt tryck för det planerade dyket."
+    },
+    "jj-land-prep-s1-4": {
+      "label": "Förbered tillräckligt med bailout för dyket",
+      "description": "Planera bailout för värsta fallet. Du kan aldrig bära för mycket bailout-gas."
+    },
+    "jj-land-prep-s2": {
+      "title": "Hopsättning"
+    },
+    "jj-land-prep-s2-1": {
+      "label": "Fäst O₂- och diluentflaskorna på enheten"
+    },
+    "jj-land-prep-s2-2": {
+      "label": "Montera kalkbehållaren och stäng locket"
+    },
+    "jj-land-prep-s2-3": {
+      "label": "Kontrollera att backventilerna tätar åt båda hållen",
+      "description": "Andas försiktigt mot varje stängd sida av andningsslingan. Ingen gas ska passera en stängd ventil."
+    },
+    "jj-land-prep-s2-4": {
+      "label": "Anslut alla slangar och kontrollera O-ringarna",
+      "description": "O-ringarna ska vara rena och oskadade. Bekräfta att DSV öppnar och stänger mjukt."
+    },
+    "jj-land-prep-s3": {
+      "title": "Systemkontroller"
+    },
+    "jj-land-prep-s3-1": {
+      "label": "Öppna båda flaskventilerna och kontrollera trycken"
+    },
+    "jj-land-prep-s3-2": {
+      "label": "Kontrollera mellantrycket på båda förststegen",
+      "description": "JJ-CCR-spec: diluent 9 till 10 bar, O₂ 7 till 7,5 bar. Dyk inte om ett värde ligger utanför intervallet."
+    },
+    "jj-land-prep-s3-3": {
+      "label": "Testa båda manuella tillsatsventilerna och ADV"
+    },
+    "jj-land-prep-s3-4": {
+      "label": "Testa wing-inflatorn"
+    },
+    "jj-land-prep-s3-5": {
+      "label": "Testa DSV i båda lägena"
+    },
+    "jj-land-prep-s4": {
+      "title": "Täthetstester"
+    },
+    "jj-land-prep-s4-1": {
+      "label": "Gör ett positivt tryckprov",
+      "description": "Fyll andningsslingan tills övertrycksventilen släpper ut, stäng DSV och vänta. När du öppnar den igen ska tryck fortfarande sippra ut."
+    },
+    "jj-land-prep-s4-2": {
+      "label": "Töm andningsslingan med motlungans tömningsventil"
+    },
+    "jj-land-prep-s4-3": {
+      "label": "Gör ett negativt tryckprov",
+      "description": "Stäng båda flaskventilerna, andas ner andningsslingan till vakuum, stäng DSV och vänta. ADV-membranet måste förbli indraget."
+    },
+    "jj-land-prep-s5": {
+      "title": "Elektronik och start"
+    },
+    "jj-land-prep-s5-1": {
+      "label": "Öppna båda flaskventilerna igen"
+    },
+    "jj-land-prep-s5-2": {
+      "label": "Slå på controllern och HUD"
+    },
+    "jj-land-prep-s5-3": {
+      "label": "Kalibrera syrgascellerna på controllern och HUD",
+      "description": "Skriv ner cellernas värden så att du kan upptäcka en cell som driver över tid."
+    },
+    "jj-land-prep-s5-4": {
+      "label": "Kontrollera batterispänningen för controller och solenoid"
+    },
+    "jj-land-prep-s5-5": {
+      "label": "Föranda andningsslingan i 2 till 3 minuter",
+      "description": "Se till att PPO₂ håller sig nära setpoint medan du andas. En förandning upptäcker inte tillförlitligt en sviktande scrubber, så hoppa aldrig över de tidigare kontrollerna."
+    },
+    "jj-land-prep-s5-6": {
+      "label": "Stäng DSV och båda flaskventilerna"
+    },
+    "jj-pre-dive": {
+      "name": "JJ-CCR strax före dyket",
+      "description": "Sista kontrollerna precis innan du tar på dig utrustningen och hoppar i. Bygger på JJ-CCR-manualen. Anpassa den efter din enhet och din utbildning."
+    },
+    "jj-pre-dive-s1": {
+      "title": "Sista kontrollerna"
+    },
+    "jj-pre-dive-s1-1": {
+      "label": "Öppna båda flaskventilerna och kontrollera trycken"
+    },
+    "jj-pre-dive-s1-2": {
+      "label": "Testa båda manuella tillsatsventilerna och ADV"
+    },
+    "jj-pre-dive-s1-3": {
+      "label": "Testa wing-inflatorn"
+    },
+    "jj-pre-dive-s1-4": {
+      "label": "Testa DSV i båda lägena"
+    },
+    "jj-pre-dive-s1-5": {
+      "label": "Gör ett positivt och negativt tryckprov",
+      "description": "Ett kort prov åt vardera hållet räcker för att bekräfta att andningsslingan fortfarande är tät."
+    },
+    "jj-pre-dive-s1-6": {
+      "label": "Slå på controllern och HUD"
+    },
+    "jj-pre-dive-s1-7": {
+      "label": "Kontrollera låg och hög setpoint"
+    },
+    "jj-pre-dive-s1-8": {
+      "label": "Föranda andningsslingan i minst 2 till 3 minuter",
+      "description": "Se PPO₂ medan du andas. Stanna och undersök om du känner några symptom: huvudvärk, yrsel, lufthunger."
+    },
+    "jj-in-water": {
+      "name": "JJ-CCR efter att du gått i vattnet",
+      "description": "Ytkontroller direkt efter att du gått i vattnet, innan du lämnar ytan. Gå igenom dem innan du hoppar i. Bygger på JJ-CCR-manualen."
+    },
+    "jj-in-water-s1": {
+      "title": "Ytkontroller"
+    },
+    "jj-in-water-s1-1": {
+      "label": "Bubbelkontroll inom de första 6 m (20 ft)",
+      "description": "Kom överens om bubbelkontrollen med din parkompis innan ni går ner. Fortsätt aldrig djupare utan den."
+    },
+    "jj-in-water-s1-2": {
+      "label": "Kontrollera värdena på controllern och HUD"
+    },
+    "jj-in-water-s1-3": {
+      "label": "Kontrollera att allt är fastklippt, undanstoppat och åtkomligt"
+    },
+    "fx-functionality": {
+      "name": "FX CCR funktionskontroll",
+      "description": "Sub-Gravitys FX-CCR Functionality Checklist v1.5 (kalibreringssats), punkt 1 till 13 i sin ordning: flaskor, scrubber, cellkontroll, tryckprov, batterier och förandning. Kör den när du sätter ihop enheten. Ska du dyka direkt? Fortsätt med FX CCR-kontrollerna före dyket. Ska du inte dyka än? Stäng ventilerna på syrgas- och diluentflaskan, töm slangarna på tryck, stäng av elektroniken och säkra enheten. Gäller endast den enheten. Anpassa den efter din enhet och din utbildning."
+    },
+    "fx-functionality-s1": {
+      "title": "Funktionskontroller"
+    },
+    "fx-functionality-s1-1": {
+      "label": "Montera analyserade och märkta gasflaskor"
+    },
+    "fx-functionality-s1-2": {
+      "label": "Kontrollera backventilerna och munstycket"
+    },
+    "fx-functionality-s1-3": {
+      "label": "Slå på controllern och den sekundära handenheten",
+      "description": "A. Ställ om till setpoint 0,19."
+    },
+    "fx-functionality-s1-4": {
+      "label": "Kontrollera scrubberns återstående tid",
+      "description": "A. Packa om scrubbern om det behövs och sätt i den i kalkbehållaren.\nB. Kontrollera att vattenlåset sitter rätt monterat.\nC. Kontrollera att locket sitter monterat med båda låssnörena på plats.\nD. Ställ stack-timern på rätt tid."
+    },
+    "fx-functionality-s1-5": {
+      "label": "Kontrollera mV och kalibrering",
+      "description": "A. Anteckna mV och syrgaspartialtryck (PPO₂) i luft.\nB. Spola locket med syrgas med hjälp av kalibreringssatsen tills mV- och PPO₂-värdena stabiliserats.\nC. Jämför förväntade och uppmätta värden.\nD. Kalibrera enligt manualen om det behövs.\n\nFörväntat i luft: 8,5 till 13 mV per cell (S1, S2, S3). Förväntat i O₂: det uppmätta luftvärdet delat med 0,21. Uppmätt i O₂ ska ligga inom 2 mV och 0,05 PPO₂ från de förväntade värdena. Siffrorna utgår från 100 % syrgas, räkna om för lägre halt (till exempel 93 %)."
+    },
+    "fx-functionality-s1-6": {
+      "label": "Kontrollera alla anslutningar (gängade och bajonett)"
+    },
+    "fx-functionality-s1-7": {
+      "label": "Undertryckstest (minst 1 minut)",
+      "description": "A. Öppna BOV.\nB. Andas in från BOV i CC-läge och andas ut genom näsan tills motlungorna är helt tomma.\nC. Stäng BOV.\nD. Låt den stå i minst en minut och se efter tecken på läckage."
+    },
+    "fx-functionality-s1-8": {
+      "label": "Övertryckstest (minst 1 minut)",
+      "description": "A. Stäng motlungans OPV.\nB. Fyll andningsslingan helt tills OPV släpper ut.\nC. Låt den stå i en minut och se efter tecken på läckage.\nD. Öppna BOV för att släppa ut trycket och stäng sedan BOV.\nE. Öppna motlungans OPV."
+    },
+    "fx-functionality-s1-9": {
+      "label": "Kontrollera ADV, BOV och MAV:erna",
+      "description": "A. Öppna diluent- och syrgasflaskan långsamt.\nB. Andas in från BOV (försiktigt om du använder en hypoxisk diluent).\nC. Öppna BOV och andas från andningsslingan tills ADV löser ut.\nD. Bekräfta att diluent- och O₂-MAV fungerar."
+    },
+    "fx-functionality-s1-10": {
+      "label": "Läckagetest för diluent och O₂ (minst 30 sekunder)",
+      "description": "A. Öppna diluent- och syrgasflaskan långsamt och låt slangarna trycksättas.\nB. Stäng ventilerna.\nC. Håll koll på tryckfall i minst 30 sekunder. Anteckna start- och sluttryck för diluent och O₂.\nD. Öppna diluent- och syrgasflaskan."
+    },
+    "fx-functionality-s1-11": {
+      "label": "Kontrollera batterierna i locket och i displayerna",
+      "description": "A. Ställ om FX CCR till LOW setpoint.\nB. Solenoiden löser ut och syrgastillförseln är bekräftad.\nC. Ställ om FX CCR till setpoint 0,19.\nD. Kontrollera batteristatus för B1, B2 och alla handenheter / NERD.\n\nB1 och B2: byt eller ladda innan du fortsätter om spänningen är under 3,9 V (cirka 62 %).\nHandenheter / NERD: gult betyder att batteriet måste bytas eller laddas. Rött betyder att det måste bytas eller laddas omedelbart."
+    },
+    "fx-functionality-s1-12": {
+      "label": "Datorinställningar (primär och sekundär)",
+      "description": "A. CC- och bailoutgaser.\nB. Låg och hög setpoint.\nC. Dekoinställningar."
+    },
+    "fx-functionality-s1-13": {
+      "label": "Förandning (5 minuter)",
+      "description": "A. Ställ om FX CCR till LOW setpoint.\nB. Håll för näsan och börja andas från FX CCR, på en säker plats och i en säker position.\nC. Se att setpoint hålls och att HUD fungerar.\nD. Var uppmärksam på hur du känner dig, inte bara på hur CCR fungerar."
+    },
+    "fx-pre-dive": {
+      "name": "FX CCR-kontroller före dyket",
+      "description": "Sub-Gravitys FX-CCR Functionality Checklist v1.5 (kalibreringssats), punkt 14 till 20: kontrollerna vid vattnet efter funktionskontrollen, som avslutas med drillen före hoppet. Gäller endast den enheten. Anpassa den efter din enhet och din utbildning."
+    },
+    "fx-pre-dive-s1": {
+      "title": "Kontroller före dyket"
+    },
+    "fx-pre-dive-s1-1": {
+      "label": "Över- och undertryckstest gjorda?"
+    },
+    "fx-pre-dive-s1-2": {
+      "label": "Rätt vikter?"
+    },
+    "fx-pre-dive-s1-3": {
+      "label": "HUD och handledsdisplayer på?"
+    },
+    "fx-pre-dive-s1-4": {
+      "label": "Flaskventiler öppna?"
+    },
+    "fx-pre-dive-s1-5": {
+      "label": "Kontrollera setpoint och innehållet i andningsslingan"
+    },
+    "fx-pre-dive-s1-6": {
+      "label": "Ta på dig FX CCR"
+    },
+    "fx-pre-dive-s1-7": {
+      "label": "CCR-drill före hoppet",
+      "description": "1. Börja andas från enheten.\n2. Kontrollera: ADV, BOV, O₂-MAV, dil-MAV, inflator till wing och torrdräkt.\n3. Kontrollera flasktrycken: O₂, dil, OC-bailout.\n4. Se att setpoint hålls.\n5. Gå i när du är redo.\n6. Genomför S-drillen.\n7. Kom ihåg regel nr 1 vid CCR-dykning: ha alltid koll på ditt syrgaspartialtryck (PPO₂)!"
+    },
+    "fx-after-dive": {
+      "name": "FX CCR efter dyket",
+      "description": "Allt som FX CCR-manualen kräver när dyket är slut. Steg 6 till 13 behövs bara om inget mer dyk görs samma dag. Återgiven ur FX CCR-manualen 2025.1 (iQsub Technologies). Gäller endast den enheten. Anpassa den efter din enhet och din utbildning."
+    },
+    "fx-after-dive-s1": {
+      "title": "Upp ur vattnet"
+    },
+    "fx-after-dive-s1-1": {
+      "label": "Stäng aldrig flaskventilerna förrän FX CCR-enheten är uppe ur vattnet."
+    },
+    "fx-after-dive-s1-2": {
+      "label": "Ta upp enheten ur vattnet."
+    },
+    "fx-after-dive-s1-3": {
+      "label": "Stäng av den primära controllerhandenheten."
+    },
+    "fx-after-dive-s1-4": {
+      "label": "Stäng av Head-Up Display (eller NERD2, om monterad) och torka dess våta kontakter."
+    },
+    "fx-after-dive-s1-5": {
+      "label": "Stäng ventilerna på syrgas- och diluentflaskorna och koppla loss den externa diluentflaskan."
+    },
+    "fx-after-dive-s2": {
+      "title": "Plocka isär och skölj"
+    },
+    "fx-after-dive-s2-1": {
+      "label": "Koppla loss L-styckena med andningsslangarna från enheten och ta loss BOV."
+    },
+    "fx-after-dive-s2-2": {
+      "label": "Skölj andningsslangarna och L-styckena med sötvatten, häng dem lodrätt och låt dem torka."
+    },
+    "fx-after-dive-s2-3": {
+      "label": "Skölj BOV med sötvatten.",
+      "description": "Ställ sedan ventilvredet i ett mellänläge mellan CC och OC och låt BOV torka."
+    },
+    "fx-after-dive-s2-4": {
+      "label": "Öppna kantdragkedjan på FX-höljet helt och ta ut motlungorna.",
+      "description": "Koppla loss motlungorna från bajonettfästena på locket, lås sedan upp och dra ut de övre kopplingarna och OPV ur genomföringarna i höljet."
+    },
+    "fx-after-dive-s2-5": {
+      "label": "Skölj motlungorna med sötvatten.",
+      "description": "Häng dem i torkhållaren som följer med enheten och låt dem torka."
+    },
+    "fx-after-dive-s3": {
+      "title": "Torka enheten"
+    },
+    "fx-after-dive-s3-1": {
+      "label": "Ta bort FX-locket från kalkbehållaren och dra ut sensorhållaren för att torka sensorerna."
+    },
+    "fx-after-dive-s3-2": {
+      "label": "Ta ut scrubbern och låt den torka."
+    },
+    "fx-after-dive-s3-3": {
+      "label": "Torka av FX-kalkbehållaren."
+    },
+    "chaos-gue": {
+      "name": "CHAOS (GUE)",
+      "description": "GUE:s rebreatherkontroll som körs under förandningen: Controller, HUD, ADV, O₂, Symptoms."
+    },
+    "chaos-gue-s1": {
+      "title": "CHAOS-kontroll"
+    },
+    "chaos-gue-s1-1": {
+      "label": "C: Controllern kalibrerad",
+      "description": "Bekräfta att controllern är kalibrerad och att cellernas värden stämmer överens med varandra."
+    },
+    "chaos-gue-s1-2": {
+      "label": "H: HUD kalibrerad",
+      "description": "Bekräfta att HUD stämmer med controllern och att varje signal syns."
+    },
+    "chaos-gue-s1-3": {
+      "label": "A: ADV fungerar",
+      "description": "Andas in bestämt mot andningsslingan för att bekräfta att ADV löser ut och tillsätter diluent."
+    },
+    "chaos-gue-s1-4": {
+      "label": "O: O₂-tillsats fungerar",
+      "description": "Se solenoiden lösa ut och bekräfta att PPO₂ håller sig vid setpoint."
+    },
+    "chaos-gue-s1-5": {
+      "label": "S: Symptomkontroll",
+      "description": "Föranda och håll utkik efter symptom hos dig själv: huvudvärk, yrsel, ovanlig smak eller lukt. Vilket symptom som helst betyder att du inte ska dyka."
+    },
+    "gue-edge": {
+      "name": "GUE EDGE team-koll före dyket",
+      "description": "Teamkollen som körs högt före varje dyk: Goal, Unified team, Equipment, Exposure, Decompression, Gas, Environment."
+    },
+    "gue-edge-s1": {
+      "title": "Teamkoll"
+    },
+    "gue-edge-s1-1": {
+      "label": "G: Goal (mål)",
+      "description": "Kom överens om vad dyket går ut på, rutten och vändkriteriet."
+    },
+    "gue-edge-s1-2": {
+      "label": "U: Unified team (enat team)",
+      "description": "Bekräfta att alla är i skick att dyka, att rollerna är satta och att ordningen är överenskommen."
+    },
+    "gue-edge-s1-3": {
+      "label": "E: Equipment (utrustning)",
+      "description": "Varje dykare bekräftar sin egen utrustning: ventiler öppna, regulatorer andas, wing håller gas, lampor fungerar."
+    },
+    "gue-edge-s1-4": {
+      "label": "E: Exposure (exponering)",
+      "description": "Bekräfta djup- och tidsgränser och att allas köldskydd passar planen."
+    },
+    "gue-edge-s1-5": {
+      "label": "D: Decompression (dekompression)",
+      "description": "Kom överens om uppstigningsplanen: stopp, gaser och beredskapsplaner."
+    },
+    "gue-edge-s1-6": {
+      "label": "G: Gas",
+      "description": "Bekräfta att varje flaska är analyserad och märkt, och kom överens om gasplanen."
+    },
+    "gue-edge-s1-7": {
+      "label": "E: Environment (miljö)",
+      "description": "Gå igenom förhållanden, in- och utstigningspunkter samt eventuella platsrisker."
+    },
+    "tdi-start": {
+      "name": "TDI START team-koll före dyket",
+      "description": "TDI:s teamkoll före varje teknisk dykning: S-drill, Team, Air, Route, Tables."
+    },
+    "tdi-start-s1": {
+      "title": "START-koll"
+    },
+    "tdi-start-s1-1": {
+      "label": "S: S-drill och bubbelkoll",
+      "description": "Vid ytan eller på grunt vatten, gör en kort luftdelning på den långa slangen och låt en teamkamrat titta efter bubblor på dina ventiler, förstasteg och slangar."
+    },
+    "tdi-start-s1-2": {
+      "label": "T: Team",
+      "description": "Kontrollera varje dykare från topp till tå: allt som behövs finns med, fungerar och sitter rätt."
+    },
+    "tdi-start-s1-3": {
+      "label": "A: Air (gasmatchning)",
+      "description": "Huvudflaskor öppna, stage- och dekoflaskor trycksatta. Kontrollera varje tryck och bekräfta varje flaskas maximala arbetsdjup (MOD)."
+    },
+    "tdi-start-s1-4": {
+      "label": "R: Route",
+      "description": "Kom överens om ordningen i teamet, riktning, mål och hållpunkter under dyket."
+    },
+    "tdi-start-s1-5": {
+      "label": "T: Tables",
+      "description": "Gå igenom planerat maxdjup, gångtider, gasbyten och obligatoriska stopp."
+    },
+    "post-dive": {
+      "name": "CCR efter dyket & rengöring",
+      "description": "Avsluta enheten efter dyket så att nästa hopsättning startar från ett känt läge."
+    },
+    "post-dive-s1": {
+      "title": "Efter dyket"
+    },
+    "post-dive-s1-1": {
+      "label": "Anteckna de återstående flasktrycken"
+    },
+    "post-dive-s1-2": {
+      "label": "Anteckna använd scrubbertid",
+      "description": "Lägg till det här dykets gångtid till kalkbehållarens totala tid så att du vet vad som är kvar."
+    },
+    "post-dive-s1-3": {
+      "label": "Notera allt som behöver åtgärdas före nästa dyk"
+    },
+    "post-dive-s2": {
+      "title": "Rengöring och förvaring"
+    },
+    "post-dive-s2-1": {
+      "label": "Skölj utsidan av enheten med sötvatten"
+    },
+    "post-dive-s2-2": {
+      "label": "Ta isär andningsslingan"
+    },
+    "post-dive-s2-3": {
+      "label": "Rengör och desinficera motlungorna, slangarna och munstycket",
+      "description": "Följ enhetens manual för godkända desinfektionsmedel och blötläggningstider."
+    },
+    "post-dive-s2-4": {
+      "label": "Torka allt helt före förvaring"
+    },
+    "post-dive-s2-5": {
+      "label": "Ladda eller kontrollera batterierna"
+    }
+  }
+}

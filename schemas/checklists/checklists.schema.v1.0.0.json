@@ -1,0 +1,108 @@
+{
+  "$id": "https://open.divekit.app/schemas/checklists/checklists.schema.v1.0.0.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dive Kit Checklists Schema",
+  "description": "The checklist presets of the Dive Kit app: editable starting templates of ordered sections and steps, each step with optional details, a timer and a notes field. English is the base text; translations live in datasets/i18n/<locale>/checklists.json, keyed by the same ids.",
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string", "description": "Reference to this schema URL." },
+    "meta": {
+      "type": "object",
+      "description": "Metadata about this dataset version.",
+      "properties": {
+        "version": { "type": "string", "description": "Date-based tag for this dataset (e.g. '2026.11.01.1')." },
+        "generated_at": { "type": "string", "format": "date-time", "description": "ISO timestamp when the dataset was last generated." },
+        "license": { "type": "string", "description": "SPDX licence id of this file's content." },
+        "source": { "type": "string", "description": "Where the content was taken from." }
+      },
+      "required": ["version", "generated_at"]
+    },
+    "checklists": {
+      "type": "array",
+      "description": "Presets in the order the app's picker lists them.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9\\-]+$", "description": "Stable checklist id in kebab-case. Example: 'rec-pre-dive'." },
+          "app_preset_id": { "type": "string", "description": "The id the Dive Kit app records on a checklist made from this preset. Example: 'recPreDive'." },
+          "name": { "type": "string", "description": "English display name." },
+          "description": { "type": "string", "description": "English one-paragraph description: what the checklist is for and what it follows." },
+          "use": {
+            "type": "string",
+            "enum": ["predive", "ccr-build", "in-water", "dive-plan", "post-dive"],
+            "description": "When the checklist is run. predive: before entering the water; ccr-build: assembling and testing a rebreather; in-water: surface checks after entry, before descent; dive-plan: reviewing the plan; post-dive: after the dive."
+          },
+          "unit": { "type": ["string", "null"], "description": "The rebreather model the checklist is written for, or null when it is not unit-specific. A unit-specific checklist is valid for that unit only." },
+          "provenance": {
+            "type": "object",
+            "description": "What the checklist follows and how closely.",
+            "properties": {
+              "basis": {
+                "type": "string",
+                "enum": ["own-words", "paraphrased", "reproduced"],
+                "description": "own-words: written for Dive Kit; paraphrased: follows a published check's structure in Dive Kit's words; reproduced: follows a published document's items and wording closely."
+              },
+              "source": { "type": "string", "description": "The procedure or document followed, with version or section where known." },
+              "agency": { "type": ["string", "null"], "description": "Id of the training agency in agencies.json whose procedure it follows, or null." },
+              "url": { "type": ["string", "null"], "format": "uri", "description": "A link to the source, or null when none is published or recorded." }
+            },
+            "required": ["basis", "source", "agency", "url"],
+            "additionalProperties": false
+          },
+          "sections": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string", "pattern": "^[a-z0-9\\-]+$", "description": "Stable section id: '<checklist id>-s<n>'. Ids are assigned once and never reused; order comes from the array, not the id." },
+                "title": { "type": "string", "description": "English section title." },
+                "steps": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "string", "pattern": "^[a-z0-9\\-]+$", "description": "Stable step id: '<section id>-<n>'. Assigned once and never reused." },
+                      "label": { "type": "string", "description": "English step text shown beside the checkbox." },
+                      "description": { "type": "string", "description": "Optional English detail: how or why." },
+                      "timer": {
+                        "description": "Optional timer on the step.",
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "mode": { "const": "countdown" },
+                              "duration_sec": { "type": "integer", "minimum": 1, "description": "Countdown length in seconds." }
+                            },
+                            "required": ["mode", "duration_sec"],
+                            "additionalProperties": false
+                          },
+                          {
+                            "type": "object",
+                            "properties": { "mode": { "const": "stopwatch" } },
+                            "required": ["mode"],
+                            "additionalProperties": false
+                          }
+                        ]
+                      },
+                      "notes": { "const": true, "description": "Present when the step has a free-text notes field (cell readings, gas analysis, pressures)." }
+                    },
+                    "required": ["id", "label"],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": ["id", "title", "steps"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["id", "app_preset_id", "name", "description", "use", "unit", "provenance", "sections"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["meta", "checklists"],
+  "additionalProperties": false
+}

@@ -14,7 +14,7 @@ This repository is structured into several areas:
 
 | Folder      | Purpose                                                                    |
 | ----------- | -------------------------------------------------------------------------- |
-| `datasets/` | JSON datasets for dive certifications, agencies, cylinders, and signals    |
+| `datasets/` | JSON datasets for dive certifications, agencies, cylinders, signals and checklists; translations in `datasets/i18n/` |
 | `schemas/`  | JSON Schema definitions for validation and interoperability                |
 | `assets/`   | Visual assets (dive signal illustrations, agency logos, Dive Kit branding) |
 | `docs/`     | Design guidelines and documentation                                        |
@@ -94,6 +94,11 @@ For new or updated datasets:
   - Include `id`, `category`, `name`, `description`, and `image` as defined in the schema.
   - **IMPORTANT:** Every signal entry must reference an SVG illustration in `assets/dive-signals/`. When adding a new signal, add both the dataset entry and the artwork (see Visual Contributions below).
   - Signal meanings are safety-relevant. Only submit signals documented by recognized training agencies or established community practice, and describe them accurately.
+
+- For checklists and translations:
+  - `datasets/checklists.json` and `datasets/i18n/` are built from the Dive Kit app by `scripts/import-app-checklists.ts`. Propose wording changes in an issue, or change the app's text and re-run the script, so the app and this repo stay one source.
+  - Never reuse or renumber a section or step id. A new step gets a new id.
+  - Every checklist states its `provenance`: what it follows, and whether it is in Dive Kit's own words, paraphrased or reproduced.
 
 Refer to the schema files in `/schemas` for detailed field requirements and examples.
 
@@ -191,7 +196,8 @@ python3 -m http.server
 By contributing to this repository, you agree that:
 
 - All datasets you contribute are licensed under **MIT**.
-- Dive signal illustrations (and `datasets/dive-signals.json`) you contribute are licensed under **CC BY 4.0**.
+- Dive signal illustrations, `datasets/dive-signals.json` and its translations (`datasets/i18n/*/dive-signals.json`) you contribute are licensed under **CC BY 4.0**.
+- Checklists and their translations (`datasets/i18n/*/checklists.json`) you contribute are licensed under **MIT**.
 - All schemas and code you contribute are licensed under **MIT**.
 - You own or have the rights to any content you submit.
 

@@ -1,0 +1,385 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "de",
+    "base": "dive-signals.json",
+    "license": "CC-BY-4.0",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "hand-core-ok": {
+      "name": "OK",
+      "description": "Forme einen Kreis mit Daumen und Zeigefinger, strecke die anderen Finger aus. Alles in Ordnung. Auch als Frage verwendet: 'Bist du OK?' Antworte mit dem gleichen Signal wenn OK."
+    },
+    "hand-core-problem": {
+      "name": "Problem / Nicht OK",
+      "description": "Flache Hand, Handfläche nach unten, seitlich kippen. Etwas stimmt nicht. Zeige danach auf die Problemquelle."
+    },
+    "hand-core-end-dive": {
+      "name": "Tauchgang beenden / Aufsteigen",
+      "description": "Daumen nach oben zeigend. Tauchgang sofort beenden und kontrollierten Aufstieg zur Oberfläche beginnen."
+    },
+    "hand-core-descend": {
+      "name": "Nach unten / Abtauchen",
+      "description": "Daumen nach unten zeigend. Kontrollierten Abstieg beginnen. Auch verwendet um Buddy zum Abtauchen aufzufordern."
+    },
+    "hand-core-level-off": {
+      "name": "Tiefe halten",
+      "description": "Flache Hand, Handfläche nach unten, horizontal gehalten. Aktuelle Tiefe halten, Auf- oder Abstieg stoppen."
+    },
+    "hand-core-stop": {
+      "name": "Stopp",
+      "description": "Offene Handfläche zum Buddy zeigend, Finger nach oben. Sofort anhalten und Position halten."
+    },
+    "hand-core-up": {
+      "name": "Oben",
+      "description": "Zeigefinger nach oben zeigend. Zeigt Richtung oder etwas oben an – 'schau dort oben' oder 'etwas ist über uns'. Nicht zu verwechseln mit Daumen hoch, was Tauchgang beenden/aufsteigen bedeutet."
+    },
+    "hand-core-pressure-check": {
+      "name": "Druckkontrolle / Wie viel Luft?",
+      "description": "Zwei Finger auf die offene Handfläche der anderen Hand tippen. Überprüfe dein Manometer und berichte den Restdruck, oder frage nach dem Restdruck des Buddys."
+    },
+    "hand-core-safety-stop": {
+      "name": "Sicherheitsstopp",
+      "description": "Drei ausgestreckte Finger (zeigt 3), Hand horizontal gehalten. 3-Minuten Sicherheitsstopp auf 5 Meter durchführen."
+    },
+    "hand-core-turn-around": {
+      "name": "Umkehren",
+      "description": "Zeigefinger in kreisender Bewegung drehen. Richtung umkehren und zurückkehren."
+    },
+    "hand-core-look-at": {
+      "name": "Schau / Beobachte",
+      "description": "Zwei Finger auf die eigenen Augen zeigen, dann in die Richtung zeigen. Schau mich an, oder schau wohin ich zeige."
+    },
+    "hand-core-come-here": {
+      "name": "Komm her",
+      "description": "Herbeiwinken mit Hand oder Fingern. Komm näher zu mir."
+    },
+    "hand-core-you-lead": {
+      "name": "Du führst / Geh voraus",
+      "description": "Beide Hände mit ausgestreckten Zeigefingern. Einen Finger auf die Person zeigen, die führen soll, dann diesen zeigenden Finger vor den anderen Finger bewegen. Die angezeigte Person ist jetzt in Führungsposition, der andere folgt dahinter."
+    },
+    "hand-core-get-with-buddy": {
+      "name": "Zum Buddy",
+      "description": "Beide Zeigefinger ausgestreckt, dann zusammenführen bis sie sich berühren. Bleib nah bei deinem Buddy, Buddy-Kontakt aufrechterhalten, nicht trennen."
+    },
+    "hand-core-hold-hands": {
+      "name": "Hände halten / Verbinden",
+      "description": "Hand zum Buddy ausstrecken. Hände halten für Navigation bei schlechter Sicht oder starker Strömung."
+    },
+    "hand-core-help": {
+      "name": "Hilfe / Notfall (Oberfläche)",
+      "description": "Einen Arm über Kopf winken an der Oberfläche. Notfallhilfe benötigt. Universelles Notsignal."
+    },
+    "hand-core-danger": {
+      "name": "Gefahr / Risiko",
+      "description": "Faust machen und mit schneller Stoßbewegung in Richtung der Gefahr zeigen. Gefahr in angezeigter Richtung, wachsam bleiben."
+    },
+    "hand-core-share-air": {
+      "name": "Luft teilen / Keine Luft",
+      "description": "Zwei Signale: KEINE LUFT – flache Hand quer über deinen Hals schneiden. LUFT TEILEN – Hand auf deinen eigenen Atemregler tippen, dann zum Buddy hin winken. Bitte um Luftteilung mit dem Buddy."
+    },
+    "hand-core-ears-not-clearing": {
+      "name": "Ohren gleichen nicht aus",
+      "description": "Mit Finger auf das Ohr zeigen. Kann Ohrendruck nicht ausgleichen. Möglicherweise etwas aufsteigen."
+    },
+    "hand-core-cramp": {
+      "name": "Krampf",
+      "description": "Quetschbewegung mit der Hand wie beim Drücken eines Stressballs, dann auf den betroffenen Muskel zeigen. Muskelkrampf an angezeigter Stelle."
+    },
+    "hand-core-cold": {
+      "name": "Kalt",
+      "description": "Arme vor der Brust verschränken, umarmen, zittern. Mir ist kalt, möglicherweise Tauchgang beenden."
+    },
+    "hand-core-calm-down": {
+      "name": "Langsamer / Beruhigen",
+      "description": "Beide Hände Handflächen nach unten, langsame Abwärtsbewegung. Geschwindigkeit reduzieren, langsam atmen, entspannen."
+    },
+    "hand-core-narcosis": {
+      "name": "Narkose",
+      "description": "Finger kreisend an der Schläfe (verrücktes Zeichen). Stickstoffnarkose-Symptome erleben. Signal an Buddy geben und zu geringerer Tiefe aufsteigen."
+    },
+    "hand-core-broken-equipment": {
+      "name": "Ausrüstung defekt",
+      "description": "Beide Hände vor dem Körper, Brechbewegung wie beim Zerbrechen eines Stocks. Ausrüstung ist kaputt oder funktioniert nicht."
+    },
+    "hand-core-need-weight": {
+      "name": "Brauche Blei",
+      "description": "Faust gegen Oberschenkel drücken. Schwierigkeiten beim Abtauchen, brauche mehr Gewicht."
+    },
+    "hand-core-deploy-smb": {
+      "name": "SMB ausbringen",
+      "description": "Eine Hand macht eine Freigabebewegung nach oben, wie das Loslassen einer SMB zur Oberfläche. Ich bringe meine Signalboje aus oder fordere Buddy auf, seine auszubringen."
+    },
+    "hand-core-boat": {
+      "name": "Boot",
+      "description": "Hände zusammen Bootsrumpfform bilden, Schaukelbewegung. Bezug zum Tauchboot oder Bootstandort."
+    },
+    "hand-core-talk": {
+      "name": "Sprechen",
+      "description": "Finger und Daumen zusammen, wiederholt öffnen und schließen wie ein sprechender Mund. Ich muss mit dir sprechen – bedeutet normalerweise, wir sollten für verbale Kommunikation auftauchen."
+    },
+    "hand-technical-hold": {
+      "name": "Position halten",
+      "description": "Geschlossene Faust ruhig vor dem Körper gehalten. Aktuelle Position halten und warten – nicht bewegen bis weiteres Signal. Unterscheidet sich von 'Stopp', das eine offene Handfläche ist."
+    },
+    "hand-technical-ascend": {
+      "name": "Aufsteigen",
+      "description": "Flache Hand, Handfläche nach unten zeigend, auf einem gebogenen Pfad nach oben bewegen während die flache Haltung beibehalten wird. Mit korrekter Rate aufsteigen beginnen."
+    },
+    "hand-technical-level-off": {
+      "name": "Tiefe halten",
+      "description": "Flache Hand, Handfläche nach unten, horizontale Bewegung. Vertikale Bewegung stoppen, aktuelle Tiefe halten."
+    },
+    "hand-technical-time": {
+      "name": "Zeit",
+      "description": "Auf das Handgelenk tippen wo die Uhr wäre, oder auf Tauchcomputer zeigen. Frage nach Zeit: Runtime, verbleibende Grundzeit oder TTS (Zeit zur Oberfläche). Mit Zahlensignalen antworten."
+    },
+    "hand-technical-pressure-check": {
+      "name": "Druckkontrolle",
+      "description": "Faust machen und schnelle Pump-Pump Quetschbewegung, wie beim Drücken eines Stressballs. TDI Einhand-Drucksignal. Flaschendruck überprüfen und mit Zahlensignalen mitteilen."
+    },
+    "hand-technical-deco": {
+      "name": "Deko",
+      "description": "Kleinen Finger hochhalten. Wird verwendet um über Dekompressionsauflagen zu kommunizieren oder zu fragen. Häufig verwendet um nach der TTS (Zeit zur Oberfläche) des Teammates zu fragen. Mit Zahlensignalen für Deko-Zeit fortsetzen."
+    },
+    "hand-technical-gas-switch": {
+      "name": "Gaswechsel",
+      "description": "Zeige- und Mittelfinger ausgestreckt, Dreh-/Schwenkbewegung vor deinem Atemregler machen. Zeigt Wechsel zu einem anderen Gas an. Gas mit Buddy bestätigen."
+    },
+    "hand-technical-bubbles": {
+      "name": "Blasen / Leck",
+      "description": "Daumen und Zeige-/Mittelfinger machen öffnende-schließende Kneifbewegung, wie aufsteigende Blasen. Gasleck erkannt, Blasen entweichen aus Ausrüstung."
+    },
+    "hand-technical-s-drill": {
+      "name": "S-Drill",
+      "description": "Mit dem Zeigefinger ein 'S' in die Luft zeichnen. TDI S-Drill: prüfen ob Long Hose frei geteilt werden kann, auf Blasen/Lecks prüfen und auf Verfangungen beim Buddy prüfen. Wird zu Beginn eines Tauchgangs durchgeführt bevor der Abstieg abgeschlossen wird."
+    },
+    "hand-technical-light": {
+      "name": "Lampe",
+      "description": "Fingerspitzen zusammengeballt, dann öffnen, dann schließen, dann wieder öffnen. Ahmt blinkendes Licht nach. Lampe einschalten, einstellen oder Lampenkommunikation."
+    },
+    "hand-technical-reel": {
+      "name": "Reel",
+      "description": "Daumen gegen flache Finger gedrückt, kreisende Wickelbewegung machen. Reel ausbringen, Leine einrollen oder Reel-Bezug."
+    },
+    "hand-technical-line": {
+      "name": "Leine",
+      "description": "Zeige- und Mittelfinger kreuzen. Zeigt Bezug zu einer Führungsleine, Höhlenleine oder Entfernungsleine an."
+    },
+    "hand-technical-tie-off": {
+      "name": "Befestigen",
+      "description": "Leinen-Zeichen machen (gekreuzte Zeige- und Mittelfinger), dann Kreis in die Luft zeichnen. Leine sichern, Befestigungspunkt erstellen."
+    },
+    "hand-technical-entangled": {
+      "name": "Verfangen",
+      "description": "Leinensymbol machen (Zeige- und Mittelfinger kreuzen), dann Unendlichkeitsform in der Luft zeichnen. In Leine, Netz oder Kelp verfangen. Hilfe benötigt."
+    },
+    "hand-technical-lock": {
+      "name": "Sichern / Verriegeln",
+      "description": "Zwei Zeigefinger verhaken sich wie ein Kettenglied. Position sichern, Ausrüstung fixieren."
+    },
+    "hand-technical-wrap": {
+      "name": "Aufwickeln",
+      "description": "Eine Hand um die Faust der anderen Hand wickeln. Leine aufwickeln oder Wickelprozedur."
+    },
+    "hand-technical-cleanup": {
+      "name": "Aufräumen",
+      "description": "Beide Hände machen Sammel-/Aufräumbewegung zum Körper hin. Lose Ausrüstung verstauen, hängende Schläuche oder Leinen sichern, Ausrüstungskonfiguration vor dem Bewegen aufräumen."
+    },
+    "hand-technical-question": {
+      "name": "Frage / Was?",
+      "description": "Zeigefinger in Fragezeichen-Form gekrümmt. Wird verwendet, um eine Frage zu stellen oder Verwirrung anzuzeigen. Was ist es? Was meinst du?"
+    },
+    "hand-technical-zero": {
+      "name": "Null (0)",
+      "description": "O-Form mit Daumen und Zeigefinger bilden, oder geschlossene Faust zeigen. Zahl Null. Wird mit anderen Zahlensignalen verwendet um Druck- oder Zeitwerte zu kommunizieren."
+    },
+    "hand-technical-one": {
+      "name": "Eins (1)",
+      "description": "Ein Finger (Zeigefinger) ausgestreckt, Handfläche nach außen. Zahl Eins. Wird verwendet um Druck (bar/psi), Zeit, Tiefe oder andere Werte zu kommunizieren."
+    },
+    "hand-technical-two": {
+      "name": "Zwei (2)",
+      "description": "Zwei Finger (Zeige- und Mittelfinger) ausgestreckt, Handfläche nach außen. Zahl Zwei."
+    },
+    "hand-technical-three": {
+      "name": "Drei (3)",
+      "description": "Drei Finger (Zeige-, Mittel-, Ringfinger) ausgestreckt, Handfläche nach außen. Zahl Drei."
+    },
+    "hand-technical-four": {
+      "name": "Vier (4)",
+      "description": "Vier Finger ausgestreckt (Daumen eingeklappt), Handfläche nach außen. Zahl Vier."
+    },
+    "hand-technical-five": {
+      "name": "Fünf (5)",
+      "description": "Alle fünf Finger ausgestreckt, offene Handfläche nach außen. Zahl Fünf. Repräsentiert auch 50 bar / 500 psi wenn für Druck verwendet."
+    },
+    "hand-technical-six": {
+      "name": "Sechs (6)",
+      "description": "Hand seitlich mit Handrücken nach außen zeigend, ein Finger ausgestreckt. TDI-Stil: Zahlen 6-9 verwenden seitliche Handposition zur Unterscheidung von 1-4. Zahl Sechs."
+    },
+    "hand-technical-seven": {
+      "name": "Sieben (7)",
+      "description": "Hand seitlich mit Handrücken nach außen zeigend, zwei Finger ausgestreckt. TDI-Stil: Zahlen 6-9 verwenden seitliche Handposition zur Unterscheidung von 1-4. Zahl Sieben."
+    },
+    "hand-technical-eight": {
+      "name": "Acht (8)",
+      "description": "Hand seitlich mit Handrücken nach außen zeigend, drei Finger ausgestreckt. TDI-Stil: Zahlen 6-9 verwenden seitliche Handposition zur Unterscheidung von 1-4. Zahl Acht."
+    },
+    "hand-technical-nine": {
+      "name": "Neun (9)",
+      "description": "Hand seitlich mit Handrücken nach außen zeigend, vier Finger ausgestreckt. TDI-Stil: Zahlen 6-9 verwenden seitliche Handposition zur Unterscheidung von 1-4. Zahl Neun."
+    },
+    "hand-fish-id-shark": {
+      "name": "Hai",
+      "description": "Flache Hand auf dem Kopf wie Rückenflosse nachahmend. Hai gesichtet."
+    },
+    "hand-fish-id-hammerhead": {
+      "name": "Hammerhai",
+      "description": "Fäuste seitlich am Kopf, nach außen gestreckt wie Hammerform. Hammerhai gesichtet."
+    },
+    "hand-fish-id-manta-ray": {
+      "name": "Mantarochen",
+      "description": "Arme weit ausgestreckt, langsame anmutige Wellenbewegung wie Flügel. Mantarochen gesichtet."
+    },
+    "hand-fish-id-dolphin": {
+      "name": "Delfin",
+      "description": "Hand in wellenförmiger Bewegung, auf- und abtauchend wie schwimmender Delfin. Delfin gesichtet."
+    },
+    "hand-fish-id-turtle": {
+      "name": "Schildkröte",
+      "description": "Eine Faust von anderer flachen Hand bedeckt, Daumen rotierend wie schwimmende Flossen. Meeresschildkröte gesichtet."
+    },
+    "hand-fish-id-seal": {
+      "name": "Robbe / Seelöwe",
+      "description": "Hände an Handgelenken zusammen, klatschend wie Flossen. Robbe oder Seelöwe gesichtet."
+    },
+    "hand-fish-id-stingray": {
+      "name": "Stachelrochen",
+      "description": "Flache Hände zusammen, wellenförmige Bewegung mit peitschender Schwanzgeste. Stachelrochen gesichtet."
+    },
+    "hand-fish-id-blue-spotted-ray": {
+      "name": "Blaugepunkteter Rochen",
+      "description": "Flache Hand wellenförmig wie ein schwimmender Rochen, dann Fingerspitzen auf den Handrücken tippen um Punkte anzuzeigen. Blaugepunkteter Bandrochen gesichtet."
+    },
+    "hand-fish-id-napoleon": {
+      "name": "Napoleonfisch",
+      "description": "Beule auf Stirn mit Faust. Napoleon- oder Humphead-Lippfisch gesichtet."
+    },
+    "hand-fish-id-barracuda": {
+      "name": "Barrakuda",
+      "description": "Hacke deinen Unterarm mit der anderen Hand wie mit einem Messer. Stellt den länglichen Körper und das scharfe Profil des Barrakudas dar. Barrakuda gesichtet."
+    },
+    "hand-fish-id-tuna": {
+      "name": "Thunfisch",
+      "description": "Schnelle torpedoförmige Handbewegung. Großer schnell schwimmender pelagischer Fisch gesichtet."
+    },
+    "hand-fish-id-triggerfish": {
+      "name": "Drückerfisch",
+      "description": "Finger wie Abzug gezogen. Drückerfisch gesichtet. Kann territorial sein."
+    },
+    "hand-fish-id-angelfish": {
+      "name": "Kaiserfisch",
+      "description": "Heiligenscheinbewegung über dem Kopf mit Finger. Kaiserfisch gesichtet."
+    },
+    "hand-fish-id-pufferfish": {
+      "name": "Kugelfisch",
+      "description": "Aufgeblasene Wangen, Hände um das Gesicht expandierend. Kugelfisch gesichtet."
+    },
+    "hand-fish-id-trumpetfish": {
+      "name": "Trompetenfisch",
+      "description": "Hände am Mund wie Trompete, nach vorne gestreckt. Trompetenfisch oder Kornetfisch gesichtet."
+    },
+    "hand-fish-id-moray": {
+      "name": "Muräne",
+      "description": "Hand öffnet und schließt wie Aalmaul, Arm wellend wie Aalkörper. Muräne gesichtet."
+    },
+    "hand-fish-id-lionfish": {
+      "name": "Rotfeuerfisch",
+      "description": "Finger gespreizt wie Stacheln vom Gesicht ausstrahlend. Rotfeuerfisch gesichtet. Giftig – Abstand halten."
+    },
+    "hand-fish-id-scorpionfish": {
+      "name": "Skorpionfisch",
+      "description": "Finger gespreizt, Hand niedrig wie getarnter Fisch am Boden. Skorpionfisch gesichtet. Giftig – nicht berühren."
+    },
+    "hand-fish-id-stonefish": {
+      "name": "Steinfisch",
+      "description": "Faust wie Stein am Boden. Steinfisch gesichtet. Extrem giftig – Abstand halten."
+    },
+    "hand-fish-id-crocodilefish": {
+      "name": "Krokodilfisch",
+      "description": "Flache Hand niedrig halten (nahe dem Boden), dann lange Kieferschnappbewegung mit Fingern gegen Handfläche. Krokodilfisch, Plattköpfe oder bodenbewohnende Raubtiere gesichtet."
+    },
+    "hand-fish-id-octopus": {
+      "name": "Oktopus",
+      "description": "Finger von Handfläche nach außen wackelnd wie Tentakel. Oktopus gesichtet."
+    },
+    "hand-fish-id-seahorse": {
+      "name": "Seepferdchen",
+      "description": "Gebogene Faust mit ausgestrecktem Daumen wie Seepferdchenschnauze. Seepferdchen gesichtet."
+    },
+    "hand-fish-id-nudibranch": {
+      "name": "Nacktschnecke",
+      "description": "Zwei Finger am Kopf wackelnd wie Rhinophoren (Nacktschnecken-Antennen), dann Finger zusammenkneifen um kleine Größe zu zeigen. Nacktschnecke oder Meeresschnecke gesichtet – normalerweise winzig und farbenfroh."
+    },
+    "hand-fish-id-jellyfish": {
+      "name": "Qualle",
+      "description": "Hand pulsierend auf und zu, Finger nach unten hängend. Qualle in der Nähe – Kontakt vermeiden."
+    },
+    "hand-fish-id-crab": {
+      "name": "Krabbe",
+      "description": "Kneifbewegung mit Zeigefinger und Daumen. Krabbe gesichtet."
+    },
+    "hand-fish-id-shrimp": {
+      "name": "Garnele",
+      "description": "Zwei Finger an der Stirn wie Antennen, kleine Größe angezeigt. Garnele gesichtet."
+    },
+    "hand-fish-id-small-creature": {
+      "name": "Kleines Tier",
+      "description": "Daumen und Zeigefinger eng zusammenkneifen um winzige Größe anzuzeigen, dann auf Position zeigen. Kleines/Makro-Tier entdeckt – genau auf den angezeigten Bereich schauen."
+    },
+    "light-ok": {
+      "name": "OK (Licht)",
+      "description": "Langsame große Kreisbewegung mit dem Lichtkegel. Alles in Ordnung. Als Signal und Antwort verwendet."
+    },
+    "light-attention": {
+      "name": "Aufmerksamkeit",
+      "description": "Lichtkegel horizontal durch das Sichtfeld des Buddys schwenken. Aufmerksamkeit des Buddys für Kommunikation bekommen."
+    },
+    "light-emergency": {
+      "name": "Notfall",
+      "description": "Schnelles kontinuierliches Schütteln des Lichts, unruhige Bewegung. Notfallsituation, sofortige Hilfe erforderlich."
+    },
+    "touch-contact-ok": {
+      "name": "OK",
+      "description": "Zwei bewusste Drücker am Arm oder der Hand des Buddys. Alles ist OK. Mit gleichem Signal antworten."
+    },
+    "touch-contact-stop": {
+      "name": "Stopp",
+      "description": "Ein fester Griff oder Drücken. Sofort stoppen, Position halten."
+    },
+    "touch-contact-hold": {
+      "name": "Halten / Warten",
+      "description": "Festen Griff ohne Bewegung halten. Hier bleiben, Position halten, warten."
+    },
+    "touch-contact-ascend": {
+      "name": "Aufsteigen / Nach oben",
+      "description": "Arm des Buddys nach oben drücken. Nach oben bewegen, Aufstieg beginnen."
+    },
+    "touch-contact-descend": {
+      "name": "Abtauchen / Nach unten",
+      "description": "Arm des Buddys nach unten drücken. Nach unten bewegen, Abstieg fortsetzen."
+    },
+    "touch-contact-left-right": {
+      "name": "Links / Rechts",
+      "description": "Arm in seitliche Richtung ziehen. Nach links oder rechts wie angezeigt bewegen."
+    },
+    "touch-contact-forward-backward": {
+      "name": "Vor / Zurück",
+      "description": "Am Arm horizontal ziehen oder drücken. Vor- oder rückwärts in angegebene Richtung bewegen."
+    }
+  }
+}

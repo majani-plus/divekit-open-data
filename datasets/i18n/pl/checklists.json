@@ -1,0 +1,756 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "pl",
+    "base": "checklists.json",
+    "license": "MIT",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "rec-pre-dive": {
+      "name": "Kontrola bezpieczeństwa przed nurkowaniem (BWRAF)",
+      "description": "Kontrola partnerska przed każdym nurkowaniem rekreacyjnym: jacket, balast, klamry, powietrze, kontrola końcowa. Wykonajcie ją razem, na głos, od stóp do głów."
+    },
+    "rec-pre-dive-s1": {
+      "title": "B: BCD (jacket)"
+    },
+    "rec-pre-dive-s1-1": {
+      "label": "Jacket (BCD) wyregulowany",
+      "description": "Pasy dopasowane, nic nie poskręcane. Luźny jacket psuje wyważenie po wejściu do wody."
+    },
+    "rec-pre-dive-s1-2": {
+      "label": "Butla pewnie zamocowana w pasie",
+      "description": "Pociągnij za nią. Butla nie powinna się ślizgać ani obracać."
+    },
+    "rec-pre-dive-s1-3": {
+      "label": "Inflator i upust działają",
+      "description": "Dodaj i upuść trochę gazu. Podawanie powinno czysto ustać, gdy tylko puścisz przycisk."
+    },
+    "rec-pre-dive-s1-4": {
+      "label": "Częściowo napompowany do wejścia",
+      "description": "Tyle wyporu, by wygodnie utrzymać się na powierzchni, stosownie do sposobu wejścia."
+    },
+    "rec-pre-dive-s1-5": {
+      "label": "Środki sygnalizacji powierzchniowej schowane",
+      "description": "Gwizdek i boja, do których sięgniesz bez pomocy."
+    },
+    "rec-pre-dive-s1-6": {
+      "label": "Zespół wie, jak obsługiwać nawzajem swoje jackety"
+    },
+    "rec-pre-dive-s2": {
+      "title": "W: Weights (balast)"
+    },
+    "rec-pre-dive-s2-1": {
+      "label": "Właściwa ilość balastu",
+      "description": "Tyle, by utrzymać przystanek bezpieczeństwa z niemal pustą butlą, nie więcej. Sprawdź ponownie po wejściu."
+    },
+    "rec-pre-dive-s2-2": {
+      "label": "Balast ułożony dla dobrego wyważenia"
+    },
+    "rec-pre-dive-s2-3": {
+      "label": "Klamry szybkozrzutowe działają",
+      "description": "Każda klamra otwiera się jednym pociągnięciem, potem znów jest zabezpieczana."
+    },
+    "rec-pre-dive-s2-4": {
+      "label": "Zrzucany balast jest wolny i niczym nieblokowany",
+      "description": "Nic nie dociska go do innego sprzętu."
+    },
+    "rec-pre-dive-s2-5": {
+      "label": "Jedno pociągnięcie zrzuca dość balastu dla wyporu"
+    },
+    "rec-pre-dive-s2-6": {
+      "label": "Zespół wie, jak zrzucić nawzajem swój balast"
+    },
+    "rec-pre-dive-s3": {
+      "title": "R: Releases (klamry)"
+    },
+    "rec-pre-dive-s3-1": {
+      "label": "Wszystkie klamry zabezpieczone, dopasowane i sprawne",
+      "description": "Sprawdźcie razem ponownie klamry jacketu i balastu."
+    },
+    "rec-pre-dive-s3-2": {
+      "label": "Zespół wie, jak obsługiwać nawzajem swoje klamry"
+    },
+    "rec-pre-dive-s4": {
+      "title": "A: Air (powietrze)"
+    },
+    "rec-pre-dive-s4-1": {
+      "label": "Zawory butli całkowicie otwarte",
+      "description": "Otwórz do końca. Zespół potwierdza to nawzajem wzrokiem i dotykiem."
+    },
+    "rec-pre-dive-s4-2": {
+      "label": "Uzgodniona wystarczająca ilość gazu i rezerwa",
+      "description": "Każdy ma gaz na zaplanowane nurkowanie plus rezerwę na bezpieczne wynurzenie."
+    },
+    "rec-pre-dive-s4-3": {
+      "label": "Wąż inflatora ponownie podłączony i sprawny",
+      "description": "Sprawdź ponownie podłączenie inflatora jacketu i suchego skafandra po manewrach przy butli."
+    },
+    "rec-pre-dive-s4-4": {
+      "label": "Automat główny i zapasowy oba przedmuchane",
+      "description": "Oddychaj z każdego drugiego stopnia. Oba powinny łatwo podawać gaz."
+    },
+    "rec-pre-dive-s4-5": {
+      "label": "Automat zapasowy schowany w okolicy klatki piersiowej",
+      "description": "Zabezpieczony tak, by partner szybko go znalazł."
+    },
+    "rec-pre-dive-s4-6": {
+      "label": "Zespół wie, gdzie jest nawzajem ich automat zapasowy"
+    },
+    "rec-pre-dive-s5": {
+      "title": "F: Final check (kontrola końcowa)"
+    },
+    "rec-pre-dive-s5-1": {
+      "label": "Brak luźnego, brakującego lub zaklinowanego sprzętu",
+      "description": "Przejrzyj od stóp do głów pod kątem zwisających węży i punktów zaczepienia."
+    },
+    "rec-pre-dive-s5-2": {
+      "label": "Komputer nurkowy włączony i ustawiony",
+      "description": "Potwierdzone właściwy gaz (powietrze lub nitrox %) i ustawienia."
+    },
+    "rec-pre-dive-s5-3": {
+      "label": "Znaki i plan omówione",
+      "description": "Uzgodnijcie głębokość, czas, punkt zawrotu i co robić przy rozdzieleniu."
+    },
+    "rec-pre-dive-s5-4": {
+      "label": "Celem jest bezpieczny powrót",
+      "description": "To ma pierwszeństwo przed każdym innym celem nurkowania."
+    },
+    "rec-pre-dive-s5-5": {
+      "label": "Każdy nurek może przerwać nurkowanie w każdej chwili",
+      "description": "Z dowolnego powodu, bez pytań."
+    },
+    "oc-tec-pre-dive": {
+      "name": "Kontrola przed nurkowaniem technicznym na obiegu otwartym",
+      "description": "Kontrole przed nurkowaniem technicznym na obiegu otwartym: zanalizuj i złóż, wykonaj testy ciśnieniowe, a potem sprawdź sprzęt z zespołem od stóp do głów. Dostosuj do swojego przeszkolenia."
+    },
+    "oc-tec-pre-dive-s1": {
+      "title": "Przygotowanie przed nurkowaniem"
+    },
+    "oc-tec-pre-dive-s1-1": {
+      "label": "Sam zanalizuj każdą butlę",
+      "description": "Zanalizuj każdą butlę przed złożeniem i potwierdź, że oznakowanie się zgadza. Jeśli jest, najpierw otwórz zawór izolacyjny."
+    },
+    "oc-tec-pre-dive-s1-2": {
+      "label": "Złóż sprzęt, butle całkowicie otwarte",
+      "description": "Złożony i gotowy do założenia."
+    },
+    "oc-tec-pre-dive-s1-3": {
+      "label": "Oddychaj z każdego automatu",
+      "description": "Każdy powinien łatwo oddychać bez samoczynnego upustu."
+    },
+    "oc-tec-pre-dive-s1-4": {
+      "label": "Wykonaj test ciśnieniowy wing",
+      "description": "Napompuj w pełni i obserwuj, czy trzyma. Przy podwójnym wing przetestuj każdą komorę osobno."
+    },
+    "oc-tec-pre-dive-s1-5": {
+      "label": "Test nadciśnieniowy automatów",
+      "description": "Odczytaj manometr (SPG), zamknij zawór butli i odczekaj. Wskazanie nie może spadać."
+    },
+    "oc-tec-pre-dive-s1-6": {
+      "label": "Test podciśnieniowy automatów",
+      "description": "Wyssij automat, aż przepływ ustanie. Manometr powinien wskazywać zero, bez pełzania."
+    },
+    "oc-tec-pre-dive-s1-7": {
+      "label": "Sprawdź ciśnienie gazu na każdym manometrze",
+      "description": "Otwórz zawór przy całkowicie otwartym zaworze izolacyjnym i potwierdź wystarczający zapas. Butle deko i stage zostaw pod ciśnieniem, ale zamknięte."
+    },
+    "oc-tec-pre-dive-s1-8": {
+      "label": "Zanotuj ciśnienie zawrotu i minimalne ciśnienie wynurzenia",
+      "description": "Zapisz na tabliczce i potwierdź z zespołem."
+    },
+    "oc-tec-pre-dive-s1-9": {
+      "label": "Załóż i dopasuj sprzęt",
+      "description": "Otwórz butle gazu dennego przed założeniem aparatu."
+    },
+    "oc-tec-pre-dive-s2": {
+      "title": "Kontrola z zespołem od stóp do głów"
+    },
+    "oc-tec-pre-dive-s2-1": {
+      "label": "Kaptur założony"
+    },
+    "oc-tec-pre-dive-s2-2": {
+      "label": "Maska gotowa lub już założona"
+    },
+    "oc-tec-pre-dive-s2-3": {
+      "label": "Automaty: długi wąż swobodny do rozwinięcia",
+      "description": "Oddychaj z każdego automatu jeszcze raz."
+    },
+    "oc-tec-pre-dive-s2-4": {
+      "label": "Zawory butli we właściwym położeniu",
+      "description": "Gaz denny i bailout otwarte. Butle deko i stage pod ciśnieniem, ale zamknięte."
+    },
+    "oc-tec-pre-dive-s2-5": {
+      "label": "Inflator wing działa",
+      "description": "Potwierdź też napełnianie ustami i że zapasowy inflator jest w zasięgu."
+    },
+    "oc-tec-pre-dive-s2-6": {
+      "label": "Inflator suchego skafandra podłączony i sprawny",
+      "description": "Butla napełniania otwarta, jeśli osobna. Zapasowy wąż w zasięgu."
+    },
+    "oc-tec-pre-dive-s2-7": {
+      "label": "Komputery nurkowe i timery ustawione",
+      "description": "Włączone, naładowane i ustawione na właściwe gazy."
+    },
+    "oc-tec-pre-dive-s2-8": {
+      "label": "Balast założony, klamry w zasięgu"
+    },
+    "oc-tec-pre-dive-s2-9": {
+      "label": "Zawory zrzutowe wing działają i są w zasięgu"
+    },
+    "oc-tec-pre-dive-s2-10": {
+      "label": "Latarki sprawdzone",
+      "description": "Główna włączona, zapasowe działają i są schowane."
+    },
+    "oc-tec-pre-dive-s2-11": {
+      "label": "Zapasowa maska schowana i w zasięgu",
+      "description": "Z antifogiem i łatwa do wyjęcia."
+    },
+    "oc-tec-pre-dive-s2-12": {
+      "label": "Pozostały sprzęt w zasięgu",
+      "description": "Boja i kołowrotek, narzędzie tnące, środki sygnalizacji i tabliczka, wszystko w zasięgu ręki."
+    },
+    "tec-plan": {
+      "name": "Przegląd planu nurkowania technicznego",
+      "description": "Omówcie plan przed nurkowaniem technicznym: zadanie, logistyka, narkoza, gaz, dekompresja, tlen i ochrona termiczna. To kontrola myślenia, nie sprzętu."
+    },
+    "tec-plan-s1": {
+      "title": "Zadanie"
+    },
+    "tec-plan-s1-1": {
+      "label": "Nadrzędnym zadaniem jest wrócić cało",
+      "description": "Wszyscy zgadzają się, że to ma pierwszeństwo przed każdym innym celem."
+    },
+    "tec-plan-s1-2": {
+      "label": "Zadanie jest realistyczne dla tego nurkowania"
+    },
+    "tec-plan-s1-3": {
+      "label": "Zadanie uproszczone na ile się da"
+    },
+    "tec-plan-s1-4": {
+      "label": "Cały zespół rozumie i akceptuje plan"
+    },
+    "tec-plan-s1-5": {
+      "label": "Każdy jest w stanie wykonać swoją rolę"
+    },
+    "tec-plan-s1-6": {
+      "label": "Przećwiczone na lądzie lub na płytkiej wodzie, jeśli to możliwe"
+    },
+    "tec-plan-s2": {
+      "title": "Logistyka"
+    },
+    "tec-plan-s2-1": {
+      "label": "Role w zespole uzgodnione",
+      "description": "Kto co niesie i kto co robi."
+    },
+    "tec-plan-s2-2": {
+      "label": "Miejsce i czas spotkania ustalone"
+    },
+    "tec-plan-s2-3": {
+      "label": "Zaopatrzenie w gaz zorganizowane",
+      "description": "Napełnienia i dopełnienia zarezerwowane lub pod ręką."
+    },
+    "tec-plan-s2-4": {
+      "label": "Sprzęt załatwiony",
+      "description": "Wypożyczenie i części zapasowe zorganizowane."
+    },
+    "tec-plan-s2-5": {
+      "label": "Plan awaryjny znany",
+      "description": "Jak wezwać pomoc, gdzie jest tlen i apteczka, droga ewakuacji i najbliższa komora."
+    },
+    "tec-plan-s2-6": {
+      "label": "Wsparcie powierzchniowe i asekuracja poinstruowane"
+    },
+    "tec-plan-s3": {
+      "title": "Narkoza gazu obojętnego"
+    },
+    "tec-plan-s3-1": {
+      "label": "Plan utrzymuje narkozę pod kontrolą",
+      "description": "Nurkuj tak płytko, jak pozwala cel."
+    },
+    "tec-plan-s3-2": {
+      "label": "Równoważna głębokość narkotyczna w granicach",
+      "description": "Zalecana równoważna głębokość narkotyczna (END) 30 m (100 ft) lub płycej, najwyżej 40 m (130 ft)."
+    },
+    "tec-plan-s3-3": {
+      "label": "Gęstość gazu w granicach",
+      "description": "Na największej głębokości utrzymuj gęstość gazu nie wyższą niż 5,2 g/l, maksymalnie 6,3 g/l."
+    },
+    "tec-plan-s4": {
+      "title": "Gaz"
+    },
+    "tec-plan-s4-1": {
+      "label": "Dobór gazów ma sens",
+      "description": "Rozważone: dostępność, dekompresja, ekspozycja na tlen, narkoza i gęstość."
+    },
+    "tec-plan-s4-2": {
+      "label": "Objętości gazu obliczone",
+      "description": "Na podstawie zużycia, obciążenia, zaplanowanej rezerwy i pojemności butli."
+    },
+    "tec-plan-s4-3": {
+      "label": "Każda butla zanalizowana przez nurka, który nią oddycha"
+    },
+    "tec-plan-s4-4": {
+      "label": "Każda butla wyraźnie oznakowana"
+    },
+    "tec-plan-s5": {
+      "title": "Dekompresja"
+    },
+    "tec-plan-s5-1": {
+      "label": "Wynurzenie zaplanowane",
+      "description": "Wyliczone w oprogramowaniu lub komputerze nurkowym, łącznie z czasem wynurzania i przystankami."
+    },
+    "tec-plan-s5-2": {
+      "label": "Sytuacje awaryjne zaplanowane",
+      "description": "Dodatkowa głębokość lub czas oraz utrata gazu dennego lub gazu deko."
+    },
+    "tec-plan-s5-3": {
+      "label": "Plan zapasowy przy sobie",
+      "description": "Drugi komputer lub wydrukowane tabele."
+    },
+    "tec-plan-s6": {
+      "title": "Tlen"
+    },
+    "tec-plan-s6-1": {
+      "label": "PPO₂ gazu dennego najwyżej 1,4 bar na maksymalnej głębokości"
+    },
+    "tec-plan-s6-2": {
+      "label": "Każda zmiana gazu pozostaje nie wyżej niż 1,4 bar PPO₂"
+    },
+    "tec-plan-s6-3": {
+      "label": "Gazy deko najwyżej 1,6 bar PPO₂ na głębokości przystanku"
+    },
+    "tec-plan-s6-4": {
+      "label": "CNS i OTU w przyjętych granicach",
+      "description": "Zegar CNS (ośrodkowy układ nerwowy) i OTU (jednostki toksyczności tlenowej) za całe nurkowanie."
+    },
+    "tec-plan-s7": {
+      "title": "Ochrona termiczna"
+    },
+    "tec-plan-s7-1": {
+      "label": "Skafandry pasują do nurkowania",
+      "description": "Wystarczająco ciepłe na zaplanowany czas plus rozsądne przekroczenie."
+    },
+    "tec-plan-s7-2": {
+      "label": "Suchy skafander sprawdzony, jeśli używany",
+      "description": "Zawory, zamek i uszczelki całe. Osobny gaz do napełniania, jeśli używany, i żadnego helu do napełniania skafandra."
+    },
+    "tec-plan-s7-3": {
+      "label": "Wyporność mokrego skafandra zaplanowana, jeśli używany",
+      "description": "Uwzględnij sprężenie skafandra na głębokości, z zapasowym planem wyporności."
+    },
+    "jj-land-prep": {
+      "name": "Przygotowanie JJ-CCR na lądzie",
+      "description": "Pełne złożenie i sprawdzenie systemu przed wyjazdem. Na podstawie instrukcji JJ-CCR. Dostosuj listę do swojego aparatu i swojego przeszkolenia."
+    },
+    "jj-land-prep-s1": {
+      "title": "Ocena i zaopatrzenie"
+    },
+    "jj-land-prep-s1-1": {
+      "label": "Sprawdź, czy czujesz się zdrowy, wypoczęty i spokojny",
+      "description": "Jeśli nie czujesz się na siłach do nurkowania, najbezpieczniej jest nie nurkować."
+    },
+    "jj-land-prep-s1-2": {
+      "label": "Napełnij pochłaniacz świeżym, nieużywanym sorbentem",
+      "description": "Nigdy nie używaj ponownie sorbentu z wcześniejszego nurkowania. Zanotuj napełnienie, aby śledzić zużycie pochłaniacza."
+    },
+    "jj-land-prep-s1-3": {
+      "label": "Zanalizuj butle z tlenem i diluentem",
+      "description": "Potwierdź zawartość i sprawdź, czy ciśnienie wystarczy na zaplanowane nurkowanie."
+    },
+    "jj-land-prep-s1-4": {
+      "label": "Przygotuj wystarczająco bailout na nurkowanie",
+      "description": "Planuj bailout na najgorszy scenariusz. Gazu bailout nigdy nie ma za dużo."
+    },
+    "jj-land-prep-s2": {
+      "title": "Montaż"
+    },
+    "jj-land-prep-s2-1": {
+      "label": "Przymocuj butle z tlenem i diluentem do aparatu"
+    },
+    "jj-land-prep-s2-2": {
+      "label": "Zamontuj kanister pochłaniacza i zamknij głowicę"
+    },
+    "jj-land-prep-s2-3": {
+      "label": "Sprawdź szczelność zaworów grzybkowych w obu kierunkach",
+      "description": "Oddychaj delikatnie przeciwko każdej zamkniętej stronie pętli oddechowej. Przez zamknięty zawór nie powinien przechodzić żaden gaz."
+    },
+    "jj-land-prep-s2-4": {
+      "label": "Podłącz wszystkie węże i sprawdź O-ringi",
+      "description": "O-ringi muszą być czyste i nieuszkodzone. Potwierdź, że DSV otwiera się i zamyka płynnie."
+    },
+    "jj-land-prep-s3": {
+      "title": "Sprawdzenie systemu"
+    },
+    "jj-land-prep-s3-1": {
+      "label": "Otwórz oba zawory butli i sprawdź ciśnienia"
+    },
+    "jj-land-prep-s3-2": {
+      "label": "Sprawdź ciśnienie pośrednie obu pierwszych stopni",
+      "description": "Specyfikacja JJ-CCR: diluent 9 do 10 bar, tlen 7 do 7,5 bar. Nie nurkuj, jeśli wartość wykracza poza zakres."
+    },
+    "jj-land-prep-s3-3": {
+      "label": "Przetestuj oba ręczne zawory dodawcze i ADV"
+    },
+    "jj-land-prep-s3-4": {
+      "label": "Przetestuj inflator wing"
+    },
+    "jj-land-prep-s3-5": {
+      "label": "Przetestuj DSV w obu położeniach"
+    },
+    "jj-land-prep-s4": {
+      "title": "Testy szczelności"
+    },
+    "jj-land-prep-s4-1": {
+      "label": "Wykonaj test nadciśnieniowy",
+      "description": "Napełniaj pętlę oddechową, aż zawór nadciśnieniowy zacznie upuszczać gaz, zamknij DSV i odczekaj. Po ponownym otwarciu gaz nadal powinien się ulatniać."
+    },
+    "jj-land-prep-s4-2": {
+      "label": "Upuść gaz z pętli oddechowej zaworem zrzutowym przeciwpłuca"
+    },
+    "jj-land-prep-s4-3": {
+      "label": "Wykonaj test podciśnieniowy",
+      "description": "Zamknij oba zawory butli, wyssij gaz z pętli oddechowej do podciśnienia, zamknij DSV i odczekaj. Membrana ADV musi pozostać wciągnięta."
+    },
+    "jj-land-prep-s5": {
+      "title": "Elektronika i rozruch"
+    },
+    "jj-land-prep-s5-1": {
+      "label": "Otwórz ponownie oba zawory butli"
+    },
+    "jj-land-prep-s5-2": {
+      "label": "Włącz kontroler i HUD"
+    },
+    "jj-land-prep-s5-3": {
+      "label": "Skalibruj ogniwa tlenowe na kontrolerze i HUD",
+      "description": "Zapisz odczyty ogniw, aby z czasem wychwycić dryfujące ogniwo."
+    },
+    "jj-land-prep-s5-4": {
+      "label": "Sprawdź napięcia baterii kontrolera i solenoidu"
+    },
+    "jj-land-prep-s5-5": {
+      "label": "Oddychaj wstępnie z pętli oddechowej przez 2 do 3 minut",
+      "description": "Obserwuj, czy PPO₂ utrzymuje się blisko setpointu podczas oddychania. Oddychanie wstępne nie wykrywa pewnie zużytego pochłaniacza, więc nigdy nie pomijaj wcześniejszych kontroli."
+    },
+    "jj-land-prep-s5-6": {
+      "label": "Zamknij DSV i oba zawory butli"
+    },
+    "jj-pre-dive": {
+      "name": "JJ-CCR tuż przed nurkowaniem",
+      "description": "Ostatnie kontrole tuż przed założeniem sprzętu i wejściem do wody. Na podstawie instrukcji JJ-CCR. Dostosuj listę do swojego aparatu i swojego przeszkolenia."
+    },
+    "jj-pre-dive-s1": {
+      "title": "Ostatnie kontrole"
+    },
+    "jj-pre-dive-s1-1": {
+      "label": "Otwórz oba zawory butli i sprawdź ciśnienia"
+    },
+    "jj-pre-dive-s1-2": {
+      "label": "Przetestuj oba ręczne zawory dodawcze i ADV"
+    },
+    "jj-pre-dive-s1-3": {
+      "label": "Przetestuj inflator wing"
+    },
+    "jj-pre-dive-s1-4": {
+      "label": "Przetestuj DSV w obu położeniach"
+    },
+    "jj-pre-dive-s1-5": {
+      "label": "Wykonaj test nadciśnieniowy i podciśnieniowy",
+      "description": "Krótkie przytrzymanie w obie strony wystarczy, aby potwierdzić, że pętla oddechowa jest nadal szczelna."
+    },
+    "jj-pre-dive-s1-6": {
+      "label": "Włącz kontroler i HUD"
+    },
+    "jj-pre-dive-s1-7": {
+      "label": "Sprawdź niski i wysoki setpoint"
+    },
+    "jj-pre-dive-s1-8": {
+      "label": "Oddychaj wstępnie z pętli oddechowej przez co najmniej 2 do 3 minut",
+      "description": "Obserwuj PPO₂ podczas oddychania. Przerwij i zbadaj sprawę, jeśli wystąpią objawy: ból głowy, zawroty głowy, głód powietrza."
+    },
+    "jj-in-water": {
+      "name": "JJ-CCR po wejściu do wody",
+      "description": "Kontrole na powierzchni zaraz po wejściu do wody, przed opuszczeniem powierzchni. Przejrzyj je przed wejściem do wody. Na podstawie instrukcji JJ-CCR."
+    },
+    "jj-in-water-s1": {
+      "title": "Kontrole na powierzchni"
+    },
+    "jj-in-water-s1-1": {
+      "label": "Kontrola pęcherzyków na pierwszych 6 m (20 ft)",
+      "description": "Uzgodnij kontrolę pęcherzyków z partnerem przed zejściem. Nigdy nie schodź głębiej bez niej."
+    },
+    "jj-in-water-s1-2": {
+      "label": "Sprawdź odczyty kontrolera i HUD"
+    },
+    "jj-in-water-s1-3": {
+      "label": "Sprawdź, czy wszystko jest spięte, schowane i w zasięgu ręki"
+    },
+    "fx-functionality": {
+      "name": "Kontrola działania FX CCR",
+      "description": "Lista kontrolna działania FX-CCR v1.5 firmy Sub-Gravity (zestaw kalibracyjny), punkty od 1 do 13 w oryginalnej kolejności: butle, pochłaniacz, kontrola ogniw, testy ciśnieniowe, baterie i oddychanie wstępne. Wykonaj ją przy składaniu aparatu. Nurkujesz od razu? Przejdź do kontroli FX CCR przed nurkowaniem. Jeszcze nie nurkujesz? Zamknij zawory butli tlenowej i butli z diluentem, spuść gaz z węży, wyłącz elektronikę i zabezpiecz aparat. Obowiązuje tylko dla tego aparatu. Dostosuj listę do swojego aparatu i swojego przeszkolenia."
+    },
+    "fx-functionality-s1": {
+      "title": "Kontrole działania"
+    },
+    "fx-functionality-s1-1": {
+      "label": "Zamontuj zanalizowane i oznakowane butle z gazem"
+    },
+    "fx-functionality-s1-2": {
+      "label": "Kontrola zaworów grzybkowych i ustnika"
+    },
+    "fx-functionality-s1-3": {
+      "label": "Włącz sterownik główny i zapasowy",
+      "description": "A. Przełącz na setpoint 0,19."
+    },
+    "fx-functionality-s1-4": {
+      "label": "Sprawdź pozostały czas pracy pochłaniacza",
+      "description": "A. W razie potrzeby napełnij pochłaniacz ponownie i włóż go do kanistra.\nB. Sprawdź, czy pułapka wodna jest prawidłowo zamontowana.\nC. Sprawdź, czy głowica jest założona i zablokowana obiema linkami zabezpieczającymi.\nD. Zresetuj timer pochłaniacza do właściwej wartości."
+    },
+    "fx-functionality-s1-5": {
+      "label": "Sprawdź mV i kalibrację",
+      "description": "A. Zapisz odczyty mV i ciśnienia parcjalnego tlenu (PPO₂) w powietrzu.\nB. Zestawem kalibracyjnym przepłucz głowicę tlenem, aż odczyty mV i PPO₂ się ustabilizują.\nC. Porównaj wartości oczekiwane ze zmierzonymi.\nD. W razie potrzeby skalibruj zgodnie z instrukcją.\n\nOczekiwane w powietrzu: 8,5 do 13 mV na ogniwo (S1, S2, S3). Oczekiwane w O₂: zmierzona wartość z powietrza podzielona przez 0,21. Wartości zmierzone w O₂ powinny mieścić się w granicach 2 mV i 0,05 PPO₂ od oczekiwanych. Liczby zakładają tlen 100%; przy niższej zawartości (na przykład 93%) przelicz je odpowiednio."
+    },
+    "fx-functionality-s1-6": {
+      "label": "Sprawdź wszystkie połączenia (gwintowane i bagnetowe)"
+    },
+    "fx-functionality-s1-7": {
+      "label": "Test podciśnieniowy (minimum 1 minuta)",
+      "description": "A. Otwórz BOV.\nB. Wdychaj z BOV w trybie CC, wydychając nosem, aż przeciwpłuca całkowicie się opróżnią.\nC. Zamknij BOV.\nD. Odczekaj minutę (minimum) i obserwuj, czy nie ma oznak nieszczelności."
+    },
+    "fx-functionality-s1-8": {
+      "label": "Test nadciśnieniowy (minimum 1 minuta)",
+      "description": "A. Zamknij OPV przeciwpłuca.\nB. Napełnij pętlę oddechową do pełna, aż OPV zacznie upuszczać gaz.\nC. Odczekaj minutę i obserwuj, czy nie ma oznak nieszczelności.\nD. Otwórz BOV, aby spuścić ciśnienie, a potem zamknij BOV.\nE. Otwórz OPV przeciwpłuca."
+    },
+    "fx-functionality-s1-9": {
+      "label": "Sprawdź ADV, BOV i zawory MAV",
+      "description": "A. Powoli otwórz butlę z diluentem i butlę tlenową.\nB. Wdychaj z BOV (ostrożnie, jeśli używasz diluentu hipoksycznego).\nC. Otwórz BOV i wdychaj z pętli oddechowej, aż uruchomi się ADV.\nD. Potwierdź, że zawory MAV diluentu i O₂ działają."
+    },
+    "fx-functionality-s1-10": {
+      "label": "Test szczelności diluentu i O₂ (minimum 30 sekund)",
+      "description": "A. Powoli otwórz butlę z diluentem i butlę tlenową, aby węże napełniły się gazem.\nB. Zamknij zawory.\nC. Obserwuj spadek ciśnienia (minimum 30 sekund). Zanotuj ciśnienie początkowe i końcowe diluentu oraz O₂.\nD. Otwórz butlę z diluentem i butlę tlenową."
+    },
+    "fx-functionality-s1-11": {
+      "label": "Sprawdź baterie głowicy i wyświetlaczy",
+      "description": "A. Przełącz aparat FX CCR na setpoint LOW.\nB. Solenoid uruchamia się, co potwierdza dodawanie O₂.\nC. Przełącz aparat FX CCR na setpoint 0,19.\nD. Sprawdź stan baterii B1, B2 oraz wszystkich sterowników ręcznych i NERD.\n\nB1 i B2: poniżej 3,9 V (około 62%) wymień lub naładuj baterię, zanim przejdziesz dalej.\nSterowniki ręczne i NERD: kolor żółty oznacza, że baterię trzeba wymienić lub naładować. Czerwony oznacza, że trzeba to zrobić natychmiast."
+    },
+    "fx-functionality-s1-12": {
+      "label": "Ustawienia komputera (główny i zapasowy)",
+      "description": "A. Gazy CC i bailout.\nB. Niski i wysoki setpoint.\nC. Ustawienia deko."
+    },
+    "fx-functionality-s1-13": {
+      "label": "Oddychanie wstępne (5 minut)",
+      "description": "A. Przełącz aparat FX CCR na setpoint LOW.\nB. Zatkaj nos i zacznij oddychać z aparatu FX CCR, w bezpiecznym miejscu i w bezpiecznej pozycji.\nC. Obserwuj utrzymywanie setpointu i działanie HUD.\nD. Zwracaj uwagę zarówno na swoje samopoczucie, jak i na pracę aparatu CCR."
+    },
+    "fx-pre-dive": {
+      "name": "Kontrole FX CCR przed nurkowaniem",
+      "description": "Lista kontrolna działania FX-CCR v1.5 firmy Sub-Gravity (zestaw kalibracyjny), punkty od 14 do 20: kontrole nad wodą po kontroli działania, zakończone procedurą przed wejściem do wody. Obowiązuje tylko dla tego aparatu. Dostosuj listę do swojego aparatu i swojego przeszkolenia."
+    },
+    "fx-pre-dive-s1": {
+      "title": "Kontrole przed nurkowaniem"
+    },
+    "fx-pre-dive-s1-1": {
+      "label": "Testy nadciśnieniowy i podciśnieniowy wykonane?"
+    },
+    "fx-pre-dive-s1-2": {
+      "label": "Właściwy balast?"
+    },
+    "fx-pre-dive-s1-3": {
+      "label": "HUD i wyświetlacze na nadgarstku włączone?"
+    },
+    "fx-pre-dive-s1-4": {
+      "label": "Zawory butli otwarte?"
+    },
+    "fx-pre-dive-s1-5": {
+      "label": "Sprawdź setpoint i zawartość pętli oddechowej"
+    },
+    "fx-pre-dive-s1-6": {
+      "label": "Załóż aparat FX CCR"
+    },
+    "fx-pre-dive-s1-7": {
+      "label": "Procedura CCR przed wejściem do wody",
+      "description": "1. Zacznij oddychać z aparatu.\n2. Sprawdź: ADV, BOV, MAV tlenu, MAV diluentu; inflator wing i suchego skafandra.\n3. Sprawdź ciśnienia w butlach: O₂, diluent; bailout na obiegu otwartym.\n4. Sprawdź, czy setpoint jest utrzymywany.\n5. Wejdź do wody, gdy będziesz gotowy.\n6. Wykonaj S-drill.\n7. Pamiętaj o zasadzie nr 1 nurkowania na CCR: zawsze znaj swoje ciśnienie parcjalne tlenu (PPO₂)!"
+    },
+    "fx-after-dive": {
+      "name": "FX CCR po nurkowaniu",
+      "description": "Wszystko, czego instrukcja FX CCR wymaga po zakończeniu nurkowania. Kroki od 6 do 13 są potrzebne tylko wtedy, gdy tego samego dnia nie będzie kolejnego nurkowania. Odtworzone z instrukcji FX CCR 2025.1 (iQsub Technologies). Obowiązuje tylko dla tego aparatu. Dostosuj listę do swojego aparatu i swojego przeszkolenia."
+    },
+    "fx-after-dive-s1": {
+      "title": "Wyjście z wody"
+    },
+    "fx-after-dive-s1-1": {
+      "label": "Nigdy nie zamykaj zaworów butli, dopóki aparat FX CCR nie zostanie wyjęty z wody."
+    },
+    "fx-after-dive-s1-2": {
+      "label": "Wyjmij aparat z wody."
+    },
+    "fx-after-dive-s1-3": {
+      "label": "Wyłącz główny sterownik ręczny."
+    },
+    "fx-after-dive-s1-4": {
+      "label": "Wyłącz Head-Up Display (lub NERD2, jeśli jest zamontowany) i osusz jego mokre styki."
+    },
+    "fx-after-dive-s1-5": {
+      "label": "Zamknij zawory butli tlenowej i butli z diluentem oraz odłącz zewnętrzną butlę z diluentem."
+    },
+    "fx-after-dive-s2": {
+      "title": "Demontaż i płukanie"
+    },
+    "fx-after-dive-s2-1": {
+      "label": "Odłącz kształtki L z wężami oddechowymi od aparatu i odłącz BOV."
+    },
+    "fx-after-dive-s2-2": {
+      "label": "Wypłucz węże oddechowe i kształtki L słodką wodą, powieś je pionowo i pozostaw do wyschnięcia."
+    },
+    "fx-after-dive-s2-3": {
+      "label": "Wypłucz BOV słodką wodą.",
+      "description": "Następnie ustaw pokrętło zaworu w położeniu pośrednim między CC a OC i pozostaw BOV do wyschnięcia."
+    },
+    "fx-after-dive-s2-4": {
+      "label": "Rozepnij całkowicie obwodowy zamek błyskawiczny obudowy FX i wyjmij przeciwpłuca.",
+      "description": "Odłącz przeciwpłuca od złączy bagnetowych na głowicy i pokrywie, następnie odblokuj i wysuń górne złączki oraz OPV z przelotek w obudowie."
+    },
+    "fx-after-dive-s2-5": {
+      "label": "Wypłucz przeciwpłuca słodką wodą.",
+      "description": "Powieś je na wieszaku do suszenia dołączonym do aparatu i pozostaw do wyschnięcia."
+    },
+    "fx-after-dive-s3": {
+      "title": "Suszenie aparatu"
+    },
+    "fx-after-dive-s3-1": {
+      "label": "Zdejmij głowicę FX z kanistra i wyciągnij uchwyt czujników, aby osuszyć czujniki."
+    },
+    "fx-after-dive-s3-2": {
+      "label": "Wyjmij pochłaniacz i pozostaw go do wyschnięcia."
+    },
+    "fx-after-dive-s3-3": {
+      "label": "Wytrzyj kanister FX do sucha."
+    },
+    "chaos-gue": {
+      "name": "CHAOS (GUE)",
+      "description": "Kontrola rebreathera według GUE, wykonywana podczas oddychania wstępnego: Controller, HUD, ADV, O₂, Symptoms."
+    },
+    "chaos-gue-s1": {
+      "title": "Kontrola CHAOS"
+    },
+    "chaos-gue-s1-1": {
+      "label": "C: Kontroler skalibrowany",
+      "description": "Sprawdź, czy kontroler jest skalibrowany i czy odczyty ogniw są ze sobą zgodne."
+    },
+    "chaos-gue-s1-2": {
+      "label": "H: HUD skalibrowany",
+      "description": "Sprawdź, czy HUD jest zgodny z kontrolerem i czy każdy sygnał jest widoczny."
+    },
+    "chaos-gue-s1-3": {
+      "label": "A: ADV działa",
+      "description": "Wciągnij mocno powietrze z pętli oddechowej, aby potwierdzić, że ADV uruchamia się i dodaje diluent."
+    },
+    "chaos-gue-s1-4": {
+      "label": "O: Dodawanie O₂ działa",
+      "description": "Obserwuj uruchomienie solenoidu i potwierdź, że PPO₂ utrzymuje się na setpoincie."
+    },
+    "chaos-gue-s1-5": {
+      "label": "S: Kontrola objawów",
+      "description": "Oddychaj wstępnie i obserwuj siebie pod kątem objawów: ból głowy, zawroty głowy, nietypowy smak lub zapach. Każdy objaw oznacza brak nurkowania."
+    },
+    "gue-edge": {
+      "name": "GUE EDGE kontrola zespołu przed nurkowaniem",
+      "description": "Kontrola zespołu wykonywana na głos przed każdym nurkowaniem: Goal, Unified team, Equipment, Exposure, Decompression, Gas, Environment."
+    },
+    "gue-edge-s1": {
+      "title": "Kontrola zespołu"
+    },
+    "gue-edge-s1-1": {
+      "label": "G: Goal (cel)",
+      "description": "Uzgodnij cel nurkowania, trasę i warunek zawrotu."
+    },
+    "gue-edge-s1-2": {
+      "label": "U: Unified team (zgrany zespół)",
+      "description": "Potwierdź, że wszyscy są w stanie nurkować, role są ustalone i kolejność uzgodniona."
+    },
+    "gue-edge-s1-3": {
+      "label": "E: Equipment (sprzęt)",
+      "description": "Każdy nurek potwierdza własny sprzęt: zawory otwarte, automaty oddychają, wing trzyma gaz, latarki działają."
+    },
+    "gue-edge-s1-4": {
+      "label": "E: Exposure (ekspozycja)",
+      "description": "Potwierdź limity głębokości i czasu oraz to, że ochrona termiczna każdego pasuje do planu."
+    },
+    "gue-edge-s1-5": {
+      "label": "D: Decompression (dekompresja)",
+      "description": "Uzgodnij plan wynurzania: przystanki, gazy i warianty awaryjne."
+    },
+    "gue-edge-s1-6": {
+      "label": "G: Gas (gaz)",
+      "description": "Potwierdź, że każda butla jest zanalizowana i oznakowana, oraz uzgodnij plan gazowy."
+    },
+    "gue-edge-s1-7": {
+      "label": "E: Environment (środowisko)",
+      "description": "Przejrzyj warunki, punkty wejścia i wyjścia oraz wszelkie zagrożenia akwenu."
+    },
+    "tdi-start": {
+      "name": "TDI START kontrola zespołu przed nurkowaniem",
+      "description": "Kontrola zespołu, której TDI uczy przed każdym nurkowaniem technicznym: S-drill, Team, Air, Route, Tables."
+    },
+    "tdi-start-s1": {
+      "title": "Kontrola START"
+    },
+    "tdi-start-s1-1": {
+      "label": "S: S-drill i kontrola pęcherzyków",
+      "description": "Na powierzchni lub na płytkiej wodzie przećwicz krótko dzielenie się gazem na długim wężu i poproś partnera, by obejrzał twoje zawory, pierwsze stopnie i węże pod kątem pęcherzyków."
+    },
+    "tdi-start-s1-2": {
+      "label": "T: Team (sprzęt zespołu)",
+      "description": "Sprawdź każdego nurka od stóp do głów: wszystko, co potrzebne, jest na miejscu, działa i jest prawidłowo schowane."
+    },
+    "tdi-start-s1-3": {
+      "label": "A: Air (zgodność gazów)",
+      "description": "Butle główne otwarte, butle stage i dekompresyjne pod ciśnieniem. Sprawdź każde ciśnienie i potwierdź maksymalną głębokość operacyjną (MOD) każdej butli."
+    },
+    "tdi-start-s1-4": {
+      "label": "R: Route (trasa)",
+      "description": "Uzgodnij kolejność w zespole, kierunek, cel i punkty orientacyjne nurkowania."
+    },
+    "tdi-start-s1-5": {
+      "label": "T: Tables (tabele)",
+      "description": "Przejrzyj planowaną głębokość maksymalną, czasy przebiegu, zmiany gazu i obowiązkowe przystanki."
+    },
+    "post-dive": {
+      "name": "CCR po nurkowaniu i czyszczenie",
+      "description": "Uporządkuj aparat po nurkowaniu, aby następne złożenie zaczynać od znanego stanu."
+    },
+    "post-dive-s1": {
+      "title": "Po nurkowaniu"
+    },
+    "post-dive-s1-1": {
+      "label": "Zapisz pozostałe ciśnienia butli"
+    },
+    "post-dive-s1-2": {
+      "label": "Zapisz wykorzystany czas pochłaniacza",
+      "description": "Dodaj czas pracy z tego nurkowania do sumy kanistra pochłaniacza, aby wiedzieć, ile pozostało."
+    },
+    "post-dive-s1-3": {
+      "label": "Zanotuj wszystko do naprawy przed następnym nurkowaniem"
+    },
+    "post-dive-s2": {
+      "title": "Czyszczenie i przechowywanie"
+    },
+    "post-dive-s2-1": {
+      "label": "Opłucz aparat z zewnątrz świeżą wodą"
+    },
+    "post-dive-s2-2": {
+      "label": "Rozłóż pętlę oddechową"
+    },
+    "post-dive-s2-3": {
+      "label": "Wyczyść i zdezynfekuj przeciwpłuca, węże i ustnik",
+      "description": "Postępuj według instrukcji swojego aparatu w sprawie dopuszczonych środków dezynfekujących i czasów moczenia."
+    },
+    "post-dive-s2-4": {
+      "label": "Wysusz wszystko dokładnie przed przechowywaniem"
+    },
+    "post-dive-s2-5": {
+      "label": "Naładuj lub sprawdź baterie"
+    }
+  }
+}

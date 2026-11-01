@@ -10,6 +10,8 @@ Welcome! This guide will help you understand and contribute to the Dive Kit Open
   - [Certifications Dataset](#certifications-dataset)
   - [Cylinders Dataset](#cylinders-dataset)
   - [Dive Signals Dataset](#dive-signals-dataset)
+  - [Checklists Dataset](#checklists-dataset)
+  - [Translations](#translations)
   - [References Dataset](#references-dataset)
 - [How to Read the Data](#how-to-read-the-data)
 - [How to Contribute](#how-to-contribute)
@@ -18,13 +20,14 @@ Welcome! This guide will help you understand and contribute to the Dive Kit Open
 
 ## What are these datasets?
 
-The Dive Kit Open project maintains five main datasets:
+The Dive Kit Open project maintains these main datasets:
 
 1. **Agencies** - A list of all scuba diving certification agencies (like PADI, SSI, NAUI)
 2. **Certifications** - A comprehensive list of diving certifications offered by these agencies
 3. **Cylinders** - Specifications for common scuba cylinders (volume, pressure, buoyancy)
 4. **Dive Signals** - Diver communication signals (hand, light, and buddy-contact signals) with openly licensed illustrations
-5. **References** - Vetted papers, books, standards and articles behind Dive Kit's calculators and guide, each tagged with what it is authoritative for
+5. **Checklists** - The Dive Kit app's checklist presets (predive, rebreather build, post-dive), step by step
+6. **References** - Vetted papers, books, standards and articles behind Dive Kit's calculators and guide, each tagged with what it is authoritative for
 
 These datasets help developers, dive shops, and diving platforms standardize diving information across the industry.
 
@@ -149,6 +152,70 @@ with the credit "Dive signals by Dive Kit, https://divekit.app". See
 > **Safety note:** signal meanings vary slightly between training agencies and regions. Always
 > agree on signals with your buddy or team before the dive. This dataset documents common usage;
 > it is not a substitute for training.
+
+### Checklists Dataset
+
+The checklists dataset (`datasets/checklists.json`) holds the checklist presets of the Dive Kit app:
+the BWRAF buddy check, an open-circuit tech predive, a tech dive-plan review, JJ-CCR and FX CCR
+phase checklists, GUE CHAOS and EDGE, TDI START, and a CCR post-dive check. In the app each one
+is an editable starting template. It is MIT licensed.
+
+Each checklist includes:
+
+- **id**: Stable id in kebab-case (e.g., `rec-pre-dive`)
+- **app_preset_id**: The id the app records on a checklist made from this preset (e.g., `recPreDive`)
+- **name** and **description**: English text
+- **use**: When it is run: `predive`, `ccr-build`, `in-water` (surface checks after entry), `dive-plan` or `post-dive`
+- **unit**: The rebreather it is written for (`JJ-CCR`, `FX CCR`), or `null`. A unit-specific checklist is valid for that unit only
+- **provenance**: What it follows and how closely
+  - `basis`: `own-words`, `paraphrased` (a published check's structure in Dive Kit's words) or `reproduced` (a published document's items and wording, followed closely)
+  - `source`: The procedure or document, with version or section
+  - `agency`: An id from the agencies dataset, or `null`
+  - `url`: A link to the source, or `null`
+- **sections**: Ordered sections, each with an `id`, a `title` and ordered `steps`. A step has an
+  `id`, a `label`, an optional `description`, an optional `timer` (`{"mode": "countdown",
+  "duration_sec": 120}` or `{"mode": "stopwatch"}`) and `"notes": true` when it has a free-text
+  notes field (cell readings, gas analysis, pressures)
+
+Section ids are `<checklist id>-s<n>` and step ids `<section id>-<n>`. They are assigned once and
+never reused or renumbered: a new step gets a new id, and the order comes from the arrays.
+
+> **Safety note:** a checklist supports your procedures; it does not replace your unit's manual,
+> your agency's procedures or your training. Adapt each one to your own gear and team.
+
+### Translations
+
+The dive signals and checklists are also available in German (`de`), Polish (`pl`), Russian
+(`ru`), Swedish (`sv`), Turkish (`tr`), Chinese (`zh`) and Korean (`ko`). They are the Dive Kit
+app's translations.
+
+Each locale has one file per base dataset: `datasets/i18n/<locale>/dive-signals.json` and
+`datasets/i18n/<locale>/checklists.json`. `strings` maps a base id to the translated values of
+that record's text fields, under the same field names:
+
+```json
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": { "version": "2026.11.01.1", "generated_at": "2026-11-01T15:50:30Z", "locale": "de", "base": "checklists.json", "license": "MIT" },
+  "strings": {
+    "rec-pre-dive": { "name": "…", "description": "…" },
+    "rec-pre-dive-s1": { "title": "…" },
+    "rec-pre-dive-s1-1": { "label": "…", "description": "…" }
+  }
+}
+```
+
+To show a record in a locale, read the field from `strings[id]` and fall back to the base file's
+English when the id or field is missing:
+
+```js
+const text = (record, field, t) => t.strings[record.id]?.[field] ?? record[field];
+```
+
+A checklist id carries `name` and `description`, a section id `title`, a step id `label` and
+`description`, and a signal id `name` and `description`. `scripts/validate.sh` fails when a
+translation names an id or field that the base does not have. The signal translations are CC BY
+4.0, like `dive-signals.json`; the checklist translations are MIT.
 
 ### References Dataset
 
@@ -450,7 +517,7 @@ A: We review and update the data regularly. Check the `meta.version` field in ea
 
 ### Q: Can I use this data in my own project?
 
-A: Yes! The datasets are MIT licensed, free for any use. The dive signal illustrations and `datasets/dive-signals.json` are CC BY 4.0. See LICENSE.md.
+A: Yes! The datasets are MIT licensed, free for any use. The dive signal illustrations, `datasets/dive-signals.json` and its translations (`datasets/i18n/*/dive-signals.json`) are CC BY 4.0. See LICENSE.md.
 
 ### Q: What if I find conflicting information?
 

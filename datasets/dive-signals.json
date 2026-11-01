@@ -1,8 +1,8 @@
 {
   "$schema": "https://open.divekit.app/schemas/dive-signals/dive-signals.schema.v1.0.0.json",
   "meta": {
-    "version": "2026.06.10.1",
-    "generated_at": "2026-06-10T12:00:00Z"
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T12:00:00Z"
   },
   "signals": [
     {
@@ -51,7 +51,7 @@
       "id": "hand-core-up",
       "category": "hand-core",
       "name": "Up",
-      "description": "Index finger pointing upward. Indicates direction or something above - 'look up there' or 'something is above us'. Not to be confused with thumbs up which means end dive/ascend.",
+      "description": "Index finger pointing upward. Indicates direction or something above: 'look up there' or 'something is above us'. Not to be confused with thumbs up which means end dive/ascend.",
       "image": "assets/dive-signals/hand/core/up.svg"
     },
     {
@@ -128,7 +128,7 @@
       "id": "hand-core-share-air",
       "category": "hand-core",
       "name": "Share Air / Out of Air",
-      "description": "Two signals: OUT OF AIR - slice your flat hand across your throat. SHARE AIR - tap your hand on your own regulator then wave forward toward your buddy. Request to share buddy's air supply.",
+      "description": "Two signals. OUT OF AIR: slice your flat hand across your throat. SHARE AIR: tap your hand on your own regulator then wave forward toward your buddy. Request to share buddy's air supply.",
       "image": "assets/dive-signals/hand/core/share-air.svg"
     },
     {
@@ -198,14 +198,14 @@
       "id": "hand-core-talk",
       "category": "hand-core",
       "name": "Let's Talk",
-      "description": "Fingers and thumb together, open and close repeatedly like a talking mouth. I need to talk to you - usually means we should surface for verbal communication.",
+      "description": "Fingers and thumb together, open and close repeatedly like a talking mouth. I need to talk to you. Usually means we should surface for verbal communication.",
       "image": "assets/dive-signals/hand/core/talk.svg"
     },
     {
       "id": "hand-technical-hold",
       "category": "hand-technical",
       "name": "Hold Position",
-      "description": "Closed fist held steady in front of body. Hold your current position and wait - don't move until further signal. Different from 'stop' which is an open palm.",
+      "description": "Closed fist held steady in front of body. Hold your current position and wait. Don't move until further signal. Different from 'stop' which is an open palm.",
       "image": "assets/dive-signals/hand/technical/hold.svg"
     },
     {
@@ -226,7 +226,7 @@
       "id": "hand-technical-time",
       "category": "hand-technical",
       "name": "Time",
-      "description": "Tap your wrist where a watch would be, or point to your dive computer. Asking about time - runtime, bottom time remaining, or TTS. Respond with number signals.",
+      "description": "Tap your wrist where a watch would be, or point to your dive computer. Asking about time: runtime, bottom time remaining, or TTS (time to surface). Respond with number signals.",
       "image": "assets/dive-signals/hand/technical/time.svg"
     },
     {
@@ -513,21 +513,21 @@
       "id": "hand-fish-id-lionfish",
       "category": "hand-fish-id",
       "name": "Lionfish",
-      "description": "Fingers spread out like spines radiating from face. Lionfish sighting. Venomous - keep distance.",
+      "description": "Fingers spread out like spines radiating from face. Lionfish sighting. Venomous: keep distance.",
       "image": "assets/dive-signals/hand/fish-id/lionfish.svg"
     },
     {
       "id": "hand-fish-id-scorpionfish",
       "category": "hand-fish-id",
       "name": "Scorpionfish",
-      "description": "Fingers spread, hand low like camouflaged fish on bottom. Scorpionfish sighting. Venomous - do not touch.",
+      "description": "Fingers spread, hand low like camouflaged fish on bottom. Scorpionfish sighting. Venomous: do not touch.",
       "image": "assets/dive-signals/hand/fish-id/scorpionfish.svg"
     },
     {
       "id": "hand-fish-id-stonefish",
       "category": "hand-fish-id",
       "name": "Stonefish",
-      "description": "Fist like stone on bottom. Stonefish sighting. Extremely venomous - maintain distance.",
+      "description": "Fist like stone on bottom. Stonefish sighting. Extremely venomous: maintain distance.",
       "image": "assets/dive-signals/hand/fish-id/stonefish.svg"
     },
     {
@@ -555,14 +555,14 @@
       "id": "hand-fish-id-nudibranch",
       "category": "hand-fish-id",
       "name": "Nudibranch",
-      "description": "Two fingers on head wiggling like rhinophores (nudibranch antennae), then pinch fingers to show small size. Nudibranch or sea slug sighting - usually tiny and colorful.",
+      "description": "Two fingers on head wiggling like rhinophores (nudibranch antennae), then pinch fingers to show small size. Nudibranch or sea slug sighting, usually tiny and colorful.",
       "image": "assets/dive-signals/hand/fish-id/nudibranch.svg"
     },
     {
       "id": "hand-fish-id-jellyfish",
       "category": "hand-fish-id",
       "name": "Jellyfish",
-      "description": "Hand pulsing open and closed, fingers trailing downward. Jellyfish in area - avoid contact.",
+      "description": "Hand pulsing open and closed, fingers trailing downward. Jellyfish in area. Avoid contact.",
       "image": "assets/dive-signals/hand/fish-id/jellyfish.svg"
     },
     {
@@ -583,7 +583,7 @@
       "id": "hand-fish-id-small-creature",
       "category": "hand-fish-id",
       "name": "Small Creature",
-      "description": "Pinch thumb and index finger close together indicating tiny size, then point to location. Small/macro creature spotted - look closely at the indicated area.",
+      "description": "Pinch thumb and index finger close together indicating tiny size, then point to location. Small/macro creature spotted. Look closely at the indicated area.",
       "image": "assets/dive-signals/hand/fish-id/small-creature.svg"
     },
     {

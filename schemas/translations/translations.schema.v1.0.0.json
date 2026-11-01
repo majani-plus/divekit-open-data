@@ -1,0 +1,41 @@
+{
+  "$id": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dive Kit Translations Schema",
+  "description": "One locale's translation of one base dataset (datasets/i18n/<locale>/<base>). 'strings' maps a base record id to the translated values of that record's text fields, under the same field names. A missing id or field falls back to the base file's English.",
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string", "description": "Reference to this schema URL." },
+    "meta": {
+      "type": "object",
+      "description": "Metadata about this file.",
+      "properties": {
+        "version": { "type": "string", "description": "Date-based tag (e.g. '2026.11.01.1')." },
+        "generated_at": { "type": "string", "format": "date-time", "description": "ISO timestamp when the file was last generated." },
+        "locale": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$", "description": "BCP 47 language tag of the translation. Example: 'de'." },
+        "base": { "type": "string", "enum": ["checklists.json", "dive-signals.json"], "description": "The base dataset in datasets/ whose ids and fields this file translates." },
+        "license": { "type": "string", "description": "SPDX licence id: the base dataset's licence." },
+        "source": { "type": "string", "description": "Where the translations were taken from." }
+      },
+      "required": ["version", "generated_at", "locale", "base", "license"]
+    },
+    "strings": {
+      "type": "object",
+      "description": "Base record id to translated fields. Checklists: a checklist id carries name and description, a section id title, a step id label and description. Dive signals: a signal id carries name and description.",
+      "propertyNames": { "pattern": "^[a-z0-9\\-]+$" },
+      "additionalProperties": {
+        "type": "object",
+        "minProperties": 1,
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "title": { "type": "string" },
+          "label": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["meta", "strings"],
+  "additionalProperties": false
+}

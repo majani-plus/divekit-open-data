@@ -1,0 +1,385 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "zh",
+    "base": "dive-signals.json",
+    "license": "CC-BY-4.0",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "hand-core-ok": {
+      "name": "OK",
+      "description": "拇指与食指围成圆圈，其余手指伸直。表示一切正常。也可作为疑问：「你还好吗？」如果没问题则以相同手势回应。"
+    },
+    "hand-core-problem": {
+      "name": "有问题",
+      "description": "手掌朝下，左右摇摆。表示出现问题，后续可指向问题来源。"
+    },
+    "hand-core-end-dive": {
+      "name": "结束潜水 / 上升",
+      "description": "拇指向上。立即终止潜水，开始受控上升至水面。"
+    },
+    "hand-core-descend": {
+      "name": "下潜",
+      "description": "拇指向下。开始受控下潜。也可用于示意潜伴下潜。"
+    },
+    "hand-core-level-off": {
+      "name": "保持深度",
+      "description": "手掌朝下水平放置。表示保持当前深度，停止上升或下潜。"
+    },
+    "hand-core-stop": {
+      "name": "停止",
+      "description": "手掌张开面向潜伴，手指向上。表示立即停止并保持位置。"
+    },
+    "hand-core-up": {
+      "name": "向上",
+      "description": "食指向上指。表示方向或上方有物体，比如「看上面」或「我们上方有东西」。请勿与拇指向上（表示结束潜水 / 上升）混淆。"
+    },
+    "hand-core-pressure-check": {
+      "name": "气压检查",
+      "description": "两指轻敲另一只手的手掌。表示检查残压表并报告剩余气量，或询问潜伴的剩余气量。"
+    },
+    "hand-core-safety-stop": {
+      "name": "安全停留",
+      "description": "伸出三根手指（表示 3），手保持水平。表示在 5 m / 15 ft 处进行 3 分钟安全停留。"
+    },
+    "hand-core-turn-around": {
+      "name": "转向 / 折返",
+      "description": "食指做圆形旋转动作。表示转向并开始返回。"
+    },
+    "hand-core-look-at": {
+      "name": "看 / 注意",
+      "description": "两指先指向自己眼睛，再指向方向。表示看我，或看我指向的地方。"
+    },
+    "hand-core-come-here": {
+      "name": "过来",
+      "description": "用手或手指做招手动作。表示靠近我。"
+    },
+    "hand-core-you-lead": {
+      "name": "你带路 / 先走",
+      "description": "双手食指伸直。先指向应带头的人，然后将该指向手指移到另一手指前方。被指到的人处于领队位置，另一人跟随在后。"
+    },
+    "hand-core-get-with-buddy": {
+      "name": "靠近潜伴",
+      "description": "双手食指伸直，然后将两指靠拢直至相触。表示靠近潜伴、保持接触、不要分散。"
+    },
+    "hand-core-hold-hands": {
+      "name": "手拉手 / 连接",
+      "description": "向潜伴伸出手。在能见度低或水流强时牵手导航。"
+    },
+    "hand-core-help": {
+      "name": "求救（水面）",
+      "description": "在水面单臂高举挥动。表示需要紧急救援，是通用的求救信号。"
+    },
+    "hand-core-danger": {
+      "name": "危险 / 隐患",
+      "description": "握拳，朝危险方向做快速刺拳动作。表示该方向有危险，保持警惕。"
+    },
+    "hand-core-share-air": {
+      "name": "共享气源 / 断气",
+      "description": "两个手势：断气：用平展的手横切喉咙；共享气源：先拍自己的调节器，再向潜伴挥手示意。表示请求共用潜伴的气源。"
+    },
+    "hand-core-ears-not-clearing": {
+      "name": "耳压平衡失败",
+      "description": "用手指指向耳朵。表示无法进行耳压平衡，可能需要稍微上升。"
+    },
+    "hand-core-cramp": {
+      "name": "抽筋",
+      "description": "用手做挤压动作（如握压力球），然后指向痉挛的肌肉部位。表示该部位肌肉痉挛。"
+    },
+    "hand-core-cold": {
+      "name": "冷",
+      "description": "双臂交叉于胸前，做拥抱和发抖的动作。表示感到寒冷，可能需要结束潜水。"
+    },
+    "hand-core-calm-down": {
+      "name": "慢下来 / 冷静",
+      "description": "双手掌心朝下，缓慢向下按压。表示减慢速度、缓慢呼吸、放松。"
+    },
+    "hand-core-narcosis": {
+      "name": "氮醉",
+      "description": "手指在太阳穴旁做螺旋动作（迷糊手势）。表示出现氮醉症状，应示意潜伴并开始上升至较浅深度。"
+    },
+    "hand-core-broken-equipment": {
+      "name": "装备故障",
+      "description": "双手置于身前，做折断树枝的动作。表示装备损坏或发生故障。"
+    },
+    "hand-core-need-weight": {
+      "name": "需要配重",
+      "description": "握拳向大腿推压。表示难以下潜，需要增加配重。"
+    },
+    "hand-core-deploy-smb": {
+      "name": "释放 SMB",
+      "description": "一只手做向上释放的动作，如将 SMB 释放至水面。表示正在释放水面浮标，或请求潜伴释放。"
+    },
+    "hand-core-boat": {
+      "name": "船",
+      "description": "双手合拢模拟船体形状，做摇摆动作。表示潜水船或船只位置。"
+    },
+    "hand-core-talk": {
+      "name": "我们聊聊",
+      "description": "手指与拇指合拢，反复开合模拟嘴巴说话。表示我需要和你说话，通常意味着应上浮至水面进行口头交流。"
+    },
+    "hand-technical-hold": {
+      "name": "保持位置",
+      "description": "握拳，稳定置于身前。表示保持当前位置等待，收到进一步手势前不要移动。与「停止」的张开手掌有所不同。"
+    },
+    "hand-technical-ascend": {
+      "name": "上升",
+      "description": "手掌朝下，沿弧形路径向上移动，同时保持手掌水平姿态。表示以正确速率开始上升。"
+    },
+    "hand-technical-level-off": {
+      "name": "保持深度",
+      "description": "手掌朝下做水平动作。表示停止垂直运动，保持当前深度。"
+    },
+    "hand-technical-time": {
+      "name": "时间",
+      "description": "轻拍手腕处（如戴表的位置），或指向潜水电脑。询问时间：累计时间、剩余水底时间或上升时间（TTS）。用数字手势回应。"
+    },
+    "hand-technical-pressure-check": {
+      "name": "气压检查",
+      "description": "握拳，做快速连续的挤压动作，如握压力球。TDI 单手气压手势。用数字手势检查并报告气瓶压力。"
+    },
+    "hand-technical-deco": {
+      "name": "减压",
+      "description": "举起小拇指。用于沟通或询问减压义务。常用于询问队友的上升时间（TTS）。可配合数字手势传达减压时间。"
+    },
+    "hand-technical-gas-switch": {
+      "name": "换气",
+      "description": "食指与中指伸直，在调节器前做旋转 / 转动动作。表示切换至不同气体。须与潜伴确认所切换的气体。"
+    },
+    "hand-technical-bubbles": {
+      "name": "气泡 / 漏气",
+      "description": "拇指与食指 / 中指做反复开合的夹捏动作，模拟气泡上升。表示检测到漏气或装备有气泡溢出。"
+    },
+    "hand-technical-s-drill": {
+      "name": "S 演练",
+      "description": "用食指在空中画出「S」形。TDI S 演练：检查长软管能否自由共享、检查气泡 / 漏气情况、检查潜伴是否有缠绕。在下潜完成前于潜水开始时执行。"
+    },
+    "hand-technical-light": {
+      "name": "灯光",
+      "description": "指尖并拢，然后反复张开、闭合。模拟灯光闪烁。表示开灯、调整灯光或与灯光相关的沟通。"
+    },
+    "hand-technical-reel": {
+      "name": "绕线器",
+      "description": "拇指按在手指上，做圆形绕线动作。表示放线、收线或指代绕线器。"
+    },
+    "hand-technical-line": {
+      "name": "绳线",
+      "description": "食指与中指交叉。表示引导线、洞穴线或距离绳。"
+    },
+    "hand-technical-tie-off": {
+      "name": "系结",
+      "description": "做绳线手势（食指与中指交叉），然后在空中画圆。表示固定绳线、创建系结点。"
+    },
+    "hand-technical-entangled": {
+      "name": "被缠绕",
+      "description": "做绳线手势（食指与中指交叉），然后在空中画无限符号。表示被绳线、渔网或海藻缠绕，需要协助。"
+    },
+    "hand-technical-lock": {
+      "name": "锁定 / 固定",
+      "description": "两根食指互相扣锁，如链环相扣。表示锁定位置或固定装备。"
+    },
+    "hand-technical-wrap": {
+      "name": "绕线",
+      "description": "用另一只手将手掌包裹于握拳的手上。表示绕线或绕线操作。"
+    },
+    "hand-technical-cleanup": {
+      "name": "整理装备",
+      "description": "双手做向身体聚拢 / 收集的动作。表示收好松散装备、固定悬挂的软管或绳索，在移动前整理好装备配置。"
+    },
+    "hand-technical-question": {
+      "name": "疑问 / 什么？",
+      "description": "食指弯曲成问号形状。用于提问或表示困惑。是什么？你是什么意思？"
+    },
+    "hand-technical-zero": {
+      "name": "零（0）",
+      "description": "拇指与食指围成「O」形，或展示握拳。数字零。与其他数字手势配合使用，传达气压或时间数值。"
+    },
+    "hand-technical-one": {
+      "name": "一（1）",
+      "description": "食指伸直，手掌朝外。数字一。用于传达气压（bar / psi）、时间、深度或其他数值。"
+    },
+    "hand-technical-two": {
+      "name": "二（2）",
+      "description": "伸出两根手指（食指、中指），手掌朝外。数字二。"
+    },
+    "hand-technical-three": {
+      "name": "三（3）",
+      "description": "伸出三根手指（食指、中指、无名指），手掌朝外。数字三。"
+    },
+    "hand-technical-four": {
+      "name": "四（4）",
+      "description": "四根手指伸直（拇指收起），手掌朝外。数字四。"
+    },
+    "hand-technical-five": {
+      "name": "五（5）",
+      "description": "五根手指全部伸直，手掌张开朝外。数字五。用于气压时也表示 50 bar / 500 psi。"
+    },
+    "hand-technical-six": {
+      "name": "六（6）",
+      "description": "手侧向放置，手背朝外，伸出一根手指。TDI 风格：6-9 使用侧向手势以区别于 1-4。数字六。"
+    },
+    "hand-technical-seven": {
+      "name": "七（7）",
+      "description": "手侧向放置，手背朝外，伸出两根手指。TDI 风格：6-9 使用侧向手势以区别于 1-4。数字七。"
+    },
+    "hand-technical-eight": {
+      "name": "八（8）",
+      "description": "手侧向放置，手背朝外，伸出三根手指。TDI 风格：6-9 使用侧向手势以区别于 1-4。数字八。"
+    },
+    "hand-technical-nine": {
+      "name": "九（9）",
+      "description": "手侧向放置，手背朝外，伸出四根手指。TDI 风格：6-9 使用侧向手势以区别于 1-4。数字九。"
+    },
+    "hand-fish-id-shark": {
+      "name": "鲨鱼",
+      "description": "手掌平放于头顶，模拟背鳍。表示发现鲨鱼。"
+    },
+    "hand-fish-id-hammerhead": {
+      "name": "锤头鲨",
+      "description": "双拳置于头两侧向外伸展，模拟锤头形状。表示发现锤头鲨。"
+    },
+    "hand-fish-id-manta-ray": {
+      "name": "蝠鲼",
+      "description": "双臂展开，做缓慢优雅的波浪动作如翅膀拍动。表示发现蝠鲼。"
+    },
+    "hand-fish-id-dolphin": {
+      "name": "海豚",
+      "description": "手做波浪式上下起伏动作，模拟海豚游动。表示发现海豚。"
+    },
+    "hand-fish-id-turtle": {
+      "name": "海龟",
+      "description": "一手握拳，另一手平放覆于其上，拇指轮流转动如游泳鳍肢。表示发现海龟。"
+    },
+    "hand-fish-id-seal": {
+      "name": "海豹 / 海狮",
+      "description": "双手于手腕处合拢，像鳍肢一样拍打。表示发现海豹或海狮。"
+    },
+    "hand-fish-id-stingray": {
+      "name": "黄貂鱼",
+      "description": "双手合拢做波浪式起伏动作，并做甩尾手势。表示发现黄貂鱼。"
+    },
+    "hand-fish-id-blue-spotted-ray": {
+      "name": "蓝点魟",
+      "description": "手掌平展波动如魟鱼游动，再用指尖轻拍手背以示斑点。表示发现蓝点魟。"
+    },
+    "hand-fish-id-napoleon": {
+      "name": "波纹唇鱼",
+      "description": "用拳头轻敲额头。表示发现波纹唇鱼（拿破仑鱼）。"
+    },
+    "hand-fish-id-barracuda": {
+      "name": "梭鱼",
+      "description": "用另一只手像刀一样劈向前臂。模拟梭鱼细长的身体和锋利的外形。表示发现梭鱼。"
+    },
+    "hand-fish-id-tuna": {
+      "name": "金枪鱼",
+      "description": "手做快速鱼雷形状的运动。表示发现大型快速游动的大洋性鱼类。"
+    },
+    "hand-fish-id-triggerfish": {
+      "name": "炮弹鱼",
+      "description": "手指模拟扣动扳机的动作。表示发现炮弹鱼，可能具有领地攻击性。"
+    },
+    "hand-fish-id-angelfish": {
+      "name": "神仙鱼",
+      "description": "用手指在头顶做光环动作。表示发现神仙鱼。"
+    },
+    "hand-fish-id-pufferfish": {
+      "name": "河豚",
+      "description": "鼓起脸颊，双手在脸部两侧向外扩张。表示发现河豚或箱鲀。"
+    },
+    "hand-fish-id-trumpetfish": {
+      "name": "管口鱼",
+      "description": "双手置于嘴前如小号，向前伸出。表示发现管口鱼或烟管鱼。"
+    },
+    "hand-fish-id-moray": {
+      "name": "海鳗",
+      "description": "手掌反复开合模拟鳗鱼的嘴，手臂做波浪动作模拟鳗鱼身体。表示发现海鳗。"
+    },
+    "hand-fish-id-lionfish": {
+      "name": "蓑鲉",
+      "description": "手指向外张开，模拟从脸部放射出的棘刺。表示发现蓑鲉（狮子鱼），有毒，请保持距离。"
+    },
+    "hand-fish-id-scorpionfish": {
+      "name": "鲉鱼",
+      "description": "手指展开，手放低如伪装在海底的鱼。表示发现鲉鱼，有毒，请勿触摸。"
+    },
+    "hand-fish-id-stonefish": {
+      "name": "石头鱼",
+      "description": "握拳，如石头般置于低处。表示发现石头鱼，极度危险，请保持距离。"
+    },
+    "hand-fish-id-crocodilefish": {
+      "name": "鳄鱼鲬",
+      "description": "手掌平放在低处（靠近海底），然后用手指对掌做长颌咬合动作。表示发现鳄鱼鲬、扁头鱼或底栖捕食鱼类。"
+    },
+    "hand-fish-id-octopus": {
+      "name": "章鱼",
+      "description": "手指从掌心向外摆动，模拟触手。表示发现章鱼。"
+    },
+    "hand-fish-id-seahorse": {
+      "name": "海马",
+      "description": "握拳并伸出拇指，模拟海马的吻部。表示发现海马。"
+    },
+    "hand-fish-id-nudibranch": {
+      "name": "裸鳃类",
+      "description": "两指置于头顶晃动，模拟裸鳃类的触角，再用手指夹捏示意体型小。表示发现裸鳃类（海蛞蝓），通常体型微小且色彩鲜艳。"
+    },
+    "hand-fish-id-jellyfish": {
+      "name": "水母",
+      "description": "手掌反复开合，手指向下拖曳。表示附近有水母，请避免接触。"
+    },
+    "hand-fish-id-crab": {
+      "name": "螃蟹",
+      "description": "食指与拇指做夹捏动作。表示发现螃蟹。"
+    },
+    "hand-fish-id-shrimp": {
+      "name": "虾",
+      "description": "两指置于额前如触角，并示意体型小。表示发现虾。"
+    },
+    "hand-fish-id-small-creature": {
+      "name": "小生物",
+      "description": "拇指与食指靠拢，示意极小的体型，然后指向位置。表示发现小型 / 微距生物，请仔细观察所示区域。"
+    },
+    "light-ok": {
+      "name": "OK（光信号）",
+      "description": "用光束缓慢画大圆。表示一切正常，可用于发出信号或回应信号。"
+    },
+    "light-attention": {
+      "name": "注意",
+      "description": "将光束在潜伴视野中横向扫动。用于引起潜伴注意，开始交流。"
+    },
+    "light-emergency": {
+      "name": "紧急",
+      "description": "快速持续抖动光束，动作不规则。表示紧急情况，需要立即协助。"
+    },
+    "touch-contact-ok": {
+      "name": "OK",
+      "description": "在潜伴手臂或手上用力捏两下。表示一切正常，用相同信号回应。"
+    },
+    "touch-contact-stop": {
+      "name": "停止",
+      "description": "一次用力抓握或捏紧。表示立即停止，保持位置。"
+    },
+    "touch-contact-hold": {
+      "name": "保持 / 等待",
+      "description": "稳稳抓住，不要移动。表示停在此处，保持位置，等待。"
+    },
+    "touch-contact-ascend": {
+      "name": "上升",
+      "description": "向上推潜伴的手臂。表示向上移动，开始上升。"
+    },
+    "touch-contact-descend": {
+      "name": "下潜",
+      "description": "向下推潜伴的手臂。表示向下移动，继续下潜。"
+    },
+    "touch-contact-left-right": {
+      "name": "左 / 右",
+      "description": "向侧面拉动手臂。表示向指示的左或右方向移动。"
+    },
+    "touch-contact-forward-backward": {
+      "name": "前进 / 后退",
+      "description": "沿手臂水平方向拉或推。表示向指定方向前进或后退。"
+    }
+  }
+}
