@@ -96,8 +96,11 @@ For new or updated datasets:
   - Signal meanings are safety-relevant. Only submit signals documented by recognized training agencies or established community practice, and describe them accurately.
 
 - For checklists and translations:
-  - `datasets/checklists.json` and `datasets/i18n/` are built from the Dive Kit app by `scripts/import-app-checklists.ts`. Propose wording changes in an issue, or change the app's text and re-run the script, so the app and this repo stay one source.
+  - `datasets/checklists.json` is the source of truth for the Dive Kit app's checklist presets; the app reads it and its translations from this repo. Edit checklist text here, and edit translations directly in `datasets/i18n/<locale>/checklists.json`.
+  - Never change an `app_preset_id`. Checklists divers have saved in the app carry it.
   - Never reuse or renumber a section or step id. A new step gets a new id.
+  - The app's tests pin the FX CCR step counts: `fx-functionality` 13, `fx-pre-dive` 7, `fx-after-dive` 13. Changing one breaks the app's `bun test` at its next submodule bump, so change the app's test in the same round.
+  - The signal translations (`datasets/i18n/<locale>/dive-signals.json`) still come from the app. Change them in the app's `assets/locales/<locale>/signals.json` and rebuild with `bun scripts/import-app-signal-translations.ts ../divekit-app`.
   - Every checklist states its `provenance`: what it follows, and whether it is in Dive Kit's own words, paraphrased or reproduced.
 
 Refer to the schema files in `/schemas` for detailed field requirements and examples.

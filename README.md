@@ -88,7 +88,7 @@ divekit-open-data/
 ├── scripts/
 │ ├── validate.sh
 │ ├── test-local.sh
-│ ├── import-app-checklists.ts    # Builds checklists.json and datasets/i18n/ from the Dive Kit app
+│ ├── import-app-signal-translations.ts  # Builds datasets/i18n/<locale>/dive-signals.json from the Dive Kit app
 │ ├── cylinder-buoyancy.py        # Recomputes cylinder buoyancy from weight and volume
 │ └── cylinder-buoyancy-other.py  # The same for the rows without a Luxfer or Faber US sheet
 │
@@ -191,7 +191,7 @@ The dive signals and checklists come in German, Polish, Russian, Swedish, Turkis
 
 Read `strings[id][field]` and fall back to the base file's English when it is missing. Checklist ids cover the checklist (`name`, `description`), each section (`title`) and each step (`label`, `description`). `scripts/validate.sh` fails when a translation names an id or field the base does not have. [Dataset Documentation](docs/DATASETS.md#translations) has the details.
 
-`datasets/checklists.json` and every file in `datasets/i18n/` are built from the Dive Kit app with `bun scripts/import-app-checklists.ts ../divekit-app`, which also reports any id that does not match.
+`datasets/checklists.json` and its translations in `datasets/i18n/<locale>/checklists.json` are the source the Dive Kit app reads its checklist presets from; edit them here. The signal translations still come from the app: `bun scripts/import-app-signal-translations.ts ../divekit-app` rebuilds `datasets/i18n/<locale>/dive-signals.json` and reports any id that does not match.
 
 ---
 
