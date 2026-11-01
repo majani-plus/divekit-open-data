@@ -1,0 +1,756 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "tr",
+    "base": "checklists.json",
+    "license": "MIT",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "rec-pre-dive": {
+      "name": "Dalış öncesi güvenlik kontrolü (BWRAF)",
+      "description": "Her sportif dalıştan önce yapılan eş kontrolü: Denge yeleği, Balast, Kilitler, Hava, Son kontrol. Birlikte, sesli ve baştan ayağa yapın."
+    },
+    "rec-pre-dive-s1": {
+      "title": "B: BCD (denge yeleği)"
+    },
+    "rec-pre-dive-s1-1": {
+      "label": "Denge yeleği (BCD) ayarlandı",
+      "description": "Kayışlar oturmuş, hiçbir şey dolanmamış. Gevşek bir yelek su içindeki dengeni bozar."
+    },
+    "rec-pre-dive-s1-2": {
+      "label": "Tüp kayışında sabit",
+      "description": "Hafifçe çek. Tüp kaymamalı veya dönmemeli."
+    },
+    "rec-pre-dive-s1-3": {
+      "label": "Şişirici ve boşaltıcı çalışıyor",
+      "description": "Biraz gaz ekle ve boşalt. Düğmeyi bıraktığın an besleme temiz şekilde durmalı."
+    },
+    "rec-pre-dive-s1-4": {
+      "label": "Giriş için kısmen şişirilmiş",
+      "description": "Yüzeyde rahatça durmaya yetecek kadar, girişe uygun şekilde."
+    },
+    "rec-pre-dive-s1-5": {
+      "label": "Yüzey sinyal araçları yerinde",
+      "description": "Yardımsız ulaşabileceğin bir düdük ve bir şamandıra."
+    },
+    "rec-pre-dive-s1-6": {
+      "label": "Ekip, birbirinin yeleklerini nasıl kullanacağını biliyor"
+    },
+    "rec-pre-dive-s2": {
+      "title": "W: Weights (balast)"
+    },
+    "rec-pre-dive-s2-1": {
+      "label": "Doğru miktarda balast",
+      "description": "Neredeyse boş tüple güvenlik durağını tutmaya yetecek kadar, fazlası değil. Girişten sonra tekrar kontrol et."
+    },
+    "rec-pre-dive-s2-2": {
+      "label": "Balast iyi denge için yerleştirilmiş"
+    },
+    "rec-pre-dive-s2-3": {
+      "label": "Hızlı açma tokaları çalışıyor",
+      "description": "Her kilit tek çekişle açılır, sonra tekrar sabitlenir."
+    },
+    "rec-pre-dive-s2-4": {
+      "label": "Atılabilir balast serbest ve engelsiz",
+      "description": "Hiçbir şey onu diğer ekipmana sıkıştırmıyor."
+    },
+    "rec-pre-dive-s2-5": {
+      "label": "Tek çekiş yeterli kaldırma için balast atıyor"
+    },
+    "rec-pre-dive-s2-6": {
+      "label": "Ekip, birbirinin balastını nasıl atacağını biliyor"
+    },
+    "rec-pre-dive-s3": {
+      "title": "R: Releases (kilitler)"
+    },
+    "rec-pre-dive-s3-1": {
+      "label": "Tüm kilitler sabit, ayarlı ve çalışır durumda",
+      "description": "Yelek ve balast kilitlerini birlikte tekrar kontrol et."
+    },
+    "rec-pre-dive-s3-2": {
+      "label": "Ekip, birbirinin kilitlerini nasıl kullanacağını biliyor"
+    },
+    "rec-pre-dive-s4": {
+      "title": "A: Air (hava)"
+    },
+    "rec-pre-dive-s4-1": {
+      "label": "Tüp valfleri tam açık",
+      "description": "Sonuna kadar aç. Ekip bunu görerek ve dokunarak birbiri için doğrular."
+    },
+    "rec-pre-dive-s4-2": {
+      "label": "Yeterli gaz ve rezerv kararlaştırıldı",
+      "description": "Herkeste planlanan dalış için gaz ve güvenle yüzeye çıkmak için bir rezerv var."
+    },
+    "rec-pre-dive-s4-3": {
+      "label": "Şişirici hortumu tekrar bağlı ve çalışıyor",
+      "description": "Tüple uğraştıktan sonra yelek ve kuru elbise şişirici bağlantısını tekrar kontrol et."
+    },
+    "rec-pre-dive-s4-4": {
+      "label": "Ana ve yedek regülatörün ikisi de solundu",
+      "description": "Her ikinci kademeyi solu. İkisi de gazı kolayca vermeli."
+    },
+    "rec-pre-dive-s4-5": {
+      "label": "Yedek regülatör göğüs bölgesinde yerinde",
+      "description": "Bir eşin hızlıca bulabileceği şekilde sabitlenmiş."
+    },
+    "rec-pre-dive-s4-6": {
+      "label": "Ekip, birbirinin yedek regülatörünün yerini biliyor"
+    },
+    "rec-pre-dive-s5": {
+      "title": "F: Final check (son kontrol)"
+    },
+    "rec-pre-dive-s5-1": {
+      "label": "Gevşek, eksik veya sıkışmış ekipman yok",
+      "description": "Baştan ayağa sarkan hortumlar ve takılma noktaları için tara."
+    },
+    "rec-pre-dive-s5-2": {
+      "label": "Dalış bilgisayarı açık ve ayarlı",
+      "description": "Doğru gaz (hava veya nitrox %) ve ayarlar doğrulandı."
+    },
+    "rec-pre-dive-s5-3": {
+      "label": "El işaretleri ve plan gözden geçirildi",
+      "description": "Derinlik, süre, dönüş noktası ve ayrılma durumunda ne yapılacağını kararlaştır."
+    },
+    "rec-pre-dive-s5-4": {
+      "label": "Amaç güvenle geri dönmek",
+      "description": "Bu, dalışın diğer her hedefinin önündedir."
+    },
+    "rec-pre-dive-s5-5": {
+      "label": "Her dalgıç dalışı istediği zaman bitirebilir",
+      "description": "Herhangi bir nedenle, soru sorulmadan."
+    },
+    "oc-tec-pre-dive": {
+      "name": "Açık devre teknik dalış öncesi kontrolü",
+      "description": "Açık devre teknik dalış için dalış öncesi kontroller: analiz et ve kur, basınç testlerini yap, sonra ekibinle ekipmanı baştan ayağa karşılaştır. Aldığın eğitime göre düzenle."
+    },
+    "oc-tec-pre-dive-s1": {
+      "title": "Dalış öncesi hazırlık"
+    },
+    "oc-tec-pre-dive-s1-1": {
+      "label": "Her tüpü kendin analiz et",
+      "description": "Her tüpü kurmadan önce analiz et ve etiketin uyduğunu doğrula. Varsa önce ayırma valfini aç."
+    },
+    "oc-tec-pre-dive-s1-2": {
+      "label": "Ekipmanı kur, tüpler tam açık",
+      "description": "Kurulmuş ve giyilmeye hazır."
+    },
+    "oc-tec-pre-dive-s1-3": {
+      "label": "Her regülatörü solu",
+      "description": "Her biri serbest akış olmadan kolayca solunmalı."
+    },
+    "oc-tec-pre-dive-s1-4": {
+      "label": "Wing'i basınç testinden geçir",
+      "description": "Tamamen şişir ve tuttuğunu izle. Çift wing ise her baloncuğu ayrı ayrı test et."
+    },
+    "oc-tec-pre-dive-s1-5": {
+      "label": "Regülatörlerde pozitif basınç testi",
+      "description": "Manometreyi (SPG) oku, tüp valfini kapat ve bekle. Değer düşmemeli."
+    },
+    "oc-tec-pre-dive-s1-6": {
+      "label": "Regülatörlerde negatif basınç testi",
+      "description": "Akış durana kadar regülatörü solu. Manometre sıfır göstermeli ve kaymamalı."
+    },
+    "oc-tec-pre-dive-s1-7": {
+      "label": "Her manometrede gaz basıncını kontrol et",
+      "description": "Ayırma valfi tam açıkken valfi aç ve yeterli gaz olduğunu doğrula. Deko ve stage tüplerini basınçlı ama kapalı bırak."
+    },
+    "oc-tec-pre-dive-s1-8": {
+      "label": "Dönüş ve minimum çıkış basınçlarını not et",
+      "description": "Bir tablete yaz ve ekiple doğrula."
+    },
+    "oc-tec-pre-dive-s1-9": {
+      "label": "Ekipmanı giy ve ayarla",
+      "description": "Cihazı giymeden önce ana gaz tüplerini aç."
+    },
+    "oc-tec-pre-dive-s2": {
+      "title": "Baştan ayağa ekip kontrolü"
+    },
+    "oc-tec-pre-dive-s2-1": {
+      "label": "Başlık takılı"
+    },
+    "oc-tec-pre-dive-s2-2": {
+      "label": "Maske hazır veya zaten takılı"
+    },
+    "oc-tec-pre-dive-s2-3": {
+      "label": "Regülatörler: uzun hortum serbest",
+      "description": "Her regülatörü bir kez daha solu."
+    },
+    "oc-tec-pre-dive-s2-4": {
+      "label": "Tüp valfleri doğru",
+      "description": "Ana gaz ve bailout açık. Deko ve stage tüpleri basınçlı ama kapalı."
+    },
+    "oc-tec-pre-dive-s2-5": {
+      "label": "Wing şişiricisi çalışıyor",
+      "description": "Ağızdan şişirmeyi de doğrula ve varsa yedek şişiricinin ulaşılabilir olduğunu kontrol et."
+    },
+    "oc-tec-pre-dive-s2-6": {
+      "label": "Kuru elbise şişiricisi bağlı ve çalışıyor",
+      "description": "Ayrıysa şişirme tüpü açık. Yedek hortum ulaşılabilir."
+    },
+    "oc-tec-pre-dive-s2-7": {
+      "label": "Dalış bilgisayarları ve zamanlayıcılar ayarlı",
+      "description": "Açık, şarjlı ve doğru gazlara ayarlı."
+    },
+    "oc-tec-pre-dive-s2-8": {
+      "label": "Balast giyilmiş, kilitler ulaşılabilir"
+    },
+    "oc-tec-pre-dive-s2-9": {
+      "label": "Wing boşaltma valfleri çalışıyor ve ulaşılabilir"
+    },
+    "oc-tec-pre-dive-s2-10": {
+      "label": "Işıklar kontrol edildi",
+      "description": "Ana ışık açık, yedekler çalışıyor ve yerinde."
+    },
+    "oc-tec-pre-dive-s2-11": {
+      "label": "Yedek maske yerinde ve ulaşılabilir",
+      "description": "Buğu önleyici sürülmüş ve kolay çıkarılabilir."
+    },
+    "oc-tec-pre-dive-s2-12": {
+      "label": "Diğer ekipman ulaşılabilir",
+      "description": "Şamandıra ve makara, kesici alet, sinyal araçları ve tablet, hepsi erişilebilir."
+    },
+    "tec-plan": {
+      "name": "Teknik dalış plan kontrolü",
+      "description": "Teknik bir dalıştan önce planı baştan sona konuş: görev, lojistik, narkoz, gaz, dekompresyon, oksijen ve termal. Bir düşünme kontrolü, ekipman kontrolü değil."
+    },
+    "tec-plan-s1": {
+      "title": "Görev"
+    },
+    "tec-plan-s1-1": {
+      "label": "Birincil görev sağ salim dönmek",
+      "description": "Herkes bunun her hedeften önce geldiğinde hemfikir."
+    },
+    "tec-plan-s1-2": {
+      "label": "Görev bu dalış için gerçekçi"
+    },
+    "tec-plan-s1-3": {
+      "label": "Görev olabildiğince basitleştirildi"
+    },
+    "tec-plan-s1-4": {
+      "label": "Tüm ekip planı anlıyor ve onaylıyor"
+    },
+    "tec-plan-s1-5": {
+      "label": "Herkes kendi rolünü yapabilir"
+    },
+    "tec-plan-s1-6": {
+      "label": "Mümkünse karada veya sığ suda prova edildi"
+    },
+    "tec-plan-s2": {
+      "title": "Lojistik"
+    },
+    "tec-plan-s2-1": {
+      "label": "Ekip rolleri kararlaştırıldı",
+      "description": "Kim ne taşıyor ve kim ne yapıyor."
+    },
+    "tec-plan-s2-2": {
+      "label": "Buluşma yeri ve zamanı belli"
+    },
+    "tec-plan-s2-3": {
+      "label": "Gaz temini ayarlandı",
+      "description": "Dolumlar ve takviyeler ayrılmış veya hazır."
+    },
+    "tec-plan-s2-4": {
+      "label": "Ekipman halledildi",
+      "description": "Kiralama ve yedekler organize edildi."
+    },
+    "tec-plan-s2-5": {
+      "label": "Acil durum planı biliniyor",
+      "description": "Nasıl yardım çağrılır, oksijen ve ilk yardımın yeri, tahliye yolu ve en yakın basınç odası."
+    },
+    "tec-plan-s2-6": {
+      "label": "Yüzey desteği ve güvence bilgilendirildi"
+    },
+    "tec-plan-s3": {
+      "title": "İnert gaz narkozu"
+    },
+    "tec-plan-s3-1": {
+      "label": "Plan narkozu yönetilebilir tutuyor",
+      "description": "Hedefin izin verdiği kadar sığ dal."
+    },
+    "tec-plan-s3-2": {
+      "label": "Eşdeğer narkoz derinliği sınırlar içinde",
+      "description": "30 m (100 ft) veya daha sığ bir eşdeğer narkoz derinliği (END) önerilir, en fazla 40 m (130 ft)."
+    },
+    "tec-plan-s3-3": {
+      "label": "Gaz yoğunluğu sınırlar içinde",
+      "description": "En derin noktada gaz yoğunluğunu en fazla 5,2 g/l, azami 6,3 g/l tut."
+    },
+    "tec-plan-s4": {
+      "title": "Gaz"
+    },
+    "tec-plan-s4-1": {
+      "label": "Gaz seçimleri mantıklı",
+      "description": "Bulunabilirlik, dekompresyon, oksijen maruziyeti, narkoz ve yoğunluk hepsi tartıldı."
+    },
+    "tec-plan-s4-2": {
+      "label": "Gaz miktarları hesaplandı",
+      "description": "Tüketim, iş yükü, planlanan rezerv ve tüp hacmine göre."
+    },
+    "tec-plan-s4-3": {
+      "label": "Her tüp, onu soluyan dalgıç tarafından analiz edildi"
+    },
+    "tec-plan-s4-4": {
+      "label": "Her tüp açıkça etiketlendi"
+    },
+    "tec-plan-s5": {
+      "title": "Dekompresyon"
+    },
+    "tec-plan-s5-1": {
+      "label": "Çıkış planlandı",
+      "description": "Yazılım veya dalış bilgisayarıyla, çıkış süresi ve duraklar dahil hesaplandı."
+    },
+    "tec-plan-s5-2": {
+      "label": "Olasılıklar planlandı",
+      "description": "Fazladan derinlik veya süre ve ana gaz ya da deko gazı kaybı."
+    },
+    "tec-plan-s5-3": {
+      "label": "Yedek plan taşınıyor",
+      "description": "İkinci bir bilgisayar veya basılı tablolar."
+    },
+    "tec-plan-s6": {
+      "title": "Oksijen"
+    },
+    "tec-plan-s6-1": {
+      "label": "Ana gaz PPO₂ maksimum derinlikte en fazla 1,4 bar"
+    },
+    "tec-plan-s6-2": {
+      "label": "Her gaz değişimi en fazla 1,4 bar PPO₂'de kalır"
+    },
+    "tec-plan-s6-3": {
+      "label": "Deko gazları durak derinliğinde en fazla 1,6 bar PPO₂"
+    },
+    "tec-plan-s6-4": {
+      "label": "CNS ve OTU kabul edilen sınırlar içinde",
+      "description": "Tüm dalış için CNS (merkezi sinir sistemi) saati ve OTU (oksijen toksisite birimleri)."
+    },
+    "tec-plan-s7": {
+      "title": "Termal maruziyet"
+    },
+    "tec-plan-s7-1": {
+      "label": "Koruyucu elbiseler dalışa uygun",
+      "description": "Planlanan süre ve makul bir aşım için yeterince sıcak."
+    },
+    "tec-plan-s7-2": {
+      "label": "Kullanılıyorsa kuru elbise kontrol edildi",
+      "description": "Valfler, fermuar ve contalar sağlam. Kullanılıyorsa ayrı şişirme gazı ve elbise şişirmek için helyum yok."
+    },
+    "tec-plan-s7-3": {
+      "label": "Kullanılıyorsa ıslak elbise yüzerliği planlandı",
+      "description": "Derinlikte elbise sıkışmasını hesaba kat, yedek bir yüzerlik planıyla."
+    },
+    "jj-land-prep": {
+      "name": "JJ-CCR karada hazırlık",
+      "description": "Sahaya çıkmadan önce sistemin tam kurulumu ve doğrulaması. JJ-CCR el kitabına dayanır. Kendi cihazına ve aldığın eğitime göre düzenle."
+    },
+    "jj-land-prep-s1": {
+      "title": "Değerlendirme ve malzemeler"
+    },
+    "jj-land-prep-s1-1": {
+      "label": "Kendini sağlıklı, dinlenmiş ve sakin hissettiğini kontrol et",
+      "description": "Dalışa hazır hissetmiyorsan en güvenli karar dalmamaktır."
+    },
+    "jj-land-prep-s1-2": {
+      "label": "Karbondioksit tutucuyu (sorb) taze, kullanılmamış sorb ile doldur",
+      "description": "Önceki bir dalıştan kalan sorbu asla yeniden kullanma. Sorb kutusu kullanımını takip edebilmek için dolumu not et."
+    },
+    "jj-land-prep-s1-3": {
+      "label": "O₂ ve diluent tüplerini analiz et",
+      "description": "İçeriği doğrula ve planlanan dalış için yeterli basınç olduğunu kontrol et."
+    },
+    "jj-land-prep-s1-4": {
+      "label": "Dalış için yeterli bailout hazırla",
+      "description": "Bailout'u en kötü senaryoya göre planla. Hiçbir zaman fazla bailout gazı taşımış olmazsın."
+    },
+    "jj-land-prep-s2": {
+      "title": "Montaj"
+    },
+    "jj-land-prep-s2-1": {
+      "label": "O₂ ve diluent tüplerini cihaza sabitle"
+    },
+    "jj-land-prep-s2-2": {
+      "label": "Sorb kutusunu tak ve kapağı kapat"
+    },
+    "jj-land-prep-s2-3": {
+      "label": "Çek valflerin (mantar valf) her iki yönde sızdırmazlığını kontrol et",
+      "description": "Devrenin kapalı her bir tarafına yavaşça soluk ver. Kapalı bir valften hiç gaz geçmemeli."
+    },
+    "jj-land-prep-s2-4": {
+      "label": "Tüm hortumları bağla ve O-ringleri kontrol et",
+      "description": "O-ringler temiz ve hasarsız olmalı. DSV'nin düzgün açılıp kapandığını doğrula."
+    },
+    "jj-land-prep-s3": {
+      "title": "Sistem kontrolleri"
+    },
+    "jj-land-prep-s3-1": {
+      "label": "Her iki tüp valfini aç ve basınçları kontrol et"
+    },
+    "jj-land-prep-s3-2": {
+      "label": "Her iki birinci kademenin ara basıncını kontrol et",
+      "description": "JJ-CCR değerleri: diluent 9 ila 10 bar, O₂ 7 ila 7,5 bar. Bir değer aralık dışındaysa dalma."
+    },
+    "jj-land-prep-s3-3": {
+      "label": "Her iki manuel ekleme valfini ve ADV'yi test et"
+    },
+    "jj-land-prep-s3-4": {
+      "label": "Wing şişiricisini test et"
+    },
+    "jj-land-prep-s3-5": {
+      "label": "DSV'yi her iki konumda test et"
+    },
+    "jj-land-prep-s4": {
+      "title": "Sızdırmazlık testleri"
+    },
+    "jj-land-prep-s4-1": {
+      "label": "Pozitif basınç testi yap",
+      "description": "Aşırı basınç valfi (OPV) gaz boşaltana kadar devreyi doldur, DSV'yi kapat ve bekle. Tekrar açtığında hâlâ basınç çıkmalı."
+    },
+    "jj-land-prep-s4-2": {
+      "label": "Devreyi karşı ciğer boşaltma valfiyle boşalt"
+    },
+    "jj-land-prep-s4-3": {
+      "label": "Negatif basınç testi yap",
+      "description": "Her iki tüp valfini kapat, devreyi soluyarak vakuma indir, DSV'yi kapat ve bekle. ADV diyaframı içeri çekili kalmalı."
+    },
+    "jj-land-prep-s5": {
+      "title": "Elektronik ve başlatma"
+    },
+    "jj-land-prep-s5-1": {
+      "label": "Her iki tüp valfini tekrar aç"
+    },
+    "jj-land-prep-s5-2": {
+      "label": "Kontrolcüyü ve HUD'u aç"
+    },
+    "jj-land-prep-s5-3": {
+      "label": "O₂ hücrelerini kontrolcü ve HUD üzerinden kalibre et",
+      "description": "Zamanla sapan bir hücreyi fark edebilmek için hücre değerlerini not et."
+    },
+    "jj-land-prep-s5-4": {
+      "label": "Kontrolcü ve solenoid pil voltajlarını kontrol et"
+    },
+    "jj-land-prep-s5-5": {
+      "label": "Devreyi 2 ila 3 dakika ön solu",
+      "description": "Solurken PPO₂'nin setpoint yakınında sabit kaldığını izle. Ön soluma, arızalanan bir sorb kutusunu güvenilir şekilde tespit etmez, bu yüzden önceki kontrolleri asla atlama."
+    },
+    "jj-land-prep-s5-6": {
+      "label": "DSV'yi ve her iki tüp valfini kapat"
+    },
+    "jj-pre-dive": {
+      "name": "JJ-CCR dalıştan hemen önce",
+      "description": "Ekipmanı giyip suya girmeden hemen önceki son kontroller. JJ-CCR el kitabına dayanır. Kendi cihazına ve aldığın eğitime göre düzenle."
+    },
+    "jj-pre-dive-s1": {
+      "title": "Son kontroller"
+    },
+    "jj-pre-dive-s1-1": {
+      "label": "Her iki tüp valfini aç ve basınçları kontrol et"
+    },
+    "jj-pre-dive-s1-2": {
+      "label": "Her iki manuel ekleme valfini ve ADV'yi test et"
+    },
+    "jj-pre-dive-s1-3": {
+      "label": "Wing şişiricisini test et"
+    },
+    "jj-pre-dive-s1-4": {
+      "label": "DSV'yi her iki konumda test et"
+    },
+    "jj-pre-dive-s1-5": {
+      "label": "Pozitif ve negatif basınç testi yap",
+      "description": "Her iki yönde kısa bir bekleme, devrenin hâlâ sızdırmaz olduğunu doğrulamaya yeter."
+    },
+    "jj-pre-dive-s1-6": {
+      "label": "Kontrolcüyü ve HUD'u aç"
+    },
+    "jj-pre-dive-s1-7": {
+      "label": "Alt ve üst setpoint değerlerini kontrol et"
+    },
+    "jj-pre-dive-s1-8": {
+      "label": "Devreyi en az 2 ila 3 dakika ön solu",
+      "description": "Solurken PPO₂'yi izle. Baş ağrısı, baş dönmesi, hava açlığı gibi bir belirti hissedersen dur ve araştır."
+    },
+    "jj-in-water": {
+      "name": "JJ-CCR suya girdikten sonra",
+      "description": "Suya girdikten hemen sonra, yüzeyden ayrılmadan önceki yüzey kontrolleri. Suya atlamadan önce gözden geçir. JJ-CCR el kitabına dayanır."
+    },
+    "jj-in-water-s1": {
+      "title": "Yüzey kontrolleri"
+    },
+    "jj-in-water-s1-1": {
+      "label": "İlk 6 m (20 ft) içinde kabarcık kontrolü",
+      "description": "İnişe geçmeden önce kabarcık kontrolünü dalış eşinle kararlaştır. Bu kontrol yapılmadan asla daha derine devam etme."
+    },
+    "jj-in-water-s1-2": {
+      "label": "Kontrolcü ve HUD değerlerini kontrol et"
+    },
+    "jj-in-water-s1-3": {
+      "label": "Her şeyin takılı, yerine konmuş ve ulaşılabilir olduğunu kontrol et"
+    },
+    "fx-functionality": {
+      "name": "FX CCR işlev kontrolü",
+      "description": "Sub-Gravity FX-CCR İşlev Kontrol Listesi v1.5 (kalibrasyon kiti), 1 ile 13 arası adımlar kendi sırasıyla: tüpler, scrubber, hücre kontrolü, basınç testleri, piller ve ön soluma. Cihazı kurarken uygula. Hemen dalacaksan FX CCR dalış öncesi kontrollerle devam et. Henüz dalmayacaksan O₂ ve diluent tüplerinin valflerini kapat, hortumların basıncını boşalt, elektroniği kapat ve cihazı emniyete al. Yalnızca bu cihaz için geçerlidir. Kendi cihazına ve aldığın eğitime göre düzenle."
+    },
+    "fx-functionality-s1": {
+      "title": "İşlev kontrolleri"
+    },
+    "fx-functionality-s1-1": {
+      "label": "Analiz edilmiş ve etiketlenmiş gaz tüplerini tak"
+    },
+    "fx-functionality-s1-2": {
+      "label": "Mantar valf ve ağızlık kontrolü"
+    },
+    "fx-functionality-s1-3": {
+      "label": "Kontrolcüyü ve yedek el ünitesini aç",
+      "description": "A. 0,19 setpoint'e geç."
+    },
+    "fx-functionality-s1-4": {
+      "label": "Kalan scrubber süresini kontrol et",
+      "description": "A. Gerekiyorsa scrubber'ı yeniden doldur ve kanistere yerleştir.\nB. Su tutucunun düzgün takıldığından emin ol.\nC. Kapağın takılı olduğunu ve her iki emniyet ipinin yerinde olduğunu doğrula.\nD. Stack timer'ı uygun süreye sıfırla."
+    },
+    "fx-functionality-s1-5": {
+      "label": "mV ve kalibrasyonu kontrol et",
+      "description": "A. Havadaki mV ve kısmi oksijen basıncı (PPO₂) değerlerini not et.\nB. Kalibrasyon kitini kullanarak mV ve PPO₂ değerleri sabitlenene kadar kapağı oksijenle yıka.\nC. Beklenen ve ölçülen değerleri karşılaştır.\nD. Gerekiyorsa el kitabına göre kalibre et.\n\nHavada beklenen: hücre başına 8,5 ile 13 mV (S1, S2, S3). O₂'de beklenen: havada ölçülen değerin 0,21'e bölümü. O₂'de ölçülen değer, beklenen değerden en fazla 2 mV ve 0,05 PPO₂ sapmalı. Bu rakamlar %100 oksijen varsayar; daha düşük bir saflık için (örneğin %93) hesabı buna göre düzelt."
+    },
+    "fx-functionality-s1-6": {
+      "label": "Tüm bağlantıları kontrol et (dişli ve bayonet)"
+    },
+    "fx-functionality-s1-7": {
+      "label": "Negatif basınç testi (en az 1 dakika)",
+      "description": "A. BOV'u aç.\nB. CC modunda BOV'dan solu ve burnundan ver; karşı ciğerler tamamen sönene kadar sürdür.\nC. BOV'u kapat.\nD. En az bir dakika bekle; sızıntı belirtilerini izle."
+    },
+    "fx-functionality-s1-8": {
+      "label": "Pozitif basınç testi (en az 1 dakika)",
+      "description": "A. Karşı ciğer OPV'sini kapat.\nB. OPV gaz boşaltana kadar loop'u tamamen doldur.\nC. Bir dakika bekle; sızıntı belirtilerini izle.\nD. Basıncı boşaltmak için BOV'u aç, sonra BOV'u kapat.\nE. Karşı ciğer OPV'sini aç."
+    },
+    "fx-functionality-s1-9": {
+      "label": "ADV, BOV ve MAV'ları kontrol et",
+      "description": "A. Diluent ve oksijen tüplerini yavaşça aç.\nB. BOV'dan solu (hipoksik diluent kullanıyorsan dikkatli ol).\nC. BOV'u aç ve ADV devreye girene kadar loop'tan solu.\nD. Diluent ve O₂ MAV'larının çalıştığını doğrula."
+    },
+    "fx-functionality-s1-10": {
+      "label": "Diluent ve O₂ sızıntı testi (en az 30 saniye)",
+      "description": "A. Diluent ve oksijen tüplerini yavaşça açarak hortumların basınçlanmasını sağla.\nB. Valfleri kapat.\nC. Basınç kaybını izle (en az 30 saniye). Diluent ve O₂ için başlangıç ve bitiş basınçlarını not et.\nD. Diluent ve oksijen tüplerini aç."
+    },
+    "fx-functionality-s1-11": {
+      "label": "Kapak ve ekran pillerini kontrol et",
+      "description": "A. FX CCR'ı LOW setpoint'e al.\nB. Solenoid çalışır ve O₂ eklemesi doğrulanır.\nC. FX CCR'ı 0,19 setpoint'e al.\nD. B1, B2 ve tüm el üniteleri / NERD için pil durumunu kontrol et.\n\nB1 ve B2: 3,9 V'un altındaysa (yaklaşık %62) devam etmeden önce değiştir veya şarj et.\nEl üniteleri / NERD: sarı, pilin değiştirilmesi veya şarj edilmesi gerektiği anlamına gelir. Kırmızı, hemen değiştirilmesi veya şarj edilmesi gerektiği anlamına gelir."
+    },
+    "fx-functionality-s1-12": {
+      "label": "Bilgisayar ayarları (ana ve yedek)",
+      "description": "A. CC ve bailout gazları.\nB. Alt ve üst setpoint.\nC. Deko ayarları."
+    },
+    "fx-functionality-s1-13": {
+      "label": "Ön soluma (5 dakika)",
+      "description": "A. FX CCR'ı LOW setpoint'e al.\nB. Güvenli bir yerde ve pozisyonda burnunu kapat ve FX CCR'dan solumaya başla.\nC. Setpoint'in korunduğunu ve HUD işlevlerini gözle.\nD. CCR'ın nasıl çalıştığı kadar kendini nasıl hissettiğine de dikkat et."
+    },
+    "fx-pre-dive": {
+      "name": "FX CCR dalış öncesi kontroller",
+      "description": "Sub-Gravity FX-CCR İşlev Kontrol Listesi v1.5 (kalibrasyon kiti), 14 ile 20 arası adımlar: işlev kontrolünden sonra su kenarında yapılan kontroller, atlama öncesi tatbikatla biter. Yalnızca bu cihaz için geçerlidir. Kendi cihazına ve aldığın eğitime göre düzenle."
+    },
+    "fx-pre-dive-s1": {
+      "title": "Dalış öncesi kontroller"
+    },
+    "fx-pre-dive-s1-1": {
+      "label": "Pozitif / negatif testler yapıldı mı?"
+    },
+    "fx-pre-dive-s1-2": {
+      "label": "Ağırlıklandırma doğru mu?"
+    },
+    "fx-pre-dive-s1-3": {
+      "label": "HUD ve bilek ekranları açık mı?"
+    },
+    "fx-pre-dive-s1-4": {
+      "label": "Tüp valfleri açık mı?"
+    },
+    "fx-pre-dive-s1-5": {
+      "label": "Setpoint'i ve loop içeriğini doğrula"
+    },
+    "fx-pre-dive-s1-6": {
+      "label": "FX CCR'ı giy"
+    },
+    "fx-pre-dive-s1-7": {
+      "label": "CCR atlama öncesi tatbikatı",
+      "description": "1. Cihazdan solumaya başla.\n2. Kontrol et: ADV, BOV, O₂ MAV, diluent MAV; wing ve kuru elbise şişiricisi.\n3. Tüp basınçlarını kontrol et: O₂, diluent; OC bailout.\n4. Setpoint'in korunduğunu gözle.\n5. Hazır olduğunda suya gir.\n6. S-drill'i tamamla.\n7. CCR dalışının 1 numaralı kuralını unutma: PPO₂'ni her zaman bil!"
+    },
+    "fx-after-dive": {
+      "name": "FX CCR dalıştan sonra",
+      "description": "FX CCR el kitabının dalış bittikten sonra istediği her şey. 6 ile 13 arası adımlar yalnızca aynı gün başka dalış yapılmayacaksa gereklidir. FX CCR Kullanım Kılavuzu 2025.1'den (iQsub Technologies) alınmıştır. Yalnızca bu cihaz için geçerlidir. Kendi cihazına ve aldığın eğitime göre düzenle."
+    },
+    "fx-after-dive-s1": {
+      "title": "Sudan çıkış"
+    },
+    "fx-after-dive-s1-1": {
+      "label": "FX CCR cihazı sudan çıkarılmadan tüp valflerini asla kapatma."
+    },
+    "fx-after-dive-s1-2": {
+      "label": "Cihazı sudan çıkar."
+    },
+    "fx-after-dive-s1-3": {
+      "label": "Ana kontrolcü el ünitesini kapat."
+    },
+    "fx-after-dive-s1-4": {
+      "label": "Head-Up Display'i (veya takılıysa NERD2'yi) kapat ve ıslak kontaklarını kurula."
+    },
+    "fx-after-dive-s1-5": {
+      "label": "Oksijen ve diluent tüplerinin valflerini kapat ve harici diluent tüpünü sök."
+    },
+    "fx-after-dive-s2": {
+      "title": "Sökme ve durulama"
+    },
+    "fx-after-dive-s2-1": {
+      "label": "Soluma hortumlarıyla birlikte L parçalarını cihazdan ayır ve BOV'u sök."
+    },
+    "fx-after-dive-s2-2": {
+      "label": "Soluma hortumlarını ve L parçalarını tatlı suyla durula, dikey konumda as ve kurumaya bırak."
+    },
+    "fx-after-dive-s2-3": {
+      "label": "BOV'u tatlı suyla durula.",
+      "description": "Ardından valf düğmesini CC ile OC arasında bir ara konuma al ve BOV'u kurumaya bırak."
+    },
+    "fx-after-dive-s2-4": {
+      "label": "FX kutusunun çevre fermuarını tamamen aç ve karşı ciğerleri çıkar.",
+      "description": "Karşı ciğerleri kapaktaki ve kapak üzerindeki bayonet bağlantılardan ayır, sonra üst bağlantıları ve OPV'yi kilitten çıkarıp kutudaki lastik gecmelerden dışarı kaydır."
+    },
+    "fx-after-dive-s2-5": {
+      "label": "Karşı ciğerleri tatlı suyla durula.",
+      "description": "Cihazla birlikte gelen kurutma askısına as ve kurumaya bırak."
+    },
+    "fx-after-dive-s3": {
+      "title": "Cihazı kurut"
+    },
+    "fx-after-dive-s3-1": {
+      "label": "FX kapağını kanisterden ayır ve sensörleri kurutmak için sensör tutucusunu çıkar."
+    },
+    "fx-after-dive-s3-2": {
+      "label": "Sorb kutusunu çıkar ve kurumaya bırak."
+    },
+    "fx-after-dive-s3-3": {
+      "label": "FX kanisterini kurulayıp kurut."
+    },
+    "chaos-gue": {
+      "name": "CHAOS (GUE)",
+      "description": "GUE'nin ön soluma sırasında yapılan rebreather kontrolü: Controller, HUD, ADV, O₂, Symptoms."
+    },
+    "chaos-gue-s1": {
+      "title": "CHAOS kontrolü"
+    },
+    "chaos-gue-s1-1": {
+      "label": "C: Controller kalibrasyonu yapıldı",
+      "description": "Kontrolcünün kalibre olduğunu ve hücre değerlerinin birbiriyle uyumlu olduğunu doğrula."
+    },
+    "chaos-gue-s1-2": {
+      "label": "H: HUD kalibrasyonu yapıldı",
+      "description": "HUD'un kontrolcüyle uyumlu olduğunu ve her sinyalin görünür olduğunu doğrula."
+    },
+    "chaos-gue-s1-3": {
+      "label": "A: ADV çalışıyor",
+      "description": "Devreye karşı sertçe nefes al ve ADV'nin tetiklenip diluent eklediğini doğrula."
+    },
+    "chaos-gue-s1-4": {
+      "label": "O: O₂ eklemesi çalışıyor",
+      "description": "Solenoidin tetiklendiğini izle ve PPO₂'nin setpoint'te sabit kaldığını doğrula."
+    },
+    "chaos-gue-s1-5": {
+      "label": "S: Symptoms (belirti) kontrolü",
+      "description": "Ön solu ve kendini belirtilere karşı izle: baş ağrısı, baş dönmesi, alışılmadık tat veya koku. Herhangi bir belirti varsa dalma."
+    },
+    "gue-edge": {
+      "name": "GUE EDGE ekip dalış öncesi",
+      "description": "Her dalıştan önce sesli yapılan ekip kontrolü: Goal, Unified team, Equipment, Exposure, Decompression, Gas, Environment."
+    },
+    "gue-edge-s1": {
+      "title": "Ekip kontrolü"
+    },
+    "gue-edge-s1-1": {
+      "label": "G: Goal (hedef)",
+      "description": "Dalışın amacını, rotayı ve dönüş koşulunu kararlaştır."
+    },
+    "gue-edge-s1-2": {
+      "label": "U: Unified team (birleşik ekip)",
+      "description": "Herkesin dalmaya uygun olduğunu, görevlerin belirlendiğini ve sıranın kararlaştırıldığını doğrula."
+    },
+    "gue-edge-s1-3": {
+      "label": "E: Equipment (ekipman)",
+      "description": "Her dalgıç kendi ekipmanını doğrular: valfler açık, regülatörler çalışıyor, wing gazı tutuyor, ışıklar yanıyor."
+    },
+    "gue-edge-s1-4": {
+      "label": "E: Exposure (maruziyet)",
+      "description": "Derinlik ve süre limitlerini ve herkesin termal korumasının plana uyduğunu doğrula."
+    },
+    "gue-edge-s1-5": {
+      "label": "D: Decompression (dekompresyon)",
+      "description": "Çıkış planını kararlaştır: duraklar, gazlar ve acil durum seçenekleri."
+    },
+    "gue-edge-s1-6": {
+      "label": "G: Gas (gaz)",
+      "description": "Her tüpün analiz edildiğini ve etiketlendiğini doğrula, gaz planını kararlaştır."
+    },
+    "gue-edge-s1-7": {
+      "label": "E: Environment (çevre)",
+      "description": "Koşulları, giriş ve çıkış noktalarını ve sahadaki tehlikeleri gözden geçir."
+    },
+    "tdi-start": {
+      "name": "TDI START ekip dalış öncesi",
+      "description": "TDI'ın her teknik dalıştan önce öğrettiği ekip kontrolü: S-drill, Team, Air, Route, Tables."
+    },
+    "tdi-start-s1": {
+      "title": "START kontrolü"
+    },
+    "tdi-start-s1-1": {
+      "label": "S: S-drill ve kabarcık kontrolü",
+      "description": "Yüzeyde veya sığ suda uzun hortumla kısa bir hava paylaşımı yap, bir ekip arkadaşın valflerini, birinci kademelerini ve hortumlarını kabarcık için kontrol etsin."
+    },
+    "tdi-start-s1-2": {
+      "label": "T: Team (ekip ekipmanı)",
+      "description": "Her dalgıcı baştan ayağa kontrol et: gereken her şey yerinde, çalışıyor ve düzgün yerleştirilmiş."
+    },
+    "tdi-start-s1-3": {
+      "label": "A: Air (gaz eşleştirme)",
+      "description": "Ana tüpler açık, stage ve deko tüpleri basınçlı. Her basıncı kontrol et ve her tüpün maksimum çalışma derinliğini (MOD) doğrula."
+    },
+    "tdi-start-s1-4": {
+      "label": "R: Route (rota)",
+      "description": "Ekip sırasını, yönü, hedefi ve dalışın ara noktalarını kararlaştır."
+    },
+    "tdi-start-s1-5": {
+      "label": "T: Tables (tablolar)",
+      "description": "Planlanan maksimum derinliği, çalışma sürelerini, gaz geçişlerini ve zorunlu durakları gözden geçir."
+    },
+    "post-dive": {
+      "name": "CCR dalış sonrası ve temizlik",
+      "description": "Dalıştan sonra cihazı toparla, böylece bir sonraki kurulum bilinen bir durumdan başlar."
+    },
+    "post-dive-s1": {
+      "title": "Dalıştan sonra"
+    },
+    "post-dive-s1-1": {
+      "label": "Kalan tüp basınçlarını kaydet"
+    },
+    "post-dive-s1-2": {
+      "label": "Kullanılan sorb süresini kaydet",
+      "description": "Ne kadar kaldığını bilmen için bu dalışın süresini sorb kutusunun toplamına ekle."
+    },
+    "post-dive-s1-3": {
+      "label": "Bir sonraki dalıştan önce düzeltilmesi gerekenleri not et"
+    },
+    "post-dive-s2": {
+      "title": "Temizlik ve saklama"
+    },
+    "post-dive-s2-1": {
+      "label": "Cihazın dışını tatlı suyla durula"
+    },
+    "post-dive-s2-2": {
+      "label": "Solunum devresini sök"
+    },
+    "post-dive-s2-3": {
+      "label": "Karşı ciğerleri, hortumları ve ağızlığı temizle ve dezenfekte et",
+      "description": "Onaylı dezenfektanlar ve bekletme süreleri için cihazının el kitabını izle."
+    },
+    "post-dive-s2-4": {
+      "label": "Saklamadan önce her şeyi tamamen kurut"
+    },
+    "post-dive-s2-5": {
+      "label": "Pilleri şarj et veya kontrol et"
+    }
+  }
+}

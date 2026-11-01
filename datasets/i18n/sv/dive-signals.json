@@ -1,0 +1,385 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "sv",
+    "base": "dive-signals.json",
+    "license": "CC-BY-4.0",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "hand-core-ok": {
+      "name": "OK",
+      "description": "Forma en cirkel med tumme och pekfinger, sträck ut de andra fingrarna. Allt är bra. Används också som fråga: 'Är du OK?' Svara med samma signal om OK."
+    },
+    "hand-core-problem": {
+      "name": "Problem / Inte OK",
+      "description": "Platt hand, handflatan nedåt, vicka från sida till sida. Något är fel. Peka sedan på problemkällan."
+    },
+    "hand-core-end-dive": {
+      "name": "Avsluta dyk / Stig",
+      "description": "Tumme uppåt. Avsluta dyket omedelbart och börja kontrollerad uppstigning till ytan."
+    },
+    "hand-core-descend": {
+      "name": "Ned / Sjunk",
+      "description": "Tumme nedåt. Börja kontrollerad nedsänkning. Används också för att be buddy att sjunka."
+    },
+    "hand-core-level-off": {
+      "name": "Håll djupet",
+      "description": "Platt hand, handflatan nedåt, hålls horisontellt. Behåll nuvarande djup, sluta stiga eller sjunka."
+    },
+    "hand-core-stop": {
+      "name": "Stopp",
+      "description": "Öppen handflata mot buddy, fingrar uppåt. Stanna omedelbart och håll positionen."
+    },
+    "hand-core-up": {
+      "name": "Upp",
+      "description": "Pekfinger uppåt. Indikerar riktning eller något ovanför – 'titta där uppe' eller 'något är över oss'. Ska inte förväxlas med tummen upp som betyder avsluta dyk/stig."
+    },
+    "hand-core-pressure-check": {
+      "name": "Tryckkontroll / Hur mycket luft?",
+      "description": "Två fingrar knackar på den öppna handflatan på din andra hand. Kolla din tryckmätare och rapportera återstående luft, eller fråga om buddys återstående luft."
+    },
+    "hand-core-safety-stop": {
+      "name": "Säkerhetsstopp",
+      "description": "Tre utsträckta fingrar (visar 3), hand hålls horisontellt. Gör 3-minuters säkerhetsstopp på 5 meter."
+    },
+    "hand-core-turn-around": {
+      "name": "Vänd om / Vänd dyket",
+      "description": "Rotera pekfingret i cirkulär rörelse. Vänd riktning och börja gå tillbaka."
+    },
+    "hand-core-look-at": {
+      "name": "Titta / Se",
+      "description": "Två fingrar pekar på egna ögon, peka sedan i riktning. Titta på mig, eller titta på det jag pekar på."
+    },
+    "hand-core-come-here": {
+      "name": "Kom hit",
+      "description": "Vinkande rörelse med hand eller fingrar. Kom närmare mig."
+    },
+    "hand-core-you-lead": {
+      "name": "Du leder / Gå först",
+      "description": "Båda händerna med utsträckta pekfingrar. Peka ett finger på personen som ska leda, flytta sedan det pekande fingret framför det andra fingret. Den angivna personen är nu i ledarposition, den andra följer bakom."
+    },
+    "hand-core-get-with-buddy": {
+      "name": "Håll ihop med buddy",
+      "description": "Båda pekfingrarna utsträckta, för dem sedan ihop tills de rör varandra. Håll dig nära din buddy, behåll buddy-kontakt, separera inte."
+    },
+    "hand-core-hold-hands": {
+      "name": "Håll händer / Koppla ihop",
+      "description": "Sträck ut handen till buddy. Håll händer för navigation vid dålig sikt eller stark ström."
+    },
+    "hand-core-help": {
+      "name": "Hjälp / nöd (yta)",
+      "description": "Vinka med en arm över huvudet vid ytan. Nödhjälp behövs. Universell nödsignal."
+    },
+    "hand-core-danger": {
+      "name": "Fara / Risk",
+      "description": "Knyt näven och gör en snabb stötrörelse i riktning mot faran. Fara i angiven riktning, var uppmärksam."
+    },
+    "hand-core-share-air": {
+      "name": "Dela luft / Slut på luft",
+      "description": "Två signaler: SLUT PÅ LUFT – skär din platta hand över halsen. DELA LUFT – knacka på din egen regulator sedan vinka framåt mot din buddy. Begär att dela buddys luftförråd."
+    },
+    "hand-core-ears-not-clearing": {
+      "name": "Öron tryckutjämnas inte",
+      "description": "Peka på örat med finger. Kan inte tryckutjämna örat. Kan behöva stiga något."
+    },
+    "hand-core-cramp": {
+      "name": "Kramp",
+      "description": "Klämrörelse med handen som att klämma en stressboll, peka sedan på den drabbade muskeln. Muskelkramp på angivet ställe."
+    },
+    "hand-core-cold": {
+      "name": "Kall",
+      "description": "Korsa armarna över bröstet, krammande rörelse, huttrande. Känner mig kall, kan behöva avsluta dyk."
+    },
+    "hand-core-calm-down": {
+      "name": "Sakta ner / Lugna ner",
+      "description": "Båda händer handflator nedåt, långsam tryckande rörelse nedåt. Minska hastigheten, andas långsamt, slappna av."
+    },
+    "hand-core-narcosis": {
+      "name": "Narkos",
+      "description": "Finger snurrar vid tinningen (galen-tecken). Upplever symtom på kvävgasnarkos. Signalera till buddy och börja stiga till grundare djup."
+    },
+    "hand-core-broken-equipment": {
+      "name": "Trasig utrustning",
+      "description": "Båda händerna framför kroppen, brytande rörelse som att bryta en pinne mitt itu. Utrustningen är trasig eller fungerar inte."
+    },
+    "hand-core-need-weight": {
+      "name": "Behöver vikt",
+      "description": "Knytnäve trycker ned mot låret. Svårt att sjunka, behöver mer vikt."
+    },
+    "hand-core-deploy-smb": {
+      "name": "Sätt ut SMB",
+      "description": "En hand gör en släpprörelse uppåt, som att släppa en SMB till ytan. Jag sätter ut min ytmarkör eller ber buddy sätta ut sin."
+    },
+    "hand-core-boat": {
+      "name": "Båt",
+      "description": "Händer ihop formar båtskrov, gungande rörelse. Referens till dykbåt eller båtplats."
+    },
+    "hand-core-talk": {
+      "name": "Låt oss prata",
+      "description": "Fingrar och tumme tillsammans, öppnas och stängs upprepat som en pratande mun. Jag behöver prata med dig – betyder vanligtvis att vi bör stiga till ytan för verbal kommunikation."
+    },
+    "hand-technical-hold": {
+      "name": "Håll position",
+      "description": "Stängd knytnäve hålls stadigt framför kroppen. Håll din nuvarande position och vänta – rör dig inte förrän nästa signal. Skiljer sig från 'stopp' som är en öppen handflata."
+    },
+    "hand-technical-ascend": {
+      "name": "Stig",
+      "description": "Platt hand, handflatan nedåt, flytta uppåt längs en böjd bana medan du behåller samma platta hållning. Börja stiga med rätt hastighet."
+    },
+    "hand-technical-level-off": {
+      "name": "Plana ut",
+      "description": "Platt hand, handflata nedåt, horisontell rörelse. Stoppa vertikal rörelse, behåll nuvarande djup."
+    },
+    "hand-technical-time": {
+      "name": "Tid",
+      "description": "Knacka på handleden där klockan skulle vara, eller peka på dykdator. Fråga om tid: körtid, återstående bottentid eller TTS (tid till ytan). Svara med nummersignaler."
+    },
+    "hand-technical-pressure-check": {
+      "name": "Tryckkontroll",
+      "description": "Knyt näven och gör en snabb pump-pump klämrörelse, som att klämma en stressboll. TDI enhands trycksignal. Kontrollera och rapportera flasktryck med nummersignaler."
+    },
+    "hand-technical-deco": {
+      "name": "Deko",
+      "description": "Håll upp lillfingret. Används för att kommunicera eller fråga om dekompressionsåtaganden. Vanligtvis för att fråga om lagkamratens TTS (tid till ytan). Följ med nummersignaler för att kommunicera dekotid."
+    },
+    "hand-technical-gas-switch": {
+      "name": "Gasbyte",
+      "description": "Pek- och långfinger utsträckta, gör rotation/vridningsrörelse framför din regulator. Indikerar byte till annan gas. Bekräfta gasen med din buddy."
+    },
+    "hand-technical-bubbles": {
+      "name": "Bubblor / Läcka",
+      "description": "Tumme och pek-/långfinger gör öppna-stäng nyprörelse, som stigande bubblor. Gasläcka upptäckt, bubblor flyr från utrustning."
+    },
+    "hand-technical-s-drill": {
+      "name": "S-Drill",
+      "description": "Rita ett 'S' i luften med pekfingret. TDI S-Drill: kontrollera att du kan dela långslangen fritt, kolla efter bubblor/läckor, och kontrollera efter intrasslingar på din buddy. Utförs vid dykstart innan nedsänkningen slutförs."
+    },
+    "hand-technical-light": {
+      "name": "Lampa",
+      "description": "Fingertoppar ihopknutna, sedan öppna, sedan stäng, sedan öppna upprepat. Imiterar blinkande ljus. Slå på lampa, justera lampa, eller lampkommunikation."
+    },
+    "hand-technical-reel": {
+      "name": "Rulle",
+      "description": "Tumme tryckt mot platta fingrar, gör cirkulär lindande rörelse. Rulla ut rulle, dra in lina eller referens till rullen."
+    },
+    "hand-technical-line": {
+      "name": "Lina",
+      "description": "Korsa pekfinger och långfinger tillsammans. Indikerar referens till guidlina, grottlina eller avståndslina."
+    },
+    "hand-technical-tie-off": {
+      "name": "Förankra",
+      "description": "Gör linasymbol (korsade pek- och långfinger), rita sedan en cirkel i luften. Säkra linan, skapa förankringspunkt."
+    },
+    "hand-technical-entangled": {
+      "name": "Intrasslad",
+      "description": "Gör linasymbol (korsa pekfinger och långfinger), rita sedan oändlighetssymbol i luften. Fast i lina, nät eller tång. Behöver hjälp."
+    },
+    "hand-technical-lock": {
+      "name": "Lås / Säkra",
+      "description": "Två pekfingrar hakar ihop som en kedjelänk. Lås position, säkra utrustning på plats."
+    },
+    "hand-technical-wrap": {
+      "name": "Linda",
+      "description": "Linda en hand runt din andra hands knytnäve. Linda lina eller lindningsprocedur."
+    },
+    "hand-technical-cleanup": {
+      "name": "Städa upp",
+      "description": "Båda händerna gör samlande/uppstädande rörelse mot kroppen. Förvara lös utrustning, säkra hängande slangar eller linor, ordna utrustningskonfiguration innan förflyttning."
+    },
+    "hand-technical-question": {
+      "name": "Fråga / Vad?",
+      "description": "Pekfinger krökt i form av ett frågetecken. Används för att ställa en fråga eller indikera förvirring. Vad är det? Vad menar du?"
+    },
+    "hand-technical-zero": {
+      "name": "Noll (0)",
+      "description": "Forma en O-form med tumme och pekfinger, eller visa en stängd knytnäve. Nummer noll. Används med andra nummersignaler för att kommunicera tryck- eller tidsvärden."
+    },
+    "hand-technical-one": {
+      "name": "Ett (1)",
+      "description": "Ett finger (pekfinger) utsträckt, handflatan utåt. Nummer ett. Används för att kommunicera tryck (bar/psi), tid, djup eller andra värden."
+    },
+    "hand-technical-two": {
+      "name": "Två (2)",
+      "description": "Två fingrar (pek- och långfinger) utsträckta, handflatan utåt. Nummer två."
+    },
+    "hand-technical-three": {
+      "name": "Tre (3)",
+      "description": "Tre fingrar (pek-, lång-, ringfinger) utsträckta, handflatan utåt. Nummer tre."
+    },
+    "hand-technical-four": {
+      "name": "Fyra (4)",
+      "description": "Fyra fingrar utsträckta (tummen inviket), handflatan utåt. Nummer fyra."
+    },
+    "hand-technical-five": {
+      "name": "Fem (5)",
+      "description": "Alla fem fingrar utsträckta, öppen handflata utåt. Nummer fem. Representerar också 50 bar / 500 psi när det används för tryck."
+    },
+    "hand-technical-six": {
+      "name": "Sex (6)",
+      "description": "Handen i sidled med handryggen utåt, ett finger utsträckt. TDI-stil: nummer 6-9 använder sidohandposition för att skilja från 1-4. Nummer sex."
+    },
+    "hand-technical-seven": {
+      "name": "Sju (7)",
+      "description": "Handen i sidled med handryggen utåt, två fingrar utsträckta. TDI-stil: nummer 6-9 använder sidohandposition för att skilja från 1-4. Nummer sju."
+    },
+    "hand-technical-eight": {
+      "name": "Åtta (8)",
+      "description": "Handen i sidled med handryggen utåt, tre fingrar utsträckta. TDI-stil: nummer 6-9 använder sidohandposition för att skilja från 1-4. Nummer åtta."
+    },
+    "hand-technical-nine": {
+      "name": "Nio (9)",
+      "description": "Handen i sidled med handryggen utåt, fyra fingrar utsträckta. TDI-stil: nummer 6-9 använder sidohandposition för att skilja från 1-4. Nummer nio."
+    },
+    "hand-fish-id-shark": {
+      "name": "Haj",
+      "description": "Platt hand på huvudet imiterar ryggfena. Haj siktad."
+    },
+    "hand-fish-id-hammerhead": {
+      "name": "Hammarhaj",
+      "description": "Knytnävar på sidorna av huvudet, utsträckta som hammarform. Hammarhaj siktad."
+    },
+    "hand-fish-id-manta-ray": {
+      "name": "Mantarocka",
+      "description": "Armar brett utsträckta, långsam graciös vågrörelse som vingar. Mantarocka siktad."
+    },
+    "hand-fish-id-dolphin": {
+      "name": "Delfin",
+      "description": "Hand i vågig rörelse, stiger och dyker som simmande delfin. Delfin siktad."
+    },
+    "hand-fish-id-turtle": {
+      "name": "Sköldpadda",
+      "description": "En knytnäve täckt av annan platt hand, tummar roterande som simmande fenor. Havssköldpadda siktad."
+    },
+    "hand-fish-id-seal": {
+      "name": "Säl / Sjölejon",
+      "description": "Händer ihop vid handlederna, klappande som fenor. Säl eller sjölejon siktad."
+    },
+    "hand-fish-id-stingray": {
+      "name": "Spottrocka",
+      "description": "Platta händer ihop, vågig rörelse med piskande stjärtgest. Spottrocka siktad."
+    },
+    "hand-fish-id-blue-spotted-ray": {
+      "name": "Blåfläckig rocka",
+      "description": "Platt hand vågande som en simmande rocka, knacka sedan fingertopparna på handens ovansida för att visa fläckar. Blåfläckig bandrocka siktad."
+    },
+    "hand-fish-id-napoleon": {
+      "name": "Napoleonfisk",
+      "description": "Puckel på pannan med knytnäve. Napoleonfisk eller puckelläppfisk siktad."
+    },
+    "hand-fish-id-barracuda": {
+      "name": "Barracuda",
+      "description": "Hacka din underarm med din andra hand med en knivliknande rörelse. Representerar barracudans avlånga kropp och skarpa profil. Barracuda siktad."
+    },
+    "hand-fish-id-tuna": {
+      "name": "Tonfisk",
+      "description": "Snabb torpedformad handrörelse. Stor snabbsimmande pelagisk fisk siktad."
+    },
+    "hand-fish-id-triggerfish": {
+      "name": "Triggerfisk",
+      "description": "Finger som avtryckare som dras. Triggerfisk siktad. Kan vara territorial."
+    },
+    "hand-fish-id-angelfish": {
+      "name": "Ängelfisk",
+      "description": "Gloriarörelse över huvudet med finger. Ängelfisk siktad."
+    },
+    "hand-fish-id-pufferfish": {
+      "name": "Blåsfisk",
+      "description": "Uppblåsta kinder, händer runt ansiktet expanderar. Blåsfisk siktad."
+    },
+    "hand-fish-id-trumpetfish": {
+      "name": "Trumpetfisk",
+      "description": "Händer vid munnen som trumpet, utsträckta framåt. Trumpetfisk eller kornetfisk siktad."
+    },
+    "hand-fish-id-moray": {
+      "name": "Muräna",
+      "description": "Hand öppnas och stängs som ålmun, arm vågande som ålkropp. Muräna siktad."
+    },
+    "hand-fish-id-lionfish": {
+      "name": "Lejonfisk",
+      "description": "Fingrar spridda som taggar som strålar ut från ansiktet. Lejonfisk siktad. Giftig – håll avstånd."
+    },
+    "hand-fish-id-scorpionfish": {
+      "name": "Skorpionfisk",
+      "description": "Fingrar spridda, hand lågt som kamouflerad fisk på botten. Skorpionfisk siktad. Giftig – rör ej."
+    },
+    "hand-fish-id-stonefish": {
+      "name": "Stenfisk",
+      "description": "Knytnäve som sten på botten. Stenfisk siktad. Extremt giftig – håll avstånd."
+    },
+    "hand-fish-id-crocodilefish": {
+      "name": "Krokodilfisk",
+      "description": "Håll platt hand lågt (nära botten), gör sedan lång käksnappande rörelse med fingrar mot handflatan. Krokodilfisk, platthuvud eller bottenlevande rovdjur siktat."
+    },
+    "hand-fish-id-octopus": {
+      "name": "Bläckfisk",
+      "description": "Fingrar viftar utåt från handflatan som tentakler. Bläckfisk siktad."
+    },
+    "hand-fish-id-seahorse": {
+      "name": "Sjöhäst",
+      "description": "Böjd knytnäve med utsträckt tumme som sjöhästnos. Sjöhäst siktad."
+    },
+    "hand-fish-id-nudibranch": {
+      "name": "Nakensnäcka",
+      "description": "Två fingrar på huvudet viftar som rinoforer (nakensnäcksantenner), kläm sedan ihop fingrar för att visa liten storlek. Nakensnäcka eller havssnigel siktad – vanligtvis pytteliten och färgglad."
+    },
+    "hand-fish-id-jellyfish": {
+      "name": "Manet",
+      "description": "Hand pulserar öppen och stängd, fingrar hänger nedåt. Manet i området – undvik kontakt."
+    },
+    "hand-fish-id-crab": {
+      "name": "Krabba",
+      "description": "Klipande rörelse med pekfinger och tumme. Krabba siktad."
+    },
+    "hand-fish-id-shrimp": {
+      "name": "Räka",
+      "description": "Två fingrar vid pannan som antenner, liten storlek indikerad. Räka siktad."
+    },
+    "hand-fish-id-small-creature": {
+      "name": "Litet djur",
+      "description": "Kläm ihop tumme och pekfinger tätt för att visa pytteliten storlek, peka sedan på platsen. Litet/makrodjur upptäckt – titta noga på det angivna området."
+    },
+    "light-ok": {
+      "name": "OK (Ljus)",
+      "description": "Långsam stor cirkelrörelse med ljusstrålen. Allt är bra. Används som både signal och svar."
+    },
+    "light-attention": {
+      "name": "Uppmärksamhet",
+      "description": "Svep ljusstrålen horisontellt genom buddys synfält. Få buddys uppmärksamhet för kommunikation."
+    },
+    "light-emergency": {
+      "name": "Nödsituation",
+      "description": "Snabb kontinuerlig skakning av ljuset, oregelbunden rörelse. Nödsituation, omedelbar hjälp krävs."
+    },
+    "touch-contact-ok": {
+      "name": "OK",
+      "description": "Två avsiktliga kläm på buddys arm eller hand. Allt är OK. Svara med samma signal."
+    },
+    "touch-contact-stop": {
+      "name": "Stopp",
+      "description": "Ett fast grepp eller kläm. Stanna omedelbart, håll position."
+    },
+    "touch-contact-hold": {
+      "name": "Håll / Vänta",
+      "description": "Behåll fast grepp utan rörelse. Stanna här, behåll position, vänta."
+    },
+    "touch-contact-ascend": {
+      "name": "Stig / Upp",
+      "description": "Tryck uppåt på buddys arm. Rör dig uppåt, börja stigning."
+    },
+    "touch-contact-descend": {
+      "name": "Sjunk / Ned",
+      "description": "Tryck nedåt på buddys arm. Rör dig nedåt, fortsätt nedsänkning."
+    },
+    "touch-contact-left-right": {
+      "name": "Vänster / Höger",
+      "description": "Dra armen i sidled. Rör dig vänster eller höger som angivet."
+    },
+    "touch-contact-forward-backward": {
+      "name": "Framåt / Bakåt",
+      "description": "Dra eller tryck armen horisontellt. Rör dig framåt eller bakåt i angiven riktning."
+    }
+  }
+}

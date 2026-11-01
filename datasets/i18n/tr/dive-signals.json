@@ -1,0 +1,385 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "tr",
+    "base": "dive-signals.json",
+    "license": "CC-BY-4.0",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "hand-core-ok": {
+      "name": "Tamam",
+      "description": "Başparmak ve işaret parmağıyla daire oluşturun, diğer parmakları uzatın. Her şey yolunda. Ayrıca soru olarak kullanılır: 'İyi misin?' Tamamsa aynı işaretle cevap verin."
+    },
+    "hand-core-problem": {
+      "name": "Problem / İyi değil",
+      "description": "Düz el, avuç içi aşağı, sağa sola sallama. Bir şeyler yanlış. Sonra sorunun kaynağını gösterin."
+    },
+    "hand-core-end-dive": {
+      "name": "Dalışı Bitir / Yüksel",
+      "description": "Başparmak yukarı. Dalışı hemen sonlandırın ve kontrollü yüzeye çıkışa başlayın."
+    },
+    "hand-core-descend": {
+      "name": "Aşağı / Dal",
+      "description": "Başparmak aşağı. Kontrollü inişe başlayın. Ayrıca buddy'den dalmasını istemek için kullanılır."
+    },
+    "hand-core-level-off": {
+      "name": "Derinliği Koru",
+      "description": "Düz el, avuç içi aşağı, yatay tutulur. Mevcut derinliği koruyun, çıkmayı veya inmeyi durdurun."
+    },
+    "hand-core-stop": {
+      "name": "Dur",
+      "description": "Açık avuç buddy'ye doğru, parmaklar yukarı. Derhal durun ve pozisyonu koruyun."
+    },
+    "hand-core-up": {
+      "name": "Yukarı",
+      "description": "İşaret parmağı yukarı işaret ediyor. Yukarıdaki yönü veya bir şeyi gösterir: 'oraya bak' veya 'üstümüzde bir şey var'. Dalışı bitir/yüksel anlamına gelen başparmak yukarı ile karıştırılmamalı."
+    },
+    "hand-core-pressure-check": {
+      "name": "Basınç Kontrolü / Ne Kadar Hava?",
+      "description": "İki parmak diğer elinizin açık avucuna vurur. Manometrenizi kontrol edin ve kalan havayı bildirin veya buddy'nin kalan havasını sorun."
+    },
+    "hand-core-safety-stop": {
+      "name": "Güvenlik Durağı",
+      "description": "Üç uzatılmış parmak (3 gösterir), el yatay tutulur. 5 metre/15 fitte 3 dakikalık güvenlik durağı yapın."
+    },
+    "hand-core-turn-around": {
+      "name": "Dön / Dalışı Çevir",
+      "description": "İşaret parmağını dairesel hareketle döndürün. Yönü tersine çevirin ve geri dönmeye başlayın."
+    },
+    "hand-core-look-at": {
+      "name": "Bak / İzle",
+      "description": "İki parmak kendi gözlerinize, sonra bir yöne işaret eder. Bana bak veya gösterdiğim yere bak."
+    },
+    "hand-core-come-here": {
+      "name": "Buraya Gel",
+      "description": "El veya parmaklarla çağırma hareketi. Bana yaklaş."
+    },
+    "hand-core-you-lead": {
+      "name": "Sen Önde Git / İlk Git",
+      "description": "Her iki el işaret parmakları uzatılmış. Bir parmağı öncülük etmesi gereken kişiye işaret edin, sonra o işaret parmağını diğer parmağın önüne hareket ettirin. Belirtilen kişi şimdi öncülük pozisyonunda, diğeri arkada takip ediyor."
+    },
+    "hand-core-get-with-buddy": {
+      "name": "Buddy'nle Buluş",
+      "description": "Her iki işaret parmağı uzatılır, sonra birbirine dokunana kadar yaklaştırılır. Buddy'ne yakın kal, buddy temasını sürdür, ayrılma."
+    },
+    "hand-core-hold-hands": {
+      "name": "El Tut / Bağlan",
+      "description": "Buddy'ye el uzat. Düşük görünürlük veya güçlü akıntıda navigasyon için el tutuşun."
+    },
+    "hand-core-help": {
+      "name": "Yardım / Tehlike (Yüzey)",
+      "description": "Yüzeyde bir kolu başın üzerinde sallayın. Acil yardım gerekli. Evrensel tehlike işareti."
+    },
+    "hand-core-danger": {
+      "name": "Tehlike / Risk",
+      "description": "Yumruk yapın ve tehlike yönüne hızlı bir yumruk hareketi yapın. Belirtilen yönde tehlike, dikkatli olun."
+    },
+    "hand-core-share-air": {
+      "name": "Hava Paylaş / Hava Bitti",
+      "description": "İki sinyal. HAVA BİTTİ: düz elinizi boğazınızda kesme hareketi yapın. HAVA PAYLAŞ: elinizi kendi regülatörünüze vurun sonra buddy'nize doğru ileri sallayın. Buddy'nin hava kaynağını paylaşma isteği."
+    },
+    "hand-core-ears-not-clearing": {
+      "name": "Kulaklar Eşitlenmiyor",
+      "description": "Parmakla kulağı gösterin. Kulak basıncını eşitleyemiyorum. Biraz yükselmem gerekebilir."
+    },
+    "hand-core-cramp": {
+      "name": "Kramp",
+      "description": "Stres topu sıkarmış gibi elinizle sıkma hareketi yapın, sonra etkilenen kasa işaret edin. Belirtilen yerde kas krampı."
+    },
+    "hand-core-cold": {
+      "name": "Soğuk",
+      "description": "Kolları göğsün üzerinde çaprazlayın, sarılma hareketi, titreme. Üşüyorum, dalışı sonlandırmam gerekebilir."
+    },
+    "hand-core-calm-down": {
+      "name": "Yavaşla / Sakinleş",
+      "description": "Her iki el avuçlar aşağı, yavaş aşağı basma hareketi. Hızı azalt, yavaş nefes al, rahatla."
+    },
+    "hand-core-narcosis": {
+      "name": "Narkoz",
+      "description": "Şakakta parmak döndürme (deli işareti). Azot narkozu belirtileri yaşıyorum. Buddy'ye sinyal ver ve daha sığ derinliğe yükselmeye başla."
+    },
+    "hand-core-broken-equipment": {
+      "name": "Bozuk Ekipman",
+      "description": "Her iki el vücudun önünde, çubuk kırarmış gibi kırma hareketi yapın. Ekipman bozuk veya çalışmıyor."
+    },
+    "hand-core-need-weight": {
+      "name": "Ağırlık Gerek",
+      "description": "Yumruk uyluğa aşağı doğru bastırır. Dalmakta zorlanıyorum, daha fazla ağırlık gerek."
+    },
+    "hand-core-deploy-smb": {
+      "name": "SMB Aç",
+      "description": "Bir el yukarı doğru bırakma hareketi yapıyor, SMB'yi yüzeye bırakıyormuş gibi. Yüzey işaret şamandırası açıyorum veya buddy'den açmasını istiyorum."
+    },
+    "hand-core-boat": {
+      "name": "Tekne",
+      "description": "Eller birlikte tekne gövdesi şekli oluşturur, sallanma hareketi. Dalış teknesine veya tekne konumuna referans."
+    },
+    "hand-core-talk": {
+      "name": "Konuşalım",
+      "description": "Parmaklar ve başparmak birlikte, konuşan ağız gibi tekrar tekrar açılıp kapanıyor. Seninle konuşmam gerekiyor: genellikle sözlü iletişim için yüzeye çıkmalıyız demektir."
+    },
+    "hand-technical-hold": {
+      "name": "Pozisyonu Tut",
+      "description": "Kapalı yumruk vücudun önünde sabit tutulur. Mevcut pozisyonunu koru ve bekle: başka sinyal gelene kadar hareket etme. Açık avuç olan 'dur' işaretinden farklı."
+    },
+    "hand-technical-ascend": {
+      "name": "Yüksel",
+      "description": "Düz el, avuç aşağı bakacak şekilde, aynı düz duruşu koruyarak kavisli bir yolda yukarı hareket ettirin. Doğru hızda yükselmeye başla."
+    },
+    "hand-technical-level-off": {
+      "name": "Düzleş",
+      "description": "Düz el, avuç aşağı, yatay hareket. Dikey hareketi durdur, mevcut derinliği koru."
+    },
+    "hand-technical-time": {
+      "name": "Zaman",
+      "description": "Saatin olacağı yerde bileğe vur veya dalış bilgisayarını işaret et. Zaman hakkında soru: çalışma süresi, kalan dip süresi veya yüzeye süre (TTS). Sayı işaretleriyle yanıtla."
+    },
+    "hand-technical-pressure-check": {
+      "name": "Basınç Kontrolü",
+      "description": "Yumruk yapın ve stres topu sıkarmış gibi hızlı pompalama hareketi yapın. TDI tek el basınç sinyali. Tüp basıncını kontrol edin ve sayı sinyalleriyle bildirin."
+    },
+    "hand-technical-deco": {
+      "name": "Deko",
+      "description": "Serçe parmağınızı kaldırın. Dekompresyon yükümlülükleri hakkında iletişim kurmak veya sormak için kullanılır. Genellikle takım arkadaşınızın TTS (yüzeye süresi) değerini sormak için kullanılır. Deko süresini bildirmek için sayı sinyalleri ile devam edin."
+    },
+    "hand-technical-gas-switch": {
+      "name": "Gaz Değişimi",
+      "description": "İşaret ve orta parmak uzatılmış, regülatörünüzün önünde döndürme/pivot hareketi yapın. Farklı bir gaza geçişi belirtir. Geçilen gazı buddy'nizle onaylayın."
+    },
+    "hand-technical-bubbles": {
+      "name": "Kabarcıklar / Sızıntı",
+      "description": "Başparmak ve işaret/orta parmaklar açılıp kapanan sıkıştırma hareketi, yükselen kabarcıklar gibi. Gaz sızıntısı tespit edildi, ekipmandan kabarcıklar çıkıyor."
+    },
+    "hand-technical-s-drill": {
+      "name": "S-Drill",
+      "description": "İşaret parmağınızla havada 'S' çizin. TDI S-Drill: uzun hortumu özgürce paylaşabildiğinizi, kabarcık/sızıntı olup olmadığını ve buddy'nizde dolanma olup olmadığını kontrol edin. Dalışın başında, inişi tamamlamadan önce yapılır."
+    },
+    "hand-technical-light": {
+      "name": "Işık",
+      "description": "Parmak uçları birbirine yaklaştırılmış, sonra açın, sonra kapayın, sonra tekrar açın. Yanıp sönen ışığı taklit eder. Işığı aç, ayarla veya ışıkla ilgili iletişim."
+    },
+    "hand-technical-reel": {
+      "name": "Makara",
+      "description": "Başparmak düz parmaklara yaslanmış, dairesel sarma hareketi yapın. Makara aç, ip sar veya makaraya referans."
+    },
+    "hand-technical-line": {
+      "name": "Hat",
+      "description": "İşaret ve orta parmaklarınızı birbirine çaprazlayın. Kılavuz hatta, mağara hattına veya mesafe hattına referans belirtir."
+    },
+    "hand-technical-tie-off": {
+      "name": "Bağla",
+      "description": "Hat işareti yapın (çapraz işaret ve orta parmaklar), sonra havada daire çizin. Hattı sabitle, bağlama noktası oluştur."
+    },
+    "hand-technical-entangled": {
+      "name": "Dolanmış",
+      "description": "Hat simgesini yapın (işaret ve orta parmakları çaprazlayın), sonra havada sonsuzluk şekli çizin. Hatta, ağda veya yosunda takılı. Yardım gerek."
+    },
+    "hand-technical-lock": {
+      "name": "Kilitle / Sabitle",
+      "description": "İki işaret parmağı zincir halkası gibi birbirine kilitlenir. Pozisyonu kilitle, ekipmanı yerine sabitle."
+    },
+    "hand-technical-wrap": {
+      "name": "Sar",
+      "description": "Bir elinizi diğer elinizin yumruğu etrafına sarın. Hattı sar veya sarma prosedürü."
+    },
+    "hand-technical-cleanup": {
+      "name": "Temizle",
+      "description": "Her iki el vücuda doğru toplama/biriktirme hareketi yapıyor. Gevşek ekipmanı kaldır, sarkan hortumları veya hatları sabitle, hareket etmeden önce ekipman konfigürasyonunu düzenle."
+    },
+    "hand-technical-question": {
+      "name": "Soru / Ne?",
+      "description": "İşaret parmağı soru işareti şeklinde kıvrılır. Soru sormak veya kafanızın karıştığını belirtmek için kullanılır. Bu ne? Ne demek istiyorsun?"
+    },
+    "hand-technical-zero": {
+      "name": "Sıfır (0)",
+      "description": "Başparmak ve işaret parmağıyla O şekli oluştur veya kapalı yumruk göster. Sıfır sayısı. Basınç veya zaman değerlerini iletmek için diğer sayı işaretleriyle kullanılır."
+    },
+    "hand-technical-one": {
+      "name": "Bir (1)",
+      "description": "Bir parmak (işaret) uzatılmış, avuç dışa dönük. Bir sayısı. Basınç (bar/psi), zaman, derinlik veya diğer değerleri iletmek için kullanılır."
+    },
+    "hand-technical-two": {
+      "name": "İki (2)",
+      "description": "İki parmak (işaret ve orta) uzatılmış, avuç dışa dönük. İki sayısı."
+    },
+    "hand-technical-three": {
+      "name": "Üç (3)",
+      "description": "Üç parmak (işaret, orta, yüzük) uzatılmış, avuç dışa dönük. Üç sayısı."
+    },
+    "hand-technical-four": {
+      "name": "Dört (4)",
+      "description": "Dört parmak uzatılmış (başparmak içerde), avuç dışa dönük. Dört sayısı."
+    },
+    "hand-technical-five": {
+      "name": "Beş (5)",
+      "description": "Beş parmak uzatılmış, açık avuç dışa dönük. Beş sayısı. Basınç için kullanıldığında 50 bar / 500 psi'yi de temsil eder."
+    },
+    "hand-technical-six": {
+      "name": "Altı (6)",
+      "description": "El yandan, el sırtı dışarı bakacak şekilde, bir parmak uzatılmış. TDI stili: 6-9 sayıları 1-4'ten ayırt etmek için yandan el pozisyonu kullanır. Altı sayısı."
+    },
+    "hand-technical-seven": {
+      "name": "Yedi (7)",
+      "description": "El yandan, el sırtı dışarı bakacak şekilde, iki parmak uzatılmış. TDI stili: 6-9 sayıları 1-4'ten ayırt etmek için yandan el pozisyonu kullanır. Yedi sayısı."
+    },
+    "hand-technical-eight": {
+      "name": "Sekiz (8)",
+      "description": "El yandan, el sırtı dışarı bakacak şekilde, üç parmak uzatılmış. TDI stili: 6-9 sayıları 1-4'ten ayırt etmek için yandan el pozisyonu kullanır. Sekiz sayısı."
+    },
+    "hand-technical-nine": {
+      "name": "Dokuz (9)",
+      "description": "El yandan, el sırtı dışarı bakacak şekilde, dört parmak uzatılmış. TDI stili: 6-9 sayıları 1-4'ten ayırt etmek için yandan el pozisyonu kullanır. Dokuz sayısı."
+    },
+    "hand-fish-id-shark": {
+      "name": "Köpekbalığı",
+      "description": "Düz el başın üstünde sırt yüzgecini taklit eder. Köpekbalığı görüldü."
+    },
+    "hand-fish-id-hammerhead": {
+      "name": "Çekiç Başlı Köpekbalığı",
+      "description": "Yumruklar başın yanlarında, çekiç şekli gibi dışarı uzatılmış. Çekiç başlı köpekbalığı görüldü."
+    },
+    "hand-fish-id-manta-ray": {
+      "name": "Manta Vatozu",
+      "description": "Kollar geniş açılmış, kanatlar gibi yavaş zarif dalga hareketi. Manta vatozu görüldü."
+    },
+    "hand-fish-id-dolphin": {
+      "name": "Yunus",
+      "description": "El dalgalı hareketle, yüzen yunus gibi yükselip alçalır. Yunus görüldü."
+    },
+    "hand-fish-id-turtle": {
+      "name": "Kaplumbağa",
+      "description": "Bir yumruk diğer düz elle örtülü, başparmaklar yüzme yüzgeçleri gibi döner. Deniz kaplumbağası görüldü."
+    },
+    "hand-fish-id-seal": {
+      "name": "Fok / Deniz Aslanı",
+      "description": "Eller bileklerde birlikte, yüzgeçler gibi çırpar. Fok veya deniz aslanı görüldü."
+    },
+    "hand-fish-id-stingray": {
+      "name": "Vatoz",
+      "description": "Düz eller birlikte, kırbaç kuyruk hareketiyle dalgalanma. Vatoz görüldü."
+    },
+    "hand-fish-id-blue-spotted-ray": {
+      "name": "Mavi Benekli Vatoz",
+      "description": "Düz el vatoz gibi dalgalanıyor, sonra benekleri göstermek için parmak uçlarınızı elinizin arkasına vurun. Mavi benekli şerit vatoz görüldü."
+    },
+    "hand-fish-id-napoleon": {
+      "name": "Napolyon Balığı",
+      "description": "Yumrukla alında çıkıntı. Napolyon veya hörgüçlü dudak balığı görüldü."
+    },
+    "hand-fish-id-barracuda": {
+      "name": "Barakuda",
+      "description": "Diğer elinizle kolunuzu bıçak gibi kesme hareketiyle kesin. Barakudanın uzun gövdesini ve keskin profilini temsil eder. Barakuda görüldü."
+    },
+    "hand-fish-id-tuna": {
+      "name": "Ton balığı",
+      "description": "Hızlı torpido şekilli el hareketi. Büyük hızlı yüzen pelajik balık görüldü."
+    },
+    "hand-fish-id-triggerfish": {
+      "name": "Tetik balığı",
+      "description": "Parmak çekilen tetik gibi. Tetik balığı görüldü. Bölgesel olabilir."
+    },
+    "hand-fish-id-angelfish": {
+      "name": "Melek balığı",
+      "description": "Parmakla başın üzerinde hale hareketi. Melek balığı görüldü."
+    },
+    "hand-fish-id-pufferfish": {
+      "name": "Balon balığı",
+      "description": "Şişirilmiş yanaklar, eller yüz etrafında genişler. Balon balığı görüldü."
+    },
+    "hand-fish-id-trumpetfish": {
+      "name": "Trompet balığı",
+      "description": "Eller ağızda trompet gibi, öne uzatılmış. Trompet balığı veya kornet balığı görüldü."
+    },
+    "hand-fish-id-moray": {
+      "name": "Müren Yılanbalığı",
+      "description": "El yılanbalığı ağzı gibi açılıp kapanır, kol yılanbalığı gövdesi gibi dalgalanır. Müren görüldü."
+    },
+    "hand-fish-id-lionfish": {
+      "name": "Aslan balığı",
+      "description": "Parmaklar yüzden yayılan dikenler gibi açılmış. Aslan balığı görüldü. Zehirli: mesafe koru."
+    },
+    "hand-fish-id-scorpionfish": {
+      "name": "Akrep balığı",
+      "description": "Parmaklar açık, el dipte kamufle balık gibi alçakta. Akrep balığı görüldü. Zehirli: dokunma."
+    },
+    "hand-fish-id-stonefish": {
+      "name": "Taş balığı",
+      "description": "Yumruk dipte taş gibi. Taş balığı görüldü. Aşırı zehirli: mesafe koru."
+    },
+    "hand-fish-id-crocodilefish": {
+      "name": "Timsah balığı",
+      "description": "Düz eli alçakta tutun (dibe yakın), sonra parmakları avuca karşı uzun çene kapama hareketi yapın. Timsah balığı, yassıkafa veya dipte yaşayan yırtıcı görüldü."
+    },
+    "hand-fish-id-octopus": {
+      "name": "Ahtapot",
+      "description": "Parmaklar avuç içinden tentaküller gibi dışarı sallanır. Ahtapot görüldü."
+    },
+    "hand-fish-id-seahorse": {
+      "name": "Denizatı",
+      "description": "Kavisli yumruk, denizatı burnu gibi uzatılmış başparmak. Denizatı görüldü."
+    },
+    "hand-fish-id-nudibranch": {
+      "name": "Deniz sümüklüböceği",
+      "description": "İki parmak başta rinofora (nudibranch anteni) gibi sallanıyor, sonra küçük boyutu göstermek için parmakları kıstırın. Nudibranch veya deniz sümüklüböceği görüldü: genellikle minik ve renkli."
+    },
+    "hand-fish-id-jellyfish": {
+      "name": "Denizanası",
+      "description": "El açılıp kapanarak nabız atar, parmaklar aşağı sarkar. Bölgede denizanası: temastan kaçın."
+    },
+    "hand-fish-id-crab": {
+      "name": "Yengeç",
+      "description": "İşaret parmağı ve başparmakla kıskaç hareketi. Yengeç görüldü."
+    },
+    "hand-fish-id-shrimp": {
+      "name": "Karides",
+      "description": "Alında antenler gibi iki parmak, küçük boyut belirtilir. Karides görüldü."
+    },
+    "hand-fish-id-small-creature": {
+      "name": "Küçük Yaratık",
+      "description": "Başparmak ve işaret parmağını minik boyutu gösterecek şekilde yakın kıstırın, sonra konumu işaret edin. Küçük/makro yaratık tespit edildi: belirtilen alana yakından bakın."
+    },
+    "light-ok": {
+      "name": "Tamam (Işık)",
+      "description": "Işık huzmesiyle yavaş büyük daire hareketi. Her şey yolunda. Hem sinyal hem cevap olarak kullanılır."
+    },
+    "light-attention": {
+      "name": "Dikkat",
+      "description": "Işık huzmesini buddy'nin görüş alanında yatay olarak geçirin. İletişim için buddy'nin dikkatini çekin."
+    },
+    "light-emergency": {
+      "name": "Acil durum",
+      "description": "Işığın hızlı sürekli sallanması, düzensiz hareket. Acil durum, derhal yardım gerekli."
+    },
+    "touch-contact-ok": {
+      "name": "Tamam",
+      "description": "Buddy'nin kolunda veya elinde iki kasıtlı sıkma. Her şey tamam. Aynı sinyalle cevap verin."
+    },
+    "touch-contact-stop": {
+      "name": "Dur",
+      "description": "Bir sıkı kavrama veya sıkma. Derhal dur, pozisyonu koru."
+    },
+    "touch-contact-hold": {
+      "name": "Tut / Bekle",
+      "description": "Hareket olmadan sıkı kavramayı koru. Burada kal, pozisyonu koru, bekle."
+    },
+    "touch-contact-ascend": {
+      "name": "Yüksel / Yukarı",
+      "description": "Buddy'nin kolunu yukarı it. Yukarı hareket et, çıkışa başla."
+    },
+    "touch-contact-descend": {
+      "name": "Dal / Aşağı",
+      "description": "Buddy'nin kolunu aşağı it. Aşağı hareket et, inişe devam et."
+    },
+    "touch-contact-left-right": {
+      "name": "Sol / Sağ",
+      "description": "Kolu yanal yönde çek. Belirtildiği gibi sola veya sağa hareket et."
+    },
+    "touch-contact-forward-backward": {
+      "name": "İleri / Geri",
+      "description": "Kolu yatay olarak çek veya it. Belirtilen yönde ileri veya geri hareket et."
+    }
+  }
+}

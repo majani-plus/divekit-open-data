@@ -6,7 +6,7 @@
     <title>Dive Kit Open: open diving data and schemas</title>
     <meta
       name="description"
-      content="Open, versioned JSON datasets and JSON Schemas for the diving community: certifications, agencies, cylinders, dive signals, references and search sources." />
+      content="Open, versioned JSON datasets and JSON Schemas for the diving community: certifications, agencies, cylinders, dive signals, checklists, references and search sources, with translations in seven languages." />
     <meta name="theme-color" content="#f7f6f2" />
     <link rel="canonical" href="https://open.divekit.app/" />
 
@@ -423,8 +423,8 @@
               <p class="eyebrow">Open data &amp; standards · Dive Kit</p>
               <h1 class="display">Diving data, open for anyone to build on.</h1>
               <p class="lead">
-                Versioned JSON datasets and JSON Schemas for certifications, agencies, cylinders, dive signals and the
-                sources behind them. The same data that powers the Dive Kit app, free for apps, researchers and
+                Versioned JSON datasets and JSON Schemas for certifications, agencies, cylinders, dive signals, checklists
+                and the sources behind them. The same data that powers the Dive Kit app, free for apps, researchers and
                 training platforms.
               </p>
               <div class="actions">
@@ -465,7 +465,7 @@
           </div>
 
           <ul class="chips">
-            <li><a href="#datasets">6 datasets</a></li>
+            <li><a href="#datasets">7 datasets</a></li>
             <li><a href="#signals">93 signal illustrations</a></li>
             <li><a href="#contribute">Validated against JSON Schema in CI</a></li>
             <li><a href="#license">Data &amp; schemas MIT · signal art CC BY 4.0</a></li>
@@ -540,6 +540,17 @@
                     <a href="/schemas/dive-signals/dive-signals.schema.v1.0.0.json">Schema</a>
                   </td>
                 </tr>
+                <tr data-file="checklists" data-key="checklists">
+                  <td class="name">Checklists<small>checklists.json</small></td>
+                  <td class="desc">The Dive Kit app's checklist presets: predive, CCR build and post-dive checks, each step with its timer and source.</td>
+                  <td class="num" data-count>—</td>
+                  <td class="ver" data-version>—</td>
+                  <td class="links">
+                    <a href="/view.html?d=checklists">Table</a>
+                    <a href="/datasets/checklists.json">JSON</a>
+                    <a href="/schemas/checklists/checklists.schema.v1.0.0.json">Schema</a>
+                  </td>
+                </tr>
                 <tr data-file="references" data-key="references">
                   <td class="name">References<small>references.json</small></td>
                   <td class="desc">Vetted papers, books, standards and articles behind Dive Kit, with what each is authoritative for.</td>
@@ -567,7 +578,9 @@
           </div>
           <p class="figure-caption table-note">
             <b>Table 1:</b> Record counts and versions are read live from each file. Open any dataset as a
-            searchable table in the <a href="/view.html">data browser</a>. New to the data? Start with the
+            searchable table in the <a href="/view.html">data browser</a>. The dive signals and checklists also come in
+            German, Polish, Russian, Swedish, Turkish, Chinese and Korean, in <code>datasets/i18n/&lt;locale&gt;/</code> and keyed
+            by the same ids (<a href="/schemas/translations/translations.schema.v1.0.0.json">schema</a>). New to the data? Start with the
             <a href="https://github.com/majani-plus/divekit-open-data/blob/main/docs/DATASETS.md">dataset guide</a>.
           </p>
         </div>
@@ -733,7 +746,7 @@
                 <tr>
                   <td class="name">Datasets &amp; docs</td>
                   <td><a href="https://opensource.org/licenses/MIT">MIT</a></td>
-                  <td class="desc">Free for any use. The dive-signals index stays CC BY 4.0.</td>
+                  <td class="desc">Free for any use. The dive-signals index and its translations stay CC BY 4.0.</td>
                 </tr>
                 <tr>
                   <td class="name">Dive signal illustrations</td>
@@ -813,7 +826,7 @@
         </div>
         <div class="footer-bottom">
           <span>&copy; <span data-year>2026</span> Majani Plus</span>
-          <span>Last updated <time data-updated datetime="2026-10-30">30 October 2026</time></span>
+          <span>Last updated <time data-updated datetime="2026-11-01">1 November 2026</time></span>
           <span>Maintained by <a href="https://github.com/majani-plus">Majani Plus</a></span>
         </div>
       </div>

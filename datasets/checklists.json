@@ -1,0 +1,1232 @@
+{
+  "$schema": "https://open.divekit.app/schemas/checklists/checklists.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "license": "MIT",
+    "source": "Dive Kit app checklist presets"
+  },
+  "checklists": [
+    {
+      "id": "rec-pre-dive",
+      "app_preset_id": "recPreDive",
+      "name": "Predive safety check (BWRAF)",
+      "description": "The recreational buddy check before every dive: BCD, Weights, Releases, Air, Final check. Run it together, out loud, head to toe.",
+      "use": "predive",
+      "unit": null,
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "The BWRAF recreational buddy check (BCD, Weights, Releases, Air, Final check) as taught in entry-level training, PADI among others.",
+        "agency": "agency-padi",
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "rec-pre-dive-s1",
+          "title": "B: BCD",
+          "steps": [
+            {
+              "id": "rec-pre-dive-s1-1",
+              "label": "Buoyancy control device (BCD) adjusted",
+              "description": "Straps snug and nothing twisted. A loose BCD shifts your trim once you are in the water."
+            },
+            {
+              "id": "rec-pre-dive-s1-2",
+              "label": "Cylinder secure in its band",
+              "description": "Give it a tug. The cylinder should not slip or rotate."
+            },
+            {
+              "id": "rec-pre-dive-s1-3",
+              "label": "Inflator and deflator both work",
+              "description": "Add and dump a little gas. The feed should stop cleanly the moment you let go."
+            },
+            {
+              "id": "rec-pre-dive-s1-4",
+              "label": "Partially inflated for the entry",
+              "description": "Enough lift to stay comfortable at the surface, as suits your entry."
+            },
+            {
+              "id": "rec-pre-dive-s1-5",
+              "label": "Surface signaling devices stowed",
+              "description": "A whistle and a marker you can reach without help."
+            },
+            {
+              "id": "rec-pre-dive-s1-6",
+              "label": "Team knows how to work each other's BCDs"
+            }
+          ]
+        },
+        {
+          "id": "rec-pre-dive-s2",
+          "title": "W: Weights",
+          "steps": [
+            {
+              "id": "rec-pre-dive-s2-1",
+              "label": "Right amount of weight",
+              "description": "Enough to hold a safety stop with a near-empty cylinder, no more. Confirm again after entry."
+            },
+            {
+              "id": "rec-pre-dive-s2-2",
+              "label": "Weight positioned for good trim"
+            },
+            {
+              "id": "rec-pre-dive-s2-3",
+              "label": "Quick-release buckles work",
+              "description": "Each release opens with one pull, then is secured again."
+            },
+            {
+              "id": "rec-pre-dive-s2-4",
+              "label": "Releasable weight is free and clear",
+              "description": "Nothing traps it against other gear."
+            },
+            {
+              "id": "rec-pre-dive-s2-5",
+              "label": "One pull drops enough weight for lift"
+            },
+            {
+              "id": "rec-pre-dive-s2-6",
+              "label": "Team knows how to ditch each other's weights"
+            }
+          ]
+        },
+        {
+          "id": "rec-pre-dive-s3",
+          "title": "R: Releases",
+          "steps": [
+            {
+              "id": "rec-pre-dive-s3-1",
+              "label": "All releases secured, adjusted and working",
+              "description": "Re-check the BCD and weight releases together."
+            },
+            {
+              "id": "rec-pre-dive-s3-2",
+              "label": "Team knows how to work each other's releases"
+            }
+          ]
+        },
+        {
+          "id": "rec-pre-dive-s4",
+          "title": "A: Air",
+          "steps": [
+            {
+              "id": "rec-pre-dive-s4-1",
+              "label": "Cylinder valves fully open",
+              "description": "Open all the way. The team confirms it for each other by sight and feel."
+            },
+            {
+              "id": "rec-pre-dive-s4-2",
+              "label": "Enough gas and reserve agreed",
+              "description": "Everyone has gas for the planned dive plus a reserve to surface safely."
+            },
+            {
+              "id": "rec-pre-dive-s4-3",
+              "label": "Inflator hose reconnected and working",
+              "description": "Re-check the BCD and drysuit inflator connection after handling the cylinder."
+            },
+            {
+              "id": "rec-pre-dive-s4-4",
+              "label": "Primary and alternate both breathed",
+              "description": "Breathe each second stage. Both should deliver gas easily."
+            },
+            {
+              "id": "rec-pre-dive-s4-5",
+              "label": "Alternate stowed in the chest area",
+              "description": "Secured where a buddy can find it fast."
+            },
+            {
+              "id": "rec-pre-dive-s4-6",
+              "label": "Team knows where each other's alternate is"
+            }
+          ]
+        },
+        {
+          "id": "rec-pre-dive-s5",
+          "title": "F: Final check",
+          "steps": [
+            {
+              "id": "rec-pre-dive-s5-1",
+              "label": "No loose, missing or trapped gear",
+              "description": "Scan head to toe for dangling hoses and snag points."
+            },
+            {
+              "id": "rec-pre-dive-s5-2",
+              "label": "Dive computer on and set",
+              "description": "Right gas (air or nitrox %) and settings confirmed."
+            },
+            {
+              "id": "rec-pre-dive-s5-3",
+              "label": "Hand signals and plan reviewed",
+              "description": "Agree depth, time, the turn point and what to do if separated."
+            },
+            {
+              "id": "rec-pre-dive-s5-4",
+              "label": "The goal is to return safely",
+              "description": "This comes before every other objective of the dive."
+            },
+            {
+              "id": "rec-pre-dive-s5-5",
+              "label": "Any diver can call the dive, any time",
+              "description": "For any reason, with no questions asked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oc-tec-pre-dive",
+      "app_preset_id": "ocTecPreDive",
+      "name": "Open-circuit tech predive",
+      "description": "Predive checks for open-circuit technical diving: analyze and assemble, run the pressure tests, then match gear head to toe with your team. Adapt it to your training.",
+      "use": "predive",
+      "unit": null,
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "PADI TecRec's predive checklist: preparation, then a head-to-toe team match.",
+        "agency": "agency-padi",
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "oc-tec-pre-dive-s1",
+          "title": "Predive preparation",
+          "steps": [
+            {
+              "id": "oc-tec-pre-dive-s1-1",
+              "label": "Analyze every cylinder yourself",
+              "description": "Analyze each cylinder before assembly and confirm the label matches. Open the isolator first if one is fitted.",
+              "notes": true
+            },
+            {
+              "id": "oc-tec-pre-dive-s1-2",
+              "label": "Assemble the kit, cylinders fully open",
+              "description": "Built and ready to don."
+            },
+            {
+              "id": "oc-tec-pre-dive-s1-3",
+              "label": "Breathe every regulator",
+              "description": "Each should breathe easily with no free-flow."
+            },
+            {
+              "id": "oc-tec-pre-dive-s1-4",
+              "label": "Pressure-test the wing",
+              "description": "Inflate it fully and watch it hold. Test each bladder on its own if it is a double.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 120
+              }
+            },
+            {
+              "id": "oc-tec-pre-dive-s1-5",
+              "label": "Positive pressure test the regulators",
+              "description": "Note the submersible pressure gauge (SPG), close the cylinder valve and wait. The reading must not drop.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 120
+              }
+            },
+            {
+              "id": "oc-tec-pre-dive-s1-6",
+              "label": "Negative pressure test the regulators",
+              "description": "Breathe the regulator down until flow stops. The SPG should read zero with no creep."
+            },
+            {
+              "id": "oc-tec-pre-dive-s1-7",
+              "label": "Check gas pressure on every SPG",
+              "description": "Open the valve with the isolator fully open and confirm enough gas. Leave deco and stage cylinders pressurized but closed."
+            },
+            {
+              "id": "oc-tec-pre-dive-s1-8",
+              "label": "Note turn and minimum ascent pressures",
+              "description": "Write them on a slate and confirm them with the team.",
+              "notes": true
+            },
+            {
+              "id": "oc-tec-pre-dive-s1-9",
+              "label": "Don and adjust the kit",
+              "description": "Turn the back-gas cylinders on before you don the rig."
+            }
+          ]
+        },
+        {
+          "id": "oc-tec-pre-dive-s2",
+          "title": "Head-to-toe team check",
+          "steps": [
+            {
+              "id": "oc-tec-pre-dive-s2-1",
+              "label": "Hood placed"
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-2",
+              "label": "Mask ready or already on"
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-3",
+              "label": "Regulators: longhose free to deploy",
+              "description": "Breathe each regulator one more time."
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-4",
+              "label": "Cylinder valves correct",
+              "description": "Back gas and bailout open. Deco and stage cylinders pressurized but closed."
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-5",
+              "label": "Wing inflator works",
+              "description": "Confirm oral inflation too, and that any backup inflator is reachable."
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-6",
+              "label": "Drysuit inflator connected and working",
+              "description": "Inflation cylinder open if separate. Backup hose reachable."
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-7",
+              "label": "Dive computers and timers set",
+              "description": "On, charged and set to the right gases."
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-8",
+              "label": "Weights donned, releases reachable"
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-9",
+              "label": "Wing dump valves work and reachable"
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-10",
+              "label": "Lights checked",
+              "description": "Primary on, backups working and stowed."
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-11",
+              "label": "Backup mask stowed and reachable",
+              "description": "Defogged and easy to retrieve."
+            },
+            {
+              "id": "oc-tec-pre-dive-s2-12",
+              "label": "Other gear reachable",
+              "description": "Marker buoy and reel, cutting tool, signaling devices and slate, all within reach."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tec-plan",
+      "app_preset_id": "tecPlan",
+      "name": "Tech dive plan review",
+      "description": "Talk the plan through before a technical dive: mission, logistics, narcosis, gas, decompression, oxygen and thermal. A thinking check, not a gear check.",
+      "use": "dive-plan",
+      "unit": null,
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "PADI TecRec's technical dive planning sheet.",
+        "agency": "agency-padi",
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "tec-plan-s1",
+          "title": "Mission",
+          "steps": [
+            {
+              "id": "tec-plan-s1-1",
+              "label": "The primary mission is to return unhurt",
+              "description": "Everyone agrees this comes before any other goal."
+            },
+            {
+              "id": "tec-plan-s1-2",
+              "label": "Mission is realistic for this dive"
+            },
+            {
+              "id": "tec-plan-s1-3",
+              "label": "Mission simplified as far as it can be"
+            },
+            {
+              "id": "tec-plan-s1-4",
+              "label": "Whole team understands and agrees the plan"
+            },
+            {
+              "id": "tec-plan-s1-5",
+              "label": "Everyone is able to do their role"
+            },
+            {
+              "id": "tec-plan-s1-6",
+              "label": "Rehearsed on land or in shallow water if possible"
+            }
+          ]
+        },
+        {
+          "id": "tec-plan-s2",
+          "title": "Logistics",
+          "steps": [
+            {
+              "id": "tec-plan-s2-1",
+              "label": "Team roles agreed",
+              "description": "Who carries what and who does what."
+            },
+            {
+              "id": "tec-plan-s2-2",
+              "label": "Where and when to meet is set"
+            },
+            {
+              "id": "tec-plan-s2-3",
+              "label": "Gas supply arranged",
+              "description": "Fills and top-ups booked or already on hand."
+            },
+            {
+              "id": "tec-plan-s2-4",
+              "label": "Equipment sorted",
+              "description": "Rentals and spares organized."
+            },
+            {
+              "id": "tec-plan-s2-5",
+              "label": "Emergency plan known",
+              "description": "How to call for help, where oxygen and first aid are, the evacuation route and the nearest chamber.",
+              "notes": true
+            },
+            {
+              "id": "tec-plan-s2-6",
+              "label": "Surface support and cover briefed"
+            }
+          ]
+        },
+        {
+          "id": "tec-plan-s3",
+          "title": "Inert gas narcosis",
+          "steps": [
+            {
+              "id": "tec-plan-s3-1",
+              "label": "Plan keeps narcosis manageable",
+              "description": "Dive as shallow as the objective allows."
+            },
+            {
+              "id": "tec-plan-s3-2",
+              "label": "Equivalent narcotic depth within limits",
+              "description": "An equivalent narcotic depth (END) of 30 m (100 ft) or shallower is recommended, 40 m (130 ft) at most."
+            },
+            {
+              "id": "tec-plan-s3-3",
+              "label": "Gas density within limits",
+              "description": "Keep gas density at or below 5.2 g/l, 6.3 g/l at most, at the deepest point."
+            }
+          ]
+        },
+        {
+          "id": "tec-plan-s4",
+          "title": "Gas",
+          "steps": [
+            {
+              "id": "tec-plan-s4-1",
+              "label": "Gas choices make sense",
+              "description": "Availability, decompression, oxygen exposure, narcosis and density all weighed up."
+            },
+            {
+              "id": "tec-plan-s4-2",
+              "label": "Gas volumes calculated",
+              "description": "Based on consumption, workload, planned reserve and cylinder size."
+            },
+            {
+              "id": "tec-plan-s4-3",
+              "label": "Every cylinder analyzed by the diver who breathes it"
+            },
+            {
+              "id": "tec-plan-s4-4",
+              "label": "Every cylinder clearly labeled"
+            }
+          ]
+        },
+        {
+          "id": "tec-plan-s5",
+          "title": "Decompression",
+          "steps": [
+            {
+              "id": "tec-plan-s5-1",
+              "label": "Ascent planned",
+              "description": "Worked out with software or a dive computer, including ascent time and stops."
+            },
+            {
+              "id": "tec-plan-s5-2",
+              "label": "Contingencies planned",
+              "description": "Extra depth or time, and loss of back gas or deco gas."
+            },
+            {
+              "id": "tec-plan-s5-3",
+              "label": "Backup plan carried",
+              "description": "A second computer or printed tables."
+            }
+          ]
+        },
+        {
+          "id": "tec-plan-s6",
+          "title": "Oxygen",
+          "steps": [
+            {
+              "id": "tec-plan-s6-1",
+              "label": "Bottom gas PPO₂ at most 1.4 bar at max depth"
+            },
+            {
+              "id": "tec-plan-s6-2",
+              "label": "Any gas switch stays at or below 1.4 bar PPO₂"
+            },
+            {
+              "id": "tec-plan-s6-3",
+              "label": "Deco gases at most 1.6 bar PPO₂ at the stop depth"
+            },
+            {
+              "id": "tec-plan-s6-4",
+              "label": "CNS and OTU within accepted limits",
+              "description": "The central nervous system (CNS) clock and oxygen toxicity units (OTU) for the whole dive."
+            }
+          ]
+        },
+        {
+          "id": "tec-plan-s7",
+          "title": "Thermal exposure",
+          "steps": [
+            {
+              "id": "tec-plan-s7-1",
+              "label": "Exposure suits fit the dive",
+              "description": "Warm enough for the planned time plus a reasonable overrun."
+            },
+            {
+              "id": "tec-plan-s7-2",
+              "label": "Drysuit checked if used",
+              "description": "Valves, zip and seals sound. Separate inflation gas if used, and no helium for suit inflation."
+            },
+            {
+              "id": "tec-plan-s7-3",
+              "label": "Wet suit buoyancy planned if used",
+              "description": "Allow for suit compression at depth, with a backup buoyancy plan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jj-land-prep",
+      "app_preset_id": "jjLandPrep",
+      "name": "JJ-CCR preparations on land",
+      "description": "Full system build and verification before heading out. Based on the JJ-CCR manual. Edit it to match your unit and your training.",
+      "use": "ccr-build",
+      "unit": "JJ-CCR",
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "JJ-CCR user manual, section 9.1 (preparations on land).",
+        "agency": null,
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "jj-land-prep-s1",
+          "title": "Assessment and supplies",
+          "steps": [
+            {
+              "id": "jj-land-prep-s1-1",
+              "label": "Check that you feel healthy, rested and calm",
+              "description": "If you do not feel up to the dive, the safest call is not to dive."
+            },
+            {
+              "id": "jj-land-prep-s1-2",
+              "label": "Fill the scrubber with fresh, unused sorb",
+              "description": "Never reuse sorb from an earlier dive. Note the fill so you can track scrubber use."
+            },
+            {
+              "id": "jj-land-prep-s1-3",
+              "label": "Analyze the oxygen and diluent cylinders",
+              "description": "Confirm the contents and check there is enough pressure for the planned dive.",
+              "notes": true
+            },
+            {
+              "id": "jj-land-prep-s1-4",
+              "label": "Prepare enough bailout for the dive",
+              "description": "Plan bailout for the worst case. You can never carry too much bailout gas."
+            }
+          ]
+        },
+        {
+          "id": "jj-land-prep-s2",
+          "title": "Assembly",
+          "steps": [
+            {
+              "id": "jj-land-prep-s2-1",
+              "label": "Secure the oxygen and diluent cylinders to the unit"
+            },
+            {
+              "id": "jj-land-prep-s2-2",
+              "label": "Install the scrubber canister and close the head"
+            },
+            {
+              "id": "jj-land-prep-s2-3",
+              "label": "Check the mushroom valves seal in both directions",
+              "description": "Breathe gently against each closed side of the loop. No gas should pass a closed valve."
+            },
+            {
+              "id": "jj-land-prep-s2-4",
+              "label": "Connect all hoses and check the O-rings",
+              "description": "O-rings must be clean and undamaged. Confirm the DSV opens and closes smoothly."
+            }
+          ]
+        },
+        {
+          "id": "jj-land-prep-s3",
+          "title": "System checks",
+          "steps": [
+            {
+              "id": "jj-land-prep-s3-1",
+              "label": "Open both cylinder valves and check pressures",
+              "notes": true
+            },
+            {
+              "id": "jj-land-prep-s3-2",
+              "label": "Check the intermediate pressure of both first stages",
+              "description": "JJ-CCR spec: diluent 9 to 10 bar, oxygen 7 to 7.5 bar. Do not dive if a value is out of range.",
+              "notes": true
+            },
+            {
+              "id": "jj-land-prep-s3-3",
+              "label": "Test both manual addition valves and the ADV"
+            },
+            {
+              "id": "jj-land-prep-s3-4",
+              "label": "Test the wing inflator"
+            },
+            {
+              "id": "jj-land-prep-s3-5",
+              "label": "Test the DSV in both positions"
+            }
+          ]
+        },
+        {
+          "id": "jj-land-prep-s4",
+          "title": "Integrity tests",
+          "steps": [
+            {
+              "id": "jj-land-prep-s4-1",
+              "label": "Run a positive pressure test",
+              "description": "Fill the loop until the overpressure valve vents, close the DSV and wait. When you reopen it, pressure should still escape.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 300
+              }
+            },
+            {
+              "id": "jj-land-prep-s4-2",
+              "label": "Vent the loop with the counterlung dump valve"
+            },
+            {
+              "id": "jj-land-prep-s4-3",
+              "label": "Run a negative pressure test",
+              "description": "Close both cylinder valves, breathe the loop down to a vacuum, close the DSV and wait. The ADV diaphragm must stay drawn in.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 300
+              }
+            }
+          ]
+        },
+        {
+          "id": "jj-land-prep-s5",
+          "title": "Electronics and startup",
+          "steps": [
+            {
+              "id": "jj-land-prep-s5-1",
+              "label": "Open both cylinder valves again"
+            },
+            {
+              "id": "jj-land-prep-s5-2",
+              "label": "Switch on the controller and the HUD"
+            },
+            {
+              "id": "jj-land-prep-s5-3",
+              "label": "Calibrate the oxygen cells on the controller and HUD",
+              "description": "Write the cell readings down so you can spot a drifting cell over time.",
+              "notes": true
+            },
+            {
+              "id": "jj-land-prep-s5-4",
+              "label": "Check the controller and solenoid battery voltages",
+              "notes": true
+            },
+            {
+              "id": "jj-land-prep-s5-5",
+              "label": "Pre-breathe the loop for 2 to 3 minutes",
+              "description": "Watch the PPO₂ hold near the setpoint while you breathe. A pre-breathe does not reliably detect a failing scrubber, so never skip the earlier checks.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 180
+              }
+            },
+            {
+              "id": "jj-land-prep-s5-6",
+              "label": "Close the DSV and both cylinder valves"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jj-pre-dive",
+      "app_preset_id": "jjPreDive",
+      "name": "JJ-CCR shortly before diving",
+      "description": "Final checks just before you kit up and splash. Based on the JJ-CCR manual. Edit it to match your unit and your training.",
+      "use": "predive",
+      "unit": "JJ-CCR",
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "JJ-CCR user manual, section 9.2 (shortly before diving).",
+        "agency": null,
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "jj-pre-dive-s1",
+          "title": "Final checks",
+          "steps": [
+            {
+              "id": "jj-pre-dive-s1-1",
+              "label": "Open both cylinder valves and check pressures"
+            },
+            {
+              "id": "jj-pre-dive-s1-2",
+              "label": "Test both manual addition valves and the ADV"
+            },
+            {
+              "id": "jj-pre-dive-s1-3",
+              "label": "Test the wing inflator"
+            },
+            {
+              "id": "jj-pre-dive-s1-4",
+              "label": "Test the DSV in both positions"
+            },
+            {
+              "id": "jj-pre-dive-s1-5",
+              "label": "Run a positive and negative pressure test",
+              "description": "A short hold each way is enough to confirm the loop is still tight.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 120
+              }
+            },
+            {
+              "id": "jj-pre-dive-s1-6",
+              "label": "Switch on the controller and the HUD"
+            },
+            {
+              "id": "jj-pre-dive-s1-7",
+              "label": "Check the low and high setpoints"
+            },
+            {
+              "id": "jj-pre-dive-s1-8",
+              "label": "Pre-breathe the loop for at least 2 to 3 minutes",
+              "description": "Watch the PPO₂ while you breathe. Stop and investigate if you feel any symptoms: headache, dizziness, air hunger.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 180
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jj-in-water",
+      "app_preset_id": "jjInWater",
+      "name": "JJ-CCR after entering the water",
+      "description": "Surface checks right after water entry, before leaving the surface. Review them before you splash. Based on the JJ-CCR manual.",
+      "use": "in-water",
+      "unit": "JJ-CCR",
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "JJ-CCR user manual, section 9.3 (shortly after entering the water).",
+        "agency": null,
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "jj-in-water-s1",
+          "title": "Surface checks",
+          "steps": [
+            {
+              "id": "jj-in-water-s1-1",
+              "label": "Bubble check in the first 6 m (20 ft)",
+              "description": "Agree the bubble check with your buddy before descending. Never continue deeper without it."
+            },
+            {
+              "id": "jj-in-water-s1-2",
+              "label": "Check the controller and HUD readings"
+            },
+            {
+              "id": "jj-in-water-s1-3",
+              "label": "Check everything is clipped, stowed and reachable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fx-functionality",
+      "app_preset_id": "fxFunctionality",
+      "name": "FX CCR functionality check",
+      "description": "Sub-Gravity's FX-CCR Functionality Checklist v1.5 (calibration kit), items 1 to 13 in their order: cylinders, scrubber, cell check, pressure tests, batteries and pre-breathe. Run it when you build the unit. Diving straight away? Continue with the FX CCR pre-dive checks. Not diving yet? Close the O₂ and diluent cylinder valves, drain the hoses, turn off the electronics and secure the unit. Valid for that unit only. Edit it to match your unit and your training.",
+      "use": "ccr-build",
+      "unit": "FX CCR",
+      "provenance": {
+        "basis": "reproduced",
+        "source": "Sub-Gravity FX-CCR Functionality Checklist v1.5 (Calibration Kit), items 1 to 13. The condensed sheet gives the step labels, the detailed sheet the step descriptions.",
+        "agency": null,
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "fx-functionality-s1",
+          "title": "Functionality checks",
+          "steps": [
+            {
+              "id": "fx-functionality-s1-1",
+              "label": "Install analyzed and labeled gas cylinders"
+            },
+            {
+              "id": "fx-functionality-s1-2",
+              "label": "Mushroom valve and mouthpiece check"
+            },
+            {
+              "id": "fx-functionality-s1-3",
+              "label": "Turn on controller and secondary",
+              "description": "A. Change to the 0.19 setpoint."
+            },
+            {
+              "id": "fx-functionality-s1-4",
+              "label": "Check remaining scrubber duration",
+              "description": "A. Re-pack the scrubber if needed and install it in the can.\nB. Ensure the water trap is properly installed.\nC. Ensure the head is installed with both lock lines in place.\nD. Reset the stack timer to the appropriate time."
+            },
+            {
+              "id": "fx-functionality-s1-5",
+              "label": "Check mV and calibration",
+              "description": "A. Record the mV and PPO₂ readings in air.\nB. Using the calibration kit, flush the head with oxygen until the mV and PPO₂ readings stabilize.\nC. Compare expected and measured values.\nD. If needed, calibrate according to the manual.\n\nExpected in air: 8.5 to 13 mV per cell (S1, S2, S3). Expected in O₂: the measured air value divided by 0.21. Measured in O₂ should be within 2 mV and 0.05 PPO₂ of the expected values. These figures assume 100% oxygen; adjust the math for less (for example 93%).",
+              "notes": true
+            },
+            {
+              "id": "fx-functionality-s1-6",
+              "label": "Check all connections (threaded and bayonet)"
+            },
+            {
+              "id": "fx-functionality-s1-7",
+              "label": "Negative pressure test (1 minute minimum)",
+              "description": "A. Open the BOV.\nB. Inhale from the BOV in CC mode, exhaling through your nose until the counterlungs are fully collapsed.\nC. Close the BOV.\nD. Allow to sit for one minute (minimum); watch for signs of leaks.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 60
+              }
+            },
+            {
+              "id": "fx-functionality-s1-8",
+              "label": "Positive pressure test (1 minute minimum)",
+              "description": "A. Close the counterlung OPV.\nB. Fill the loop fully until the OPV vents.\nC. Allow to sit for one minute; watch for signs of leaks.\nD. Open the BOV to release pressure, then close the BOV.\nE. Open the counterlung OPV.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 60
+              }
+            },
+            {
+              "id": "fx-functionality-s1-9",
+              "label": "Check ADV, BOV and MAVs",
+              "description": "A. Slowly open the diluent and oxygen cylinders.\nB. Inhale from the BOV (with caution if using a hypoxic diluent).\nC. Open the BOV and inhale from the loop until the ADV engages.\nD. Confirm the diluent and O₂ MAVs function."
+            },
+            {
+              "id": "fx-functionality-s1-10",
+              "label": "Diluent and O₂ leak test (30 seconds minimum)",
+              "description": "A. Open the diluent and oxygen cylinders slowly, allowing the hoses to pressurize.\nB. Close the valves.\nC. Monitor for pressure loss (30 seconds minimum). Note the start and end pressures for diluent and O₂.\nD. Open the diluent and oxygen cylinders.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 30
+              },
+              "notes": true
+            },
+            {
+              "id": "fx-functionality-s1-11",
+              "label": "Check head and display batteries",
+              "description": "A. Change the FX CCR to the LOW setpoint.\nB. The solenoid fires and O₂ injection is verified.\nC. Change the FX CCR to the 0.19 setpoint.\nD. Check the battery status for B1, B2 and all handsets / NERD.\n\nB1 and B2: if less than 3.9 V (about 62%), change or recharge before continuing.\nHandsets / NERD: yellow means the battery must be changed or charged. Red means it must be changed or charged immediately."
+            },
+            {
+              "id": "fx-functionality-s1-12",
+              "label": "Computer settings (primary and secondary)",
+              "description": "A. CC and bailout gases.\nB. Low and high setpoint.\nC. Deco settings."
+            },
+            {
+              "id": "fx-functionality-s1-13",
+              "label": "Pre-breathe (5 minutes)",
+              "description": "A. Change the FX CCR to the LOW setpoint.\nB. Block your nose and begin breathing from the FX CCR, in a safe location and position.\nC. Observe setpoint maintenance and HUD functions.\nD. Pay attention to how you feel as well as how the CCR is functioning.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 300
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fx-pre-dive",
+      "app_preset_id": "fxPreDive",
+      "name": "FX CCR pre-dive checks",
+      "description": "Sub-Gravity's FX-CCR Functionality Checklist v1.5 (calibration kit), items 14 to 20: the checks at the water after the functionality check, ending in the pre-jump drill. Valid for that unit only. Edit it to match your unit and your training.",
+      "use": "predive",
+      "unit": "FX CCR",
+      "provenance": {
+        "basis": "reproduced",
+        "source": "Sub-Gravity FX-CCR Functionality Checklist v1.5 (Calibration Kit), items 14 to 20.",
+        "agency": null,
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "fx-pre-dive-s1",
+          "title": "Pre-dive checks",
+          "steps": [
+            {
+              "id": "fx-pre-dive-s1-1",
+              "label": "Pos / neg checks done?"
+            },
+            {
+              "id": "fx-pre-dive-s1-2",
+              "label": "Proper weighting?"
+            },
+            {
+              "id": "fx-pre-dive-s1-3",
+              "label": "HUD and wrist displays on?"
+            },
+            {
+              "id": "fx-pre-dive-s1-4",
+              "label": "Cylinder valves open?"
+            },
+            {
+              "id": "fx-pre-dive-s1-5",
+              "label": "Verify setpoint and loop contents"
+            },
+            {
+              "id": "fx-pre-dive-s1-6",
+              "label": "Don the FX CCR"
+            },
+            {
+              "id": "fx-pre-dive-s1-7",
+              "label": "CCR pre-jump drill",
+              "description": "1. Begin breathing from the unit.\n2. Check: ADV, BOV, O₂ MAV, dil MAV; wing and drysuit inflator.\n3. Check cylinder pressures: O₂, dil; OC bailout.\n4. Observe the setpoint is maintained.\n5. Enter when ready.\n6. Complete the S-drill.\n7. Remember CCR diving rule #1: always know your PPO₂!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fx-after-dive",
+      "app_preset_id": "fxAfterDive",
+      "name": "FX CCR after the dive",
+      "description": "Everything the FX CCR manual asks for once the dive is over. Steps 6 to 13 are only necessary if no further dive will be done in the same day. Reproduced from the FX CCR User Manual 2025.1 (iQsub Technologies). Valid for that unit only. Edit it to match your unit and your training.",
+      "use": "post-dive",
+      "unit": "FX CCR",
+      "provenance": {
+        "basis": "reproduced",
+        "source": "FX CCR User Manual 2025.1 (iQsub Technologies), section 5.6.",
+        "agency": null,
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "fx-after-dive-s1",
+          "title": "Out of the water",
+          "steps": [
+            {
+              "id": "fx-after-dive-s1-1",
+              "label": "Never close the cylinder valves until the FX CCR unit is taken out of the water."
+            },
+            {
+              "id": "fx-after-dive-s1-2",
+              "label": "Take the unit out of the water."
+            },
+            {
+              "id": "fx-after-dive-s1-3",
+              "label": "Turn off the primary controller handset."
+            },
+            {
+              "id": "fx-after-dive-s1-4",
+              "label": "Turn off the Head-Up Display (or NERD2, if installed) and dry its wet contacts."
+            },
+            {
+              "id": "fx-after-dive-s1-5",
+              "label": "Close the valves on the oxygen and diluent cylinders and disconnect the off-board diluent cylinder."
+            }
+          ]
+        },
+        {
+          "id": "fx-after-dive-s2",
+          "title": "Strip and rinse",
+          "steps": [
+            {
+              "id": "fx-after-dive-s2-1",
+              "label": "Disconnect the L-pieces with breathing hoses from the unit and disconnect the BOV."
+            },
+            {
+              "id": "fx-after-dive-s2-2",
+              "label": "Rinse the breathing hoses and L-pieces with fresh water, hang them in a vertical position and allow to dry."
+            },
+            {
+              "id": "fx-after-dive-s2-3",
+              "label": "Rinse the BOV with fresh water.",
+              "description": "Then set the valve knob to an intermediate position between CC and OC and allow the BOV to dry."
+            },
+            {
+              "id": "fx-after-dive-s2-4",
+              "label": "Fully open the perimeter zipper on the FX case and remove the counterlungs.",
+              "description": "Disconnect the counterlungs from the bayonet connectors on the head and lid, then unlock and slide out the top fittings and OPV from the grommets on the case."
+            },
+            {
+              "id": "fx-after-dive-s2-5",
+              "label": "Rinse the counterlungs with fresh water.",
+              "description": "Hang them using the drying holder supplied with the unit and leave them to dry."
+            }
+          ]
+        },
+        {
+          "id": "fx-after-dive-s3",
+          "title": "Dry the unit",
+          "steps": [
+            {
+              "id": "fx-after-dive-s3-1",
+              "label": "Remove the FX head from the canister and pull out the sensor holder to dry the sensors."
+            },
+            {
+              "id": "fx-after-dive-s3-2",
+              "label": "Take off the scrubber and leave it out to dry."
+            },
+            {
+              "id": "fx-after-dive-s3-3",
+              "label": "Wipe the FX canister to dry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chaos-gue",
+      "app_preset_id": "chaosGue",
+      "name": "CHAOS (GUE)",
+      "description": "GUE's rebreather check, run during the pre-breathe: Controller, HUD, ADV, O₂, Symptoms.",
+      "use": "predive",
+      "unit": null,
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "GUE's CHAOS rebreather check (Controller, HUD, ADV, O2, Symptoms). The acronym and order are GUE's; the step explanations are written for Dive Kit.",
+        "agency": "agency-gue",
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "chaos-gue-s1",
+          "title": "CHAOS check",
+          "steps": [
+            {
+              "id": "chaos-gue-s1-1",
+              "label": "C: Controller calibrated",
+              "description": "Verify the controller is calibrated and the cell readings agree with each other."
+            },
+            {
+              "id": "chaos-gue-s1-2",
+              "label": "H: HUD calibrated",
+              "description": "Verify the HUD agrees with the controller and every signal is visible."
+            },
+            {
+              "id": "chaos-gue-s1-3",
+              "label": "A: ADV works",
+              "description": "Inhale firmly against the loop to confirm the ADV fires and adds diluent."
+            },
+            {
+              "id": "chaos-gue-s1-4",
+              "label": "O: O₂ addition works",
+              "description": "Watch the solenoid fire and confirm the PPO₂ holds at the setpoint."
+            },
+            {
+              "id": "chaos-gue-s1-5",
+              "label": "S: Symptoms check",
+              "description": "Pre-breathe and watch yourself for symptoms: headache, dizziness, unusual taste or smell. Any symptom means do not dive.",
+              "timer": {
+                "mode": "countdown",
+                "duration_sec": 300
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gue-edge",
+      "app_preset_id": "gueEdge",
+      "name": "GUE EDGE team pre-dive",
+      "description": "The team check run out loud before every dive: Goal, Unified team, Equipment, Exposure, Decompression, Gas, Environment.",
+      "use": "predive",
+      "unit": null,
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "GUE's EDGE team pre-dive check (Goal, Unified team, Equipment, Exposure, Decompression, Gas, Environment). The acronym and order are GUE's; the step explanations are written for Dive Kit.",
+        "agency": "agency-gue",
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "gue-edge-s1",
+          "title": "Team check",
+          "steps": [
+            {
+              "id": "gue-edge-s1-1",
+              "label": "G: Goal",
+              "description": "Agree what the dive is for, the route and the turn condition."
+            },
+            {
+              "id": "gue-edge-s1-2",
+              "label": "U: Unified team",
+              "description": "Confirm everyone is fit to dive, roles are set and the order is agreed."
+            },
+            {
+              "id": "gue-edge-s1-3",
+              "label": "E: Equipment",
+              "description": "Each diver confirms their own kit: valves open, regulators breathe, wing holds gas, lights work."
+            },
+            {
+              "id": "gue-edge-s1-4",
+              "label": "E: Exposure",
+              "description": "Confirm depth and time limits and that everyone's thermal protection fits the plan."
+            },
+            {
+              "id": "gue-edge-s1-5",
+              "label": "D: Decompression",
+              "description": "Agree the ascent plan: stops, gases and contingencies."
+            },
+            {
+              "id": "gue-edge-s1-6",
+              "label": "G: Gas",
+              "description": "Confirm every cylinder is analyzed and labeled, and agree the gas plan.",
+              "notes": true
+            },
+            {
+              "id": "gue-edge-s1-7",
+              "label": "E: Environment",
+              "description": "Review conditions, entry and exit points, and any site hazards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tdi-start",
+      "app_preset_id": "tdiStart",
+      "name": "TDI START team pre-dive",
+      "description": "TDI's team check before every tech dive: S-drill, Team, Air, Route, Tables.",
+      "use": "predive",
+      "unit": null,
+      "provenance": {
+        "basis": "paraphrased",
+        "source": "TDI's START team pre-dive check (S-drill, Team, Air, Route, Tables), following TDI's published description. The step explanations are written for Dive Kit.",
+        "agency": "agency-tdi",
+        "url": null
+      },
+      "sections": [
+        {
+          "id": "tdi-start-s1",
+          "title": "START check",
+          "steps": [
+            {
+              "id": "tdi-start-s1-1",
+              "label": "S: S-drill and bubble check",
+              "description": "At the surface or in shallow water, run a short air share on the long hose, and have a teammate look over your valves, first stages and hoses for bubbles."
+            },
+            {
+              "id": "tdi-start-s1-2",
+              "label": "T: Team equipment",
+              "description": "Check each diver head to toe: everything needed is there, works and is stowed properly."
+            },
+            {
+              "id": "tdi-start-s1-3",
+              "label": "A: Air (gas matching)",
+              "description": "Primary cylinders open, stage and deco cylinders pressurized. Check every pressure and confirm each cylinder's maximum operating depth (MOD).",
+              "notes": true
+            },
+            {
+              "id": "tdi-start-s1-4",
+              "label": "R: Route",
+              "description": "Agree the team order, direction, objective and waypoints of the dive."
+            },
+            {
+              "id": "tdi-start-s1-5",
+              "label": "T: Tables",
+              "description": "Review the planned maximum depth, run times, gas switches and required stops."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-dive",
+      "app_preset_id": "postDive",
+      "name": "CCR post-dive & cleaning",
+      "description": "Wrap up the unit after diving so the next build starts from a known state.",
+      "use": "post-dive",
+      "unit": null,
+      "provenance": {
+        "basis": "own-words",
+        "source": "Written for Dive Kit after the post-dive management topics of Rebreather Forum 3.",
+        "agency": null,
+        "url": "https://rebreatherforum.tech/wp-content/uploads/2022/11/RF3-proceedings.small_.pdf"
+      },
+      "sections": [
+        {
+          "id": "post-dive-s1",
+          "title": "After the dive",
+          "steps": [
+            {
+              "id": "post-dive-s1-1",
+              "label": "Record the remaining cylinder pressures",
+              "notes": true
+            },
+            {
+              "id": "post-dive-s1-2",
+              "label": "Record the scrubber time used",
+              "description": "Add this dive's runtime to the canister total so you know what is left.",
+              "notes": true
+            },
+            {
+              "id": "post-dive-s1-3",
+              "label": "Note anything to fix before the next dive",
+              "notes": true
+            }
+          ]
+        },
+        {
+          "id": "post-dive-s2",
+          "title": "Cleaning and storage",
+          "steps": [
+            {
+              "id": "post-dive-s2-1",
+              "label": "Rinse the outside of the unit with fresh water"
+            },
+            {
+              "id": "post-dive-s2-2",
+              "label": "Disassemble the breathing loop"
+            },
+            {
+              "id": "post-dive-s2-3",
+              "label": "Clean and disinfect the counterlungs, hoses and mouthpiece",
+              "description": "Follow your unit's manual for approved disinfectants and soak times."
+            },
+            {
+              "id": "post-dive-s2-4",
+              "label": "Dry everything fully before storage"
+            },
+            {
+              "id": "post-dive-s2-5",
+              "label": "Charge or check the batteries"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

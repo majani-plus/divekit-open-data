@@ -1,0 +1,385 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "pl",
+    "base": "dive-signals.json",
+    "license": "CC-BY-4.0",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "hand-core-ok": {
+      "name": "OK",
+      "description": "Utwórz kółko z kciuka i palca wskazującego, pozostałe palce wyprostowane. Wszystko w porządku. Używany również jako pytanie: 'Czy wszystko OK?' Odpowiedz tym samym sygnałem, jeśli tak."
+    },
+    "hand-core-problem": {
+      "name": "Problem / Nie OK",
+      "description": "Płaska dłoń, wnętrzem w dół, kołysanie na boki. Coś jest nie tak. Następnie wskaż źródło problemu."
+    },
+    "hand-core-end-dive": {
+      "name": "Koniec nurkowania / Wynurzaj się",
+      "description": "Kciuk skierowany w górę. Natychmiast zakończ nurkowanie i rozpocznij kontrolowane wynurzanie na powierzchnię."
+    },
+    "hand-core-descend": {
+      "name": "Zanurzaj się",
+      "description": "Kciuk skierowany w dół. Rozpocznij kontrolowane zanurzanie. Używany również, aby poprosić partnera o zanurzenie."
+    },
+    "hand-core-level-off": {
+      "name": "Wyrównaj / Utrzymaj głębokość",
+      "description": "Płaska dłoń, wnętrzem w dół, utrzymywana poziomo. Utrzymuj aktualną głębokość, przestań się wynurzać lub zanurzać."
+    },
+    "hand-core-stop": {
+      "name": "Stop",
+      "description": "Otwarta dłoń skierowana w stronę partnera, palce w górę. Zatrzymaj się natychmiast i utrzymaj pozycję."
+    },
+    "hand-core-up": {
+      "name": "W górę",
+      "description": "Palec wskazujący skierowany w górę. Wskazuje kierunek lub coś powyżej — 'patrz w górę' lub 'coś jest nad nami'. Nie mylić z kciukiem w górę, który oznacza koniec nurkowania/wynurzanie."
+    },
+    "hand-core-pressure-check": {
+      "name": "Sprawdź ciśnienie / Ile powietrza?",
+      "description": "Dwa palce stukające w otwartą dłoń drugiej ręki. Sprawdź manometr i podaj ile zostało powietrza, lub pytanie o zapas powietrza partnera."
+    },
+    "hand-core-safety-stop": {
+      "name": "Przystanek bezpieczeństwa",
+      "description": "Trzy wyprostowane palce (pokazując 3), dłoń utrzymywana poziomo. Wykonaj 3-minutowy przystanek bezpieczeństwa na 5 metrach."
+    },
+    "hand-core-turn-around": {
+      "name": "Zawróć / Zakończ trasę",
+      "description": "Obracaj palec wskazujący ruchem kołowym. Zawróć i zacznij płynąć z powrotem."
+    },
+    "hand-core-look-at": {
+      "name": "Patrz / Obserwuj",
+      "description": "Dwa palce wskazujące na własne oczy, następnie wskazujące w kierunku. Patrz na mnie lub patrz na to, co wskazuję."
+    },
+    "hand-core-come-here": {
+      "name": "Podpłyń tutaj",
+      "description": "Ruch przywołujący dłonią lub palcami. Podpłyń bliżej do mnie."
+    },
+    "hand-core-you-lead": {
+      "name": "Ty prowadzisz / Idź pierwszy",
+      "description": "Obie ręce z wyciągniętymi palcami wskazującymi. Wskaż jednym palcem na osobę, która ma prowadzić, a następnie przesuń ten palec przed drugi. Wskazana osoba teraz prowadzi, druga podąża za nią."
+    },
+    "hand-core-get-with-buddy": {
+      "name": "Trzymaj się partnera",
+      "description": "Oba palce wskazujące wyciągnięte, następnie zbliż je do siebie aż się zetkną. Trzymaj się blisko partnera, utrzymuj kontakt, nie oddalaj się."
+    },
+    "hand-core-hold-hands": {
+      "name": "Złap za rękę / Połączcie się",
+      "description": "Wyciągnij rękę do partnera. Złączcie dłonie do nawigacji przy słabej widoczności lub silnym prądzie."
+    },
+    "hand-core-help": {
+      "name": "Pomoc / Zagrożenie (powierzchnia)",
+      "description": "Machanie jedną ręką nad głową na powierzchni. Potrzebna pomoc awaryjna. Uniwersalny sygnał zagrożenia."
+    },
+    "hand-core-danger": {
+      "name": "Niebezpieczeństwo / Zagrożenie",
+      "description": "Zaciśnij pięść i uderz w kierunku zagrożenia szybkim ruchem. Niebezpieczeństwo we wskazanym kierunku, bądź czujny."
+    },
+    "hand-core-share-air": {
+      "name": "Podziel się powietrzem / Brak powietrza",
+      "description": "Dwa sygnały: BRAK POWIETRZA — przeciągnij płaską dłonią w poprzek gardła. PODZIEL SIĘ POWIETRZEM — stuknij dłonią w swój automat, a następnie machnij w stronę partnera. Prośba o podzielenie się powietrzem."
+    },
+    "hand-core-ears-not-clearing": {
+      "name": "Uszy się nie wyrównują",
+      "description": "Wskaż palcem na ucho. Nie mogę wyrównać ciśnienia w uszach. Może być konieczne lekkie wynurzenie."
+    },
+    "hand-core-cramp": {
+      "name": "Skurcz",
+      "description": "Wykonaj ruch ściskający dłonią, jak ściskanie piłeczki antystresowej, a następnie wskaż na dotknięty mięsień. Skurcz mięśnia we wskazanym miejscu."
+    },
+    "hand-core-cold": {
+      "name": "Zimno",
+      "description": "Skrzyżowane ręce na klatce piersiowej, ruch przytulania, drżenie. Odczuwanie zimna, może być konieczne zakończenie nurkowania."
+    },
+    "hand-core-calm-down": {
+      "name": "Zwolnij / Uspokój się",
+      "description": "Obie ręce dłońmi w dół, powolny ruch naciskający w dół. Zwolnij, oddychaj spokojnie, zrelaksuj się."
+    },
+    "hand-core-narcosis": {
+      "name": "Narkoza",
+      "description": "Palec kręcący spiralę przy skroni (znak szaleństwa). Objawy narkozy azotowej. Zasygnalizuj partnerowi i rozpocznij wynurzanie na mniejszą głębokość."
+    },
+    "hand-core-broken-equipment": {
+      "name": "Uszkodzony sprzęt",
+      "description": "Obie ręce przed ciałem, ruch łamania jak łamanie patyka na pół. Sprzęt jest uszkodzony lub nie działa prawidłowo."
+    },
+    "hand-core-need-weight": {
+      "name": "Potrzebuję balastu",
+      "description": "Pięść naciskająca w dół na udo. Trudności z zanurzaniem, potrzebuję więcej balastu."
+    },
+    "hand-core-deploy-smb": {
+      "name": "Wypuść SMB",
+      "description": "Jedna ręka wykonuje ruch wypuszczania w górę, jakby wypuszczała SMB na powierzchnię. Wypuszczam bojkę sygnalizacyjną lub proszę partnera o wypuszczenie swojej."
+    },
+    "hand-core-boat": {
+      "name": "Łódź",
+      "description": "Dłonie złożone razem tworzą kształt kadłuba łodzi, ruch kołyszący. Odnosi się do łodzi nurkowej lub jej lokalizacji."
+    },
+    "hand-core-talk": {
+      "name": "Porozmawiajmy",
+      "description": "Palce i kciuk złączone razem, otwieranie i zamykanie jak gadające usta. Muszę z tobą porozmawiać — zazwyczaj oznacza wynurzenie się w celu komunikacji słownej."
+    },
+    "hand-technical-hold": {
+      "name": "Utrzymaj pozycję",
+      "description": "Zaciśnięta pięść trzymana nieruchomo przed ciałem. Utrzymuj aktualną pozycję i czekaj — nie ruszaj się do następnego sygnału. Różni się od 'stop', który jest otwartą dłonią."
+    },
+    "hand-technical-ascend": {
+      "name": "Wynurzanie",
+      "description": "Płaska dłoń, wnętrzem w dół, przesuń ją w górę po zakrzywionej ścieżce, utrzymując tę samą płaską postawę. Rozpocznij wynurzanie z właściwą prędkością."
+    },
+    "hand-technical-level-off": {
+      "name": "Wyrównaj",
+      "description": "Płaska dłoń, wnętrzem w dół, ruch poziomy. Zatrzymaj ruch pionowy, utrzymuj aktualną głębokość."
+    },
+    "hand-technical-time": {
+      "name": "Czas",
+      "description": "Stuknij w nadgarstek, gdzie byłby zegarek, lub wskaż na komputer nurkowy. Pytanie o czas: czas nurkowania, pozostały czas dna lub czas do powierzchni (TTS). Odpowiedz sygnałami liczbowymi."
+    },
+    "hand-technical-pressure-check": {
+      "name": "Sprawdź ciśnienie",
+      "description": "Zaciśnij pięść i wykonaj szybki ruch pompowania/ściskania, jak ściskanie piłeczki antystresowej. Jednoręczny sygnał ciśnienia w stylu TDI. Sprawdź i podaj ciśnienie w butli za pomocą sygnałów liczbowych."
+    },
+    "hand-technical-deco": {
+      "name": "Deko",
+      "description": "Unieś mały palec. Używany do komunikacji lub pytania o obowiązki dekompresyjne. Często używany, aby zapytać partnera o TTS (czas do powierzchni). Następnie użyj sygnałów liczbowych, aby podać czas deko."
+    },
+    "hand-technical-gas-switch": {
+      "name": "Zmiana gazu",
+      "description": "Palec wskazujący i środkowy wyprostowane, wykonaj ruch obracania/przechylania przed automatem oddechowym. Oznacza przełączanie na inny gaz. Potwierdź z partnerem, na jaki gaz się przełączasz."
+    },
+    "hand-technical-bubbles": {
+      "name": "Pęcherzyki / Wyciek",
+      "description": "Kciuk i palec wskazujący/środkowy wykonujące ruch otwierania i zamykania jak szczypanie, jak pęcherzyki unoszące się w górę. Wykryto wyciek gazu, pęcherzyki wydostające się ze sprzętu."
+    },
+    "hand-technical-s-drill": {
+      "name": "S-Drill",
+      "description": "Narysuj w powietrzu literę 'S' palcem wskazującym. TDI S-Drill: sprawdź, czy możesz swobodnie udostępnić długi wąż, sprawdź pęcherzyki/wycieki i sprawdź zaplątania u partnera. Wykonywany na początku nurkowania przed zakończeniem zanurzania."
+    },
+    "hand-technical-light": {
+      "name": "Światło",
+      "description": "Opuszki palców zaciśnięte razem, następnie otwórz, zamknij, otwórz wielokrotnie. Naśladuje migające światło. Włącz światło, wyreguluj światło lub komunikacja dotycząca światła."
+    },
+    "hand-technical-reel": {
+      "name": "Kołowrotek",
+      "description": "Kciuk przyciśnięty do płaskich palców, wykonaj okrężny ruch nawijania. Wypuść kołowrotek, nawiń linę lub odniesienie do kołowrotka."
+    },
+    "hand-technical-line": {
+      "name": "Lina",
+      "description": "Skrzyżuj palec wskazujący i środkowy. Odnosi się do liny prowadzącej, liny jaskiniowej lub liny odległościowej."
+    },
+    "hand-technical-tie-off": {
+      "name": "Zawiąż",
+      "description": "Wykonaj sygnał liny (skrzyżowane palce wskazujący i środkowy), następnie narysuj kółko w powietrzu. Zabezpiecz linę, utwórz punkt zawiązania."
+    },
+    "hand-technical-entangled": {
+      "name": "Zaplątany",
+      "description": "Wykonaj sygnał liny (skrzyżuj palec wskazujący i środkowy), następnie narysuj w powietrzu kształt nieskończoności. Zaplątanie w linę, sieć lub wodorosty. Potrzebna pomoc."
+    },
+    "hand-technical-lock": {
+      "name": "Zablokuj / Zabezpiecz",
+      "description": "Dwa palce wskazujące zazębiające się jak ogniwa łańcucha. Zablokuj pozycję, zabezpiecz sprzęt na miejscu."
+    },
+    "hand-technical-wrap": {
+      "name": "Zwiń",
+      "description": "Owijaj jedną ręką pięść drugiej ręki. Zwiń linę lub procedura zwijania."
+    },
+    "hand-technical-cleanup": {
+      "name": "Uporządkuj",
+      "description": "Obie ręce wykonują ruch zbierania/gromadzenia w kierunku ciała. Schowaj luźny sprzęt, zabezpiecz zwisające węże lub liny, uporządkuj konfigurację sprzętu przed ruszeniem."
+    },
+    "hand-technical-question": {
+      "name": "Pytanie / Co?",
+      "description": "Palec wskazujący zagięty w kształt znaku zapytania. Używany do zadania pytania lub wskazania niezrozumienia. Co to jest? Co masz na myśli?"
+    },
+    "hand-technical-zero": {
+      "name": "Zero (0)",
+      "description": "Utwórz kształt O z kciuka i palca wskazującego lub pokaż zaciśniętą pięść. Cyfra zero. Używana z innymi sygnałami liczbowymi do komunikacji ciśnienia lub wartości czasu."
+    },
+    "hand-technical-one": {
+      "name": "Jeden (1)",
+      "description": "Jeden palec (wskazujący) wyprostowany, dłoń skierowana na zewnątrz. Cyfra jeden. Używana do komunikacji ciśnienia (bar/psi), czasu, głębokości lub innych wartości."
+    },
+    "hand-technical-two": {
+      "name": "Dwa (2)",
+      "description": "Dwa palce (wskazujący i środkowy) wyprostowane, dłoń skierowana na zewnątrz. Cyfra dwa."
+    },
+    "hand-technical-three": {
+      "name": "Trzy (3)",
+      "description": "Trzy palce (wskazujący, środkowy, serdeczny) wyprostowane, dłoń skierowana na zewnątrz. Cyfra trzy."
+    },
+    "hand-technical-four": {
+      "name": "Cztery (4)",
+      "description": "Cztery palce wyprostowane (kciuk schowany), dłoń skierowana na zewnątrz. Cyfra cztery."
+    },
+    "hand-technical-five": {
+      "name": "Pięć (5)",
+      "description": "Wszystkie pięć palców wyprostowanych, otwarta dłoń skierowana na zewnątrz. Cyfra pięć. Oznacza również 50 bar / 500 psi przy komunikacji ciśnienia."
+    },
+    "hand-technical-six": {
+      "name": "Sześć (6)",
+      "description": "Ręka bokiem, grzbiet dłoni skierowany na zewnątrz, jeden palec wyprostowany. Styl TDI: cyfry 6-9 używają pozycji ręki bokiem, aby odróżnić od 1-4. Cyfra sześć."
+    },
+    "hand-technical-seven": {
+      "name": "Siedem (7)",
+      "description": "Ręka bokiem, grzbiet dłoni skierowany na zewnątrz, dwa palce wyprostowane. Styl TDI: cyfry 6-9 używają pozycji ręki bokiem, aby odróżnić od 1-4. Cyfra siedem."
+    },
+    "hand-technical-eight": {
+      "name": "Osiem (8)",
+      "description": "Ręka bokiem, grzbiet dłoni skierowany na zewnątrz, trzy palce wyprostowane. Styl TDI: cyfry 6-9 używają pozycji ręki bokiem, aby odróżnić od 1-4. Cyfra osiem."
+    },
+    "hand-technical-nine": {
+      "name": "Dziewięć (9)",
+      "description": "Ręka bokiem, grzbiet dłoni skierowany na zewnątrz, cztery palce wyprostowane. Styl TDI: cyfry 6-9 używają pozycji ręki bokiem, aby odróżnić od 1-4. Cyfra dziewięć."
+    },
+    "hand-fish-id-shark": {
+      "name": "Rekin",
+      "description": "Płaska dłoń na czubku głowy naśladująca płetwę grzbietową. Zauważono rekina."
+    },
+    "hand-fish-id-hammerhead": {
+      "name": "Żarłacz młot",
+      "description": "Pięści po bokach głowy, wyciągnięte na zewnątrz jak kształt młota. Zauważono żarłacza młota."
+    },
+    "hand-fish-id-manta-ray": {
+      "name": "Manta",
+      "description": "Ramiona rozpostarte szeroko, powolny, płynny ruch falujący jak skrzydła. Zauważono mantę."
+    },
+    "hand-fish-id-dolphin": {
+      "name": "Delfin",
+      "description": "Dłoń w falującym ruchu, wynurzająca się i zanurzająca jak pływający delfin. Zauważono delfina."
+    },
+    "hand-fish-id-turtle": {
+      "name": "Żółw morski",
+      "description": "Jedna pięść przykryta drugą płaską dłonią, kciuki obracające się jak pływające płetwy. Zauważono żółwia morskiego."
+    },
+    "hand-fish-id-seal": {
+      "name": "Foka / Lew morski",
+      "description": "Dłonie złączone w nadgarstkach, machające jak płetwy. Zauważono fokę lub lwa morskiego."
+    },
+    "hand-fish-id-stingray": {
+      "name": "Ogończa",
+      "description": "Płaskie dłonie złączone razem, ruch falujący z gestem bijącego ogona. Zauważono ogończę."
+    },
+    "hand-fish-id-blue-spotted-ray": {
+      "name": "Płaszczka niebiesko-plamista",
+      "description": "Płaska dłoń falująca jak pływająca płaszczka, następnie stukaj opuszkami palców w grzbiet dłoni, aby wskazać plamy. Zauważono płaszczkę niebiesko-plamistą."
+    },
+    "hand-fish-id-napoleon": {
+      "name": "Napoleon",
+      "description": "Guz na czole zaznaczony pięścią. Zauważono napoleona (wargatka Humpheada)."
+    },
+    "hand-fish-id-barracuda": {
+      "name": "Barrakuda",
+      "description": "Tnij przedramię drugą ręką ruchem jak nożem. Przedstawia wydłużone ciało i ostry profil barrakudy. Zauważono barrakudę."
+    },
+    "hand-fish-id-tuna": {
+      "name": "Tuńczyk",
+      "description": "Szybki ruch dłonią w kształcie torpedy. Zauważono dużą, szybko pływającą rybę pelagiczną."
+    },
+    "hand-fish-id-triggerfish": {
+      "name": "Rogatnica",
+      "description": "Palec jak pociąganie za spust. Zauważono rogatnicę. Może być terytorialna."
+    },
+    "hand-fish-id-angelfish": {
+      "name": "Ryba-anioł",
+      "description": "Ruch palcem nad głową jak aureola. Zauważono rybę-anioła."
+    },
+    "hand-fish-id-pufferfish": {
+      "name": "Rozdymka",
+      "description": "Nadęte policzki, dłonie wokół twarzy rozszerzające się. Zauważono rozdymkę lub rybę-pudełko."
+    },
+    "hand-fish-id-trumpetfish": {
+      "name": "Ryba-trąbka",
+      "description": "Dłonie przy ustach jak trąbka, wyciągnięte do przodu. Zauważono rybę-trąbkę lub rybę-kornet."
+    },
+    "hand-fish-id-moray": {
+      "name": "Murena",
+      "description": "Dłoń otwiera się i zamyka jak paszcza mureny, ramię faluje jak ciało węgorza. Zauważono murenę."
+    },
+    "hand-fish-id-lionfish": {
+      "name": "Skrzydlica",
+      "description": "Palce rozpostarte jak kolce promieniujące od twarzy. Zauważono skrzydlicę. Jadowita — zachowaj dystans."
+    },
+    "hand-fish-id-scorpionfish": {
+      "name": "Skorpena",
+      "description": "Palce rozpostarte, dłoń nisko jak zakamuflowana ryba na dnie. Zauważono skorpenę. Jadowita — nie dotykaj."
+    },
+    "hand-fish-id-stonefish": {
+      "name": "Ryba kamienna",
+      "description": "Pięść jak kamień na dnie. Zauważono rybę kamienną. Wyjątkowo jadowita — zachowaj dystans."
+    },
+    "hand-fish-id-crocodilefish": {
+      "name": "Ryba-krokodyl",
+      "description": "Trzymaj płaską dłoń nisko (przy dnie), następnie wykonaj ruch otwierania i zamykania szczęk palcami o dłoń. Zauważono rybę-krokodyla, płastugę lub drapieżnika dennego."
+    },
+    "hand-fish-id-octopus": {
+      "name": "Ośmiornica",
+      "description": "Palce poruszające się na zewnątrz jak macki z dłoni. Zauważono ośmiornicę."
+    },
+    "hand-fish-id-seahorse": {
+      "name": "Konik morski",
+      "description": "Zaokrąglona pięść z wyciągniętym kciukiem jak pyszczek konika morskiego. Zauważono konika morskiego."
+    },
+    "hand-fish-id-nudibranch": {
+      "name": "Nagoskrzelny",
+      "description": "Dwa palce na głowie poruszające się jak rinofory (czułki nagoskrzelnych), następnie zsuń palce, aby pokazać mały rozmiar. Zauważono nagoskrzelnego lub ślimaka morskiego — zwykle mały i kolorowy."
+    },
+    "hand-fish-id-jellyfish": {
+      "name": "Meduza",
+      "description": "Dłoń pulsująco otwierająca się i zamykająca, palce opadające w dół. Meduza w okolicy — unikaj kontaktu."
+    },
+    "hand-fish-id-crab": {
+      "name": "Krab",
+      "description": "Ruch szczypania palcem wskazującym i kciukiem. Zauważono kraba."
+    },
+    "hand-fish-id-shrimp": {
+      "name": "Krewetka",
+      "description": "Dwa palce przy czole jak czułki, wskazanie małego rozmiaru. Zauważono krewetki."
+    },
+    "hand-fish-id-small-creature": {
+      "name": "Małe stworzenie",
+      "description": "Ściśnij kciuk i palec wskazujący blisko siebie, wskazując mały rozmiar, następnie wskaż lokalizację. Zauważono małe/makro stworzenie — przyjrzyj się uważnie we wskazanym miejscu."
+    },
+    "light-ok": {
+      "name": "OK (światło)",
+      "description": "Powolny, duży ruch kołowy wiązką światła. Wszystko w porządku. Używany zarówno jako sygnał, jak i odpowiedź."
+    },
+    "light-attention": {
+      "name": "Uwaga",
+      "description": "Machaj wiązką światła poziomo w polu widzenia partnera. Zwróć uwagę partnera w celu komunikacji."
+    },
+    "light-emergency": {
+      "name": "Sytuacja awaryjna",
+      "description": "Szybkie, ciągłe potrząsanie światłem, chaotyczny ruch. Sytuacja awaryjna, wymagana natychmiastowa pomoc."
+    },
+    "touch-contact-ok": {
+      "name": "OK",
+      "description": "Dwa wyraźne uściśnięcia ramienia lub dłoni partnera. Wszystko w porządku. Odpowiedz tym samym sygnałem."
+    },
+    "touch-contact-stop": {
+      "name": "Stop",
+      "description": "Jedno mocne chwycenie lub uściśnięcie. Zatrzymaj się natychmiast, utrzymaj pozycję."
+    },
+    "touch-contact-hold": {
+      "name": "Trzymaj / Czekaj",
+      "description": "Utrzymuj mocny uchwyt bez ruchu. Zostań tutaj, utrzymaj pozycję, czekaj."
+    },
+    "touch-contact-ascend": {
+      "name": "Wynurzaj się / W górę",
+      "description": "Pchnij w górę ramię partnera. Płyń w górę, rozpocznij wynurzanie."
+    },
+    "touch-contact-descend": {
+      "name": "Zanurzaj się / W dół",
+      "description": "Pchnij w dół ramię partnera. Płyń w dół, kontynuuj zanurzanie."
+    },
+    "touch-contact-left-right": {
+      "name": "W lewo / W prawo",
+      "description": "Pociągnij ramię w kierunku bocznym. Płyń w lewo lub w prawo zgodnie ze wskazaniem."
+    },
+    "touch-contact-forward-backward": {
+      "name": "Do przodu / Do tyłu",
+      "description": "Ciągnij lub pchaj wzdłuż ramienia poziomo. Płyń do przodu lub do tyłu we wskazanym kierunku."
+    }
+  }
+}

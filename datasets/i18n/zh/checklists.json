@@ -1,0 +1,756 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "zh",
+    "base": "checklists.json",
+    "license": "MIT",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "rec-pre-dive": {
+      "name": "潜水前安全检查（BWRAF）",
+      "description": "每次潜水前与潜伴一起大声完成的娱乐潜水检查：BCD、配重、解扣、气源、最终确认，从头到脚逐项核对。"
+    },
+    "rec-pre-dive-s1": {
+      "title": "B：BCD"
+    },
+    "rec-pre-dive-s1-1": {
+      "label": "浮力调整装置（BCD）调整到位",
+      "description": "肩带和腰带收紧且无扭转。BCD 松动会在入水后影响你的配平。"
+    },
+    "rec-pre-dive-s1-2": {
+      "label": "气瓶固定在背板扣带中",
+      "description": "用力拉一下。气瓶不应滑动或转动。"
+    },
+    "rec-pre-dive-s1-3": {
+      "label": "充气和排气阀均可正常工作",
+      "description": "充入并排出少量气体。松手后气流应立即停止。"
+    },
+    "rec-pre-dive-s1-4": {
+      "label": "入水前已部分充气",
+      "description": "足以在水面保持舒适浮力，根据入水方式调整。"
+    },
+    "rec-pre-dive-s1-5": {
+      "label": "水面信号装置已妥善收好",
+      "description": "哨子和浮标应能独立取出。"
+    },
+    "rec-pre-dive-s1-6": {
+      "label": "团队成员了解如何操作彼此的 BCD"
+    },
+    "rec-pre-dive-s2": {
+      "title": "W：配重"
+    },
+    "rec-pre-dive-s2-1": {
+      "label": "配重量合适",
+      "description": "足以在气瓶接近耗尽时完成安全停留，不可过重。入水后再次确认。"
+    },
+    "rec-pre-dive-s2-2": {
+      "label": "配重位置有利于良好配平"
+    },
+    "rec-pre-dive-s2-3": {
+      "label": "快速释放扣可正常工作",
+      "description": "每个释放扣拉一下即可打开，然后重新扣好。"
+    },
+    "rec-pre-dive-s2-4": {
+      "label": "可释放配重未被其他装备遮挡",
+      "description": "确认无任何装备压住配重。"
+    },
+    "rec-pre-dive-s2-5": {
+      "label": "一次拉扣可释放足够配重以产生浮力"
+    },
+    "rec-pre-dive-s2-6": {
+      "label": "团队成员了解如何帮彼此卸下配重"
+    },
+    "rec-pre-dive-s3": {
+      "title": "R：解扣"
+    },
+    "rec-pre-dive-s3-1": {
+      "label": "所有解扣均已扣好、调整到位且可正常工作",
+      "description": "再次检查 BCD 和配重的解扣。"
+    },
+    "rec-pre-dive-s3-2": {
+      "label": "团队成员了解如何操作彼此的解扣"
+    },
+    "rec-pre-dive-s4": {
+      "title": "A：气源"
+    },
+    "rec-pre-dive-s4-1": {
+      "label": "气瓶阀已完全打开",
+      "description": "全部打开。团队成员用眼睛和手互相确认。"
+    },
+    "rec-pre-dive-s4-2": {
+      "label": "已确认足够的气量和储备",
+      "description": "每人的气量足以完成计划的潜水并留有安全上升的储备。"
+    },
+    "rec-pre-dive-s4-3": {
+      "label": "充气软管已重新连接并可正常工作",
+      "description": "移动气瓶后重新检查 BCD 和干衣充气软管的连接。"
+    },
+    "rec-pre-dive-s4-4": {
+      "label": "主调节器和备用调节器均已试呼吸",
+      "description": "呼吸每个二级头，两个均应顺畅供气。"
+    },
+    "rec-pre-dive-s4-5": {
+      "label": "备用调节器已收在胸前区域",
+      "description": "固定在潜伴能快速找到的位置。"
+    },
+    "rec-pre-dive-s4-6": {
+      "label": "团队成员知道彼此备用调节器的位置"
+    },
+    "rec-pre-dive-s5": {
+      "title": "F：最终确认"
+    },
+    "rec-pre-dive-s5-1": {
+      "label": "无散落、遗漏或被卡住的装备",
+      "description": "从头到脚扫视，检查悬挂的软管和可能挂住的部位。"
+    },
+    "rec-pre-dive-s5-2": {
+      "label": "潜水电脑已开机并完成设置",
+      "description": "已确认正确的气体（空气或高氧 %）和参数设置。"
+    },
+    "rec-pre-dive-s5-3": {
+      "label": "已回顾手势和潜水计划",
+      "description": "确认深度、时间、折返点，以及走散时的处置方式。"
+    },
+    "rec-pre-dive-s5-4": {
+      "label": "首要目标是安全返回",
+      "description": "这优先于本次潜水的所有其他目标。"
+    },
+    "rec-pre-dive-s5-5": {
+      "label": "任何潜水员可随时终止潜水",
+      "description": "任何原因均可，无需解释。"
+    },
+    "oc-tec-pre-dive": {
+      "name": "开放回路技术潜水前检查",
+      "description": "开放回路技术潜水的下水前检查：检测与组装、压力测试，再与团队从头到脚核对装备。根据你的培训课程进行调整。"
+    },
+    "oc-tec-pre-dive-s1": {
+      "title": "潜水前准备"
+    },
+    "oc-tec-pre-dive-s1-1": {
+      "label": "亲自检测每支气瓶",
+      "description": "组装前检测每支气瓶并确认标签与内容物一致。如有隔离阀，先打开隔离阀。"
+    },
+    "oc-tec-pre-dive-s1-2": {
+      "label": "组装装备，气瓶阀全部打开",
+      "description": "组装完毕并准备好穿戴。"
+    },
+    "oc-tec-pre-dive-s1-3": {
+      "label": "试呼吸每一个调节器",
+      "description": "每个调节器应顺畅呼吸且无自由流。"
+    },
+    "oc-tec-pre-dive-s1-4": {
+      "label": "对浮力翼进行压力测试",
+      "description": "将其充满并观察是否能保持。如果是双气囊，分别测试每个气囊。"
+    },
+    "oc-tec-pre-dive-s1-5": {
+      "label": "对调节器进行正压测试",
+      "description": "记录残压表（SPG）示数，关闭气瓶阀并等待。示数不得下降。"
+    },
+    "oc-tec-pre-dive-s1-6": {
+      "label": "对调节器进行负压测试",
+      "description": "呼吸调节器直至气流停止。SPG 应显示零且无回升。"
+    },
+    "oc-tec-pre-dive-s1-7": {
+      "label": "检查每支 SPG 上的气瓶压力",
+      "description": "在隔离阀完全打开的情况下开阀并确认气量足够。减压气瓶和挂瓶保持加压但关阀状态。"
+    },
+    "oc-tec-pre-dive-s1-8": {
+      "label": "记录折返压力和最低上升压力",
+      "description": "写在写字板上并与团队确认。"
+    },
+    "oc-tec-pre-dive-s1-9": {
+      "label": "穿戴并调整装备",
+      "description": "穿上装具前先打开底部气体的气瓶阀。"
+    },
+    "oc-tec-pre-dive-s2": {
+      "title": "从头到脚的团队互检"
+    },
+    "oc-tec-pre-dive-s2-1": {
+      "label": "头套已戴好"
+    },
+    "oc-tec-pre-dive-s2-2": {
+      "label": "面镜已就绪或已佩戴"
+    },
+    "oc-tec-pre-dive-s2-3": {
+      "label": "调节器：长管可自由展开",
+      "description": "再次试呼吸每一个调节器。"
+    },
+    "oc-tec-pre-dive-s2-4": {
+      "label": "气瓶阀状态正确",
+      "description": "底部气体和备用气源已打开。减压气瓶和挂瓶保持加压但关阀状态。"
+    },
+    "oc-tec-pre-dive-s2-5": {
+      "label": "浮力翼充气阀可正常工作",
+      "description": "同时确认口吹充气可用，且备用充气阀伸手可及。"
+    },
+    "oc-tec-pre-dive-s2-6": {
+      "label": "干衣充气阀已连接并可正常工作",
+      "description": "如使用独立充气气瓶，确认其已打开。备用软管伸手可及。"
+    },
+    "oc-tec-pre-dive-s2-7": {
+      "label": "潜水电脑和计时器已设置",
+      "description": "已开机、电量充足，并设置为正确的气体。"
+    },
+    "oc-tec-pre-dive-s2-8": {
+      "label": "配重已穿戴，解扣伸手可及"
+    },
+    "oc-tec-pre-dive-s2-9": {
+      "label": "浮力翼排气阀可正常工作且伸手可及"
+    },
+    "oc-tec-pre-dive-s2-10": {
+      "label": "灯光已检查",
+      "description": "主灯已开启，备用灯可用且已收好。"
+    },
+    "oc-tec-pre-dive-s2-11": {
+      "label": "备用面镜已收好且伸手可及",
+      "description": "已除雾且易于取出。"
+    },
+    "oc-tec-pre-dive-s2-12": {
+      "label": "其他装备伸手可及",
+      "description": "水面浮标与卷线轮、切割工具、信号装置和写字板，均在触手可及的位置。"
+    },
+    "tec-plan": {
+      "name": "技术潜水计划审查",
+      "description": "技术潜水前的计划沟通：任务、后勤、麻醉效应、气体、减压、氧气和热防护。这是一次思维确认，而非装备检查。"
+    },
+    "tec-plan-s1": {
+      "title": "任务"
+    },
+    "tec-plan-s1-1": {
+      "label": "首要任务是安全返回",
+      "description": "所有人一致认同这优先于其他所有目标。"
+    },
+    "tec-plan-s1-2": {
+      "label": "任务在本次潜水中可实现"
+    },
+    "tec-plan-s1-3": {
+      "label": "任务已尽可能简化"
+    },
+    "tec-plan-s1-4": {
+      "label": "全体成员理解并认同计划"
+    },
+    "tec-plan-s1-5": {
+      "label": "每位成员均有能力完成各自的职责"
+    },
+    "tec-plan-s1-6": {
+      "label": "条件允许时已在陆地或浅水中进行演练"
+    },
+    "tec-plan-s2": {
+      "title": "后勤"
+    },
+    "tec-plan-s2-1": {
+      "label": "团队分工已商定",
+      "description": "谁携带什么、谁负责什么。"
+    },
+    "tec-plan-s2-2": {
+      "label": "集合地点和时间已确定"
+    },
+    "tec-plan-s2-3": {
+      "label": "气体供应已安排",
+      "description": "充气和补气已预约或已备好。"
+    },
+    "tec-plan-s2-4": {
+      "label": "装备已准备妥当",
+      "description": "租赁装备和备用件已整理好。"
+    },
+    "tec-plan-s2-5": {
+      "label": "应急方案已知",
+      "description": "如何求救、氧气急救和急救用品的位置、撤离路线，以及最近的高压氧舱。"
+    },
+    "tec-plan-s2-6": {
+      "label": "水面支持和保障人员已就位"
+    },
+    "tec-plan-s3": {
+      "title": "惰性气体麻醉"
+    },
+    "tec-plan-s3-1": {
+      "label": "计划将麻醉效应控制在可接受范围内",
+      "description": "在目标允许的情况下尽量浅潜。"
+    },
+    "tec-plan-s3-2": {
+      "label": "等效麻醉深度在限制范围内",
+      "description": "建议等效麻醉深度（END）不超过 30 m（100 ft），最深不超过 40 m（130 ft）。"
+    },
+    "tec-plan-s3-3": {
+      "label": "气体密度在限制范围内",
+      "description": "在最深点，气体密度应保持在 5.2 g/l 以下，最大不超过 6.3 g/l。"
+    },
+    "tec-plan-s4": {
+      "title": "气体"
+    },
+    "tec-plan-s4-1": {
+      "label": "气体选择合理",
+      "description": "综合考虑气体来源、减压需求、氧气暴露、麻醉效应和气体密度。"
+    },
+    "tec-plan-s4-2": {
+      "label": "气体容量已计算",
+      "description": "基于耗气量、工作强度、计划储备量和气瓶容积进行计算。"
+    },
+    "tec-plan-s4-3": {
+      "label": "每支气瓶由使用该气瓶的潜水员亲自检测"
+    },
+    "tec-plan-s4-4": {
+      "label": "每支气瓶均已清晰贴标"
+    },
+    "tec-plan-s5": {
+      "title": "减压"
+    },
+    "tec-plan-s5-1": {
+      "label": "上升方案已规划",
+      "description": "使用软件或潜水电脑制定，包括上升时间和减压停留。"
+    },
+    "tec-plan-s5-2": {
+      "label": "应急方案已规划",
+      "description": "额外深度或时间，以及底部气体或减压气体丢失的处置方案。"
+    },
+    "tec-plan-s5-3": {
+      "label": "已携带备用方案",
+      "description": "备用潜水电脑或打印好的减压表。"
+    },
+    "tec-plan-s6": {
+      "title": "氧气"
+    },
+    "tec-plan-s6-1": {
+      "label": "底部气体在最大深度的 PPO₂ 不超过 1.4 bar"
+    },
+    "tec-plan-s6-2": {
+      "label": "任何换气时机的 PPO₂ 不超过 1.4 bar"
+    },
+    "tec-plan-s6-3": {
+      "label": "减压气体在停留深度的 PPO₂ 不超过 1.6 bar"
+    },
+    "tec-plan-s6-4": {
+      "label": "CNS 和 OTU 在可接受范围内",
+      "description": "整个潜水过程中的中枢神经氧中毒负荷（CNS）和氧毒性单位（OTU）。"
+    },
+    "tec-plan-s7": {
+      "title": "热防护"
+    },
+    "tec-plan-s7-1": {
+      "label": "潜水服适合本次潜水",
+      "description": "足以应对计划时间加上合理超时的保暖需求。"
+    },
+    "tec-plan-s7-2": {
+      "label": "如使用干衣，已完成干衣检查",
+      "description": "排气阀、拉链和密封圈状态良好。如使用独立充气气体，确认无氦气用于干衣充气。"
+    },
+    "tec-plan-s7-3": {
+      "label": "如使用湿衣，已规划湿衣浮力",
+      "description": "考虑深度对湿衣的压缩影响，并制定备用浮力方案。"
+    },
+    "jj-land-prep": {
+      "name": "JJ-CCR 陆地准备",
+      "description": "出发前完整的系统组装与验证。基于 JJ-CCR 操作手册。根据你的设备和培训课程进行调整。"
+    },
+    "jj-land-prep-s1": {
+      "title": "状态评估与备品准备"
+    },
+    "jj-land-prep-s1-1": {
+      "label": "确认自己状态良好、休息充足且情绪平稳",
+      "description": "如果你感觉状态不佳，最安全的选择是不要潜水。"
+    },
+    "jj-land-prep-s1-2": {
+      "label": "用新鲜的、未使用过的吸收剂填充二氧化碳吸收罐",
+      "description": "切勿重复使用之前潜水剩余的吸收剂。记录填充情况以便追踪吸收罐的使用时长。"
+    },
+    "jj-land-prep-s1-3": {
+      "label": "检测氧气瓶和稀释气气瓶",
+      "description": "确认气体内容物，并检查计划潜水所需的压力是否足够。"
+    },
+    "jj-land-prep-s1-4": {
+      "label": "准备足够的备用气源（bailout）",
+      "description": "按照最坏情况规划备用气源。携带的备用气越多越安全。"
+    },
+    "jj-land-prep-s2": {
+      "title": "组装"
+    },
+    "jj-land-prep-s2-1": {
+      "label": "将氧气瓶和稀释气气瓶固定到设备上"
+    },
+    "jj-land-prep-s2-2": {
+      "label": "安装吸收罐并关闭头盖"
+    },
+    "jj-land-prep-s2-3": {
+      "label": "检查蘑菇阀在两个方向均密封良好",
+      "description": "轻轻向呼吸回路每侧的关闭端呼气。已关闭的阀门不应有气体通过。"
+    },
+    "jj-land-prep-s2-4": {
+      "label": "连接所有软管并检查 O 形圈",
+      "description": "O 形圈必须清洁且无损伤。确认 DSV 开关顺畅。"
+    },
+    "jj-land-prep-s3": {
+      "title": "系统检查"
+    },
+    "jj-land-prep-s3-1": {
+      "label": "打开两个气瓶阀并检查压力"
+    },
+    "jj-land-prep-s3-2": {
+      "label": "检查两个一级头的中间压力",
+      "description": "JJ-CCR 规格：稀释气 9 至 10 bar，氧气 7 至 7.5 bar。如有数值超出范围，不得潜水。"
+    },
+    "jj-land-prep-s3-3": {
+      "label": "测试两个手动添加阀和 ADV"
+    },
+    "jj-land-prep-s3-4": {
+      "label": "测试浮力翼充气阀"
+    },
+    "jj-land-prep-s3-5": {
+      "label": "测试 DSV 在两个位置的状态"
+    },
+    "jj-land-prep-s4": {
+      "title": "密封性测试"
+    },
+    "jj-land-prep-s4-1": {
+      "label": "进行正压测试",
+      "description": "向呼吸回路充气直至超压阀排气，关闭 DSV 并等待。重新打开时，压力仍应能排出。"
+    },
+    "jj-land-prep-s4-2": {
+      "label": "通过对肺排气阀排空呼吸回路"
+    },
+    "jj-land-prep-s4-3": {
+      "label": "进行负压测试",
+      "description": "关闭两个气瓶阀，将呼吸回路抽至真空，关闭 DSV 并等待。ADV 膜片必须保持吸入状态。"
+    },
+    "jj-land-prep-s5": {
+      "title": "电子系统与启动"
+    },
+    "jj-land-prep-s5-1": {
+      "label": "重新打开两个气瓶阀"
+    },
+    "jj-land-prep-s5-2": {
+      "label": "开启控制器和 HUD"
+    },
+    "jj-land-prep-s5-3": {
+      "label": "在控制器和 HUD 上校准氧传感器",
+      "description": "记录传感器读数，以便随时间比对是否有传感器漂移。"
+    },
+    "jj-land-prep-s5-4": {
+      "label": "检查控制器和电磁阀的电池电压"
+    },
+    "jj-land-prep-s5-5": {
+      "label": "预呼吸呼吸回路 2 至 3 min",
+      "description": "呼吸时观察 PPO₂ 是否维持在设定点附近。预呼吸不能可靠检测出吸收罐故障，因此绝不可跳过前面的检查步骤。"
+    },
+    "jj-land-prep-s5-6": {
+      "label": "关闭 DSV 和两个气瓶阀"
+    },
+    "jj-pre-dive": {
+      "name": "JJ-CCR 下水前检查",
+      "description": "穿戴装备并入水前的最终检查。基于 JJ-CCR 操作手册。根据你的设备和培训课程进行调整。"
+    },
+    "jj-pre-dive-s1": {
+      "title": "最终检查"
+    },
+    "jj-pre-dive-s1-1": {
+      "label": "打开两个气瓶阀并检查压力"
+    },
+    "jj-pre-dive-s1-2": {
+      "label": "测试两个手动添加阀和 ADV"
+    },
+    "jj-pre-dive-s1-3": {
+      "label": "测试浮力翼充气阀"
+    },
+    "jj-pre-dive-s1-4": {
+      "label": "测试 DSV 在两个位置的状态"
+    },
+    "jj-pre-dive-s1-5": {
+      "label": "进行正压和负压测试",
+      "description": "每个方向短暂保压即可确认呼吸回路仍然密封。"
+    },
+    "jj-pre-dive-s1-6": {
+      "label": "开启控制器和 HUD"
+    },
+    "jj-pre-dive-s1-7": {
+      "label": "检查低设定点和高设定点"
+    },
+    "jj-pre-dive-s1-8": {
+      "label": "预呼吸呼吸回路至少 2 至 3 min",
+      "description": "呼吸时观察 PPO₂。如出现任何症状（头痛、头晕、呼吸困难），立即停止并排查原因。"
+    },
+    "jj-in-water": {
+      "name": "JJ-CCR 入水后检查",
+      "description": "入水后、离开水面下潜前的水面检查。入水前请提前熟悉这些步骤。基于 JJ-CCR 操作手册。"
+    },
+    "jj-in-water-s1": {
+      "title": "水面检查"
+    },
+    "jj-in-water-s1-1": {
+      "label": "在 6 m（20 ft）以内进行气泡检查",
+      "description": "下潜前与潜伴商定气泡检查方式。未完成检查前绝不继续下潜。"
+    },
+    "jj-in-water-s1-2": {
+      "label": "检查控制器和 HUD 读数"
+    },
+    "jj-in-water-s1-3": {
+      "label": "确认所有装备已挂好、收好且伸手可及"
+    },
+    "fx-functionality": {
+      "name": "FX CCR 功能检查",
+      "description": "Sub-Gravity 的 FX-CCR 功能检查清单 v1.5（校准套件版）第 1 至 13 项，顺序与原清单一致：气瓶、二氧化碳吸收罐、传感器检查、压力测试、电池与预呼吸。组装设备时执行本清单。随后就要下水？请接着完成 FX CCR 下水前检查。暂时不潜水？请关闭氧气瓶和稀释气气瓶的阀门，排空软管内余压，关闭电子设备并妥善固定设备。仅适用于该型号设备。请根据你的设备和培训课程进行调整。"
+    },
+    "fx-functionality-s1": {
+      "title": "功能检查"
+    },
+    "fx-functionality-s1-1": {
+      "label": "安装已检测并贴标的气瓶"
+    },
+    "fx-functionality-s1-2": {
+      "label": "检查蘑菇阀与咬嘴"
+    },
+    "fx-functionality-s1-3": {
+      "label": "开启控制器和副电脑",
+      "description": "A. 切换到 0.19 设定点。"
+    },
+    "fx-functionality-s1-4": {
+      "label": "检查二氧化碳吸收罐的剩余使用时长",
+      "description": "A. 如有需要，重新填装吸收剂，并将吸收罐装入罐体。\nB. 确认集水器安装到位。\nC. 确认头盖已安装，且两根锁绳均已锁定。\nD. 将吸收剂计时器重置为相应时长。"
+    },
+    "fx-functionality-s1-5": {
+      "label": "检查 mV 与校准",
+      "description": "A. 记录空气中的 mV 和氧分压（PPO₂）读数。\nB. 使用校准套件向头盖内通入氧气冲洗，直至 mV 和 PPO₂ 读数稳定。\nC. 比对预期值与实测值。\nD. 如有需要，按照操作手册进行校准。\n\n空气中的预期值：每个传感器（S1、S2、S3）8.5 至 13 mV。氧气中的预期值：空气中的实测值除以 0.21。氧气中的实测值与预期值之差应在 2 mV 和 0.05 PPO₂ 以内。以上数值按 100% 氧气计算，纯度较低时（例如 93%）需相应换算。"
+    },
+    "fx-functionality-s1-6": {
+      "label": "检查所有连接（螺纹式与卡口式）"
+    },
+    "fx-functionality-s1-7": {
+      "label": "负压测试（至少 1 min）",
+      "description": "A. 打开 BOV。\nB. 在 CC 模式下从 BOV 吸气，同时用鼻子呼气，直至对肺完全塌瘪。\nC. 关闭 BOV。\nD. 静置至少 1 min，观察是否有泄漏迹象。"
+    },
+    "fx-functionality-s1-8": {
+      "label": "正压测试（至少 1 min）",
+      "description": "A. 关闭对肺的 OPV（超压阀）。\nB. 向呼吸回路充气至满，直至 OPV 排气。\nC. 静置 1 min，观察是否有泄漏迹象。\nD. 打开 BOV 泄压，然后关闭 BOV。\nE. 打开对肺的 OPV。"
+    },
+    "fx-functionality-s1-9": {
+      "label": "检查 ADV、BOV 和 MAV",
+      "description": "A. 缓慢打开稀释气气瓶和氧气瓶。\nB. 从 BOV 吸气（使用低氧稀释气时须格外谨慎）。\nC. 打开 BOV，从呼吸回路吸气，直至 ADV 启动。\nD. 确认稀释气和氧气的 MAV（手动添加阀）工作正常。"
+    },
+    "fx-functionality-s1-10": {
+      "label": "稀释气与 O₂ 泄漏测试（至少 30 s）",
+      "description": "A. 缓慢打开稀释气气瓶和氧气瓶，让软管充压。\nB. 关闭气瓶阀。\nC. 观察压力是否下降（至少 30 s）。记录稀释气和 O₂ 的起始压力与结束压力。\nD. 打开稀释气气瓶和氧气瓶。"
+    },
+    "fx-functionality-s1-11": {
+      "label": "检查头盖与显示器电池",
+      "description": "A. 将 FX CCR 切换到低设定点。\nB. 电磁阀动作，确认氧气注入正常。\nC. 将 FX CCR 切换到 0.19 设定点。\nD. 检查 B1、B2 以及所有手持机 / NERD 的电池状态。\n\nB1 和 B2：低于 3.9 V（约 62%）时，须先更换或充电再继续。\n手持机 / NERD：黄色表示电池必须更换或充电。红色表示必须立即更换或充电。"
+    },
+    "fx-functionality-s1-12": {
+      "label": "电脑设置（主电脑与副电脑）",
+      "description": "A. CC 气体与备用气源（bailout）气体。\nB. 低设定点与高设定点。\nC. 减压设置。"
+    },
+    "fx-functionality-s1-13": {
+      "label": "预呼吸（5 min）",
+      "description": "A. 将 FX CCR 切换到低设定点。\nB. 在安全的地点和体位下捏住鼻子，开始从 FX CCR 呼吸。\nC. 观察设定点维持情况和 HUD 功能。\nD. 既要关注 CCR 的运行状态，也要关注自身感觉。"
+    },
+    "fx-pre-dive": {
+      "name": "FX CCR 下水前检查",
+      "description": "Sub-Gravity 的 FX-CCR 功能检查清单 v1.5（校准套件版）第 14 至 20 项：完成功能检查后在水边进行的检查，最后以入水前演练收尾。仅适用于该型号设备。请根据你的设备和培训课程进行调整。"
+    },
+    "fx-pre-dive-s1": {
+      "title": "下水前检查"
+    },
+    "fx-pre-dive-s1-1": {
+      "label": "正压 / 负压测试已完成？"
+    },
+    "fx-pre-dive-s1-2": {
+      "label": "配重是否合适？"
+    },
+    "fx-pre-dive-s1-3": {
+      "label": "HUD 和腕式显示器已开启？"
+    },
+    "fx-pre-dive-s1-4": {
+      "label": "气瓶阀已打开？"
+    },
+    "fx-pre-dive-s1-5": {
+      "label": "确认设定点与呼吸回路内的气体"
+    },
+    "fx-pre-dive-s1-6": {
+      "label": "穿戴 FX CCR"
+    },
+    "fx-pre-dive-s1-7": {
+      "label": "CCR 入水前演练",
+      "description": "1. 开始从设备呼吸。\n2. 检查：ADV、BOV、O₂ MAV、稀释气 MAV；浮力翼和干衣充气阀。\n3. 检查气瓶压力：O₂、稀释气；OC 备用气源（bailout）。\n4. 观察设定点是否维持稳定。\n5. 准备就绪后入水。\n6. 完成 S-drill（气源分享演练）。\n7. 牢记 CCR 潜水第一准则：始终掌握自己的氧分压（PPO₂）！"
+    },
+    "fx-after-dive": {
+      "name": "FX CCR 潜水后处理",
+      "description": "FX CCR 操作手册要求在潜水结束后完成的全部步骤。第 6 至 13 步仅在当天不再进行下一次潜水时才需要执行。内容来自 FX CCR 操作手册 2025.1（iQsub Technologies）。仅适用于该型号设备。请根据你的设备和培训课程进行调整。"
+    },
+    "fx-after-dive-s1": {
+      "title": "出水"
+    },
+    "fx-after-dive-s1-1": {
+      "label": "在 FX CCR 设备离开水面之前，绝不可关闭气瓶阀。"
+    },
+    "fx-after-dive-s1-2": {
+      "label": "将设备从水中取出。"
+    },
+    "fx-after-dive-s1-3": {
+      "label": "关闭主控制器手持机。"
+    },
+    "fx-after-dive-s1-4": {
+      "label": "关闭抬头显示器（如已安装 NERD2 则一并关闭），并擦干其受潮触点。"
+    },
+    "fx-after-dive-s1-5": {
+      "label": "关闭氧气瓶和稀释气气瓶的阀门，并拆下外挂稀释气气瓶。"
+    },
+    "fx-after-dive-s2": {
+      "title": "拆解与冲洗"
+    },
+    "fx-after-dive-s2-1": {
+      "label": "从设备上拆下带呼吸软管的 L 形接头，并拆下 BOV。"
+    },
+    "fx-after-dive-s2-2": {
+      "label": "用清水冲洗呼吸软管和 L 形接头，竖直悬挂晾干。"
+    },
+    "fx-after-dive-s2-3": {
+      "label": "用清水冲洗 BOV。",
+      "description": "随后将阀门旋钮置于 CC 与 OC 之间的中间位置，让 BOV 自然晾干。"
+    },
+    "fx-after-dive-s2-4": {
+      "label": "完全拉开 FX 外壳的周边拉链，取出对肺。",
+      "description": "将对肺从头盖和上盖的卡口接头上拆下，然后解锁并从外壳的护线孔中抽出上部接头和 OPV。"
+    },
+    "fx-after-dive-s2-5": {
+      "label": "用清水冲洗对肺。",
+      "description": "使用设备随附的晾干支架悬挂晾干。"
+    },
+    "fx-after-dive-s3": {
+      "title": "设备干燥"
+    },
+    "fx-after-dive-s3-1": {
+      "label": "从罐体上取下 FX 头盖，抽出传感器支架以晾干传感器。"
+    },
+    "fx-after-dive-s3-2": {
+      "label": "取出吸收罐并放置晾干。"
+    },
+    "fx-after-dive-s3-3": {
+      "label": "将 FX 罐体擦拭干净。"
+    },
+    "chaos-gue": {
+      "name": "CHAOS（GUE）",
+      "description": "GUE 的循环呼吸器检查，在预呼吸期间进行：控制器（Controller）、HUD、ADV、O₂、症状（Symptoms）。"
+    },
+    "chaos-gue-s1": {
+      "title": "CHAOS 检查"
+    },
+    "chaos-gue-s1-1": {
+      "label": "C：控制器已校准",
+      "description": "验证控制器已完成校准，且各传感器读数相互一致。"
+    },
+    "chaos-gue-s1-2": {
+      "label": "H：HUD 已校准",
+      "description": "验证 HUD 与控制器读数一致，且所有信号显示清晰。"
+    },
+    "chaos-gue-s1-3": {
+      "label": "A：ADV 可正常工作",
+      "description": "用力吸气以确认 ADV 启动并添加稀释气。"
+    },
+    "chaos-gue-s1-4": {
+      "label": "O：O₂ 添加功能正常",
+      "description": "观察电磁阀启动，确认 PPO₂ 维持在设定点。"
+    },
+    "chaos-gue-s1-5": {
+      "label": "S：症状自查",
+      "description": "预呼吸时留意自身症状：头痛、头晕、异常味道或气味。出现任何症状均不得潜水。"
+    },
+    "gue-edge": {
+      "name": "GUE EDGE 团队潜水前检查",
+      "description": "每次潜水前大声完成的团队检查：目标（Goal）、团队统一（Unified team）、装备（Equipment）、暴露防护（Exposure）、减压（Decompression）、气体（Gas）、环境（Environment）。"
+    },
+    "gue-edge-s1": {
+      "title": "团队检查"
+    },
+    "gue-edge-s1-1": {
+      "label": "G：目标",
+      "description": "确认本次潜水的目的、路线和折返条件。"
+    },
+    "gue-edge-s1-2": {
+      "label": "U：团队统一",
+      "description": "确认每位成员均适合潜水，分工已明确，顺序已商定。"
+    },
+    "gue-edge-s1-3": {
+      "label": "E：装备",
+      "description": "每位潜水员确认自己的装备：气瓶阀已打开、调节器可呼吸、浮力翼不漏气、灯光正常。"
+    },
+    "gue-edge-s1-4": {
+      "label": "E：暴露防护",
+      "description": "确认深度和时间限制，以及每位成员的热防护装备符合计划要求。"
+    },
+    "gue-edge-s1-5": {
+      "label": "D：减压",
+      "description": "确认上升方案：减压停留、气体和应急方案。"
+    },
+    "gue-edge-s1-6": {
+      "label": "G：气体",
+      "description": "确认每支气瓶均已检测和贴标，并商定气体方案。"
+    },
+    "gue-edge-s1-7": {
+      "label": "E：环境",
+      "description": "回顾当前水况、入水和出水点，以及潜点的潜在危险。"
+    },
+    "tdi-start": {
+      "name": "TDI START 团队潜水前检查",
+      "description": "TDI 在每次技术潜水前教授的团队检查：S-drill、团队（Team）、气体（Air）、路线（Route）、减压表（Tables）。"
+    },
+    "tdi-start-s1": {
+      "title": "START 检查"
+    },
+    "tdi-start-s1-1": {
+      "label": "S：S-drill 与气泡检查",
+      "description": "在水面或浅水处，用长管做一次简短的气源分享演练（S-drill），并请队友检查你的气瓶阀、一级头和管线是否冒泡。"
+    },
+    "tdi-start-s1-2": {
+      "label": "T：团队装备",
+      "description": "从头到脚检查每位潜水员：所需装备齐全、工作正常且收纳妥当。"
+    },
+    "tdi-start-s1-3": {
+      "label": "A：气体核对",
+      "description": "主气瓶已打开，挂瓶和减压气瓶已加压。检查每支气瓶的压力，并确认每支气瓶的最大操作深度（MOD）。"
+    },
+    "tdi-start-s1-4": {
+      "label": "R：路线",
+      "description": "商定团队顺序、方向、目标和本次潜水的航点。"
+    },
+    "tdi-start-s1-5": {
+      "label": "T：减压表",
+      "description": "回顾计划的最大深度、运行时间、换气点和必要的减压停留。"
+    },
+    "post-dive": {
+      "name": "CCR 潜后清洗",
+      "description": "潜水结束后整理设备，确保下次组装从已知状态开始。"
+    },
+    "post-dive-s1": {
+      "title": "潜水结束后"
+    },
+    "post-dive-s1-1": {
+      "label": "记录剩余气瓶压力"
+    },
+    "post-dive-s1-2": {
+      "label": "记录本次使用的吸收罐时长",
+      "description": "将本次潜水的累计时间加入吸收罐总计，以掌握剩余可用时长。"
+    },
+    "post-dive-s1-3": {
+      "label": "记录下次潜水前需要处理的问题"
+    },
+    "post-dive-s2": {
+      "title": "清洗与储存"
+    },
+    "post-dive-s2-1": {
+      "label": "用淡水冲洗设备外表面"
+    },
+    "post-dive-s2-2": {
+      "label": "拆解呼吸回路"
+    },
+    "post-dive-s2-3": {
+      "label": "清洗并消毒对肺、软管和咬嘴",
+      "description": "按照设备手册的要求使用批准的消毒剂和浸泡时间。"
+    },
+    "post-dive-s2-4": {
+      "label": "储存前确保所有部件完全干燥"
+    },
+    "post-dive-s2-5": {
+      "label": "充电或检查电池电量"
+    }
+  }
+}

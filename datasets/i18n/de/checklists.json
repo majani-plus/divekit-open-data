@@ -1,0 +1,756 @@
+{
+  "$schema": "https://open.divekit.app/schemas/translations/translations.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.01.1",
+    "generated_at": "2026-11-01T15:50:30Z",
+    "locale": "de",
+    "base": "checklists.json",
+    "license": "MIT",
+    "source": "Dive Kit app translations"
+  },
+  "strings": {
+    "rec-pre-dive": {
+      "name": "Sicherheitscheck vor dem Tauchgang (BWRAF)",
+      "description": "Der Buddy-Check vor jedem Sporttauchgang: Jacket, Blei, Verschlüsse, Luft, Endkontrolle. Gemeinsam und laut durchgehen, von Kopf bis Fuß."
+    },
+    "rec-pre-dive-s1": {
+      "title": "B: BCD (Jacket)"
+    },
+    "rec-pre-dive-s1-1": {
+      "label": "Tarierjacket eingestellt",
+      "description": "Gurte sitzen, nichts ist verdreht. Ein lockeres Jacket verschiebt deine Wasserlage."
+    },
+    "rec-pre-dive-s1-2": {
+      "label": "Flasche fest im Halteband",
+      "description": "Kurz daran ziehen. Die Flasche darf nicht rutschen oder sich drehen."
+    },
+    "rec-pre-dive-s1-3": {
+      "label": "Inflator und Ablass funktionieren",
+      "description": "Etwas Gas zugeben und ablassen. Die Zufuhr muss sauber stoppen, sobald du loslässt."
+    },
+    "rec-pre-dive-s1-4": {
+      "label": "Für den Einstieg leicht aufgeblasen",
+      "description": "Genug Auftrieb, um an der Oberfläche bequem zu schweben, passend zum Einstieg."
+    },
+    "rec-pre-dive-s1-5": {
+      "label": "Signalmittel für die Oberfläche verstaut",
+      "description": "Eine Pfeife und eine Boje, die du ohne Hilfe erreichst."
+    },
+    "rec-pre-dive-s1-6": {
+      "label": "Team weiß, wie die Jackets der anderen funktionieren"
+    },
+    "rec-pre-dive-s2": {
+      "title": "W: Weights (Blei)"
+    },
+    "rec-pre-dive-s2-1": {
+      "label": "Richtige Bleimenge",
+      "description": "Genug, um mit fast leerer Flasche einen Sicherheitsstopp zu halten, nicht mehr. Nach dem Einstieg erneut prüfen."
+    },
+    "rec-pre-dive-s2-2": {
+      "label": "Blei für gute Wasserlage platziert"
+    },
+    "rec-pre-dive-s2-3": {
+      "label": "Schnellabwurf-Schnallen funktionieren",
+      "description": "Jeder Verschluss öffnet mit einem Zug und wird dann wieder gesichert."
+    },
+    "rec-pre-dive-s2-4": {
+      "label": "Abwerfbares Blei ist frei und ungehindert",
+      "description": "Nichts klemmt es gegen andere Ausrüstung."
+    },
+    "rec-pre-dive-s2-5": {
+      "label": "Ein Zug wirft genug Blei für Auftrieb ab"
+    },
+    "rec-pre-dive-s2-6": {
+      "label": "Team weiß, wie man das Blei der anderen abwirft"
+    },
+    "rec-pre-dive-s3": {
+      "title": "R: Releases (Verschlüsse)"
+    },
+    "rec-pre-dive-s3-1": {
+      "label": "Alle Verschlüsse gesichert, eingestellt und funktionsfähig",
+      "description": "Jacket- und Bleiverschlüsse gemeinsam erneut prüfen."
+    },
+    "rec-pre-dive-s3-2": {
+      "label": "Team weiß, wie die Verschlüsse der anderen funktionieren"
+    },
+    "rec-pre-dive-s4": {
+      "title": "A: Air (Luft)"
+    },
+    "rec-pre-dive-s4-1": {
+      "label": "Flaschenventile ganz geöffnet",
+      "description": "Vollständig öffnen. Das Team bestätigt es füreinander durch Sehen und Fühlen."
+    },
+    "rec-pre-dive-s4-2": {
+      "label": "Genug Gas und Reserve abgestimmt",
+      "description": "Jeder hat Gas für den geplanten Tauchgang plus eine Reserve, um sicher aufzutauchen."
+    },
+    "rec-pre-dive-s4-3": {
+      "label": "Inflatorschlauch wieder verbunden und funktionsfähig",
+      "description": "Jacket- und Trockenanzug-Inflator nach dem Hantieren an der Flasche erneut prüfen."
+    },
+    "rec-pre-dive-s4-4": {
+      "label": "Hauptregler und Zweitregler beide geatmet",
+      "description": "Jede zweite Stufe atmen. Beide müssen Gas leicht liefern."
+    },
+    "rec-pre-dive-s4-5": {
+      "label": "Zweitregler im Brustbereich verstaut",
+      "description": "So gesichert, dass ein Buddy ihn schnell findet."
+    },
+    "rec-pre-dive-s4-6": {
+      "label": "Team weiß, wo der Zweitregler der anderen ist"
+    },
+    "rec-pre-dive-s5": {
+      "title": "F: Final check (Endkontrolle)"
+    },
+    "rec-pre-dive-s5-1": {
+      "label": "Keine losen, fehlenden oder eingeklemmten Teile",
+      "description": "Von Kopf bis Fuß auf baumelnde Schläuche und Hängenbleiber prüfen."
+    },
+    "rec-pre-dive-s5-2": {
+      "label": "Tauchcomputer an und eingestellt",
+      "description": "Richtiges Gas (Luft oder Nitrox-%) und Einstellungen bestätigt."
+    },
+    "rec-pre-dive-s5-3": {
+      "label": "Handzeichen und Plan besprochen",
+      "description": "Tiefe, Zeit, Umkehrpunkt und Vorgehen bei Trennung abstimmen."
+    },
+    "rec-pre-dive-s5-4": {
+      "label": "Das Ziel ist, sicher zurückzukehren",
+      "description": "Das geht jedem anderen Ziel des Tauchgangs vor."
+    },
+    "rec-pre-dive-s5-5": {
+      "label": "Jeder kann den Tauchgang jederzeit abbrechen",
+      "description": "Aus jedem Grund, ohne Nachfragen."
+    },
+    "oc-tec-pre-dive": {
+      "name": "Open-Circuit-Tec-Check vor dem Tauchgang",
+      "description": "Vor-Tauchgang-Checks für das technische Tauchen mit offenem Kreislauf: analysieren und aufbauen, die Druckprüfungen durchführen, dann die Ausrüstung mit dem Team von Kopf bis Fuß abgleichen. An die eigene Ausbildung anpassen."
+    },
+    "oc-tec-pre-dive-s1": {
+      "title": "Vorbereitung vor dem Tauchgang"
+    },
+    "oc-tec-pre-dive-s1-1": {
+      "label": "Jede Flasche selbst analysieren",
+      "description": "Jede Flasche vor dem Aufbau analysieren und bestätigen, dass die Beschriftung passt. Falls vorhanden, zuerst das Absperrventil öffnen."
+    },
+    "oc-tec-pre-dive-s1-2": {
+      "label": "Ausrüstung aufbauen, Flaschen ganz offen",
+      "description": "Aufgebaut und bereit zum Anlegen."
+    },
+    "oc-tec-pre-dive-s1-3": {
+      "label": "Jeden Atemregler atmen",
+      "description": "Jeder muss leicht atmen, ohne Abblasen."
+    },
+    "oc-tec-pre-dive-s1-4": {
+      "label": "Wing druckprüfen",
+      "description": "Vollständig aufblasen und beobachten, dass es hält. Bei einem Doppel-Wing jede Blase einzeln prüfen."
+    },
+    "oc-tec-pre-dive-s1-5": {
+      "label": "Überdruckprüfung der Atemregler",
+      "description": "Das Finimeter (SPG) ablesen, das Flaschenventil schließen und warten. Der Wert darf nicht fallen."
+    },
+    "oc-tec-pre-dive-s1-6": {
+      "label": "Unterdruckprüfung der Atemregler",
+      "description": "Den Atemregler leeratmen, bis kein Gas mehr kommt. Das Finimeter muss null anzeigen, ohne zu kriechen."
+    },
+    "oc-tec-pre-dive-s1-7": {
+      "label": "Gasdruck an jedem Finimeter prüfen",
+      "description": "Das Ventil bei ganz offenem Absperrventil öffnen und genug Gas bestätigen. Deko- und Stage-Flaschen unter Druck, aber geschlossen lassen."
+    },
+    "oc-tec-pre-dive-s1-8": {
+      "label": "Umkehr- und Mindestaufstiegsdruck notieren",
+      "description": "Auf eine Tafel schreiben und mit dem Team bestätigen."
+    },
+    "oc-tec-pre-dive-s1-9": {
+      "label": "Ausrüstung anlegen und einstellen",
+      "description": "Die Backgas-Flaschen vor dem Anlegen der Einheit öffnen."
+    },
+    "oc-tec-pre-dive-s2": {
+      "title": "Team-Check von Kopf bis Fuß"
+    },
+    "oc-tec-pre-dive-s2-1": {
+      "label": "Kopfhaube sitzt"
+    },
+    "oc-tec-pre-dive-s2-2": {
+      "label": "Maske bereit oder schon auf"
+    },
+    "oc-tec-pre-dive-s2-3": {
+      "label": "Atemregler: Longhose frei zum Ausziehen",
+      "description": "Jeden Atemregler noch einmal atmen."
+    },
+    "oc-tec-pre-dive-s2-4": {
+      "label": "Flaschenventile korrekt",
+      "description": "Backgas und Bailout offen. Deko- und Stage-Flaschen unter Druck, aber geschlossen."
+    },
+    "oc-tec-pre-dive-s2-5": {
+      "label": "Wing-Inflator funktioniert",
+      "description": "Auch die orale Inflation bestätigen und dass ein Ersatz-Inflator erreichbar ist."
+    },
+    "oc-tec-pre-dive-s2-6": {
+      "label": "Trockenanzug-Inflator verbunden und funktionsfähig",
+      "description": "Inflationsflasche offen, falls getrennt. Ersatzschlauch erreichbar."
+    },
+    "oc-tec-pre-dive-s2-7": {
+      "label": "Tauchcomputer und Timer eingestellt",
+      "description": "An, geladen und auf die richtigen Gase eingestellt."
+    },
+    "oc-tec-pre-dive-s2-8": {
+      "label": "Blei angelegt, Verschlüsse erreichbar"
+    },
+    "oc-tec-pre-dive-s2-9": {
+      "label": "Wing-Ablassventile funktionieren und erreichbar"
+    },
+    "oc-tec-pre-dive-s2-10": {
+      "label": "Lampen geprüft",
+      "description": "Hauptlampe an, Ersatzlampen funktionieren und sind verstaut."
+    },
+    "oc-tec-pre-dive-s2-11": {
+      "label": "Ersatzmaske verstaut und erreichbar",
+      "description": "Beschlagfrei und leicht zu greifen."
+    },
+    "oc-tec-pre-dive-s2-12": {
+      "label": "Übrige Ausrüstung erreichbar",
+      "description": "Boje und Spule, Schneidwerkzeug, Signalmittel und Tafel, alles in Reichweite."
+    },
+    "tec-plan": {
+      "name": "Tec-Tauchgang-Planungscheck",
+      "description": "Den Plan vor einem technischen Tauchgang durchsprechen: Auftrag, Logistik, Narkose, Gas, Dekompression, Sauerstoff und Kälteschutz. Ein Denk-Check, kein Ausrüstungscheck."
+    },
+    "tec-plan-s1": {
+      "title": "Auftrag"
+    },
+    "tec-plan-s1-1": {
+      "label": "Oberster Auftrag ist die unversehrte Rückkehr",
+      "description": "Alle sind sich einig, dass das vor jedem anderen Ziel kommt."
+    },
+    "tec-plan-s1-2": {
+      "label": "Auftrag ist für diesen Tauchgang realistisch"
+    },
+    "tec-plan-s1-3": {
+      "label": "Auftrag so weit wie möglich vereinfacht"
+    },
+    "tec-plan-s1-4": {
+      "label": "Ganzes Team versteht und stimmt dem Plan zu"
+    },
+    "tec-plan-s1-5": {
+      "label": "Jeder kann seine Rolle erfüllen"
+    },
+    "tec-plan-s1-6": {
+      "label": "Wenn möglich an Land oder im Flachwasser geübt"
+    },
+    "tec-plan-s2": {
+      "title": "Logistik"
+    },
+    "tec-plan-s2-1": {
+      "label": "Team-Rollen abgestimmt",
+      "description": "Wer was trägt und wer was macht."
+    },
+    "tec-plan-s2-2": {
+      "label": "Treffpunkt und -zeit stehen fest"
+    },
+    "tec-plan-s2-3": {
+      "label": "Gasversorgung organisiert",
+      "description": "Füllungen und Nachfüllungen gebucht oder vorhanden."
+    },
+    "tec-plan-s2-4": {
+      "label": "Ausrüstung geklärt",
+      "description": "Leihausrüstung und Ersatz organisiert."
+    },
+    "tec-plan-s2-5": {
+      "label": "Notfallplan bekannt",
+      "description": "Wie man Hilfe ruft, wo Sauerstoff und Erste Hilfe sind, die Evakuierungsroute und die nächste Druckkammer."
+    },
+    "tec-plan-s2-6": {
+      "label": "Oberflächenunterstützung und Absicherung gebrieft"
+    },
+    "tec-plan-s3": {
+      "title": "Inertgasnarkose"
+    },
+    "tec-plan-s3-1": {
+      "label": "Plan hält die Narkose beherrschbar",
+      "description": "So flach tauchen, wie es das Ziel erlaubt."
+    },
+    "tec-plan-s3-2": {
+      "label": "Äquivalente Narkosetiefe im Rahmen",
+      "description": "Eine äquivalente Narkosetiefe (END) von 30 m (100 ft) oder flacher wird empfohlen, höchstens 40 m (130 ft)."
+    },
+    "tec-plan-s3-3": {
+      "label": "Gasdichte im Rahmen",
+      "description": "Die Gasdichte am tiefsten Punkt bei höchstens 5,2 g/l halten, maximal 6,3 g/l."
+    },
+    "tec-plan-s4": {
+      "title": "Gas"
+    },
+    "tec-plan-s4-1": {
+      "label": "Gaswahl ist sinnvoll",
+      "description": "Verfügbarkeit, Dekompression, Sauerstoffexposition, Narkose und Dichte alle abgewogen."
+    },
+    "tec-plan-s4-2": {
+      "label": "Gasmengen berechnet",
+      "description": "Auf Basis von Verbrauch, Arbeitsbelastung, geplanter Reserve und Flaschengröße."
+    },
+    "tec-plan-s4-3": {
+      "label": "Jede Flasche vom Taucher analysiert, der sie atmet"
+    },
+    "tec-plan-s4-4": {
+      "label": "Jede Flasche klar beschriftet"
+    },
+    "tec-plan-s5": {
+      "title": "Dekompression"
+    },
+    "tec-plan-s5-1": {
+      "label": "Aufstieg geplant",
+      "description": "Mit Software oder einem Tauchcomputer ausgearbeitet, inklusive Aufstiegszeit und Stopps."
+    },
+    "tec-plan-s5-2": {
+      "label": "Notfälle eingeplant",
+      "description": "Mehr Tiefe oder Zeit und Verlust von Backgas oder Dekogas."
+    },
+    "tec-plan-s5-3": {
+      "label": "Ersatzplan mitgeführt",
+      "description": "Ein zweiter Computer oder gedruckte Tabellen."
+    },
+    "tec-plan-s6": {
+      "title": "Sauerstoff"
+    },
+    "tec-plan-s6-1": {
+      "label": "Backgas-PPO₂ höchstens 1,4 bar in maximaler Tiefe"
+    },
+    "tec-plan-s6-2": {
+      "label": "Jeder Gaswechsel bleibt bei höchstens 1,4 bar PPO₂"
+    },
+    "tec-plan-s6-3": {
+      "label": "Dekogase höchstens 1,6 bar PPO₂ in Stopptiefe"
+    },
+    "tec-plan-s6-4": {
+      "label": "CNS und OTU im akzeptierten Rahmen",
+      "description": "Die CNS-Uhr (Zentralnervensystem) und OTU (Sauerstofftoxizitätseinheiten) für den ganzen Tauchgang."
+    },
+    "tec-plan-s7": {
+      "title": "Kälteschutz"
+    },
+    "tec-plan-s7-1": {
+      "label": "Kälteschutz passt zum Tauchgang",
+      "description": "Warm genug für die geplante Zeit plus eine vernünftige Überschreitung."
+    },
+    "tec-plan-s7-2": {
+      "label": "Trockenanzug geprüft, falls genutzt",
+      "description": "Ventile, Reißverschluss und Dichtungen intakt. Getrenntes Inflationsgas, falls genutzt, und kein Helium zum Anzugaufblasen."
+    },
+    "tec-plan-s7-3": {
+      "label": "Nassanzug-Tarierung geplant, falls genutzt",
+      "description": "Anzugkompression in der Tiefe einplanen, mit einem Ersatz-Tarierplan."
+    },
+    "jj-land-prep": {
+      "name": "JJ-CCR Vorbereitung an Land",
+      "description": "Vollständiger Aufbau und Prüfung des Systems vor der Abfahrt. Basierend auf dem JJ-CCR Handbuch. An die eigene Einheit und Ausbildung anpassen."
+    },
+    "jj-land-prep-s1": {
+      "title": "Beurteilung und Material"
+    },
+    "jj-land-prep-s1-1": {
+      "label": "Prüfen, dass du dich gesund, ausgeruht und ruhig fühlst",
+      "description": "Wer sich dem Tauchgang nicht gewachsen fühlt, taucht im Zweifel besser nicht."
+    },
+    "jj-land-prep-s1-2": {
+      "label": "Kalkbehälter mit frischem, unbenutztem Atemkalk füllen",
+      "description": "Atemkalk aus einem früheren Tauchgang nie wiederverwenden. Füllung notieren, um den Verbrauch zu verfolgen."
+    },
+    "jj-land-prep-s1-3": {
+      "label": "O₂- und Diluent-Flasche analysieren",
+      "description": "Den Inhalt bestätigen und prüfen, dass genügend Druck für den geplanten Tauchgang vorhanden ist."
+    },
+    "jj-land-prep-s1-4": {
+      "label": "Genügend Bailout für den Tauchgang vorbereiten",
+      "description": "Bailout für den schlimmsten Fall planen. Zu viel Bailout-Gas gibt es nicht."
+    },
+    "jj-land-prep-s2": {
+      "title": "Aufbau"
+    },
+    "jj-land-prep-s2-1": {
+      "label": "O₂- und Diluent-Flasche an der Einheit befestigen"
+    },
+    "jj-land-prep-s2-2": {
+      "label": "Kalkbehälter einsetzen und den Kopf verschließen"
+    },
+    "jj-land-prep-s2-3": {
+      "label": "Prüfen, dass die Rückschlagventile in beide Richtungen dichten",
+      "description": "Sanft gegen jede verschlossene Seite des Loops atmen. Kein Gas darf ein geschlossenes Ventil passieren."
+    },
+    "jj-land-prep-s2-4": {
+      "label": "Alle Schläuche anschließen und die O-Ringe prüfen",
+      "description": "O-Ringe müssen sauber und unbeschädigt sein. Bestätigen, dass das DSV sauber öffnet und schließt."
+    },
+    "jj-land-prep-s3": {
+      "title": "Systemprüfungen"
+    },
+    "jj-land-prep-s3-1": {
+      "label": "Beide Flaschenventile öffnen und Drücke prüfen"
+    },
+    "jj-land-prep-s3-2": {
+      "label": "Mitteldruck beider erster Stufen prüfen",
+      "description": "JJ-CCR Vorgabe: Diluent 9 bis 10 bar, O₂ 7 bis 7,5 bar. Bei einem Wert außerhalb des Bereichs nicht tauchen."
+    },
+    "jj-land-prep-s3-3": {
+      "label": "Beide manuellen Zugabeventile und das ADV testen"
+    },
+    "jj-land-prep-s3-4": {
+      "label": "Den Wing-Inflator testen"
+    },
+    "jj-land-prep-s3-5": {
+      "label": "Das DSV in beiden Stellungen testen"
+    },
+    "jj-land-prep-s4": {
+      "title": "Dichtheitsprüfungen"
+    },
+    "jj-land-prep-s4-1": {
+      "label": "Überdruckprüfung durchführen",
+      "description": "Den Loop füllen, bis das Überdruckventil abbläst, das DSV schließen und warten. Beim erneuten Öffnen muss noch Druck entweichen."
+    },
+    "jj-land-prep-s4-2": {
+      "label": "Loop über das Ablassventil der Gegenlunge entlüften"
+    },
+    "jj-land-prep-s4-3": {
+      "label": "Unterdruckprüfung durchführen",
+      "description": "Beide Flaschenventile schließen, den Loop bis zum Vakuum leersaugen, das DSV schließen und warten. Die ADV-Membran muss eingezogen bleiben."
+    },
+    "jj-land-prep-s5": {
+      "title": "Elektronik und Inbetriebnahme"
+    },
+    "jj-land-prep-s5-1": {
+      "label": "Beide Flaschenventile wieder öffnen"
+    },
+    "jj-land-prep-s5-2": {
+      "label": "Controller und HUD einschalten"
+    },
+    "jj-land-prep-s5-3": {
+      "label": "Sauerstoffzellen am Controller und HUD kalibrieren",
+      "description": "Zellenwerte notieren, um eine driftende Zelle über die Zeit zu erkennen."
+    },
+    "jj-land-prep-s5-4": {
+      "label": "Batteriespannung von Controller und Solenoid prüfen"
+    },
+    "jj-land-prep-s5-5": {
+      "label": "Loop 2 bis 3 Minuten voratmen",
+      "description": "Beim Atmen beobachten, dass der PPO₂ nahe am Setpoint bleibt. Das Voratmen erkennt einen versagenden Atemkalk nicht zuverlässig, daher nie die vorherigen Prüfungen überspringen."
+    },
+    "jj-land-prep-s5-6": {
+      "label": "Das DSV und beide Flaschenventile schließen"
+    },
+    "jj-pre-dive": {
+      "name": "JJ-CCR kurz vor dem Tauchgang",
+      "description": "Letzte Prüfungen direkt vor dem Anlegen und Einstieg. Basierend auf dem JJ-CCR Handbuch. An die eigene Einheit und Ausbildung anpassen."
+    },
+    "jj-pre-dive-s1": {
+      "title": "Letzte Prüfungen"
+    },
+    "jj-pre-dive-s1-1": {
+      "label": "Beide Flaschenventile öffnen und Drücke prüfen"
+    },
+    "jj-pre-dive-s1-2": {
+      "label": "Beide manuellen Zugabeventile und das ADV testen"
+    },
+    "jj-pre-dive-s1-3": {
+      "label": "Den Wing-Inflator testen"
+    },
+    "jj-pre-dive-s1-4": {
+      "label": "Das DSV in beiden Stellungen testen"
+    },
+    "jj-pre-dive-s1-5": {
+      "label": "Über- und Unterdruckprüfung durchführen",
+      "description": "Ein kurzes Halten in jede Richtung genügt, um zu bestätigen, dass der Loop noch dicht ist."
+    },
+    "jj-pre-dive-s1-6": {
+      "label": "Controller und HUD einschalten"
+    },
+    "jj-pre-dive-s1-7": {
+      "label": "Niedrigen und hohen Setpoint prüfen"
+    },
+    "jj-pre-dive-s1-8": {
+      "label": "Loop mindestens 2 bis 3 Minuten voratmen",
+      "description": "Beim Atmen den PPO₂ beobachten. Bei Symptomen anhalten und nachgehen: Kopfschmerzen, Schwindel, Lufthunger."
+    },
+    "jj-in-water": {
+      "name": "JJ-CCR nach dem Einstieg ins Wasser",
+      "description": "Oberflächenprüfungen direkt nach dem Einstieg, bevor die Oberfläche verlassen wird. Vor dem Einstieg durchgehen. Basierend auf dem JJ-CCR Handbuch."
+    },
+    "jj-in-water-s1": {
+      "title": "Oberflächenprüfungen"
+    },
+    "jj-in-water-s1-1": {
+      "label": "Blasenkontrolle in den ersten 6 m (20 ft)",
+      "description": "Die Blasenkontrolle vor dem Abtauchen mit dem Buddy abstimmen. Nie ohne sie tiefer gehen."
+    },
+    "jj-in-water-s1-2": {
+      "label": "Anzeigen von Controller und HUD prüfen"
+    },
+    "jj-in-water-s1-3": {
+      "label": "Prüfen, dass alles eingeklinkt, verstaut und erreichbar ist"
+    },
+    "fx-functionality": {
+      "name": "FX CCR Funktionsprüfung",
+      "description": "Die FX-CCR Funktionscheckliste v1.5 von Sub-Gravity (Kalibrierkit), Punkte 1 bis 13 in ihrer Reihenfolge: Flaschen, Atemkalk, Zellenprüfung, Dichtheitsprüfungen, Batterien und Voratmen. Beim Aufbau der Einheit durchgehen. Geht es direkt ins Wasser? Weiter mit den FX CCR Prüfungen vor dem Tauchgang. Noch kein Tauchgang? Die Ventile der O₂- und Diluent-Flasche schließen, die Schläuche entlüften, die Elektronik ausschalten und die Einheit sichern. Gilt nur für diese Einheit. An die eigene Einheit und Ausbildung anpassen."
+    },
+    "fx-functionality-s1": {
+      "title": "Funktionsprüfungen"
+    },
+    "fx-functionality-s1-1": {
+      "label": "Analysierte und beschriftete Gasflaschen montieren"
+    },
+    "fx-functionality-s1-2": {
+      "label": "Pilzventile und Mundstück prüfen"
+    },
+    "fx-functionality-s1-3": {
+      "label": "Controller und Zweitcomputer einschalten",
+      "description": "A. Auf den Setpoint 0,19 wechseln."
+    },
+    "fx-functionality-s1-4": {
+      "label": "Verbleibende Standzeit des Atemkalks prüfen",
+      "description": "A. Den Atemkalk bei Bedarf neu einfüllen und die Patrone in den Kalkbehälter einsetzen.\nB. Prüfen, dass die Wasserfalle richtig eingesetzt ist.\nC. Prüfen, dass der Kopf sitzt und beide Sicherungsschnüre eingehängt sind.\nD. Den Stack-Timer auf die passende Zeit zurücksetzen."
+    },
+    "fx-functionality-s1-5": {
+      "label": "mV-Werte und Kalibrierung prüfen",
+      "description": "A. Die mV-Werte und den Sauerstoffpartialdruck (PPO₂) in Luft notieren.\nB. Mit dem Kalibrierkit den Kopf mit Sauerstoff spülen, bis sich die mV- und PPO₂-Werte stabilisieren.\nC. Erwartete und gemessene Werte vergleichen.\nD. Bei Bedarf nach Handbuch kalibrieren.\n\nErwartet in Luft: 8,5 bis 13 mV je Zelle (S1, S2, S3). Erwartet in O₂: der in Luft gemessene Wert geteilt durch 0,21. Der in O₂ gemessene Wert soll höchstens 2 mV und 0,05 PPO₂ vom erwarteten Wert abweichen. Diese Werte gelten für 100 % Sauerstoff. Bei weniger (zum Beispiel 93 %) die Rechnung anpassen."
+    },
+    "fx-functionality-s1-6": {
+      "label": "Alle Verbindungen prüfen (Schraub- und Bajonettanschlüsse)"
+    },
+    "fx-functionality-s1-7": {
+      "label": "Unterdruckprüfung (mindestens 1 Minute)",
+      "description": "A. Das BOV öffnen.\nB. Im CC-Modus aus dem BOV einatmen und durch die Nase ausatmen, bis die Gegenlungen ganz zusammengefallen sind.\nC. Das BOV schließen.\nD. Mindestens eine Minute warten und auf Anzeichen von Undichtigkeit achten."
+    },
+    "fx-functionality-s1-8": {
+      "label": "Überdruckprüfung (mindestens 1 Minute)",
+      "description": "A. Das OPV der Gegenlunge schließen.\nB. Den Loop ganz füllen, bis das OPV abbläst.\nC. Eine Minute warten und auf Anzeichen von Undichtigkeit achten.\nD. Das BOV öffnen, um den Druck abzulassen, dann das BOV wieder schließen.\nE. Das OPV der Gegenlunge öffnen."
+    },
+    "fx-functionality-s1-9": {
+      "label": "ADV, BOV und MAVs prüfen",
+      "description": "A. Diluent- und Sauerstoffflasche langsam öffnen.\nB. Aus dem BOV einatmen (Vorsicht bei hypoxischem Diluent).\nC. Das BOV öffnen und aus dem Loop einatmen, bis das ADV auslöst.\nD. Bestätigen, dass Diluent- und O₂-MAV arbeiten."
+    },
+    "fx-functionality-s1-10": {
+      "label": "Lecktest für Diluent und O₂ (mindestens 30 Sekunden)",
+      "description": "A. Diluent- und Sauerstoffflasche langsam öffnen und die Schläuche unter Druck setzen lassen.\nB. Die Ventile schließen.\nC. Mindestens 30 Sekunden auf Druckverlust achten. Anfangs- und Enddruck für Diluent und O₂ notieren.\nD. Diluent- und Sauerstoffflasche öffnen."
+    },
+    "fx-functionality-s1-11": {
+      "label": "Batterien von Kopf und Anzeigen prüfen",
+      "description": "A. Das FX CCR auf den LOW-Setpoint umstellen.\nB. Das Solenoid löst aus und die O₂-Zugabe ist bestätigt.\nC. Das FX CCR auf den Setpoint 0,19 umstellen.\nD. Den Batteriestatus von B1, B2 und allen Handsets / NERD prüfen.\n\nB1 und B2: unter 3,9 V (etwa 62 %) vor dem Weitermachen wechseln oder laden.\nHandsets / NERD: Gelb heißt, die Batterie muss gewechselt oder geladen werden. Rot heißt, sie muss sofort gewechselt oder geladen werden."
+    },
+    "fx-functionality-s1-12": {
+      "label": "Computereinstellungen (Haupt- und Zweitcomputer)",
+      "description": "A. CC- und Bailout-Gase.\nB. Niedriger und hoher Setpoint.\nC. Deko-Einstellungen."
+    },
+    "fx-functionality-s1-13": {
+      "label": "Voratmen (5 Minuten)",
+      "description": "A. Das FX CCR auf den LOW-Setpoint umstellen.\nB. Die Nase zuhalten und an einem sicheren Ort und in sicherer Position aus dem FX CCR zu atmen beginnen.\nC. Beobachten, dass der Setpoint gehalten wird und das HUD arbeitet.\nD. Auf das eigene Befinden achten, nicht nur darauf, wie das CCR arbeitet."
+    },
+    "fx-pre-dive": {
+      "name": "FX CCR Prüfungen vor dem Tauchgang",
+      "description": "Die FX-CCR Funktionscheckliste v1.5 von Sub-Gravity (Kalibrierkit), Punkte 14 bis 20: die Prüfungen am Wasser nach der Funktionsprüfung, bis zum Drill vor dem Einstieg. Gilt nur für diese Einheit. An die eigene Einheit und Ausbildung anpassen."
+    },
+    "fx-pre-dive-s1": {
+      "title": "Prüfungen vor dem Tauchgang"
+    },
+    "fx-pre-dive-s1-1": {
+      "label": "Über- und Unterdruckprüfung erledigt?"
+    },
+    "fx-pre-dive-s1-2": {
+      "label": "Bleimenge stimmt?"
+    },
+    "fx-pre-dive-s1-3": {
+      "label": "HUD und Armanzeigen eingeschaltet?"
+    },
+    "fx-pre-dive-s1-4": {
+      "label": "Flaschenventile offen?"
+    },
+    "fx-pre-dive-s1-5": {
+      "label": "Setpoint und Loop-Inhalt prüfen"
+    },
+    "fx-pre-dive-s1-6": {
+      "label": "Das FX CCR anlegen"
+    },
+    "fx-pre-dive-s1-7": {
+      "label": "CCR-Drill vor dem Einstieg",
+      "description": "1. Aus der Einheit zu atmen beginnen.\n2. Prüfen: ADV, BOV, O₂-MAV, Dil-MAV; Wing- und Trockenanzug-Inflator.\n3. Flaschendrücke prüfen: O₂, Dil; OC-Bailout.\n4. Beobachten, dass der Setpoint gehalten wird.\n5. Einsteigen, wenn alles bereit ist.\n6. Den S-Drill durchführen.\n7. Regel Nr. 1 beim CCR-Tauchen: immer den Sauerstoffpartialdruck (PPO₂) kennen!"
+    },
+    "fx-after-dive": {
+      "name": "FX CCR nach dem Tauchgang",
+      "description": "Alles, was das FX CCR Handbuch nach dem Tauchgang verlangt. Die Schritte 6 bis 13 sind nur nötig, wenn am selben Tag kein weiterer Tauchgang folgt. Nach dem FX CCR Handbuch 2025.1 (iQsub Technologies). Gilt nur für diese Einheit. An die eigene Einheit und Ausbildung anpassen."
+    },
+    "fx-after-dive-s1": {
+      "title": "Aus dem Wasser"
+    },
+    "fx-after-dive-s1-1": {
+      "label": "Die Flaschenventile nie schließen, bevor die FX CCR Einheit aus dem Wasser genommen ist."
+    },
+    "fx-after-dive-s1-2": {
+      "label": "Die Einheit aus dem Wasser nehmen."
+    },
+    "fx-after-dive-s1-3": {
+      "label": "Das primäre Controller-Handset ausschalten."
+    },
+    "fx-after-dive-s1-4": {
+      "label": "Das Head-Up Display (oder NERD2, falls vorhanden) ausschalten und die nassen Kontakte trocknen."
+    },
+    "fx-after-dive-s1-5": {
+      "label": "Die Ventile an Sauerstoff- und Diluent-Flasche schließen und die externe Diluent-Flasche abnehmen."
+    },
+    "fx-after-dive-s2": {
+      "title": "Zerlegen und spülen"
+    },
+    "fx-after-dive-s2-1": {
+      "label": "Die L-Stücke mit den Atemschläuchen von der Einheit trennen und das BOV abnehmen."
+    },
+    "fx-after-dive-s2-2": {
+      "label": "Atemschläuche und L-Stücke mit Süßwasser spülen, senkrecht aufhängen und trocknen lassen."
+    },
+    "fx-after-dive-s2-3": {
+      "label": "Das BOV mit Süßwasser spülen.",
+      "description": "Danach den Ventilknopf in eine Zwischenstellung zwischen CC und OC bringen und das BOV trocknen lassen."
+    },
+    "fx-after-dive-s2-4": {
+      "label": "Den umlaufenden Reißverschluss am FX Gehäuse ganz öffnen und die Gegenlungen herausnehmen.",
+      "description": "Die Gegenlungen von den Bajonettanschlüssen an Kopf und Deckel trennen, dann die oberen Anschlüsse und das OPV entriegeln und aus den Tüllen am Gehäuse herausziehen."
+    },
+    "fx-after-dive-s2-5": {
+      "label": "Die Gegenlungen mit Süßwasser spülen.",
+      "description": "Mit dem mitgelieferten Trockenhalter aufhängen und trocknen lassen."
+    },
+    "fx-after-dive-s3": {
+      "title": "Einheit trocknen"
+    },
+    "fx-after-dive-s3-1": {
+      "label": "Den FX Kopf vom Kalkbehälter abnehmen und den Sensorhalter herausziehen, um die Sensoren zu trocknen."
+    },
+    "fx-after-dive-s3-2": {
+      "label": "Die Kalkpatrone entnehmen und trocknen lassen."
+    },
+    "fx-after-dive-s3-3": {
+      "label": "Den FX Kalkbehälter trocken wischen."
+    },
+    "chaos-gue": {
+      "name": "CHAOS (GUE)",
+      "description": "Der Rebreather-Check von GUE, durchgeführt während des Voratmens: Controller, HUD, ADV, O₂, Symptome."
+    },
+    "chaos-gue-s1": {
+      "title": "CHAOS-Check"
+    },
+    "chaos-gue-s1-1": {
+      "label": "C: Controller kalibriert",
+      "description": "Bestätigen, dass der Controller kalibriert ist und die Zellenwerte untereinander übereinstimmen."
+    },
+    "chaos-gue-s1-2": {
+      "label": "H: HUD kalibriert",
+      "description": "Bestätigen, dass das HUD mit dem Controller übereinstimmt und jedes Signal sichtbar ist."
+    },
+    "chaos-gue-s1-3": {
+      "label": "A: ADV funktioniert",
+      "description": "Kräftig gegen den Loop einatmen, um zu bestätigen, dass das ADV auslöst und Diluent zugibt."
+    },
+    "chaos-gue-s1-4": {
+      "label": "O: O₂-Zugabe funktioniert",
+      "description": "Das Solenoid auslösen sehen und bestätigen, dass der PPO₂ am Setpoint hält."
+    },
+    "chaos-gue-s1-5": {
+      "label": "S: Symptomkontrolle",
+      "description": "Voratmen und auf Symptome achten: Kopfschmerzen, Schwindel, ungewöhnlicher Geschmack oder Geruch. Jedes Symptom bedeutet: nicht tauchen."
+    },
+    "gue-edge": {
+      "name": "GUE EDGE Team-Check vor dem Tauchgang",
+      "description": "Der Team-Check, vor jedem Tauchgang laut durchgeführt: Goal, Unified team, Equipment, Exposure, Decompression, Gas, Environment."
+    },
+    "gue-edge-s1": {
+      "title": "Team-Check"
+    },
+    "gue-edge-s1-1": {
+      "label": "G: Goal (Ziel)",
+      "description": "Abstimmen, wofür der Tauchgang ist, den Verlauf und die Umkehrbedingung."
+    },
+    "gue-edge-s1-2": {
+      "label": "U: Unified team (Einheitliches Team)",
+      "description": "Bestätigen, dass alle tauchtauglich sind, die Rollen festgelegt und die Reihenfolge abgestimmt sind."
+    },
+    "gue-edge-s1-3": {
+      "label": "E: Equipment (Ausrüstung)",
+      "description": "Jeder Taucher bestätigt seine eigene Ausrüstung: Ventile offen, Atemregler atmen, Wing hält Gas, Lampen funktionieren."
+    },
+    "gue-edge-s1-4": {
+      "label": "E: Exposure (Exposition)",
+      "description": "Tiefen- und Zeitgrenzen bestätigen und dass der Kälteschutz aller zum Plan passt."
+    },
+    "gue-edge-s1-5": {
+      "label": "D: Decompression (Dekompression)",
+      "description": "Den Aufstiegsplan abstimmen: Stopps, Gase und Notfallmaßnahmen."
+    },
+    "gue-edge-s1-6": {
+      "label": "G: Gas",
+      "description": "Bestätigen, dass jede Flasche analysiert und beschriftet ist, und den Gasplan abstimmen."
+    },
+    "gue-edge-s1-7": {
+      "label": "E: Environment (Umgebung)",
+      "description": "Bedingungen, Ein- und Ausstiegspunkte sowie etwaige Gefahren am Tauchplatz durchgehen."
+    },
+    "tdi-start": {
+      "name": "TDI START Team-Check vor dem Tauchgang",
+      "description": "Der Team-Check von TDI vor jedem Tec-Tauchgang: S-drill, Team, Air, Route, Tables."
+    },
+    "tdi-start-s1": {
+      "title": "START-Check"
+    },
+    "tdi-start-s1-1": {
+      "label": "S: S-drill und Blasen-Check",
+      "description": "An der Oberfläche oder im Flachwasser kurz über den langen Schlauch Gas teilen und Ventile, erste Stufen und Schläuche von einem Teammitglied auf Blasen prüfen lassen."
+    },
+    "tdi-start-s1-2": {
+      "label": "T: Team (Ausrüstung)",
+      "description": "Jeden Taucher von Kopf bis Fuß prüfen: Alles Nötige ist da, funktioniert und ist richtig verstaut."
+    },
+    "tdi-start-s1-3": {
+      "label": "A: Air (Gasabgleich)",
+      "description": "Hauptflaschen offen, Stage- und Dekoflaschen unter Druck. Jeden Druck prüfen und für jede Flasche die maximale Einsatztiefe (MOD) bestätigen."
+    },
+    "tdi-start-s1-4": {
+      "label": "R: Route (Verlauf)",
+      "description": "Reihenfolge im Team, Richtung, Ziel und Wegpunkte des Tauchgangs abstimmen."
+    },
+    "tdi-start-s1-5": {
+      "label": "T: Tables (Tabellen)",
+      "description": "Geplante Maximaltiefe, Laufzeiten, Gaswechsel und Pflichtstopps durchgehen."
+    },
+    "post-dive": {
+      "name": "CCR Nachbereitung & Reinigung",
+      "description": "Die Einheit nach dem Tauchgang versorgen, damit der nächste Aufbau von einem bekannten Zustand startet."
+    },
+    "post-dive-s1": {
+      "title": "Nach dem Tauchgang"
+    },
+    "post-dive-s1-1": {
+      "label": "Verbleibende Flaschendrücke notieren"
+    },
+    "post-dive-s1-2": {
+      "label": "Verbrauchte Atemkalk-Zeit notieren",
+      "description": "Die Runtime dieses Tauchgangs zur Gesamtzeit des Kalkbehälters addieren, um den Rest zu kennen."
+    },
+    "post-dive-s1-3": {
+      "label": "Notieren, was vor dem nächsten Tauchgang zu beheben ist"
+    },
+    "post-dive-s2": {
+      "title": "Reinigung und Lagerung"
+    },
+    "post-dive-s2-1": {
+      "label": "Die Außenseite der Einheit mit Süßwasser abspülen"
+    },
+    "post-dive-s2-2": {
+      "label": "Den Atemkreislauf zerlegen"
+    },
+    "post-dive-s2-3": {
+      "label": "Gegenlungen, Schläuche und Mundstück reinigen und desinfizieren",
+      "description": "Dem Handbuch der eigenen Einheit für zugelassene Desinfektionsmittel und Einwirkzeiten folgen."
+    },
+    "post-dive-s2-4": {
+      "label": "Alles vor der Lagerung vollständig trocknen"
+    },
+    "post-dive-s2-5": {
+      "label": "Die Batterien laden oder prüfen"
+    }
+  }
+}

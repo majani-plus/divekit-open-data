@@ -7,7 +7,8 @@ This repository contains multiple types of content with different licenses.
 **Datasets & Documentation** (`/datasets`, `/docs`)  
 Licensed under the MIT License. Free for any use, no attribution required beyond the license notice.  
 → https://opensource.org/licenses/MIT  
-Exception: `datasets/dive-signals.json` (the index of the hand-drawn dive signals) stays under CC BY 4.0, together with the illustrations it describes.
+This includes `datasets/checklists.json` and the checklist translations in `datasets/i18n/<locale>/checklists.json`.  
+Exception: `datasets/dive-signals.json` (the index of the hand-drawn dive signals) and its translations in `datasets/i18n/<locale>/dive-signals.json` stay under CC BY 4.0, together with the illustrations they describe. Attribution: "Dive signals by Dive Kit, https://divekit.app".
 
 **Code & Schemas** (`/schemas`, `/scripts`)  
 Licensed under the MIT License  
