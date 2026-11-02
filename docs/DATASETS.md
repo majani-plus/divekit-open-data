@@ -153,6 +153,11 @@ with the credit "Dive signals by Dive Kit, https://divekit.app". See
 > agree on signals with your buddy or team before the dive. This dataset documents common usage;
 > it is not a substitute for training.
 
+This file is the source of the signal text the Dive Kit app shows (the app's own locale files keep
+only the category titles); edit translations directly in `datasets/i18n/<locale>/dive-signals.json`. Signal `id`s must stay stable and match the app. The
+app's `signal-text.test.ts` pins them, so a change that breaks it fails the app's `bun test` at its
+next submodule bump.
+
 ### Checklists Dataset
 
 The checklists dataset (`datasets/checklists.json`) holds the checklist presets of the Dive Kit app:
@@ -195,9 +200,8 @@ their translations from this repository. When you change it:
 
 The dive signals and checklists are also available in German (`de`), Polish (`pl`), Russian
 (`ru`), Swedish (`sv`), Turkish (`tr`), Chinese (`zh`) and Korean (`ko`). The checklist
-translations are maintained here and read by the Dive Kit app. The signal translations come from
-the app's `assets/locales/<locale>/signals.json` and are rebuilt with
-`bun scripts/import-app-signal-translations.ts ../divekit-app`.
+and signal translations are maintained here and read by the Dive Kit app: edit them directly in
+`datasets/i18n/<locale>/`.
 
 Each locale has one file per base dataset: `datasets/i18n/<locale>/dive-signals.json` and
 `datasets/i18n/<locale>/checklists.json`. `strings` maps a base id to the translated values of
