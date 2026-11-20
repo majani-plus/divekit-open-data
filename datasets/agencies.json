@@ -1,8 +1,8 @@
 {
   "$schema": "https://open.divekit.app/schemas/agencies/agencies.schema.v1.0.0.json",
   "meta": {
-    "version": "2025.11.16.1",
-    "generated_at": "2025-11-16T12:00:00Z"
+    "version": "2026.11.20.1",
+    "generated_at": "2026-11-20T12:00:00Z"
   },
   "agencies": [
     {
@@ -328,6 +328,22 @@
       "links": ["https://www.diveisc.com/courses"],
       "notes": "ISO accredited (audited by European Underwater Federation), CDWS Egypt approved, HSE UK approved. Offers 100% digital training and student record system.",
       "updated_at": "2025-11-16T12:00:00Z"
+    },
+    {
+      "id": "agency-pss",
+      "name": "Professional Scuba Schools",
+      "abbr": "PSS",
+      "website": "https://www.pssworldwide.org",
+      "status": "active",
+      "historical_names": [],
+      "regions": ["Global"],
+      "links": [
+        "https://www.pssworldwide.org/en/recreational.htm",
+        "https://www.pssworldwide.org/en/professional-pss.htm",
+        "https://www.pssworldwide.org/en/verifyAffiliateCertification.aspx"
+      ],
+      "notes": "Italian-headquartered international agency with recreational, freediving, technical, emergency and instructor programs; online certification verification.",
+      "updated_at": "2026-11-20T12:00:00Z"
     }
   ]
 }
