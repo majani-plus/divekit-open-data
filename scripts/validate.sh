@@ -630,6 +630,31 @@ check_checklists_and_translations() {
 
 # The footer's "Last updated" fallback date in each page matches the newest
 # meta.generated_at across the datasets (index.html refreshes it at load).
+# Function to check the standards bodies: each has a logo, and every agency's
+# standards_bodies entry names a body that exists
+check_standards_bodies() {
+    local file="datasets/standards-bodies.json"
+    [ -f "$file" ] || return 0
+    echo -e "${YELLOW}🔎 Checking standards bodies (logos and agency links)${NC}"
+    local id
+    for id in $(jq -r '.standards_bodies[].id' "$file"); do
+        if [ -f "assets/standards-body-logos/${id}.svg" ] || [ -f "assets/standards-body-logos/${id}.png" ]; then
+            echo -e "${GREEN}   ✓ ${id}${NC}"
+        else
+            echo -e "${RED}❌ ERROR: missing logo assets/standards-body-logos/${id}.svg or .png${NC}"
+            VALIDATION_FAILED=1
+        fi
+    done
+    local ref
+    for ref in $(jq -r '.agencies[] | .standards_bodies[]? // empty' datasets/agencies.json | sort -u); do
+        if ! jq -e --arg id "$ref" '.standards_bodies[] | select(.id == $id)' "$file" > /dev/null; then
+            echo -e "${RED}❌ ERROR: agencies.json links unknown standards body: ${ref}${NC}"
+            VALIDATION_FAILED=1
+        fi
+    done
+    echo ""
+}
+
 check_last_updated() {
     echo -e "${YELLOW}🔎 Checking the footer's Last updated date${NC}"
     local newest
@@ -738,6 +763,7 @@ main() {
     
     check_references_and_sources
     check_checklists_and_translations
+    check_standards_bodies
     check_last_updated
 
     # Final result

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://open.divekit.app/schemas/standards-bodies/standards-bodies.schema.v1.0.0.json",
+  "meta": {
+    "version": "2026.11.23.1",
+    "generated_at": "2026-11-23T00:00:00Z"
+  },
+  "standards_bodies": [
+    {
+      "id": "standards-rstc-europe",
+      "name": "Recreational Scuba Training Council Europe",
+      "abbr": "RSTC Europe",
+      "kind": "standards-council",
+      "website": "https://www.rstc-europe.org",
+      "status": "active",
+      "regions": ["Europe"],
+      "links": [
+        "https://www.rstc-europe.org/standard.html",
+        "https://www.rstc-europe.org/members.html",
+        "https://wrstc.com/wrstc-member-councils/european-council/"
+      ],
+      "parent_id": "World Recreational Scuba Training Council (WRSTC)",
+      "notes": "A council of European diver training agencies that publishes minimum training standards its members follow. It does not issue diver certifications: a card marked RSTC is issued by the member agency. Formed in 1994. A separate council, RSTC (United States), covers US agencies; both belong to the WRSTC.",
+      "updated_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "id": "standards-euf",
+      "name": "European Underwater Federation",
+      "abbr": "EUF",
+      "kind": "certification-scheme",
+      "website": "https://www.euf.eu",
+      "status": "active",
+      "regions": ["Europe"],
+      "links": [
+        "https://euf.eu/en/certification/international-euf-certification",
+        "https://www.euf.eu/en/certification/certified-training-agencies",
+        "https://www.euf.eu/en/members/profit-distributing-members"
+      ],
+      "parent_id": null,
+      "notes": "A federation of European diver training organisations. Its EUF Certification International scheme, administered by Austrian Standards, audits training organisations against the ISO/EN recreational diving standards (ISO 24801, ISO 24802 and related). It does not issue diver certifications: a certified agency's card can carry the EUF mark and certificate number, but the card is the agency's.",
+      "updated_at": "2026-11-23T00:00:00Z"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "$schema": "https://open.divekit.app/schemas/agencies/agencies.schema.v1.0.0.json",
+  "$schema": "https://open.divekit.app/schemas/agencies/agencies.schema.v1.1.0.json",
   "meta": {
-    "version": "2025.11.16.1",
-    "generated_at": "2025-11-16T12:00:00Z"
+    "version": "2026.11.23.1",
+    "generated_at": "2026-11-23T00:00:00Z"
   },
   "agencies": [
     {
@@ -15,7 +15,8 @@
       "regions": ["Global"],
       "links": ["https://www.padi.com/courses", "https://www.padi.com/tecrec"],
       "notes": "World's largest recreational agency; issues TecRec technical certifications.",
-      "updated_at": "2025-10-31T09:00:00Z"
+      "standards_bodies": ["standards-rstc-europe", "standards-euf"],
+      "updated_at": "2026-11-23T00:00:00Z"
     },
     {
       "id": "agency-ssi",
@@ -27,7 +28,8 @@
       "regions": ["Global"],
       "links": ["https://www.divessi.com/en/certifications"],
       "notes": "Recreational + extended range (TXR) programs.",
-      "updated_at": "2025-10-31T09:00:00Z"
+      "standards_bodies": ["standards-rstc-europe", "standards-euf"],
+      "updated_at": "2026-11-23T00:00:00Z"
     },
     {
       "id": "agency-naui",
@@ -39,7 +41,8 @@
       "regions": ["Global"],
       "links": ["https://www.naui.org/certifications/"],
       "notes": "Non-profit training agency with recreational and technical curricula.",
-      "updated_at": "2025-10-31T09:00:00Z"
+      "standards_bodies": ["standards-euf"],
+      "updated_at": "2026-11-23T00:00:00Z"
     },
     {
       "id": "agency-sdi",
@@ -51,7 +54,8 @@
       "regions": ["Global"],
       "links": ["https://www.tdisdi.com/sdi/get-certified/"],
       "notes": "Recreational arm of the TDI/SDI family.",
-      "updated_at": "2025-10-31T09:00:00Z"
+      "standards_bodies": ["standards-rstc-europe"],
+      "updated_at": "2026-11-23T00:00:00Z"
     },
     {
       "id": "agency-tdi",
@@ -99,7 +103,8 @@
       "regions": ["Global"],
       "links": ["https://diveraid.com/courses/"],
       "notes": "Recreational, technical, and rebreather training (OC & CCR).",
-      "updated_at": "2025-10-31T09:00:00Z"
+      "standards_bodies": ["standards-rstc-europe"],
+      "updated_at": "2026-11-23T00:00:00Z"
     },
     {
       "id": "agency-iantd",
@@ -328,6 +333,23 @@
       "links": ["https://www.diveisc.com/courses"],
       "notes": "ISO accredited (audited by European Underwater Federation), CDWS Egypt approved, HSE UK approved. Offers 100% digital training and student record system.",
       "updated_at": "2025-11-16T12:00:00Z"
+    },
+    {
+      "id": "agency-iac",
+      "name": "International Aquanautic Club",
+      "abbr": "IAC",
+      "website": "https://www.diveiac.com",
+      "status": "active",
+      "historical_names": [],
+      "regions": ["Germany", "Europe"],
+      "links": [
+        "https://www.diveiac.com/tauchen-lernen/",
+        "https://www.diveiac.com/tauchen-lernen/cmas/",
+        "https://www.diveiac.com/en/"
+      ],
+      "standards_bodies": ["standards-rstc-europe", "standards-euf"],
+      "notes": "German recreational, technical and freediving training agency based in Essen that issues its own certifications (written i.a.c. on its cards and site). Trains to RSTC Europe minimum standards and also issues CMAS-branded cards.",
+      "updated_at": "2026-11-23T00:00:00Z"
     }
   ]
 }
