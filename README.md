@@ -9,7 +9,7 @@ This repository powers [open.divekit.app](https://open.divekit.app) — the cano
 
 `majani-plus/divekit-open-data` provides:
 
-- **Public Datasets** – Canonical, versioned JSON datasets for dive certifications, agencies, cylinders, dive signals, checklists, and references, with the dive signals and checklists translated into seven languages.
+- **Public Datasets** – Canonical, versioned JSON datasets for dive certifications, agencies, standards bodies, cylinders, dive signals, checklists, and references, with the dive signals and checklists translated into seven languages.
 - **Schemas & Standards** – JSON Schema definitions for validating and interoperating with Dive Kit's open data formats.
 - **Visual Assets** – Openly licensed dive signal illustrations (CC BY 4.0), agency logos (third-party trademarks), and Dive Kit branding.
 - **Documentation** – Design guidelines, contributor guidelines, and open-data governance notes.
@@ -25,6 +25,7 @@ divekit-open-data/
 ├── datasets/
 │ ├── certifications.json
 │ ├── agencies.json
+│ ├── standards-bodies.json
 │ ├── cylinders.json
 │ ├── dive-signals.json
 │ ├── checklists.json
@@ -38,7 +39,9 @@ divekit-open-data/
 │ ├── certifications/
 │ │ └── dive-certifications.schema.v1.0.0.json
 │ ├── agencies/
-│ │ └── agencies.schema.v1.0.0.json
+│ │ └── agencies.schema.v1.1.0.json
+│ ├── standards-bodies/
+│ │ └── standards-bodies.schema.v1.0.0.json
 │ ├── cylinders/
 │ │ └── cylinders.schema.v1.0.0.json
 │ ├── dive-signals/
@@ -109,7 +112,8 @@ divekit-open-data/
 | **Dive Certifications Dataset** | Comprehensive global database of scuba certifications and agencies | [View JSON →](https://open.divekit.app/datasets/certifications.json)                                    |
 | **Dive Certifications Schema**  | JSON Schema for validating certification data                      | [View Schema →](https://open.divekit.app/schemas/certifications/dive-certifications.schema.v1.0.0.json) |
 | **Agencies Dataset**            | List of recognized certifying agencies                             | [View JSON →](https://open.divekit.app/datasets/agencies.json)                                          |
-| **Agencies Schema**             | JSON Schema for validating agencies data                           | [View Schema →](https://open.divekit.app/schemas/agencies/agencies.schema.v1.0.0.json)                  |
+| **Agencies Schema**             | JSON Schema for validating agencies data                           | [View Schema →](https://open.divekit.app/schemas/agencies/agencies.schema.v1.1.0.json)                  |
+| **Standards Bodies Dataset**    | Standards councils and certification schemes agencies belong to    | [View JSON →](https://open.divekit.app/datasets/standards-bodies.json)                                  |
 | **Cylinder Database**           | Specifications for common scuba cylinders                          | [View JSON →](https://open.divekit.app/datasets/cylinders.json)                                         |
 | **Cylinder Schema**             | JSON Schema for validating cylinder data                           | [View Schema →](https://open.divekit.app/schemas/cylinders/cylinders.schema.v1.0.0.json)                |
 | **Dive Signals Dataset**        | Diver communication signals with names, meanings, and artwork      | [View JSON →](https://open.divekit.app/datasets/dive-signals.json)                                      |

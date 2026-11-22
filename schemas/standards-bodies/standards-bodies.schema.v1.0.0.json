@@ -1,0 +1,88 @@
+{
+  "$id": "https://open.divekit.app/schemas/standards-bodies/standards-bodies.schema.v1.0.0.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diving Standards Bodies Schema",
+  "description": "Organisations that set or certify against recreational diving training standards but do not issue diver certifications themselves (standards councils, federations, certification schemes). Agencies link to them with `standards_bodies`.",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema URL."
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["version", "generated_at"]
+    },
+    "standards_bodies": {
+      "type": "array",
+      "description": "List of standards bodies.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^standards-[a-z0-9\\-]+$",
+            "description": "Unique id. Must start with 'standards-'. Example: 'standards-rstc-europe'."
+          },
+          "name": {
+            "type": "string",
+            "description": "Official name."
+          },
+          "abbr": {
+            "type": "string",
+            "description": "Short form as the body writes it (e.g., 'RSTC Europe', 'EUF')."
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["standards-council", "federation", "certification-scheme"],
+            "description": "standards-council: sets minimum training standards its member agencies follow. federation: an association of training organisations. certification-scheme: audits training organisations against published standards (ISO/EN)."
+          },
+          "website": {
+            "type": "string",
+            "format": "uri"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["active", "merged", "defunct"]
+          },
+          "regions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "parent_id": {
+            "type": ["string", "null"],
+            "description": "A larger standards body this one belongs to, as a 'standards-' id or a literal name."
+          },
+          "notes": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": ["id", "name", "kind", "status"]
+      }
+    }
+  },
+  "required": ["meta", "standards_bodies"],
+  "additionalProperties": false
+}

@@ -90,6 +90,9 @@ For new or updated datasets:
 - For agencies:
   - Include full name, abbreviation, website, and region.
   - **IMPORTANT:** When adding a new agency, you must also add the corresponding agency logo to `assets/agency-logos/`. Logo files should be named using the pattern `agency-{id}.{svg|png}` (e.g., `agency-padi.svg`).
+- For standards bodies (`datasets/standards-bodies.json`):
+  - Only organisations that set or certify against training standards and do **not** issue diver cards (a council such as RSTC Europe, a scheme such as the EUF). An organisation that issues cards is an agency.
+  - Add the logo to `assets/standards-body-logos/` as `{id}.svg` or `{id}.png`, and link member agencies with their `standards_bodies` field, citing the body's own member list.
 - For dive signals:
   - Include `id`, `category`, `name`, `description`, and `image` as defined in the schema.
   - **IMPORTANT:** Every signal entry must reference an SVG illustration in `assets/dive-signals/`. When adding a new signal, add both the dataset entry and the artwork (see Visual Contributions below).

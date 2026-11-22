@@ -7,6 +7,7 @@ Welcome! This guide will help you understand and contribute to the Dive Kit Open
 - [What are these datasets?](#what-are-these-datasets)
 - [Understanding the Data](#understanding-the-data)
   - [Agencies Dataset](#agencies-dataset)
+  - [Standards Bodies Dataset](#standards-bodies-dataset)
   - [Certifications Dataset](#certifications-dataset)
   - [Cylinders Dataset](#cylinders-dataset)
   - [Dive Signals Dataset](#dive-signals-dataset)
@@ -45,6 +46,20 @@ Each agency entry includes:
 - **website**: The agency's official website
 - **status**: Whether the agency is "active", "merged", or "defunct"
 - **logo**: Each agency has a logo file in `assets/agency-logos/`
+- **standards_bodies** (optional): ids from the standards bodies dataset that the agency is a member of or certified by (e.g. `["standards-rstc-europe", "standards-euf"]`)
+
+### Standards Bodies Dataset
+
+The standards bodies dataset (`datasets/standards-bodies.json`) lists organisations divers see on their cards that do **not** issue certifications themselves: standards councils such as RSTC Europe, and certification schemes such as the EUF, which audits training organisations against the ISO/EN standards. A card marked RSTC or EUF is still issued by an agency, so these never go in the agencies dataset. Agencies link to them with `standards_bodies`.
+
+Each entry includes:
+
+- **id**: A unique identifier starting with `standards-` (e.g., "standards-euf")
+- **name** and **abbr**: as the body writes them
+- **kind**: `standards-council`, `federation` or `certification-scheme`
+- **website**, **status**, **regions**, **links**, **notes**
+- **parent_id** (optional): a larger body it belongs to (e.g. RSTC Europe belongs to the WRSTC)
+- **logo**: a file in `assets/standards-body-logos/`, named `{id}.svg` or `{id}.png`
 
 ### Certifications Dataset
 

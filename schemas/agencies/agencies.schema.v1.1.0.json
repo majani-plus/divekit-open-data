@@ -1,0 +1,111 @@
+{
+  "$id": "https://open.divekit.app/schemas/agencies/agencies.schema.v1.1.0.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dive Certifying Agencies Schema",
+  "description": "Defines the structure for agencies that issue scuba diving certifications.",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema URL."
+    },
+    "meta": {
+      "type": "object",
+      "description": "Metadata about this dataset version.",
+      "properties": {
+        "version": {
+          "type": "string",
+          "description": "Semantic or date-based dataset release tag (e.g., '2025.10')."
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO timestamp when this dataset was generated."
+        }
+      },
+      "required": ["version", "generated_at"]
+    },
+    "agencies": {
+      "type": "array",
+      "description": "List of certifying agencies. (Include only organizations that issue scuba certifications.)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^agency-[a-z0-9\\-]+$",
+            "description": "Unique agency ID. Must start with 'agency-'. Example: 'agency-padi'."
+          },
+          "name": {
+            "type": "string",
+            "description": "Official agency name."
+          },
+          "abbr": {
+            "type": "string",
+            "description": "Short form or abbreviation (e.g., 'PADI', 'TDI')."
+          },
+          "website": {
+            "type": "string",
+            "format": "uri",
+            "description": "Canonical website URL (HTTPS preferred)."
+          },
+          "status": {
+            "type": "string",
+            "enum": ["active", "merged", "defunct"],
+            "description": "Current operational status of the agency."
+          },
+          "replaced_by": {
+            "type": ["string", "null"],
+            "description": "If merged/defunct, the successor agency. If the value starts with 'agency-', it's treated as a reference to another agency ID in the dataset. Otherwise, it's used as the literal agency name."
+          },
+          "historical_names": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Previous or alternate names."
+          },
+          "parent_id": {
+            "type": ["string", "null"],
+            "description": "If this agency operates under a larger certifying body. If the value starts with 'agency-', it's treated as a reference to another agency ID in the dataset. Otherwise, it's used as the literal agency name."
+          },
+          "standards_bodies": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^standards-[a-z0-9\\-]+$"
+            },
+            "description": "Standards bodies the agency is a member of or is certified by, as ids from the standards-bodies dataset (e.g. 'standards-rstc-europe'). A standards body does not issue diver certifications; this links the agency to it."
+          },
+          "regions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Optional list of regions/countries where this agency primarily operates."
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Relevant official or reference links (standards pages, about pages, downloads)."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Free-form notes or clarifications."
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Timestamp when this agency entry was last updated."
+          }
+        },
+        "required": ["id", "name", "status"]
+      }
+    }
+  },
+  "required": ["meta", "agencies"],
+  "additionalProperties": false
+}
